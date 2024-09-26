@@ -1,0 +1,1809 @@
+---
+title: "step7_to_step9"
+output: pdf_document
+date: "2023-11-01"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+## Generate Accuracy df
+
+
+Get valid gene model profiles.
+
+
+
+
+```{r cars}
+setwd('~/TCSC_onek1k/')
+
+source('utils/acc_utils.R')
+```
+
+
+
+
+
+
+## Generate Design Matrix
+
+```{r}
+library(data.table)
+
+setwd('~/TCSC_onek1k/')
+
+source('utils/design_mat_utils.R')
+
+
+
+#load('TCSC/predicted_expression/onek1k/CD4_Naive_onek1k.RData') # what is the design matrix?
+# It is a n_inds x n_genes matrix for a cell type.
+# Go to score profiles and make matrix
+
+#1. make design matrix per cell type
+#2. make coregulation matrix. This now is a n_genes x n_genes matrix.
+#3. For input sumstat, subset coregulation matrix and Zs. nrow(coregulation_matrix_subset) = ncol(coregulation_matrix_subset) = length(Z)
+
+#tg_file = fread('TCSC/analysis/TissueGroups_onek1k_and_gtex_trunc.txt')
+#cts = unique(tg_file$MetaTissue)
+#sources = c(rep('onek1k',15),rep('gtex',23))
+
+
+doesnt_work = list() # something wrong with the weights
+
+tg_file = fread('analysis/onek1k_and_gtex_meta_tgs.txt')
+
+cts = tg_file$MetaTissue
+sources = tg_file$Source
+
+
+
+num_error = 0
+for (z in 1:length(cts)){
+  err <- NULL
+  ct = cts[z]
+  source = sources[z]
+  print(paste0('Starting: ',ct))
+  
+  tryCatch({
+  generate_design_mat(ct,source)
+  #load(paste0("TCSC/predicted_expression/onek1k/",ct,"_onek1k_transcripts.RData"))
+  #print(length(transcripts1))
+  make_acc_df(ct,source = source)},error = function(e){
+    num_error = num_error + 1
+    doesnt_work[[num_error]] = ct
+    err <- e
+    })
+  if (!is.null(err)) {
+    next  # Skip to the next iteration
+  }
+}
+
+# z = 1
+# ct = cts[z]
+# tissue1 <- ct #make this into a function and represent values smaller than 48 bits? 
+# source = sources[z]
+# if (source == '1k1k'){
+#   source = 'onek1k'
+# }
+# if (source == 'onek1k'){
+#     files1 <- list.files(paste0("prep_TCSC/score_files/",ct),pattern = "\\.profile$",full.names = T)
+#   } else{
+#     files1 <- list.files(paste0("prep_TCSC/score_files_gtex_meta/",ct),pattern = "\\.profile$",full.names = T)
+#   }
+# 
+# transcripts1 <- sapply(1:length(files1), function(x) strsplit(files1[x], split = ".score.profile")[[1]][1])
+# if (source == 'gtex'){
+#   transcripts1 <- sapply(1:length(files1), function(x) strsplit(transcripts1[x], split = paste0(tissue1,'.'))[[1]][2])
+# } else {
+#   transcripts1 <- sapply(1:length(files1), function(x) strsplit(transcripts1[x], split = paste0(tissue1,'.'))[[1]][3])
+# }
+
+```
+
+
+
+## Make Coregulation Matrix
+
+```{r}
+
+# cts = str_replace(list.files('E:/PhD/manual_pipeline/ind_ct_files'),'.txt','')
+# 
+# 
+# plink_to_process_dir = 'E:/PhD/manual_pipeline/plink_to_process_files/'
+# 
+# 
+# ptp_files = list()
+# 
+# 
+# links = paste0(plink_to_process_dir,cts,'.txt')
+# 
+# for (i in 1:length(links)){
+#   df = fread(links[i])
+#   ptp_files[[i]] = df
+# }
+# 
+# valid_chr = paste0('chr',1:22)
+# all = unique(do.call('rbind',ptp_files) %>% filter(chrom %in% valid_chr))
+# 
+# write.table(all,'TCSC/analysis/onek1k_annotated_genes.txt',sep = '\t',quote = F)
+
+
+
+```
+
+
+
+
+```{r}
+#please set working directory with setwd() to your local path to TCSC/
+#setwd('C:/Users/Ben Pham/Documents/PhD/Rotation/Tiffany')
+source('utils/coreg_mat_utils.R')
+
+setwd('~/TCSC_onek1k/')
+library(data.table)
+library(tidyverse)
+ciswindow <- 2e6
+
+# gene_ref <- fread("TCSC/analysis/onek1k_annotated_genes.txt") #might not have all genes including genes from small tissues (missing 2) from tissue 10
+# colnames(gene_ref)[1] = 'chr'
+# colnames(gene_ref)[2] = 'start'
+# colnames(gene_ref)[3] = 'end'
+# gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+# 
+# # NEED THIS TO GET GENES WITH SYMBOL ONLY
+# m <- match(gene_ref$symbol, gtex$V4)
+# #length(which(is.na(m))) #1,415 genes are missing
+# genetype <- gtex$V8[m]
+# gene_name <- gtex$V4[m]
+# transcript_name <- gtex$V7[m]
+# gene_ref <- cbind(gene_ref,genetype,gene_name,transcript_name)
+
+
+gene_ref <- fread("TCSC/analysis/onek1k_annotated_genes.txt") #might not have all genes including genes from small tissues (missing 2) from tissue 10
+gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+
+
+
+gene_ref <- common_generef_gtex(gene_ref,gtex)
+
+#y <- fread("TCSC/analysis/TissueGroups_onek1k_and_gtex_trunc.txt", header = T)
+
+y <- fread('TCSC/analysis/onek1k_and_gtex_meta_tgs.txt', header = T)
+tissues <- y$MetaTissue
+sources <- y$Source
+
+#n_eqtl <- sapply(1:length(tissues), function(x) sum(y$N_EUR[which(y$Tissues == tissues[x])])) #find total available sample size from GTEx data after accounting for meta-analysis of tissues
+#small_tissues <- which(n_eqtl < 320)
+#normal_tissues <- c(1:length(tissues))[-small_tissues] #in primary analysis, these tissues are subsampled such that eQTL sample size = 320
+
+#test = 0
+
+ntissues = length(tissues) # should be length(tissues)
+
+
+test = calculate_coregulation_matrix(ntissues, tissues, sources, gene_ref, ciswindow)
+write.table(test, file = paste0("TCSC/coregulation_scores/CoregulationMatrix_onek1k_gtex_new.txt"), row.names = F, col.names = F, sep = "\t", quote = F)
+out = fread("TCSC/coregulation_scores/CoregulationMatrix_onek1k_gtex.txt")
+out1 = fread("TCSC/coregulation_scores/CoregulationMatrix_onek1k_gtex_new.txt")
+
+#max(abs(out - out1),na.rm = T) #9.992007e-16
+
+
+# focal_data <- load_data(tissues,sources,i)
+# source_i = sources[i]
+# focal_filtered <- filter_protein_coding_genes(focal_data$transcripts1, focal_data$df1, gene_ref, source_i)
+# 
+# 
+# dim(focal_filtered$df1_focal) # for a tissue, you have observations x protein_coding genes
+
+
+```
+
+
+
+```{r}
+
+# X <- matrix(0,nrow = 2, ncol = ntissues) #co-regulation score matrix to be populated: every row is a gene-tissue pair, every column is a tissue.
+# 
+# for (i in 1:ntissues){ #rbind X at the end of this loop before next i 
+# source = sources[i]
+# print(paste0("working on tissue ",i," out of ",ntissues))
+# 
+# 
+# load(paste0("TCSC/predicted_expression/onek1k/",tissues[i],"_onek1k.RData")) # for now, this doesn't do anything but does it matter if number of individuals are small?
+# load(paste0('TCSC/predicted_expression/onek1k/',tissues[i],'_onek1k_transcripts.RData'))
+# 
+# transcript_key = transcripts1
+# 
+# print(dim(df1))
+# #test = test + dim(df1)[2]
+# df1_focal <- df1
+# rm("df1")
+# 
+# #transcript_key <- fread(paste0("TCSC/predicted_expression/onek1k/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+# #transcript_key <- fread(paste0("TCSC/acc_twas/",tissues[i],"_acc_twas.txt"),header = F)$V1
+# 
+# keeptranscripts = transcript_key
+# 
+# print(length(transcript_key) == ncol(df1_focal))
+# 
+# w <- which(transcript_key %in% keeptranscripts)
+# df1_focal <- df1_focal[,w]
+# transcript_key <- transcript_key[w]
+# if (source == '1k1k'){
+#   m <- match(transcript_key, gene_ref$gene_name) 
+# } else{
+#   m <- match(transcript_key, gene_ref$transcript_name) 
+# }
+# 
+# focal_tissue_gene_ref <- gene_ref[m,]
+# keepgenes_focal <- which(focal_tissue_gene_ref[,5] == "protein_coding") #keep protein coding genes only 
+# transcript_key <- transcript_key[keepgenes_focal]
+# df1_focal <- df1_focal[,keepgenes_focal]
+# focal_tissue_gene_ref <- focal_tissue_gene_ref[keepgenes_focal,]
+# 
+# ### SAVE GENES/TRANSCRIPTS THAT ARE PROTEIN CODING TO MATCH UP NEXT PART!
+# #save(transcript_key, file = paste0("TCSC/predicted_expression/onek1k/",tissue1,"_onek1k_transcripts_protein_coding.RData"))
+# 
+# data <- load_data(tissues, sources, i)
+# focal_filtered <- filter_protein_coding_genes(data$transcripts1, data$df1, gene_ref, sources[i]) # eqivalent of above
+# #all.equal(focal_filtered$df1_focal,df1_focal) # T
+# #all.equal(focal_filtered$focal_tissue_gene_ref,focal_tissue_gene_ref) # T
+# 
+# coregmat <- matrix(0,length(transcript_key),ntissues) #populate this smaller version of X, where the rows correspond to gene-tissue pairs only in tissue i
+# 
+# for (j in 1:ntissues){
+# source_j = sources[j]
+# if(j == i){ #apply bias correction
+# #acc <- fread(paste0("TCSC/weights/accuracies/",paste0(tissues[i],"_onek1k_accs.txt")), header = F) # how do I make a 1k1k version?
+# acc <- fread(paste0("TCSC/acc_dfs/",tissues[i],"_onek1k_accs.txt"),header = F)
+# acc <- acc$V2[match(transcript_key,acc$V1)]
+# #transcript_acc_match = match(transcript_key,acc$V1) # returns indices of transcript_key found in accuracy weights
+# #transcript_acc_match = transcript_acc_match[!is.na(transcript_acc_match)] # removes NA indices
+# #acc <- acc$V2[transcript_acc_match]
+# genegenecoreg_pc <- c() #vector of length g in focal tissue 
+# 
+# for (k in 1:ncol(df1_focal)){
+# gene_k_chr <- focal_tissue_gene_ref$chr[k] #gene k is first gene in pair, therefore gene x must be only cis to gene k. 
+# gene_k_pos <- focal_tissue_gene_ref$start[k]
+# ww <- which(focal_tissue_gene_ref$chr == gene_k_chr)
+# focal_tissue_gene_ref_k_chrom <- focal_tissue_gene_ref[ww,]
+# ww <- which(focal_tissue_gene_ref_k_chrom$start > gene_k_pos - ciswindow & focal_tissue_gene_ref_k_chrom$start < gene_k_pos + ciswindow)
+# focal_tissue_gene_ref_k_cislocus <- focal_tissue_gene_ref_k_chrom[ww,]
+# cis_genes <- focal_filtered$focal_tissue_gene_ref[which(focal_filtered$focal_tissue_gene_ref$chr == gene_k_chr & focal_filtered$focal_tissue_gene_ref$start > gene_k_pos - ciswindow & focal_filtered$focal_tissue_gene_ref$start < gene_k_pos + ciswindow),] # equivalent of making focal_tissue_gene_ref_k_cislocus
+# 
+# cis_genes_pc <- match(focal_tissue_gene_ref_k_cislocus$symbol, focal_tissue_gene_ref$symbol)
+# if(length(cis_genes_pc) == 0){cor_est_pc <- 0}else{cor_est_pc <- sapply(cis_genes_pc, function(x) cor(as.numeric(df1_focal[,k]),as.numeric(df1_focal[,x])))}
+# coreg_before_sum_pc <- cor_est_pc^2
+# mysum <- sum(coreg_before_sum_pc) - 1 + acc[k]
+# #print(mysum)
+# genegenecoreg_pc <- c(genegenecoreg_pc, mysum)} #loop k 
+# }else{ #target tissue is different from focal; normal co-regulation w/o bias correction
+# load(paste0("TCSC/predicted_expression/onek1k/",tissues[j],"_onek1k.RData"))
+# #transcript_key_other <- fread(paste0("TCSC/predicted_expression/onek1k/TranscriptsIn",tissues[j],"Model.txt"), header = F)$V1
+# #transcript_key_other <- fread(paste0("TCSC/acc_twas/",sstat_abbrev,"_",tissues[j],"_acc_twas.txt"),header = F)$V1
+# load(paste0('TCSC/predicted_expression/onek1k/',tissues[j],'_onek1k_transcripts.RData'))
+# transcript_key_other <- transcripts1
+# keeptranscripts <- transcript_key_other
+# w <- which(transcript_key_other %in% keeptranscripts)
+# df1 <- df1[,w]
+# transcript_key_other <- transcript_key_other[w]
+# if (source_j == '1k1k'){
+#   m <- match(transcript_key_other, gene_ref$gene_name)
+# } else {
+#   m <- match(transcript_key_other, gene_ref$transcript_name)
+# }
+# 
+# other_tissue_gene_ref <- gene_ref[m,]
+# keepgenes_other <- which(other_tissue_gene_ref[,5] == "protein_coding")
+# transcript_key_other <- transcript_key_other[keepgenes_other]
+# df1 <- df1[,keepgenes_other]
+# other_tissue_gene_ref <- other_tissue_gene_ref[keepgenes_other,]
+# 
+# other_data <- load_data(tissues, sources, j)
+# other_filtered <- filter_protein_coding_genes(other_data$transcripts1, other_data$df1, gene_ref, source_j)
+# 
+# #all.equal(other_filtered$df1_focal,df1) #TRUE
+# #all.equal(other_filtered$focal_tissue_gene_ref,other_tissue_gene_ref) #TRUE
+# #all.equal(other_filtered$transcript_key,transcript_key_other) #TRUE
+# 
+# genegenecoreg_pc <- c() #vector of length g in focal tissue 
+# 
+# for (k in 1:ncol(df1_focal)){
+# #gene k is first gene in pair, therefore gene x must be only cis to gene k. 
+# gene_k_chr <- focal_tissue_gene_ref$chr[k]
+# gene_k_pos <- focal_tissue_gene_ref$start[k]
+# ww <- which(other_tissue_gene_ref$chr == gene_k_chr)
+# other_tissue_gene_ref_k_chrom <- other_tissue_gene_ref[ww,]
+# ww <- which(other_tissue_gene_ref_k_chrom$start > gene_k_pos - ciswindow & other_tissue_gene_ref_k_chrom$start < gene_k_pos + ciswindow)
+# other_tissue_gene_ref_k_cislocus <- other_tissue_gene_ref_k_chrom[ww,]
+# 
+# cis_genes_pc_orig <- match(other_tissue_gene_ref_k_cislocus$symbol, other_tissue_gene_ref$symbol)
+# 
+# 
+# gene_k_chr <- focal_filtered$focal_tissue_gene_ref$chr[k]
+# gene_k_pos <- focal_filtered$focal_tissue_gene_ref$start[k]
+# cis_genes <- other_filtered$focal_tissue_gene_ref[which(other_filtered$focal_tissue_gene_ref$chr == gene_k_chr & other_filtered$focal_tissue_gene_ref$start > gene_k_pos - ciswindow & other_filtered$focal_tissue_gene_ref$start < gene_k_pos + ciswindow),] # equivalent of making focal_tissue_gene_ref_k_cislocus
+# cis_genes_pc <- match(cis_genes$symbol,other_filtered$focal_tissue_gene_ref$symbol)
+# 
+# 
+# if(length(cis_genes_pc) == 0){cor_est_pc <- 0}else{cor_est_pc<- sapply(cis_genes_pc, function(x) cor(as.numeric(df1_focal[,k]),as.numeric(df1[,x])))}
+# 
+# #if(length(cis_genes_pc) == 0){cor_est_pc <- 0}else{cor_est_pc <- sapply(cis_genes_pc, function(x) cor(as.numeric(focal_filtered$df1_focal[,k]),as.numeric(other_filtered$df1_focal[,x])))}
+# 
+# coreg_before_sum_pc <- cor_est_pc^2
+# genegenecoreg_pc <- c(genegenecoreg_pc, sum(coreg_before_sum_pc))
+# } #loop k
+# } #end of else; meaning i != j 
+# coregmat[,j] <- genegenecoreg_pc
+# } #loop j over tissues, e.g. for columns of coregmat, e.g. smaller version of X
+# X <- rbind(X,coregmat) #for every i 
+# } #loop i over tissues, e.g. over tissues represented in columns of X
+# 
+# 
+# X <- X[3:nrow(X),]
+# #upper_bound = 1
+# #X <- pmin(X,upper_bound)
+# 
+# #write.table(X, file = paste0("TCSC/coregulation_scores/CoregulationMatrix_onek1k_gtex.txt"), row.names = F, col.names = F, sep = "\t", quote = F)
+# #system("gzip TCSC/coregulation_scores/CoregulationMatrix_320orlessGTEx.txt") # this is n_genes x n_tissues
+# 
+# 
+# # 1st tissue is 7744, second is 6829
+# # Keep protein coding genes only: 1st tissue has 5101, 2nd Tissue has 4,482 : tot = 9583
+# # X is 9583 x 2 as expected
+# 
+# 
+# 
+# X
+
+
+```
+
+
+
+
+## Format Matrix for TCSC
+
+```{r}
+# library(data.table)
+# library(Hmisc)
+# library(tidyverse)
+# 
+# 
+# #sstat_abbrev_key = fread('TCSC/analysis/sstat_abbrev_key.txt')
+# # sstat            abbrev
+# # 1:        PASS_AdultOnsetAsthma_Ferreira2019          AOA_TCSC
+# # 2:                       PASS_CD_deLange2017           CD_TCSC
+# # 3:                               PASS_Celiac          Cel_TCSC
+# # 4:        PASS_ChildOnsetAsthma_Ferreira2019          COA_TCSC
+# # 5:                       PASS_Crohns_Disease          CHN_TCSC
+# # 6:                                  PASS_IBD          IBD_TCSC
+# # 7:                      PASS_IBD_deLange2017       IBD_DL_TCSC
+# # 8:                                PASS_Lupus          LUP_TCSC
+# # 9:                   PASS_Multiple_sclerosis           MS_TCSC
+# # 10:            PASS_Primary_biliary_cirrhosis          PBC_TCSC
+# # 11:                 PASS_Rheumatoid_Arthritis           RA_TCSC
+# # 12:                      PASS_Type_1_Diabetes          DB1_TCSC
+# # 13:                       PASS_UC_deLange2017        UC_DL_TCSC
+# # 14:                   PASS_Ulcerative_Colitis          ULC_TCSC
+# # 15: UKB_460K.disease_ALLERGY_ECZEMA_DIAGNOSED         AE_D_TCSC
+# # 16:         UKB_460K.disease_ASTHMA_DIAGNOSED       ASTH_D_TCSC
+# # 17:  UKB_460K.disease_HYPOTHYROIDISM_SELF_REP HYPOTHY_SELF_TCSC
+# # 18:                UKB_460K.disease_PSORIASIS          PSO_TCSC
+# # 19:          UKB_460K.disease_RESPIRATORY_ENT     RESP_ENT_TCSC
+# #idx = 2
+# #sumstat = sstat_abbrev_key$sstat[idx] #'PASS_Rheumatoid_Arthritis'
+# #sstat_abbrev = sstat_abbrev_key$abbrev[idx] #'RA_TCSC'
+# 
+# 
+# # NEED THIS TO GET GENES WITH SYMBOL ONLY
+# 
+# 
+# #gene_ref <- fread("TCSC/analysis/onek1k_annotated_genes.txt") #might not have all genes including genes from small tissues (missing 2) from tissue 10
+# #gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+# 
+# 
+# ciswindow <- 2e6
+# 
+# # gene_ref <- fread("TCSC/analysis/onek1k_annotated_genes.txt") #might not have all genes including genes from small tissues (missing 2) from tissue 10
+# # colnames(gene_ref)[1] = 'chr'
+# # colnames(gene_ref)[2] = 'start'
+# # colnames(gene_ref)[3] = 'end'
+# # gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+# # 
+# # # NEED THIS TO GET GENES WITH SYMBOL ONLY
+# # m <- match(gene_ref$symbol, gtex$V4)
+# # #length(which(is.na(m))) #1,415 genes are missing
+# # genetype <- gtex$V8[m]
+# # gene_name <- gtex$V4[m]
+# # transcript_name <- gtex$V7[m]
+# # gene_ref <- cbind(gene_ref,genetype,gene_name,transcript_name)
+# 
+# 
+# gene_ref <- fread("TCSC/analysis/onek1k_annotated_genes.txt") #might not have all genes including genes from small tissues (missing 2) from tissue 10
+# gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+# 
+# 
+# 
+# common_generef_gtex <- function(gene_ref,gtex){
+#   colnames(gene_ref)[1] = 'chr'
+#   colnames(gene_ref)[2] = 'start'
+#   colnames(gene_ref)[3] = 'end'
+#   
+#   m <- match(gene_ref$symbol, gtex$V4)
+#   
+#   #length(which(is.na(m))) #1,415 genes are missing
+#   genetype <- gtex$V8[m]
+#   gene_name <- gtex$V4[m]
+#   transcript_name <- gtex$V7[m]
+#   gene_ref <- cbind(gene_ref,genetype,gene_name,transcript_name)
+#   
+#   return(gene_ref)
+# }
+# 
+# gene_ref <- common_generef_gtex(gene_ref,gtex)
+# 
+# 
+# 
+# 
+# 
+# y <- fread('TCSC/analysis/onek1k_and_gtex_meta_tgs.txt', header = T)
+# tissues <- y$MetaTissue
+# y_sources <- y$Source
+# 
+# # n_eqtl <- sapply(1:length(tissues), function(x) sum(y$N_EUR[which(y$MetaTissue == tissues[x])])) #find total available sample size from GTEx data after accounting for meta-analysis of tissues
+# # small_tissues <- which(n_eqtl < 320)
+# # normal_tissues <- c(1:length(tissues))[-small_tissues] #in primary analysis, these tissues are subsampled such that eQTL sample size = 320
+# 
+# #X <- as.matrix(fread("TCSC/coregulation_scores/CoregulationMatrix_320orlessGTEx_062122.txt.gz", header = F))
+# coreg_path = paste0("TCSC/coregulation_scores/CoregulationMatrix_onek1k_gtex.txt")
+# X <- as.matrix(fread(coreg_path, header = F))
+# 
+# remove_genes1 <- unique(which(is.na(rowSums(X)))) 
+# remove_genes2 <- unique(which(rowSums(X) == 0))
+# remove_genes <- unique(c(remove_genes1,remove_genes2))
+# 
+# 
+# 
+# transcripts <- c()
+# count <- 0
+# starts <- c()
+# chrs <- c()
+# tissueassign <- c()
+# sources <- c()
+# 
+# valid_chrs = c()
+# # for(i in 1:22){
+# #   valid_chrs = c(valid_chrs,paste0('chr',i))
+# # }
+# # 
+# # gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+# # gtex = gtex %>% filter(V1 %in% valid_chrs)
+# 
+# 
+# ntissues = length(tissues) # should be length(tissues) for all
+# #i = 1
+# for (i in 1:ntissues){
+# tissue <- tissues[i]
+# source <- y_sources[i]
+# #if(i %in% small_tissues){
+# #transcript_key <- fread(paste0("TCSC/weights/heritablegenes/Nall/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+# #keep <- fread(paste0("TCSC/weights/heritablegenes/Nall/TranscriptsIn",tissues[i],"Model_keep.txt"), header = F)$V1
+# #transcript_key <- fread(paste0("TCSC/weights/heritablegenes/Nall/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+# #}else{
+# #transcript_key <- fread(paste0("TCSC/predicted_expression/onek1k/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+# #keep <- fread(paste0("TCSC/twas_statistics/onek1k/",sumstat,'/',tissues[i],"_keep_Model.txt"), header = F)$V1 #?
+# 
+# #transcript_key <- fread(paste0("TCSC/acc_twas/",sstat_abbrev,"_",tissues[i],"_acc_twas.txt"),header = F)$V1
+# load(paste0("TCSC/predicted_expression/onek1k/",tissue,"_onek1k.RData")) # for now, this doesn't do anything but does it matter if number of individuals are small?
+# load(paste0('TCSC/predicted_expression/onek1k/',tissue,'_onek1k_transcripts.RData'))
+# 
+# transcript_key = transcripts1
+# keep = transcript_key
+# #}
+# w <- which(transcript_key %in% keep)
+# transcript_key <- transcript_key[w]
+# if (source == '1k1k'){
+#   m <- match(transcript_key,gene_ref$gene_name) # do genes instead of ENSG transcripts.
+# } else {
+#   m <- match(transcript_key,gene_ref$transcript_name) # do ENSG transcripts instead
+# }
+# 
+# genetype <- gene_ref$genetype[m]
+# transcript_key <- transcript_key[which(genetype == "protein_coding")]
+# transcripts <- c(transcripts,transcript_key)
+# tissueassign <- c(tissueassign, rep(i,length(transcript_key)))
+# sources <- c(sources,rep(source,length(transcript_key)))
+# 
+# if (source == '1k1k'){
+#   temp = gene_ref %>% filter(gene_name %in% transcript_key) %>% filter(genetype == "protein_coding") %>% select(chr,start,end,gene_name,transcript_name) %>% arrange(match(gene_name,transcript_key))
+# } else {
+#   temp = gene_ref %>% filter(transcript_name %in% transcript_key) %>% filter(genetype == "protein_coding") %>% select(chr,start,end,gene_name,transcript_name) %>% arrange(match(transcript_name,transcript_key))
+# }
+# 
+# starts <- c(starts,temp$start)
+# chrs <- c(chrs,temp$chr)
+# 
+# 
+# if(length(starts) != length(transcripts)){
+#   print(tissue)
+#   break
+# }
+# 
+# 
+# 
+# # if(i %in% small_tissues){ #clean up by using gtex file?
+# # gene_annot <- fread(paste0("TCSC/weights/allEUR_tissues/v8_allEUR_",tissue,"_blup.pos"), header = T)}else{
+# # gene_annot <- fread(paste0("TCSC/weights/320EUR_metatissues/",tissue,".pos"), header = T)}
+# # gene_annot_transcript <- gene_annot$ID
+# # m <- match(transcript_key,gene_annot_transcript)
+# # starts <- c(starts,gene_annot$P0[m])
+# # chrs <- c(chrs,gene_annot$CHR[m])
+# # count <- count + length(transcript_key)
+# # }
+# #print(length(transcripts))
+# }
+# 
+# 
+# #print(length(transcripts))
+# #dim(X)
+# 
+# mhc <- which(chrs == 6 & as.numeric(starts) > 29000000 & as.numeric(starts) < 33000000)
+# remove_genes <- c(remove_genes, mhc)
+# 
+# if(length(remove_genes)>0){
+# transcripts <- transcripts[-remove_genes]
+# starts <- starts[-remove_genes]
+# chrs <- chrs[-remove_genes]
+# tissueassign <- tissueassign[-remove_genes]
+# sources <- sources[-remove_genes]
+# X <- X[-remove_genes,]
+# }
+# 
+# 
+# chrs = unlist(str_split(chrs,'chr'))
+# chrs = as.numeric(chrs[chrs!=''])
+# 
+# 
+# 
+# 
+# 
+# #save(list=c("X","transcripts","starts","chrs","remove_genes","tissueassign","sources"), file = paste0("TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData"))
+# 
+# 
+# 
+# #genes are removed because of mhc. This is why it doesnt match dimensions in previous step.
+# 
+# # dim(X) #9309 x 38
+# # #113193
+# # 
+# # # Everything should have the length and should equal dim(X)[1]
+# # length(transcripts) # 9309
+# # #113193
+# # length(starts) # 9309
+# # #113193
+# # length(chrs) # 9309
+# # #113193
+# # length(tissueassign) #9309
+# # #113193
+# # length(sources) # 9309
+# # #113193
+# 
+# 
+# dim(X)
+```
+
+
+
+```{r}
+library(data.table)
+library(Hmisc)
+library(tidyverse)
+
+
+source('utils/coreg_mat_utils.R')
+
+
+
+ciswindow <- 2e6
+
+gene_ref <- fread("TCSC/analysis/onek1k_annotated_genes.txt") #might not have all genes including genes from small tissues (missing 2) from tissue 10
+gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+
+gene_ref <- common_generef_gtex(gene_ref,gtex)
+
+y <- fread('TCSC/analysis/onek1k_and_gtex_meta_tgs.txt', header = T)
+tissues <- y$MetaTissue
+y_sources <- y$Source
+
+# n_eqtl <- sapply(1:length(tissues), function(x) sum(y$N_EUR[which(y$MetaTissue == tissues[x])])) #find total available sample size from GTEx data after accounting for meta-analysis of tissues
+# small_tissues <- which(n_eqtl < 320)
+# normal_tissues <- c(1:length(tissues))[-small_tissues] #in primary analysis, these tissues are subsampled such that eQTL sample size = 320
+
+#X <- as.matrix(fread("TCSC/coregulation_scores/CoregulationMatrix_320orlessGTEx_062122.txt.gz", header = F))
+
+
+ntissues = length(tissues) # should be length(tissues) for all
+#i = 1
+
+
+coreg_path = paste0("TCSC/coregulation_scores/CoregulationMatrix_onek1k_gtex.txt")
+X <- as.matrix(fread(coreg_path, header = F))
+
+remove_genes1 <- unique(which(is.na(rowSums(X)))) 
+remove_genes2 <- unique(which(rowSums(X) == 0))
+remove_genes <- unique(c(remove_genes1,remove_genes2))
+
+transcripts <- c()
+starts <- c()
+chrs <- c()
+tissueassign <- c()
+sources <- c()
+
+
+for (i in 1:ntissues){
+  res = process_tissue(i,tissues,y_sources,gene_ref)
+  transcripts <- c(transcripts,res$transcripts)
+  starts <- c(starts,res$starts)
+  chrs <- c(chrs,res$chrs)
+  tissueassign <- c(tissueassign, res$tissueassign)
+  sources <- c(sources,res$sources)
+}
+
+
+if(length(remove_genes)>0){
+  transcripts <- transcripts[-remove_genes]
+  starts <- starts[-remove_genes]
+  chrs <- chrs[-remove_genes]
+  tissueassign <- tissueassign[-remove_genes]
+  sources <- sources[-remove_genes]
+  X <- X[-remove_genes,]
+}
+
+chrs = unlist(str_split(chrs,'chr'))
+chrs = as.numeric(chrs[chrs!=''])
+
+save(list=c("X","transcripts","starts","chrs","remove_genes","tissueassign","sources"), file = paste0("TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData"))
+
+
+
+
+#final_res = list(X = X, transcripts = transcripts, starts = starts, chrs = chrs, tissueassign = tissueassign, sources = sources)
+
+#make sure it's not already loaded in
+# rm(X)
+# rm(transcripts)
+# rm(starts)
+# rm(chrs)
+# rm(remove_genes)
+# rm(tissueassign)
+# rm(sources)
+
+#load("E:/PhD/manual_pipeline/TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData")
+
+#all.equal(final_res$X,X) #TRUE
+#all.equal(final_res$transcripts,transcripts) #TRUE
+#all.equal(final_res$starts,starts) #TRUE
+#all.equal(final_res$chrs,chrs)
+#all.equal(final_res$tissueassign,tissueassign) #TRUE
+#all.equal(final_res$sources,sources) #TRUE
+
+
+# for (i in 1:ntissues){
+#   tissue <- tissues[i]
+#   source <- y_sources[i]
+#   #if(i %in% small_tissues){
+#   #transcript_key <- fread(paste0("TCSC/weights/heritablegenes/Nall/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+#   #keep <- fread(paste0("TCSC/weights/heritablegenes/Nall/TranscriptsIn",tissues[i],"Model_keep.txt"), header = F)$V1
+#   #transcript_key <- fread(paste0("TCSC/weights/heritablegenes/Nall/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+#   #}else{
+#   #transcript_key <- fread(paste0("TCSC/predicted_expression/onek1k/TranscriptsIn",tissues[i],"Model.txt"), header = F)$V1
+#   #keep <- fread(paste0("TCSC/twas_statistics/onek1k/",sumstat,'/',tissues[i],"_keep_Model.txt"), header = F)$V1 #?
+#   
+#   #transcript_key <- fread(paste0("TCSC/acc_twas/",sstat_abbrev,"_",tissues[i],"_acc_twas.txt"),header = F)$V1
+#   #}
+#   
+#   data = get(load(paste0("TCSC/predicted_expression/onek1k/",tissue,"_onek1k.RData"))) # for now, this doesn't do anything but does it matter if number of individuals are small?
+#   transcript_key = get(load(paste0('TCSC/predicted_expression/onek1k/',tissue,'_onek1k_transcripts.RData')))
+#   keep = transcript_key
+#   
+#   w <- which(transcript_key %in% keep)
+#   transcript_key <- transcript_key[w]
+#   if (source == '1k1k'){
+#     m <- match(transcript_key,gene_ref$gene_name) # do genes instead of ENSG transcripts.
+#   } else {
+#     m <- match(transcript_key,gene_ref$transcript_name) # do ENSG transcripts instead
+#   }
+#   
+#   genetype <- gene_ref$genetype[m]
+#   transcript_key <- transcript_key[which(genetype == "protein_coding")]
+#   
+#   
+#   transcripts <- c(transcripts,transcript_key)
+#   tissueassign <- c(tissueassign, rep(i,length(transcript_key)))
+#   sources <- c(sources,rep(source,length(transcript_key)))
+#   
+#   if (source == '1k1k'){
+#     temp = gene_ref %>% filter(gene_name %in% transcript_key) %>% filter(genetype == "protein_coding") %>% select(chr,start,end,gene_name,transcript_name) %>% arrange(match(gene_name,transcript_key))
+#   } else {
+#     temp = gene_ref %>% filter(transcript_name %in% transcript_key) %>% filter(genetype == "protein_coding") %>% select(chr,start,end,gene_name,transcript_name) %>% arrange(match(transcript_name,transcript_key))
+#   }
+#   
+#   starts <- c(starts,temp$start)
+#   chrs <- c(chrs,temp$chr)
+#   
+#   
+#   if(length(starts) != length(transcripts)){
+#     print(tissue)
+#     break
+#   }
+#   
+#   # if(i %in% small_tissues){ #clean up by using gtex file?
+#   # gene_annot <- fread(paste0("TCSC/weights/allEUR_tissues/v8_allEUR_",tissue,"_blup.pos"), header = T)}else{
+#   # gene_annot <- fread(paste0("TCSC/weights/320EUR_metatissues/",tissue,".pos"), header = T)}
+#   # gene_annot_transcript <- gene_annot$ID
+#   # m <- match(transcript_key,gene_annot_transcript)
+#   # starts <- c(starts,gene_annot$P0[m])
+#   # chrs <- c(chrs,gene_annot$CHR[m])
+#   # count <- count + length(transcript_key)
+#   # }
+#   #print(length(transcripts))
+# }
+#   
+#   
+# #print(length(transcripts))
+# #dim(X)
+# 
+# mhc <- which(chrs == 6 & as.numeric(starts) > 29000000 & as.numeric(starts) < 33000000)
+# remove_genes <- c(remove_genes, mhc)
+#   
+# if(length(remove_genes)>0){
+#   transcripts <- transcripts[-remove_genes]
+#   starts <- starts[-remove_genes]
+#   chrs <- chrs[-remove_genes]
+#   tissueassign <- tissueassign[-remove_genes]
+#   sources <- sources[-remove_genes]
+#   X <- X[-remove_genes,]
+# }
+# 
+# chrs = unlist(str_split(chrs,'chr'))
+# chrs = as.numeric(chrs[chrs!=''])
+# 
+# 
+# list(X = X, transcripts = transcripts, starts = starts, chrs = chrs, tissueassign = tissueassign, sources = sources)
+
+
+
+#save(list=c("X","transcripts","starts","chrs","remove_genes","tissueassign","sources"), file = paste0("TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData"))
+
+
+
+#genes are removed because of mhc. This is why it doesnt match dimensions in previous step.
+
+# dim(X) #9309 x 38
+# #113193
+# 
+# # Everything should have the length and should equal dim(X)[1]
+# length(transcripts) # 9309
+# #113193
+# length(starts) # 9309
+# #113193
+# length(chrs) # 9309
+# #113193
+# length(tissueassign) #9309
+# #113193
+# length(sources) # 9309
+# #113193
+
+
+# dim(X)[1] == length(transcripts) #TRUE
+# dim(X)[1] == length(starts) #TRUE
+# dim(X)[1] == length(chrs) #TRUE
+# dim(X)[1] == length(tissueassign) #TRUE
+# dim(X)[1] == length(sources) #TRUE
+```
+
+
+
+## Run TCSC
+
+```{r}
+# #trait_h2g_N <- commandArgs(trailingOnly=TRUE) #format: example: UKB_460K.body_BMIz as in first column in sumstats/alltraits.txt
+# #trait_h2g_N <- strsplit(trait_h2g_N,split = ",")[[1]]
+# #trait <- trait_h2g_N[1]
+# #h2g <- as.numeric(trait_h2g_N[2])
+# #N <- as.numeric(trait_h2g_N[3])
+# library(data.table)
+# library(Hmisc)
+# library(tidyverse)
+# library(dplyr)
+# 
+# setwd('E:/PhD/manual_pipeline')
+# 
+# #trait_h2g_N <- fread('sumstats/Description_020324_TWAS.txt') #format: example: UKB_460K.body_BMIz as in first column in sumstats/alltraits.txt
+# trait_h2g_N <- fread('TCSC/sumstats/alltraits.txt') #format: example: UKB_460K.body_BMIz as in first column in sumstats/alltraits.txt
+# idx = 20
+# 
+# trait_h2g_N = trait_h2g_N %>% select(c('Trait_Identifier','h2g','N'))
+# bad_sstats = list()
+# bad_indices = c()
+# counter = 0
+# #nrow(trait_h2g_N)
+# #c(1,44) ## bmi and ibd
+# #1:nrow(trait_h2g_N) run all
+# for (idx in 1:nrow(trait_h2g_N)){
+#   skip_to_next <- FALSE
+#   tryCatch({
+#   trait <- trait_h2g_N[[idx,1]]
+#   h2g <- as.numeric(trait_h2g_N[[idx,2]])
+#   N <- as.numeric(trait_h2g_N[[idx,3]])
+#   
+#   
+#   
+#   
+#   #y <- fread("TCSC/analysis/TissueGroups_onek1k_and_gtex_trunc.txt", header = T) #one row per GTEx tissue analyzed in Amariuta et al 2022 bioRxiv
+#   #tissues <- unique(y$Tissues) #tissues with eQTL sample size < 320 are grouped together via meta-analysis if the correlation of marginal eQTL effects is > 0.93. 
+#   y <- fread('TCSC/analysis/onek1k_and_gtex_meta_tgs.txt', header = T)
+#   tissues <- y$MetaTissue
+#   #tg_sources <- y$Source
+#   
+#   #n_eqtl <- sapply(1:length(tissues), function(x) sum(y$N_EUR[which(y$MetaTissue == tissues[x])])) #find total available sample size from GTEx data after accounting for meta-analysis of tissues
+#   #small_tissues <- which(n_eqtl < 320)
+#   #normal_tissues <- c(1:length(tissues))[-small_tissues] #in primary analysis, these tissues are subsampled such that eQTL sample size = 320
+#   cells_per_ind = read.csv('onek1k_cells_per_ind.csv', header = F)
+#   colnames(cells_per_ind) = c('tissue','cells_per_ind')
+#   cells_per_ind = cells_per_ind %>% mutate(tissue = str_replace(tissue,' ','_'))
+#   
+#   TWAS_table_lookup <- function(row,trait){ #loads twas results and outputs a z based on gene and tissueassign group in row. The input is a dataframe of transcript and tissue assign.
+#     gene = as.character(row[1])
+#     i = as.numeric(row[2])
+#     #print(gene)
+#     #print(i)
+#     source = as.character(row[3])
+#     tissue = as.character(row[4])
+#     
+#     if (source == '1k1k'){
+#       zs = fread(paste0("output/",trait,"/",tissue,"_twas.txt"),header = T)
+#       out = unique(zs[match(gene,zs$ID),]$TWAS.Z)
+#     } else{
+#       zs = zs_df %>% filter(tissue == tissue)
+#       out = unique(zs[match(gene,zs$transcript),]$TWAS.Z)
+#     }
+#     return(out)
+#   }
+#   
+#   
+#   # gtex_load_zs <- function(row,trait){
+#   #   gene = as.character(row[1])
+#   #   i = as.numeric(row[2])
+#   #   tissue = tissues[i]
+#   #   twas_z = fread(paste0('TCSC/twas_statistics/320EUR_GTEx/',trait,'/Marginal_alphas_',trait,'_',tissue,'.txt.gz'),header = F)$V1 # matches TranscriptsInTissue.txt file.
+#   #   transcriptsin = fread(paste0('TCSC/weights/heritablegenes/N320/TranscriptsIn',tissue,'Model.txt'),header = F)$V1
+#   #   temp = data.frame(transcript = transcriptsin,TWAS.Z = twas_z)
+#   #   return(unique(temp[match(gene,temp$transcript),]$TWAS.Z))
+#   # }
+#   
+#   get_cov_alpha1alpha1_multitissue <- function(sources,cells,alpha_z,CoRegMat,nGWAS,weights1,weights2,weights3){ #add cells argument.
+# # weight4 is a different experiment.
+# # cells should be cells per ind
+# # sources check if 1k1k or gtex. If gtex, do not residualize things out.
+#   y <- (alpha_z^2)/nGWAS
+#   idx_sources = which(sources == '1k1k') # find which are from 1k1k
+#   mod <- lm(y[idx_sources] ~ cells[idx_sources])
+#   y[idx_sources] <- resid(mod)
+#   w1 <- 1/weights1
+#   w2 <- 1/weights2
+#   w3 <- 1/weights3
+#   mod <- summary(glm(y ~ CoRegMat, weights = w1*w2*w3)) #to constrain intercept, use summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+#   #mod <- summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+#   cov_b1b1 <- coef(mod)[-1,1]  
+#   cov_b1b1 <- cov_b1b1[1:ncol(CoRegMat)]
+#   return(cov_b1b1)
+#   }
+#   
+#   
+#   load("TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData")
+#   gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+#   
+#   #### trait specific analysis #### 
+#   #Loads in twas (transcriptome-wide association study) summary statistics for the cis-heritable genes in each tissue
+#   #alpha_z <- c()
+#   
+#   #The whole purpose of this block was to get Zs to match what was done in the input coreg part. There's a better way now.
+#   # for (i in 1:length(tissues)){
+#   # 
+#   # #transcript_key <- fread(paste0("TCSC/predicted_expression/onek1k/",'TranscriptsIn',tissues[i],"Model.txt"), header = F)$V1 # these IDs made it through the FUSION Association test R script.
+#   # #keep <- fread(paste0("TCSC/twas_statistics/onek1k/",trait,'/',tissues[i],"_keep_Model.txt"), header = F)$V1 # ASDC_keep_Model.txt
+#   #   
+#   # #load(paste0("TCSC/predicted_expression/onek1k/",tissue,"_onek1k.RData")) # for now, this doesn't do anything but does it matter if number of individuals are small?
+#   # load(paste0('TCSC/predicted_expression/onek1k/',tissue,'_onek1k_transcripts.RData')) #get list of transcripts
+#   # 
+#   # transcript_key = transcripts1
+#   # 
+#   # keep <- transcript_key
+#   
+#   # #z <- fread(paste0("TCSC/acc_twas/",tissues[i],"_acc_twas.txt"),header = F)$V5 # ASDC_RA_Marginals.txt
+#   # z <- fread(paste0("output/RA_TCSC/RA_only_",tissues[i],"_twas.txt"),header = T)$TWAS.Z
+#   # 
+#   # w <- which(transcript_key %in% keep)
+#   # 
+#   # g <- transcript_key[w]
+#   # z <- z[w]
+#   # 
+#   # m <- match(transcript_key,gtex$V4)
+#   # genetype <- gtex$V8[m]
+#   # w <- which(genetype == "protein_coding")
+#   # z <- z[w]
+#   # alpha_z <- c(alpha_z,z)
+#   # print(length(alpha_z))
+#   # }
+#   # if (length(remove_genes) > 0){
+#   #   alpha_z <- alpha_z[-remove_genes]
+#   # }
+#   
+# 
+#   # prepare gtex tissue z dfs
+#   gtex_tissues = y %>% filter(Source == 'gtex')
+#   gtex_tissues = gtex_tissues$MetaTissue
+#   n_gtex_tissues = length(gtex_tissues)
+#   zs_df = list()
+#   
+#   for (d in 1:n_gtex_tissues){
+#     tissue = gtex_tissues[d]
+#     twas_z = fread(paste0('TCSC/twas_statistics/320EUR_GTEx/',trait,'/Marginal_alphas_',trait,'_',tissue,'.txt.gz'),header = F)$V1 # matches TranscriptsInTissue.txt file.
+#     transcriptsin = fread(paste0('TCSC/weights/heritablegenes/N320/TranscriptsIn',tissue,'Model.txt'),header = F)$V1
+#     temp = data.frame(transcript = transcriptsin,TWAS.Z = twas_z)
+#     temp$tissue = tissue
+#     zs_df[[d]] = temp
+#   }
+#   zs_df = do.call(rbind,zs_df)
+#   #zs_df = merge(transcript_tissue_assigns,zs_df)
+#   
+#   transcript_tissue_assigns = data.frame(transcripts,tissueassign,sources) %>% mutate(tissue = tissues[tissueassign]) %>% left_join(cells_per_ind) %>% replace_na(list(x = NA, cells_per_ind = median(cells_per_ind$cells_per_ind)))
+#   transcript_tissue_assigns$z = apply(transcript_tissue_assigns,1,TWAS_table_lookup,trait = trait)
+# 
+#   
+#   alpha_z = transcript_tissue_assigns$z
+#   sources = transcript_tissue_assigns$sources
+#   cells_per_ind = transcript_tissue_assigns$cells_per_ind
+#   
+#   w <- which(alpha_z^2 > max(80,0.001*N) | is.na(alpha_z)) #trait specific qc
+#   if(length(w)>0){
+#   alpha_z <- alpha_z[-w]
+#   transcripts <- transcripts[-w]
+#   starts <- starts[-w]
+#   chrs <- chrs[-w]
+#   tissueassign <- tissueassign[-w]
+#   sources <- sources[-w]
+#   X <- X[-w,]
+#   cells_per_ind <- cells_per_ind[-w]
+#   }
+#   N_tissuespecific <- as.numeric(table(tissueassign))
+#   a_transcripts <- table(transcripts)
+#   weights3 <- sapply(1:length(transcripts), function(x) as.numeric(a_transcripts)[match(transcripts[x], names(a_transcripts))]) #tissue redundancy weight to update genes that are regulated in more tissue-specific contexts
+#   weights2 <- sapply(1:nrow(X), function(x) sum(X[x,-tissueassign[x]])) + 1 #total co-regulation weight to prevent double counting of signal from co-regulated genes 
+#   expected_true_cish2_genes <- N_tissuespecific
+#   
+#   #### set up jackknife #### 
+#   a <- cbind(1:length(starts),as.numeric(chrs),as.numeric(starts),unlist(sapply(1:length(N_tissuespecific), function(x) rep(x,N_tissuespecific[x]))))
+#   a <- a[order(a[,2],a[,3],decreasing = F),]
+#   chunks <- 200 
+#   size_groups <- floor(length(starts)/chunks)
+#   #if (length(size_groups) == 0){
+#   #    counter = counter + 1
+#   #    bad_sstats[[counter]] = idx
+#   #  }
+#   size_group5 <- length(starts) - (chunks-1)*size_groups
+#   
+#   group_assignment <- c()
+#   for (j in 1:chunks){
+#   if(j == chunks){
+#   group_assignment <- c(group_assignment, rep(j,size_group5))
+#   }else{
+#   group_assignment <- c(group_assignment, rep(j,size_groups))
+#   }
+#   }
+#   a <- cbind(a, group_assignment)
+#   a <- a[order(a[,1], decreasing = F),]
+#   a <- cbind(a,transcripts)
+#   
+#   mean_chisq <- mean(alpha_z^2, na.rm = T)
+#   totcoreg <- rowSums(X)
+#   crude_h2_est <- (mean_chisq - 1)/(N*mean(totcoreg)) #should this be average co-reg score or average sum across tissues co-reg score? 
+#   weights1 <- (1 + N*crude_h2_est*totcoreg)^2 #bias corrected but not scaled X; heteroscedasticity weight based on s-ldsc
+#   
+#   variance_mat <- matrix(0,1+length(tissues),7) #tissue, h2ge_t, jackknife SE, P, FDR across tissues, proph2, proph2_se
+#   variance_mat[,1] <- c(tissues,"AllTissues")
+#   # here, I put tissueassign as cells.
+#   variance_mat[1:length(tissues),2] <- get_cov_alpha1alpha1_multitissue(sources,cells_per_ind,alpha_z,X,N,weights1,weights2,weights3) * expected_true_cish2_genes 
+#   variance_mat[(length(tissues)+1),2] <- sum(as.numeric(variance_mat[1:length(tissues),2]))
+#   
+#   jk <- matrix(0,nrow = chunks,ncol = length(tissues))
+#   jk_weights <- matrix(0,nrow = chunks,ncol = 1)
+#   jk_sum <- matrix(0,nrow = chunks,ncol = 1)
+#   for (chunk in 1:chunks){
+#   print(paste0("processing jackknife chunk ",chunk," out of 200"))
+#   remove_genes <- which(a[,5] == chunk)
+#   tab <- table(a[remove_genes,4]) #freq of tissues
+#   subtract_genes <- rep(0,length(tissues))
+#   m <- match(1:length(tissues), names(tab))
+#   w <- which(!is.na(m))
+#   subtract_genes[w] <- as.numeric(tab)[m[w]]
+#   N_tissuespecific_jk <- sapply(1:length(N_tissuespecific), function(x) N_tissuespecific[x] - subtract_genes[x])
+#   alpha_z_jk <- alpha_z[-remove_genes]
+#   tissueassign_jk <- tissueassign[-remove_genes]
+#   sources_jk <- sources[-remove_genes]
+#   cells_per_ind_jk <- cells_per_ind[-remove_genes]
+#   mean_chisq <- mean(alpha_z_jk^2, na.rm = T)
+#   X_jk <- X[-remove_genes,]
+#   totcoreg <- rowSums(X_jk)
+#   crude_h2_est <- (mean_chisq - 1)/(N*mean(totcoreg))
+#   weights1_jk <- (1 + N*crude_h2_est*totcoreg)^2
+#   weights2_jk <- weights2[-remove_genes] 
+#   weights3_jk <- weights3[-remove_genes] 
+#   jk[chunk,] <- get_cov_alpha1alpha1_multitissue(sources_jk,cells_per_ind_jk,alpha_z_jk,X_jk,N,weights1_jk,weights2_jk,weights3_jk) * N_tissuespecific_jk 
+#   jk_sum[chunk,1] <- sum(as.numeric(jk[chunk,]))
+#   jk_weights[chunk,1] <- sum(1/(weights1_jk*weights2_jk*weights3_jk))
+#   } 
+#   
+#   variance_mat[1:ncol(jk),3] <- sapply(1:ncol(jk), function(x) sqrt(wtd.var(jk[,x], jk_weights[,1]))*sqrt(length(which(jk_weights[,1] != 0)))) 
+#   variance_mat[nrow(variance_mat),3] <- sqrt(wtd.var(jk_sum[,1],jk_weights[,1]))*sqrt(length(which(jk_weights[,1] != 0)))
+#   
+#   variance_mat[,4] <- pnorm(q = 0, mean = as.numeric(variance_mat[,2]), sd = as.numeric(variance_mat[,3]))
+#   variance_mat[1:ncol(jk),5] <- p.adjust(as.numeric(variance_mat[1:ncol(jk),4]), method = "fdr")
+#   variance_mat[nrow(variance_mat),5] <- NA
+#   variance_mat[1:nrow(variance_mat),6] <- as.numeric(variance_mat[,2]) / h2g
+#   variance_mat[1:nrow(variance_mat),7] <- as.numeric(variance_mat[,3]) / h2g
+#                                       
+#   colnames(variance_mat) <- c("Tissue","h2_ge_t","h2_ge_t_se","NomP","FDRP","Proph2","Proph2_se")
+#   write.table(variance_mat, file = paste0("TCSC/results/TCSC_onek1k_",trait,".txt"), row.names = F, col.names = T, sep = "\t", quote = F)
+#   },error = function(e){
+#     skip_to_next <<- TRUE
+#   })
+#   if (skip_to_next){
+#     counter = counter + 1
+#     bad_sstats[[counter]] = idx
+#     next
+#   }
+# }
+# 
+# 
+# 
+# bad_sstats = unlist(bad_sstats)
+# 
+# 
+# temp1 = transcript_tissue_assigns %>% filter(tissue == 'B_memory')
+# row = temp1[1,]
+
+
+```
+
+
+
+```{r}
+#trait_h2g_N <- commandArgs(trailingOnly=TRUE) #format: example: UKB_460K.body_BMIz as in first column in sumstats/alltraits.txt
+#trait_h2g_N <- strsplit(trait_h2g_N,split = ",")[[1]]
+#trait <- trait_h2g_N[1]
+#h2g <- as.numeric(trait_h2g_N[2])
+#N <- as.numeric(trait_h2g_N[3])
+library(data.table)
+library(Hmisc)
+library(tidyverse)
+library(dplyr)
+library(progress)
+
+setwd('E:/PhD/manual_pipeline')
+
+source('utils/tcsc_utils.R')
+
+#trait_h2g_N <- fread('sumstats/Description_020324_TWAS.txt') #format: example: UKB_460K.body_BMIz as in first column in sumstats/alltraits.txt
+trait_h2g_N <- fread('TCSC/sumstats/alltraits.txt') #format: example: UKB_460K.body_BMIz as in first column in sumstats/alltraits.txt
+idx = 1
+
+trait_h2g_N = trait_h2g_N %>% select(c('Trait_Identifier','h2g','N'))
+bad_sstats = list()
+bad_indices = c()
+counter = 0
+#nrow(trait_h2g_N)
+#c(1,44) ## bmi and ibd
+#1:nrow(trait_h2g_N) run all
+skip_to_next <- FALSE
+
+#write.table(variance_mat, file = paste0("TCSC/results/TCSC_onek1k_",trait,".txt"), row.names = F, col.names = T, sep = "\t", quote = F)
+
+pb <- progress_bar$new(total = nrow(trait_h2g_N), show_after = 0)
+pb$tick(0)
+
+debug_TCSC <- function(trait,h2g,N,coreg_path){
+  res = run_TCSC_by_idx(trait,h2g,N,coreg_path)
+  write.table(res, file = paste0("TCSC/results/TCSC_onek1k_",trait,".txt"), row.names = F, col.names = T, sep = "\t", quote = F)
+  return(res)
+}
+
+bad_sumstats = list()
+counter = 0
+for (idx in 1:nrow(trait_h2g_N)){
+  skip_to_next = FALSE
+  trait <- trait_h2g_N[[idx,1]]
+  h2g <- as.numeric(trait_h2g_N[[idx,2]])
+  N <- as.numeric(trait_h2g_N[[idx,3]])
+  coreg_path <- "TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData"
+  
+  tcsc_result = tryCatch(debug_TCSC(trait,h2g,N,coreg_path),error = function(e) skip_to_next = TRUE)
+  pb$tick()
+  if (skip_to_next){
+    counter = counter + 1
+    bad_sumstats[[counter]] = idx
+    next
+  }
+  
+}
+
+
+
+```
+
+
+```{r}
+#y <- fread("TCSC/analysis/TissueGroups_onek1k_and_gtex_trunc.txt", header = T) #one row per GTEx tissue analyzed in Amariuta et al 2022 bioRxiv
+#tissues <- unique(y$Tissues) #tissues with eQTL sample size < 320 are grouped together via meta-analysis if the correlation of marginal eQTL effects is > 0.93. 
+y <- fread('TCSC/analysis/onek1k_and_gtex_meta_tgs.txt', header = T)
+tissues <- y$MetaTissue
+#tg_sources <- y$Source
+
+#n_eqtl <- sapply(1:length(tissues), function(x) sum(y$N_EUR[which(y$MetaTissue == tissues[x])])) #find total available sample size from GTEx data after accounting for meta-analysis of tissues
+#small_tissues <- which(n_eqtl < 320)
+#normal_tissues <- c(1:length(tissues))[-small_tissues] #in primary analysis, these tissues are subsampled such that eQTL sample size = 320
+cells_per_ind = read.csv('onek1k_cells_per_ind.csv', header = F)
+colnames(cells_per_ind) = c('tissue','cells_per_ind')
+cells_per_ind = cells_per_ind %>% mutate(tissue = str_replace(tissue,' ','_'))
+
+
+load(coreg_path) #"TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData"
+gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+
+gtex_tissues = y %>% filter(Source == 'gtex')
+gtex_tissues = gtex_tissues$MetaTissue
+
+zs_df = list()
+
+
+zs_df <- lapply(gtex_tissues, function(tissue) {
+  twas_z <- fread(paste0('TCSC/twas_statistics/320EUR_GTEx/', trait, '/Marginal_alphas_', trait, '_', tissue, '.txt.gz'), header = FALSE)$V1
+  transcriptsin <- fread(paste0('TCSC/weights/heritablegenes/N320/TranscriptsIn', tissue, 'Model.txt'), header = FALSE)$V1
+  temp <- data.frame(transcripts = transcriptsin, TWAS.Z = twas_z)
+  temp$tissue <- tissue
+  return(temp)
+})
+
+zs_df = do.call(rbind,zs_df)
+
+transcript_tissue_assigns = data.frame(transcripts,tissueassign,sources) %>% mutate(tissue = tissues[tissueassign]) %>% left_join(cells_per_ind) %>% replace_na(list(x = NA, cells_per_ind = median(cells_per_ind$cells_per_ind)))
+
+dt1 = as.data.table(transcript_tissue_assigns %>% filter(sources == 'gtex'))
+dt2 = as.data.table(zs_df)
+
+
+gtex_dt = dt1 %>% left_join(dt2)
+
+dt1 = as.data.table(transcript_tissue_assigns %>% filter(sources == '1k1k'))
+
+twas_file_paths = list.files(paste0('TCSC/twas_statistics/onek1k/',trait,'/'),pattern = '_twas.txt',full.names = T)
+twas_dt = list()
+for (i in 1:length(twas_file_paths)){
+  twas_dt[[i]] = fread(twas_file_paths[i])
+}
+
+
+twas_dt = do.call('rbind',twas_dt) %>% select(PANEL,ID,TWAS.Z)
+colnames(twas_dt) = c('tissue','transcripts','TWAS.Z')
+
+onek1k_dt = dt1 %>% left_join(twas_dt)
+
+#(nrow(gtex_dt) + nrow(onek1k_dt)) == nrow(transcript_tissue_assigns) # TRUE
+
+z_dt = rbind(gtex_dt,onek1k_dt) # this takes 3 seconds
+
+colnames(z_dt)[6] = 'z'
+
+
+alpha_z = z_dt$z
+tissueassign = z_dt$tissueassign
+sources = z_dt$sources
+cells_per_ind = z_dt$cells_per_ind
+
+w <- which(alpha_z^2 > max(80,0.001*N) | is.na(alpha_z)) #trait specific qc
+if(length(w)>0){
+  alpha_z <- alpha_z[-w]
+  transcripts <- transcripts[-w]
+  starts <- starts[-w]
+  chrs <- chrs[-w]
+  tissueassign <- tissueassign[-w]
+  sources <- sources[-w]
+  X <- X[-w,]
+  cells_per_ind <- cells_per_ind[-w]
+}
+N_tissuespecific <- as.numeric(table(tissueassign))
+a_transcripts <- table(transcripts)
+weights3 <- sapply(1:length(transcripts), function(x) as.numeric(a_transcripts)[match(transcripts[x], names(a_transcripts))]) #tissue redundancy weight to update genes that are regulated in more tissue-specific contexts
+weights2 <- sapply(1:nrow(X), function(x) sum(X[x,-tissueassign[x]])) + 1 #total co-regulation weight to prevent double counting of signal from co-regulated genes 
+expected_true_cish2_genes <- N_tissuespecific
+
+#### set up jackknife #### 
+a <- cbind(1:length(starts),as.numeric(chrs),as.numeric(starts),unlist(sapply(1:length(N_tissuespecific), function(x) rep(x,N_tissuespecific[x]))))
+a <- a[order(a[,2],a[,3],decreasing = F),]
+chunks <- 200 
+size_groups <- floor(length(starts)/chunks)
+#if (length(size_groups) == 0){
+#    counter = counter + 1
+#    bad_sstats[[counter]] = idx
+#  }
+size_group5 <- length(starts) - (chunks-1)*size_groups
+
+group_assignment <- c()
+
+for (j in 1:chunks){
+  if(j == chunks){
+    group_assignment <- c(group_assignment, rep(j,size_group5))
+  }else{
+    group_assignment <- c(group_assignment, rep(j,size_groups))
+  }
+}
+
+a <- cbind(a, group_assignment)
+a <- a[order(a[,1], decreasing = F),]
+a <- cbind(a,transcripts)
+
+mean_chisq <- mean(alpha_z^2, na.rm = T)
+totcoreg <- rowSums(X)
+crude_h2_est <- (mean_chisq - 1)/(N*mean(totcoreg)) #should this be average co-reg score or average sum across tissues co-reg score? 
+weights1 <- (1 + N*crude_h2_est*totcoreg)^2 #bias corrected but not scaled X; heteroscedasticity weight based on s-ldsc
+
+variance_mat <- matrix(0,1+length(tissues),7) #tissue, h2ge_t, jackknife SE, P, FDR across tissues, proph2, proph2_se
+variance_mat[,1] <- c(tissues,"AllTissues")
+# here, I put tissueassign as cells.
+variance_mat[1:length(tissues),2] <- get_cov_alpha1alpha1_multitissue(sources,cells_per_ind,alpha_z,X,N,weights1,weights2,weights3) * expected_true_cish2_genes
+
+
+```
+
+
+```{r}
+y <- (alpha_z^2)/N
+idx_sources = which(sources == '1k1k')
+mod <- lm(y[idx_sources] ~ cells_per_ind[idx_sources])
+y[idx_sources] <- resid(mod)
+
+w1 <- 1/weights1
+w2 <- 1/weights2
+w3 <- 1/weights3
+
+
+mod <- summary(glm(y ~ X, weights = w1*w2*w3)) #to constrain intercept, use summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+cov_b1b1 <- coef(mod)[-1,1]
+cov_b1b1 <- cov_b1b1[1:ncol(X)]
+```
+
+
+
+```{r}
+variance_mat[(length(tissues)+1),2] <- sum(as.numeric(variance_mat[1:length(tissues),2]))
+
+jk <- matrix(0,nrow = chunks,ncol = length(tissues))
+jk_weights <- matrix(0,nrow = chunks,ncol = 1)
+jk_sum <- matrix(0,nrow = chunks,ncol = 1)
+
+for (chunk in 1:chunks){
+  if (print_statements){
+  	print(paste0("processing jackknife chunk ",chunk," out of 200"))
+  }
+  remove_genes <- which(a[,5] == chunk)
+  tab <- table(a[remove_genes,4]) #freq of tissues
+  subtract_genes <- rep(0,length(tissues))
+  m <- match(1:length(tissues), names(tab))
+  w <- which(!is.na(m))
+  subtract_genes[w] <- as.numeric(tab)[m[w]]
+  N_tissuespecific_jk <- sapply(1:length(N_tissuespecific), function(x) N_tissuespecific[x] - subtract_genes[x])
+  alpha_z_jk <- alpha_z[-remove_genes]
+  tissueassign_jk <- tissueassign[-remove_genes]
+  sources_jk <- sources[-remove_genes]
+  cells_per_ind_jk <- cells_per_ind[-remove_genes]
+  mean_chisq <- mean(alpha_z_jk^2, na.rm = T)
+  X_jk <- X[-remove_genes,]
+  totcoreg <- rowSums(X_jk)
+  crude_h2_est <- (mean_chisq - 1)/(N*mean(totcoreg))
+  weights1_jk <- (1 + N*crude_h2_est*totcoreg)^2
+  weights2_jk <- weights2[-remove_genes] 
+  weights3_jk <- weights3[-remove_genes] 
+  jk[chunk,] <- get_cov_alpha1alpha1_multitissue(sources_jk,cells_per_ind_jk,alpha_z_jk,X_jk,N,weights1_jk,weights2_jk,weights3_jk) * N_tissuespecific_jk 
+  jk_sum[chunk,1] <- sum(as.numeric(jk[chunk,]))
+  jk_weights[chunk,1] <- sum(1/(weights1_jk*weights2_jk*weights3_jk))
+} 
+
+variance_mat[1:ncol(jk),3] <- sapply(1:ncol(jk), function(x) sqrt(wtd.var(jk[,x], jk_weights[,1]))*sqrt(length(which(jk_weights[,1] != 0)))) 
+variance_mat[nrow(variance_mat),3] <- sqrt(wtd.var(jk_sum[,1],jk_weights[,1]))*sqrt(length(which(jk_weights[,1] != 0)))
+
+variance_mat[,4] <- pnorm(q = 0, mean = as.numeric(variance_mat[,2]), sd = as.numeric(variance_mat[,3]))
+variance_mat[1:ncol(jk),5] <- p.adjust(as.numeric(variance_mat[1:ncol(jk),4]), method = "fdr")
+variance_mat[nrow(variance_mat),5] <- NA
+variance_mat[1:nrow(variance_mat),6] <- as.numeric(variance_mat[,2]) / h2g
+variance_mat[1:nrow(variance_mat),7] <- as.numeric(variance_mat[,3]) / h2g
+                                    
+colnames(variance_mat) <- c("Tissue","h2_ge_t","h2_ge_t_se","NomP","FDRP","Proph2","Proph2_se")
+```
+
+
+```{r}
+library(progress)
+pb <- progress_bar$new(total = 100)
+for (i in 1:100) {
+  pb$tick()
+  Sys.sleep(1 / 100)
+}
+```
+
+
+```{r}
+
+for (idx in c(54)){
+  trait <- trait_h2g_N[[idx,1]]
+  h2g <- as.numeric(trait_h2g_N[[idx,2]])
+  N <- as.numeric(trait_h2g_N[[idx,3]])
+  
+  
+  
+  
+  #y <- fread("TCSC/analysis/TissueGroups_onek1k_and_gtex_trunc.txt", header = T) #one row per GTEx tissue analyzed in Amariuta et al 2022 bioRxiv
+  #tissues <- unique(y$Tissues) #tissues with eQTL sample size < 320 are grouped together via meta-analysis if the correlation of marginal eQTL effects is > 0.93. 
+  y <- fread('TCSC/analysis/onek1k_and_gtex_meta_tgs.txt', header = T)
+  tissues <- y$MetaTissue
+  #tg_sources <- y$Source
+  
+  #n_eqtl <- sapply(1:length(tissues), function(x) sum(y$N_EUR[which(y$MetaTissue == tissues[x])])) #find total available sample size from GTEx data after accounting for meta-analysis of tissues
+  #small_tissues <- which(n_eqtl < 320)
+  #normal_tissues <- c(1:length(tissues))[-small_tissues] #in primary analysis, these tissues are subsampled such that eQTL sample size = 320
+  cells_per_ind = read.csv('onek1k_cells_per_ind.csv', header = F)
+  colnames(cells_per_ind) = c('tissue','cells_per_ind')
+  cells_per_ind = cells_per_ind %>% mutate(tissue = str_replace(tissue,' ','_'))
+  
+  TWAS_table_lookup <- function(row,trait){ #loads twas results and outputs a z based on gene and tissueassign group in row. The input is a dataframe of transcript and tissue assign.
+    gene = as.character(row[1])
+    i = as.numeric(row[2])
+    #print(gene)
+    #print(i)
+    source = as.character(row[3])
+    tissue = as.character(row[4])
+    
+    if (source == '1k1k'){
+      zs = fread(paste0("output/",trait,"/",tissue,"_twas.txt"),header = T)
+      out = unique(zs[match(gene,zs$ID),]$TWAS.Z)
+    } else{
+      zs = zs_df %>% filter(tissue == tissue)
+      out = unique(zs[match(gene,zs$transcript),]$TWAS.Z)
+    }
+    return(out)
+  }
+  
+  
+  # gtex_load_zs <- function(row,trait){
+  #   gene = as.character(row[1])
+  #   i = as.numeric(row[2])
+  #   tissue = tissues[i]
+  #   twas_z = fread(paste0('TCSC/twas_statistics/320EUR_GTEx/',trait,'/Marginal_alphas_',trait,'_',tissue,'.txt.gz'),header = F)$V1 # matches TranscriptsInTissue.txt file.
+  #   transcriptsin = fread(paste0('TCSC/weights/heritablegenes/N320/TranscriptsIn',tissue,'Model.txt'),header = F)$V1
+  #   temp = data.frame(transcript = transcriptsin,TWAS.Z = twas_z)
+  #   return(unique(temp[match(gene,temp$transcript),]$TWAS.Z))
+  # }
+  
+  get_cov_alpha1alpha1_multitissue <- function(sources,cells,alpha_z,CoRegMat,nGWAS,weights1,weights2,weights3){ #add cells argument.
+# weight4 is a different experiment.
+# cells should be cells per ind
+# sources check if 1k1k or gtex. If gtex, do not residualize things out.
+  y <- (alpha_z^2)/nGWAS
+  idx_sources = which(sources == '1k1k') # find which are from 1k1k
+  mod <- lm(y[idx_sources] ~ cells[idx_sources])
+  y[idx_sources] <- resid(mod)
+  w1 <- 1/weights1
+  w2 <- 1/weights2
+  w3 <- 1/weights3
+  mod <- summary(glm(y ~ CoRegMat, weights = w1*w2*w3)) #to constrain intercept, use summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+  #mod <- summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+  cov_b1b1 <- coef(mod)[-1,1]  
+  cov_b1b1 <- cov_b1b1[1:ncol(CoRegMat)]
+  return(cov_b1b1)
+  }
+  
+  
+  load("TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData")
+  gtex <- fread("TCSC/analysis/gene_annotation.txt.gz", header = F, sep = "\t")
+  
+  #### trait specific analysis #### 
+  #Loads in twas (transcriptome-wide association study) summary statistics for the cis-heritable genes in each tissue
+  #alpha_z <- c()
+  
+  #The whole purpose of this block was to get Zs to match what was done in the input coreg part. There's a better way now.
+  # for (i in 1:length(tissues)){
+  # 
+  # #transcript_key <- fread(paste0("TCSC/predicted_expression/onek1k/",'TranscriptsIn',tissues[i],"Model.txt"), header = F)$V1 # these IDs made it through the FUSION Association test R script.
+  # #keep <- fread(paste0("TCSC/twas_statistics/onek1k/",trait,'/',tissues[i],"_keep_Model.txt"), header = F)$V1 # ASDC_keep_Model.txt
+  #   
+  # #load(paste0("TCSC/predicted_expression/onek1k/",tissue,"_onek1k.RData")) # for now, this doesn't do anything but does it matter if number of individuals are small?
+  # load(paste0('TCSC/predicted_expression/onek1k/',tissue,'_onek1k_transcripts.RData')) #get list of transcripts
+  # 
+  # transcript_key = transcripts1
+  # 
+  # keep <- transcript_key
+  
+  # #z <- fread(paste0("TCSC/acc_twas/",tissues[i],"_acc_twas.txt"),header = F)$V5 # ASDC_RA_Marginals.txt
+  # z <- fread(paste0("output/RA_TCSC/RA_only_",tissues[i],"_twas.txt"),header = T)$TWAS.Z
+  # 
+  # w <- which(transcript_key %in% keep)
+  # 
+  # g <- transcript_key[w]
+  # z <- z[w]
+  # 
+  # m <- match(transcript_key,gtex$V4)
+  # genetype <- gtex$V8[m]
+  # w <- which(genetype == "protein_coding")
+  # z <- z[w]
+  # alpha_z <- c(alpha_z,z)
+  # print(length(alpha_z))
+  # }
+  # if (length(remove_genes) > 0){
+  #   alpha_z <- alpha_z[-remove_genes]
+  # }
+  
+
+  # prepare gtex tissue z dfs
+  gtex_tissues = y %>% filter(Source == 'gtex')
+  gtex_tissues = gtex_tissues$MetaTissue
+  n_gtex_tissues = length(gtex_tissues)
+  zs_df = list()
+  
+  for (d in 1:n_gtex_tissues){
+    tissue = gtex_tissues[d]
+    twas_z = fread(paste0('TCSC/twas_statistics/320EUR_GTEx/',trait,'/Marginal_alphas_',trait,'_',tissue,'.txt.gz'),header = F)$V1 # matches TranscriptsInTissue.txt file.
+    transcriptsin = fread(paste0('TCSC/weights/heritablegenes/N320/TranscriptsIn',tissue,'Model.txt'),header = F)$V1
+    temp = data.frame(transcript = transcriptsin,TWAS.Z = twas_z)
+    temp$tissue = tissue
+    zs_df[[d]] = temp
+  }
+  zs_df = do.call(rbind,zs_df)
+  #zs_df = merge(transcript_tissue_assigns,zs_df)
+  
+  transcript_tissue_assigns = data.frame(transcripts,tissueassign,sources) %>% mutate(tissue = tissues[tissueassign]) %>% left_join(cells_per_ind)
+  #%>% replace_na(list(x = NA, cells_per_ind = median(cells_per_ind$cells_per_ind)))
+  transcript_tissue_assigns$z = apply(transcript_tissue_assigns,1,TWAS_table_lookup,trait = trait)
+
+  
+  alpha_z = transcript_tissue_assigns$z
+  sources = transcript_tissue_assigns$sources
+  cells_per_ind = transcript_tissue_assigns$cells_per_ind
+  
+  w <- which(alpha_z^2 > max(80,0.001*N) | is.na(alpha_z)) #trait specific qc
+  if(length(w)>0){
+  alpha_z <- alpha_z[-w]
+  transcripts <- transcripts[-w]
+  starts <- starts[-w]
+  chrs <- chrs[-w]
+  tissueassign <- tissueassign[-w]
+  sources <- sources[-w]
+  X <- X[-w,]
+  cells_per_ind <- cells_per_ind[-w]
+  }
+  N_tissuespecific <- as.numeric(table(tissueassign))
+  a_transcripts <- table(transcripts)
+  weights3 <- sapply(1:length(transcripts), function(x) as.numeric(a_transcripts)[match(transcripts[x], names(a_transcripts))]) #tissue redundancy weight to update genes that are regulated in more tissue-specific contexts
+  weights2 <- sapply(1:nrow(X), function(x) sum(X[x,-tissueassign[x]])) + 1 #total co-regulation weight to prevent double counting of signal from co-regulated genes 
+  expected_true_cish2_genes <- N_tissuespecific
+  
+  #### set up jackknife #### 
+  a <- cbind(1:length(starts),as.numeric(chrs),as.numeric(starts),unlist(sapply(1:length(N_tissuespecific), function(x) rep(x,N_tissuespecific[x]))))
+  a <- a[order(a[,2],a[,3],decreasing = F),]
+  chunks <- 200 
+  size_groups <- floor(length(starts)/chunks)
+  #if (length(size_groups) == 0){
+  #    counter = counter + 1
+  #    bad_sstats[[counter]] = idx
+  #  }
+  size_group5 <- length(starts) - (chunks-1)*size_groups
+  
+  group_assignment <- c()
+  for (j in 1:chunks){
+  if(j == chunks){
+  group_assignment <- c(group_assignment, rep(j,size_group5))
+  }else{
+  group_assignment <- c(group_assignment, rep(j,size_groups))
+  }
+  }
+  a <- cbind(a, group_assignment)
+  a <- a[order(a[,1], decreasing = F),]
+  a <- cbind(a,transcripts)
+  
+  mean_chisq <- mean(alpha_z^2, na.rm = T)
+  totcoreg <- rowSums(X)
+  crude_h2_est <- (mean_chisq - 1)/(N*mean(totcoreg)) #should this be average co-reg score or average sum across tissues co-reg score? 
+  weights1 <- (1 + N*crude_h2_est*totcoreg)^2 #bias corrected but not scaled X; heteroscedasticity weight based on s-ldsc
+  
+  variance_mat <- matrix(0,1+length(tissues),7) #tissue, h2ge_t, jackknife SE, P, FDR across tissues, proph2, proph2_se
+  variance_mat[,1] <- c(tissues,"AllTissues")
+  # here, I put tissueassign as cells.
+  variance_mat[1:length(tissues),2] <- get_cov_alpha1alpha1_multitissue(sources,cells_per_ind,alpha_z,X,N,weights1,weights2,weights3) * expected_true_cish2_genes 
+  variance_mat[(length(tissues)+1),2] <- sum(as.numeric(variance_mat[1:length(tissues),2]))
+  
+  jk <- matrix(0,nrow = chunks,ncol = length(tissues))
+  jk_weights <- matrix(0,nrow = chunks,ncol = 1)
+  jk_sum <- matrix(0,nrow = chunks,ncol = 1)
+  for (chunk in 1:chunks){
+  print(paste0("processing jackknife chunk ",chunk," out of 200"))
+  remove_genes <- which(a[,5] == chunk)
+  tab <- table(a[remove_genes,4]) #freq of tissues
+  subtract_genes <- rep(0,length(tissues))
+  m <- match(1:length(tissues), names(tab))
+  w <- which(!is.na(m))
+  subtract_genes[w] <- as.numeric(tab)[m[w]]
+  N_tissuespecific_jk <- sapply(1:length(N_tissuespecific), function(x) N_tissuespecific[x] - subtract_genes[x])
+  alpha_z_jk <- alpha_z[-remove_genes]
+  tissueassign_jk <- tissueassign[-remove_genes]
+  sources_jk <- sources[-remove_genes]
+  cells_per_ind_jk <- cells_per_ind[-remove_genes]
+  mean_chisq <- mean(alpha_z_jk^2, na.rm = T)
+  X_jk <- X[-remove_genes,]
+  totcoreg <- rowSums(X_jk)
+  crude_h2_est <- (mean_chisq - 1)/(N*mean(totcoreg))
+  weights1_jk <- (1 + N*crude_h2_est*totcoreg)^2
+  weights2_jk <- weights2[-remove_genes] 
+  weights3_jk <- weights3[-remove_genes] 
+  jk[chunk,] <- get_cov_alpha1alpha1_multitissue(sources_jk,cells_per_ind_jk,alpha_z_jk,X_jk,N,weights1_jk,weights2_jk,weights3_jk) * N_tissuespecific_jk 
+  jk_sum[chunk,1] <- sum(as.numeric(jk[chunk,]))
+  jk_weights[chunk,1] <- sum(1/(weights1_jk*weights2_jk*weights3_jk))
+  } 
+  
+  variance_mat[1:ncol(jk),3] <- sapply(1:ncol(jk), function(x) sqrt(wtd.var(jk[,x], jk_weights[,1]))*sqrt(length(which(jk_weights[,1] != 0)))) 
+  variance_mat[nrow(variance_mat),3] <- sqrt(wtd.var(jk_sum[,1],jk_weights[,1]))*sqrt(length(which(jk_weights[,1] != 0)))
+  
+  variance_mat[,4] <- pnorm(q = 0, mean = as.numeric(variance_mat[,2]), sd = as.numeric(variance_mat[,3]))
+  variance_mat[1:ncol(jk),5] <- p.adjust(as.numeric(variance_mat[1:ncol(jk),4]), method = "fdr")
+  variance_mat[nrow(variance_mat),5] <- NA
+  variance_mat[1:nrow(variance_mat),6] <- as.numeric(variance_mat[,2]) / h2g
+  variance_mat[1:nrow(variance_mat),7] <- as.numeric(variance_mat[,3]) / h2g
+                                      
+  colnames(variance_mat) <- c("Tissue","h2_ge_t","h2_ge_t_se","NomP","FDRP","Proph2","Proph2_se")
+  write.table(variance_mat, file = paste0("TCSC/results/TCSC_onek1k_",trait,".txt"), row.names = F, col.names = T, sep = "\t", quote = F)
+}
+
+
+
+```
+
+
+```{r}
+transcript_tissue_assigns %>% filter(tissue == 'CD4_TCM')
+
+
+
+idx_sources = which(sources == '1k1k')
+
+alpha_z[idx_sources]
+
+
+```
+
+
+```{r}
+
+```
+
+
+```{r}
+bad_sstats
+```
+
+```{r}
+bad_sstats_id = trait_h2g_N[bad_sstats,]$Trait_Identifier
+```
+
+```{r}
+nSNPs = list()
+for (z in 1:length(bad_sstats_id)){
+  df = fread(paste0('sumstats/',bad_sstats_id[z],'.sumstats'))
+  nSNPs[[z]] = nrow(df)
+}
+
+nSNPs = unlist(nSNPs)
+```
+
+
+```{r}
+good_sstats_id = trait_h2g_N[-bad_sstats,]$Trait_Identifier
+good_nSNPs = list()
+for (z in 1:length(good_sstats_id)){
+  df = fread(paste0('sumstats/',good_sstats_id[z],'.sumstats'))
+  good_nSNPs[[z]] = nrow(df)
+}
+
+good_nSNPs = unlist(good_nSNPs)
+```
+
+
+```{r}
+bad_df = data.frame(bad_sstats_id,nSNPs)
+good_df = data.frame(good_sstats_id,good_nSNPs)
+
+colnames(bad_df) <- c('Trait_Identifier','nSNPs')
+colnames(good_df) <- c('Trait_Identifier','nSNPs')
+
+good_df$is_good = 1
+bad_df$is_good = 0
+
+
+nSNP_df = rbind(good_df,bad_df)
+
+print(as.matrix(bad_df))
+```
+
+```{r}
+as.matrix(good_df[order(good_df$nSNPs),])
+```
+
+```{r}
+merge(nSNP_df,trait_h2g_N) %>% filter(is_good == 1) %>% filter(Trait_Identifier == 'PASS_LargeArteryStroke_Malik2018')
+```
+
+
+```{r}
+library(tidyverse)
+library(ggnewscale)
+library(scales)
+library(data.table)
+```
+
+
+```{r}
+res_files = list.files('TCSC/results',pattern = 'TCSC_onek1k',full.names = TRUE)
+
+
+make_long_df <- function(path){
+  trait_name = str_split(str_split(str_split(path,'/')[[1]][3],'.txt')[[1]][1],'onek1k_')[[1]][2]
+  df = fread(path) %>% filter(Tissue != 'AllTissues') %>% select(Tissue,Proph2,FDRP)
+  df$Trait = trait_name
+  return(df)
+}
+
+res_long_df = list()
+for (z in 1:length(res_files)){
+  res_long_df[[z]] = make_long_df(res_files[z])
+}
+
+res_long_df = do.call('rbind',res_long_df)
+
+FDR_thresh = 0.1
+
+res_long_df$FDRP = round(res_long_df$FDRP,2)
+
+#res_long_df_QC = res_long_df %>% filter(!abs(Proph2) > 1) %>% mutate(is_sig = ifelse(FDRP < FDR_thresh,1,0))
+#res_long_df_QC = res_long_df %>% filter(!abs(Proph2) > 1) %>% filter(Proph2 >= 0) %>% mutate(is_sig = ifelse(FDRP < FDR_thresh,1,0))
+res_long_df_QC = res_long_df %>%mutate(Proph2 = ifelse(Proph2 > 1,1,Proph2)) %>%mutate (Proph2 = ifelse(Proph2 < 0,0,Proph2)) %>% mutate(is_sig = ifelse(FDRP <= FDR_thresh,1,0))
+
+res_long_df_QC$is_sig = factor(res_long_df_QC$is_sig,levels = c('0','1'))
+
+#fread(res_files[1])
+
+# immune_disease_traits = c('PASS_Rheumatoid_Arthritis',
+#                           'UKB_460K.disease_DIABETES_ANY_DIAGNOSED',
+#                           'UKB_460K.disease_ENDOCRINE_DIABETES',
+#                           'UKB_460K.disease_RA',
+#                           'UKB_460K.disease_AID_ALL',
+#                           'UKB_460K.disease_AID_SURE',
+#                           'PASS_Lupus',
+#                           'PASS_IBD_deLange2017',
+#                           'UKB_460K.disease_HYPOTHYROIDISM_SELF_REP',
+#                           'UKB_460K.disease_THYROID_ANY_SELF_REP',
+#                           'PASS_Crohns_Disease')
+
+
+
+# interest = c('Ulcerative Colitis',
+#               'IBD','RA',
+#               'Celiac Disease',"Crohn's",'Systemic Lupus Erythematosus','Osteoarthritis')
+
+interest = c('IBD','RA','Monocyte','Lymphocyte','WBC','Basophil','Ulcerative Colitis','Celiac Disease')
+
+
+trait_mat = fread('Sumstats2021_Update.txt')
+trait_mat = trait_mat %>% select(Trait_Identifier,h2g,N,nicetraitnames)
+colnames(trait_mat)[1] = 'Trait'
+
+
+res_long_df_QC_nicenames = res_long_df_QC %>% merge(trait_mat)
+
+res_long_df_QC_immune =  res_long_df_QC_nicenames %>% filter(nicetraitnames %in% interest)
+
+
+
+label_size = 20
+p1 = ggplot(res_long_df_QC_immune,aes(Tissue,nicetraitnames,fill = Proph2)) + geom_tile(color = 'black') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1,size = label_size),axis.text.y = element_text(size = label_size),axis.title.x = element_text(size = label_size),axis.title.y = element_text(size = label_size)) + scale_fill_gradient(low = "white", high = "darkblue")  + new_scale_fill()
+p_tot = p1 + geom_tile(data = res_long_df_QC_immune, aes(Tissue,nicetraitnames,fill = is_sig,alpha = is_sig), color = 'black',size = 0.5) + scale_fill_manual(values = c('white','NA'),guide = FALSE) + scale_alpha_discrete(range = c(1,0),guide = FALSE) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1,size = label_size),axis.text.y = element_text(size = label_size),axis.title.x = element_text(size = label_size),axis.title.y = element_text(size = label_size)) + new_scale_fill() + geom_tile(data = res_long_df_QC_immune, aes(Tissue,nicetraitnames,fill = Proph2,width=0.8, height=0.8), color = NA) + scale_fill_gradient(low = "white", high = "darkblue") +xlab('Cell Type') + ylab('Trait') + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+panel.background = element_blank(), axis.line = element_line(colour = "black"),legend.text = element_text(size = 18),legend.title = element_text(size = 18),legend.key.size = unit(2, "cm"))
+
+ggsave("TCSC_heatmap_QC_immune_wgtex_full_cellcountcontrolled.pdf", width = 40, height = 20, unit = 'cm')
+
+
+unique(trait_mat$nicetraitnames)
+
+
+trait_mat %>% filter(nicetraitnames == 'Ulcerative Colitis')
+
+
+unique(res_long_df$Trait)
+```
+
+```{r}
+#https://slowkow.com/notes/ggplot2-qqplot/
+
+gg_qqplot <- function(ps,i,label_size = 20, ci = 0.95) {
+  n  <- length(ps)
+  df <- data.frame(
+    observed = -log10(sort(ps)),
+    expected = -log10(ppoints(n)),
+    clower   = -log10(qbeta(p = (1 - ci) / 2, shape1 = 1:n, shape2 = n:1)),
+    cupper   = -log10(qbeta(p = (1 + ci) / 2, shape1 = 1:n, shape2 = n:1))
+  )
+  log10Pe <- expression(paste("Expected -log"[10], plain(P)))
+  log10Po <- expression(paste("Observed -log"[10], plain(P)))
+  ggplot(df) +
+    geom_ribbon(
+      mapping = aes(x = expected, ymin = clower, ymax = cupper),
+      alpha = 0.1
+    ) +
+    geom_point(aes(expected, observed), shape = 21, size = 3,fill = i,color = i) +
+    geom_abline(intercept = 0, slope = 1, alpha = 0.5) +
+    # geom_line(aes(expected, cupper), linetype = 2, size = 0.5) +
+    # geom_line(aes(expected, clower), linetype = 2, size = 0.5) +
+    xlab(log10Pe) +
+    ylab(log10Po)+ theme(axis.text.x = element_text(size = label_size - 5),axis.text.y = element_text(size = label_size - 5),axis.title.x = element_text(size = label_size),axis.title.y = element_text(size = label_size),axis.line.x.bottom=element_line(size=0.5),axis.line.y.left=element_line(size=0.5))
+}
+
+res_files = list.files('TCSC/results',pattern = 'TCSC_onek1k',full.names = TRUE)
+
+
+make_long_df <- function(path){
+  trait_name = str_split(str_split(str_split(path,'/')[[1]][3],'.txt')[[1]][1],'onek1k_')[[1]][2]
+  df = fread(path) %>% filter(Tissue != 'AllTissues') %>% select(Tissue,Proph2,FDRP,NomP)
+  df$Trait = trait_name
+  return(df)
+}
+
+res_long_df = list()
+for (z in 1:length(res_files)){
+  res_long_df[[z]] = make_long_df(res_files[z])
+}
+
+res_long_df = do.call('rbind',res_long_df)
+
+FDR_thresh = 0.1
+
+res_long_df$FDRP = round(res_long_df$FDRP,2)
+
+ct = 'CD4_TCM'
+res_long_df_ct = res_long_df %>% filter(Tissue == ct)
+
+
+gg_qqplot(res_long_df_ct$NomP,i = 'hotpink')
+```
+
+
+
+
+```{r}
+library(forcats)
+label_size = 20
+df= fread('onek1k_tg_with_cellperunique.txt')
+df$ct = fct_rev(factor(df$ct,levels = df$ct))
+ggplot(df,aes(ct,cell_per_unique_ind,fill = ct))+ geom_col() + coord_flip()+ theme(axis.text.x = element_text(size = label_size - 5),axis.text.y = element_text(size = label_size - 5),axis.title.x = element_text(size = label_size),axis.title.y = element_text(size = label_size),axis.line.x.bottom=element_line(size=0.5),axis.line.y.left=element_line(size=0.5),legend.position = 'none') +ylab('# Cells / # of Unique Donor') + xlab('Cell Type')+scale_y_continuous(expand = c(0, 0, 0, 15))
+
+```
