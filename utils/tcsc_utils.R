@@ -24,7 +24,22 @@ library(dplyr)
 # }
 
 
-get_cov_alpha1alpha1_multitissue <- function(sources,cells,alpha_z,CoRegMat,nGWAS,weights1,weights2,weights3){ #add cells argument.
+get_cov_alpha1alpha1_multitissue <- function(alpha_z,CoRegMat,nGWAS,weights1,weights2,weights3){ #add cells argument.
+# weight4 is a different experiment.
+# cells should be cells per ind
+# sources check if 1k1k or gtex. If gtex, do not residualize things out.
+y <- (alpha_z^2)/nGWAS
+w1 <- 1/weights1
+w2 <- 1/weights2
+w3 <- 1/weights3
+mod <- summary(glm(y ~ CoRegMat, weights = w1*w2*w3)) #to constrain intercept, use summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+#mod <- summary(glm(I(y+1) ~ CoRegMat, weights = w1*w2*w3))
+cov_b1b1 <- coef(mod)[-1,1]  
+cov_b1b1 <- cov_b1b1[1:ncol(CoRegMat)]
+return(cov_b1b1)
+}
+
+get_cov_alpha1alpha1_multitissue_resid_cells <- function(sources,cells,alpha_z,CoRegMat,nGWAS,weights1,weights2,weights3){ #add cells argument.
 # weight4 is a different experiment.
 # cells should be cells per ind
 # sources check if 1k1k or gtex. If gtex, do not residualize things out.
@@ -41,6 +56,7 @@ cov_b1b1 <- coef(mod)[-1,1]
 cov_b1b1 <- cov_b1b1[1:ncol(CoRegMat)]
 return(cov_b1b1)
 }
+
 
 
 ### MAIN FUNCTION TO RUN TCSC ON A SUMSTAT
@@ -72,24 +88,26 @@ run_TCSC_by_idx <- function(trait,h2g,N,coreg_path,print_statements = FALSE){
   zs_df <- lapply(gtex_tissues, function(tissue) {
     twas_z <- fread(paste0('TCSC/twas_statistics/320EUR_GTEx/', trait, '/Marginal_alphas_', trait, '_', tissue, '.txt.gz'), header = FALSE)$V1
     transcriptsin <- fread(paste0('TCSC/weights/heritablegenes/N320/TranscriptsIn', tissue, 'Model.txt'), header = FALSE)$V1
-    temp <- data.frame(transcripts = transcriptsin, TWAS.Z = twas_z)
+    temp <- data.frame(transcripts = transcriptsin, z = twas_z)
     temp$tissue <- tissue
     return(temp)
   })
   
   zs_df = do.call(rbind,zs_df)
   
-  transcript_tissue_assigns = data.frame(transcripts,tissueassign,sources) %>% mutate(tissue = tissues[tissueassign]) %>% left_join(cells_per_ind,by = 'tissue') %>% replace_na(list(x = NA, cells_per_ind = median(cells_per_ind$cells_per_ind)))
+  # from load coreg_path, put everything into a dataframe
+  #save(list=c("X","transcripts","starts","chrs","tissueassign","tissueassign_labels","sources"), file = paste0("TCSC/analysis/InputCoreg_onek1k_gtex_TCSC.RData"))
+  transcript_tissue_assigns = data.frame(transcripts = transcripts,starts = starts,chrs = chrs,tissueassign = tissueassign,tissue = tissueassign_labels,sources = sources) %>% left_join(cells_per_ind) %>% replace_na(list(x = NA, cells_per_ind = median(cells_per_ind$cells_per_ind)))
   
   dt1 = as.data.table(transcript_tissue_assigns %>% filter(sources == 'gtex'))
   dt2 = as.data.table(zs_df)
   
   
-  gtex_dt = dt1 %>% left_join(dt2, by = c('transcripts','tissue'))
-  
+  gtex_dt = dt1 %>% left_join(dt2)
+    
   dt1 = as.data.table(transcript_tissue_assigns %>% filter(sources == '1k1k'))
   
-  twas_file_paths = list.files(paste0('output/',trait,'/'),pattern = '_twas.txt',full.names = T)
+  twas_file_paths = list.files(paste0('TCSC/twas_statistics/onek1k/',trait,'/'),pattern = '_twas.txt',full.names = T)
   twas_dt = list()
   for (i in 1:length(twas_file_paths)){
     twas_dt[[i]] = fread(twas_file_paths[i])
@@ -97,19 +115,23 @@ run_TCSC_by_idx <- function(trait,h2g,N,coreg_path,print_statements = FALSE){
   
   
   twas_dt = do.call('rbind',twas_dt) %>% select(PANEL,ID,TWAS.Z)
-  colnames(twas_dt) = c('tissue','transcripts','TWAS.Z')
+  colnames(twas_dt) = c('tissue','transcripts','z')
   
-  onek1k_dt = dt1 %>% left_join(twas_dt, by = c('transcripts','tissue'))
+  onek1k_dt = dt1 %>% left_join(twas_dt)
   
   #(nrow(gtex_dt) + nrow(onek1k_dt)) == nrow(transcript_tissue_assigns) # TRUE
   
   z_dt = rbind(gtex_dt,onek1k_dt) # this takes 3 seconds
   
-  colnames(z_dt)[6] = 'z'
   
+  transcripts = z_dt$transcripts
+  starts = z_dt$starts
+  chrs = z_dt$chrs
+  tissueassign = z_dt$tissueassign
+  tissueassign_labels = z_dt$tissue
+  sources = z_dt$sources
   
   alpha_z = z_dt$z
-  sources = z_dt$sources
   cells_per_ind = z_dt$cells_per_ind
   
   w <- which(alpha_z^2 > max(80,0.001*N) | is.na(alpha_z)) #trait specific qc
@@ -123,6 +145,7 @@ run_TCSC_by_idx <- function(trait,h2g,N,coreg_path,print_statements = FALSE){
     X <- X[-w,]
     cells_per_ind <- cells_per_ind[-w]
   }
+  
   N_tissuespecific <- as.numeric(table(tissueassign))
   a_transcripts <- table(transcripts)
   weights3 <- sapply(1:length(transcripts), function(x) as.numeric(a_transcripts)[match(transcripts[x], names(a_transcripts))]) #tissue redundancy weight to update genes that are regulated in more tissue-specific contexts
@@ -162,7 +185,8 @@ run_TCSC_by_idx <- function(trait,h2g,N,coreg_path,print_statements = FALSE){
   variance_mat <- matrix(0,1+length(tissues),7) #tissue, h2ge_t, jackknife SE, P, FDR across tissues, proph2, proph2_se
   variance_mat[,1] <- c(tissues,"AllTissues")
   # here, I put tissueassign as cells.
-  variance_mat[1:length(tissues),2] <- get_cov_alpha1alpha1_multitissue(sources,cells_per_ind,alpha_z,X,N,weights1,weights2,weights3) * expected_true_cish2_genes 
+  variance_mat[1:length(tissues),2] <- get_cov_alpha1alpha1_multitissue(alpha_z,X,N,weights1,weights2,weights3) * expected_true_cish2_genes 
+  #variance_mat[1:length(tissues),2] <- get_cov_alpha1alpha1_multitissue_resid_cells(sources,cells_per_ind,alpha_z,X,N,weights1,weights2,weights3) * expected_true_cish2_genes  # residualize cells
   variance_mat[(length(tissues)+1),2] <- sum(as.numeric(variance_mat[1:length(tissues),2]))
   
   jk <- matrix(0,nrow = chunks,ncol = length(tissues))
@@ -191,7 +215,8 @@ run_TCSC_by_idx <- function(trait,h2g,N,coreg_path,print_statements = FALSE){
     weights1_jk <- (1 + N*crude_h2_est*totcoreg)^2
     weights2_jk <- weights2[-remove_genes] 
     weights3_jk <- weights3[-remove_genes] 
-    jk[chunk,] <- get_cov_alpha1alpha1_multitissue(sources_jk,cells_per_ind_jk,alpha_z_jk,X_jk,N,weights1_jk,weights2_jk,weights3_jk) * N_tissuespecific_jk 
+    #jk[chunk,] <- get_cov_alpha1alpha1_multitissue_resid_cells(sources_jk,cells_per_ind_jk,alpha_z_jk,X_jk,N,weights1_jk,weights2_jk,weights3_jk) * N_tissuespecific_jk
+	jk[chunk,] <- get_cov_alpha1alpha1_multitissue(alpha_z_jk,X_jk,N,weights1_jk,weights2_jk,weights3_jk) * N_tissuespecific_jk 
     jk_sum[chunk,1] <- sum(as.numeric(jk[chunk,]))
     jk_weights[chunk,1] <- sum(1/(weights1_jk*weights2_jk*weights3_jk))
   } 

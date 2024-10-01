@@ -125,10 +125,11 @@ process_tissue <- function(i,tissues,sources,gene_ref){
     temp = gene_ref %>% filter(transcript_name %in% transcript_key) %>% filter(genetype == "protein_coding") %>% select(chr,start,end,gene_name,transcript_name) %>% arrange(match(transcript_name,transcript_key))
   }
   
+  
   #starts <- c(starts,temp$start)
   #chrs <- c(chrs,temp$chr)
   
-  res = list(transcripts = transcript_key,tissueassign = rep(i,length(transcript_key)),sources = rep(source,length(transcript_key)),starts = temp$start,chrs = temp$chr)
+  res = list(transcripts = transcript_key,tissueassign_labels = rep(tissue,length(transcript_key)),tissueassign = rep(i,length(transcript_key)),sources = rep(source,length(transcript_key)),starts = temp$start,chrs = temp$chr)
   
   return(res)
 }
