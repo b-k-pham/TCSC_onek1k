@@ -1,0 +1,12 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+Treg	RA_only/Treg_5pcs_all/Treg.SLC2A14_1Mwindow.wgt.RDat	SLC2A14	12	7465110	8543792	0.0378	NA	   NA	NA	       NA	   NA	    NA	 NA	  0	lasso	0.0069	0.0062	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.DDX11_1Mwindow.wgt.RDat	DDX11	12	30726794	31757733	0.0214	NA	   NA	NA	       NA	   NA	    NA	  0	  0	lasso	0.012	0.00053	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.LRRIQ1_1Mwindow.wgt.RDat	LRRIQ1	12	84930129	86138883	0.0453	rs9943826	 3.11	rs12303539	-0.000881	 4.86	 0.236	362	362	blup	-5.7e-05	0.33	 1.213	2.25e-01
+Treg	RA_only/Treg_5pcs_all/Treg.SDS_1Mwindow.wgt.RDat	SDS	12	113330250	114341692	0.0781	rs2698259	-3.60	rs1465512	-0.001051	 6.99	 0.008	462	462	blup	0.0031	0.048	-0.988	3.23e-01
+Treg	RA_only/Treg_5pcs_all/Treg.PRB3_1Mwindow.wgt.RDat	PRB3	12	10918847	11922641	0.5748	NA	   NA	NA	       NA	   NA	    NA	  0	  0	lasso	-5e-04	0.47	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.ITGA7_1Mwindow.wgt.RDat	ITGA7	12	55578352	56606192	0.2173	rs772921	 6.33	rs2231462	-0.000720	 8.55	-0.781	289	  1	top1	-0.00072	0.57	-0.781	4.35e-01
+Treg	RA_only/Treg_5pcs_all/Treg.GOLGA3_1Mwindow.wgt.RDat	GOLGA3	12	132845500	133905667	0.0224	rs7306524	-3.17	rs1564647	 0.001523	 3.95	 0.375	239	239	blup	0.006	0.0096	-0.380	7.04e-01
+Treg	RA_only/Treg_5pcs_all/Treg.HOXC6_1Mwindow.wgt.RDat	HOXC6	12	53910672	54924607	0.0638	rs17109475	 3.53	rs11170666	-0.000800	 5.26	-0.157	397	  1	top1	-8e-04	0.62	-0.157	8.75e-01
+Treg	RA_only/Treg_5pcs_all/Treg.RPS26_1Mwindow.wgt.RDat	RPS26	12	55935702	56938481	0.3873	rs772921	 6.33	rs10876864	 0.585301	23.24	 5.764	257	  1	top1	0.59	7.6e-183	 5.764	8.23e-09
+Treg	RA_only/Treg_5pcs_all/Treg.TAS2R19_1Mwindow.wgt.RDat	TAS2R19	12	10674218	11675219	0.0258	NA	   NA	NA	       NA	   NA	    NA	  0	  0	lasso	0.027	2.7e-07	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.KRT74_1Mwindow.wgt.RDat	KRT74	12	52459566	53467627	0.0916	NA	   NA	NA	       NA	   NA	    NA	  0	  0	enet	-7.2e-05	0.33	    NA	      NA

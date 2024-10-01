@@ -1,0 +1,725 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNX7_1Mwindow.wgt.RDat	SNX7	1	98627277	99726056	0.083	rs819776	-2.86	rs9727869	-1.00e-03	  4.43	 1.1247	438	438	blup	0.0014	0.13	 0.06367	9.49e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C1orf115_1Mwindow.wgt.RDat	C1orf115	1	220363705	221372495	0.0608	rs6682431	-2.04	rs2172699	 2.37e-02	  5.87	 1.0407	393	6	enet	0.035	2.3e-09	 0.38369	7.01e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VAV3_1Mwindow.wgt.RDat	VAV3	1	107613783	109007802	0.0281	rs17020141	14.64	rs2125749	 1.50e-02	 -4.96	 1.5954	606	1	top1	0.015	8e-05	-1.59540	1.11e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS8_1Mwindow.wgt.RDat	RPS8	1	44741212	45744451	0.1193	rs2120823	 3.02	rs11573562	 8.49e-02	-10.65	-1.0198	328	328	blup	0.11	1.4e-27	 1.69278	9.05e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MTARC2_1Mwindow.wgt.RDat	MTARC2	1	220421664	221458157	0.0404	rs10489952	 2.54	rs2642424	 4.58e-02	  7.18	-0.5241	407	1	top1	0.046	1.1e-11	-0.52410	6.00e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PADI4_1Mwindow.wgt.RDat	PADI4	1	17134692	18190499	0.0391	rs2147333	-3.45	rs6683201	-6.78e-04	  3.75	-2.2354	459	459	blup	0.0052	0.014	-0.83629	4.03e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PDC-AS1_1Mwindow.wgt.RDat	PDC-AS1	1	185904293	186939423	0.02		   NA		       NA	    NA	     NA	0	0	lasso	0.015	7.8e-05	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCDC163_1Mwindow.wgt.RDat	CCDC163	1	45459538	46465745	0.0508	rs1226757	 2.23	rs4660862	 6.82e-02	  8.04	-0.3139	280	1	top1	0.068	1e-16	-0.31390	7.54e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01562_1Mwindow.wgt.RDat	LINC01562	1	51160767	52200768	0.0313	rs11205843	-2.10	rs7545860	-8.29e-04	  3.47	 0.1783	145	145	blup	-0.00053	0.48	-0.69445	4.87e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CTRC_1Mwindow.wgt.RDat	CTRC	1	15264939	16275737	0.0396	rs11589870	 2.83	rs10927713	-7.56e-04	  3.60	 1.6244	499	499	blup	-0.00075	0.6	 0.98872	3.23e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FCRL5_1Mwindow.wgt.RDat	FCRL5	1	156983167	158022305	0.2191	rs7522061	 5.89	rs7531685	 2.33e-01	 15.08	 0.6204	493	14	enet	0.23	5.0000000000000005e-58	 0.71575	4.74e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCDC18-AS1_1Mwindow.wgt.RDat	CCDC18-AS1	1	93275666	94311368	0.054	rs6604026	 3.20	rs1414367	 3.61e-02	 -6.68	 2.4588	310	310	blup	0.04	2.2e-10	-2.94575	3.22e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.USP24_1Mwindow.wgt.RDat	USP24	1	55032032	56181037	0.0436	rs9787362	 3.81	rs12081312	 1.33e-04	  3.22	-0.2752	682	3	enet	0.014	0.00016	-1.06355	2.88e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SMG7-AS1_1Mwindow.wgt.RDat	SMG7-AS1	1	182930009	183941117	0.0824	rs10911474	-3.04	rs12139534	 3.16e-02	  5.96	-0.5999	511	1	top1	0.032	1.6e-08	-0.59990	5.49e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SELL_1Mwindow.wgt.RDat	SELL	1	169159808	170180761	0.0286	rs6668310	 3.27	rs10800476	 8.93e-04	  3.69	 0.9941	523	1	top1	0.00089	0.17	 0.99410	3.20e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FCRL3_1Mwindow.wgt.RDat	FCRL3	1	157146271	158170559	0.043	rs7522061	 5.89	rs3761959	 6.31e-02	  8.01	 5.8734	522	1	top1	0.063	1.5e-15	 5.87340	4.27e-09
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GSTM1_1Mwindow.wgt.RDat	GSTM1	1	109730439	110736367	0.066		   NA		       NA	    NA	     NA	0	0	lasso	0.032	1.6e-08	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EFNA1_1Mwindow.wgt.RDat	EFNA1	1	154600352	155607375	0.0287	rs6673081	 3.20	rs6427137	-1.04e-03	  3.85	 0.7702	345	345	blup	-0.00019	0.37	-0.39717	6.91e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FOXJ3_1Mwindow.wgt.RDat	FOXJ3	1	42142219	43301551	0.0229	rs11590814	 4.18	rs12093775	 9.14e-03	  4.14	-1.0215	407	1	top1	0.0091	0.0017	-1.02150	3.07e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HS2ST1_1Mwindow.wgt.RDat	HS2ST1	1	86880318	88075665	0.023	rs17423152	 3.39	rs1621247	 1.28e-02	 -4.05	 0.4757	482	1	top1	0.013	0.00026	-0.47570	6.34e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TTC24_1Mwindow.wgt.RDat	TTC24	1	156049515	157057511	0.0316	rs926103	 5.93	rs2365714	 1.51e-02	  5.14	 0.1619	409	2	lasso	0.02	6e-06	-0.82458	4.10e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PRRC2C_1Mwindow.wgt.RDat	PRRC2C	1	170954669	172062650	0.0299	rs10912988	 3.77	rs1795242	 2.42e-02	 -5.65	 0.3676	619	1	top1	0.024	7.2e-07	-0.36760	7.13e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PHACTR4_1Mwindow.wgt.RDat	PHACTR4	1	28196251	29326876	0.0312	rs8559	-4.26	rs7528486	 1.45e-02	 -4.49	-2.6157	310	1	top1	0.015	0.0001	 2.61570	8.90e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GJA8_1Mwindow.wgt.RDat	GJA8	1	146874921	147881396	0.0213	rs6657449	-2.21	rs2999617	-6.87e-04	  3.68	-1.6231	269	1	top1	-0.00069	0.56	-1.62310	1.05e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MTRNR2L11_1Mwindow.wgt.RDat	MTRNR2L11	1	237607024	238608513	0.0381	rs876793	-3.34	rs10495409	 1.68e-02	  5.42	-1.7707	572	1	top1	0.017	3.1e-05	-1.77070	7.66e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NSUN4_1Mwindow.wgt.RDat	NSUN4	1	46306479	47350871	0.0323	rs10252	 2.63	rs6695043	 2.69e-02	  5.42	 2.3707	336	1	top1	0.027	1.8e-07	 2.37070	1.78e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01725_1Mwindow.wgt.RDat	LINC01725	1	83541470	84826679	0.0325	rs926683	 2.68	rs7547892	-7.58e-04	  3.16	-0.1098	496	496	blup	0.011	0.00064	 0.82039	4.12e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VAMP4_1Mwindow.wgt.RDat	VAMP4	1	171169300	172211205	0.0204	rs10912988	 3.77	rs10913511	 6.53e-03	  4.34	 1.1234	544	1	top1	0.0065	0.0069	 1.12340	2.61e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARV1_1Mwindow.wgt.RDat	ARV1	1	230614840	231636479	0.0323	rs1202551	-2.70	rs10864645	 2.76e-02	 -5.01	 1.0218	617	1	top1	0.028	1.2e-07	-1.02180	3.07e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RGS1_1Mwindow.wgt.RDat	RGS1	1	192044903	193049154	0.081	rs7545141	 2.80	rs1323292	 3.70e-02	  6.19	-1.1040	334	3	enet	0.038	5.4e-10	-0.85622	3.92e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMIGD3_1Mwindow.wgt.RDat	TMIGD3	1	111525970	112606584	0.0469	rs7411387	-2.83	rs11102305	-1.95e-04	  5.57	 0.0214	698	1	top1	-0.00019	0.37	 0.02140	9.83e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TEX35_1Mwindow.wgt.RDat	TEX35	1	177982244	178992645	0.0185	rs2025582	-2.83	rs2862303	 2.19e-03	  3.86	 0.0622	332	332	blup	0.0087	0.0022	-0.67139	5.02e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GALNT2_1Mwindow.wgt.RDat	GALNT2	1	229693536	230917868	0.0805	rs6698963	-3.32	rs2273967	 4.96e-02	  6.99	-2.0036	707	1	top1	0.05	1.6e-12	-2.00360	4.51e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LRRIQ3_1Mwindow.wgt.RDat	LRRIQ3	1	73991699	75163860	0.0277	rs7529163	 3.23	rs1601153	 1.79e-02	 -4.74	 1.2432	397	397	blup	0.02	4.9e-06	-1.26450	2.06e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL11_1Mwindow.wgt.RDat	RPL11	1	23518269	24523325	0.0822	rs2902667	 4.86	rs3753270	 2.38e-02	 -6.15	-1.4294	334	5	enet	0.047	5.3e-12	 0.00684	9.95e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CNN3_1Mwindow.wgt.RDat	CNN3	1	94862513	95892666	0.0345	rs17113360	-3.31	rs6673947	-1.02e-03	  3.46	-1.0775	550	550	blup	0.0036	0.035	 0.26225	7.93e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GPR52_1Mwindow.wgt.RDat	GPR52	1	173917102	174918683	0.135	rs764918	 3.95	rs17353212	-9.17e-04	  4.37	-1.1265	301	1	lasso	0.00092	0.17	-1.12650	2.60e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VAV3-AS1_1Mwindow.wgt.RDat	VAV3-AS1	1	108007065	109037229	0.0607	rs17020141	14.64	rs2275914	 3.49e-02	  6.04	-2.0209	450	1	top1	0.035	3e-09	-2.02090	4.33e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM177B_1Mwindow.wgt.RDat	FAM177B	1	222410544	223424346	0.0736	rs3002130	-2.79	rs2378603	 7.46e-02	 -7.66	-1.3376	304	1	top1	0.075	3.6e-18	 1.33760	1.81e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CD164L2_1Mwindow.wgt.RDat	CD164L2	1	27205666	28209823	0.0154	rs12567637	-3.21	rs10902662	-1.02e-03	  4.98	 0.4154	196	196	blup	-0.00097	0.8	 0.01549	9.88e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SERPINC1_1Mwindow.wgt.RDat	SERPINC1	1	173372938	174386465	0.0117	rs11811598	 5.23	rs1890881	 5.35e-04	  4.04	-2.9363	264	264	blup	0.0036	0.035	-2.96388	3.04e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GADD45A_1Mwindow.wgt.RDat	GADD45A	1	67650884	68654017	0.0324	rs17129794	 5.55	rs17130134	 5.36e-03	 -3.99	 0.1949	542	542	blup	0.008	0.0032	 0.04678	9.63e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DRAM2_1Mwindow.wgt.RDat	DRAM2	1	111159785	112182715	0.0494	rs7411387	-2.83	rs3762374	 1.54e-02	  5.01	 1.7667	580	1	top1	0.015	6.6e-05	 1.76670	7.73e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KIAA0040_1Mwindow.wgt.RDat	KIAA0040	1	174626122	175662123	0.0771	rs6693750	 3.55	rs2269650	 5.17e-02	  7.59	-2.1731	486	1	top1	0.052	5.4e-13	-2.17310	2.98e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ACOT11_1Mwindow.wgt.RDat	ACOT11	1	54513901	55604865	0.0605	rs10788972	 3.16	rs141014	 1.42e-02	  4.18	 0.0305	566	566	blup	0.015	8.5e-05	-0.17961	8.57e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PTPN22_1Mwindow.wgt.RDat	PTPN22	1	113856433	114914381	0.0208	rs2476601	28.91	rs1217406	 3.99e-03	  3.81	14.0151	485	485	blup	0.0086	0.0023	12.62610	1.52e-36
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ECHDC2_1Mwindow.wgt.RDat	ECHDC2	1	52861582	53887446	0.0418	rs3737984	-4.30	rs1775540	 4.07e-02	 -5.99	-1.5545	424	1	top1	0.041	1.5e-10	 1.55450	1.20e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FMO5_1Mwindow.wgt.RDat	FMO5	1	146155884	147196931	0.026	rs6657449	-2.21	rs7522804	 5.54e-05	 -3.23	-0.4079	375	375	blup	0.0029	0.052	 0.00541	9.96e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BCAR3-AS1_1Mwindow.wgt.RDat	BCAR3-AS1	1	93557525	94565587	0.0331	rs7537325	-3.01	rs6701957	-9.17e-04	  4.53	-0.7998	391	391	blup	0.0011	0.15	 0.87283	3.83e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SCCPDH_1Mwindow.wgt.RDat	SCCPDH	1	246387711	247431439	0.0349	rs1192835	 3.35	rs7366357	 1.18e-02	  4.11	-0.2013	446	1	top1	0.012	0.00042	-0.20130	8.40e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CHRM3_1Mwindow.wgt.RDat	CHRM3	1	239049868	240578750	0.0448	rs1848751	-3.03	rs16838444	-8.09e-04	  3.66	 0.2738	789	789	blup	0.0022	0.079	 0.12251	9.02e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00853_1Mwindow.wgt.RDat	LINC00853	1	47144922	48146011	0.095	rs6692958	-2.58	rs10890410	-9.91e-04	  8.42	-0.3936	396	396	blup	-0.00088	0.69	 0.06425	9.49e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SCYL3_1Mwindow.wgt.RDat	SCYL3	1	169318772	170363037	0.0306	rs6668310	 3.27	rs688100	 4.39e-03	 -4.15	-1.4688	558	558	blup	0.0078	0.0034	 0.34166	7.33e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SSU72_1Mwindow.wgt.RDat	SSU72	1	977053	2010243	0.0275	rs6697886	-5.59	rs7531530	-4.86e-04	 -3.79	 0.1446	205	1	top1	-0.00049	0.47	-0.14460	8.85e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CD34_1Mwindow.wgt.RDat	CD34	1	207554317	208584470	0.0743	rs11118410	-3.34	rs17259450	 3.71e-03	  5.10	 1.0065	520	1	top1	0.0037	0.033	 1.00650	3.14e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MGST3_1Mwindow.wgt.RDat	MGST3	1	165100471	166125373	0.0755		   NA		       NA	    NA	     NA	0	0	lasso	0.062	2.4e-15	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DNAJC16_1Mwindow.wgt.RDat	DNAJC16	1	15353343	16398228	0.0385	rs10803414	-3.40	rs6667862	 1.60e-02	 -4.95	 1.2313	508	508	blup	0.023	1.1e-06	-0.37306	7.09e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FLVCR1-DT_1Mwindow.wgt.RDat	FLVCR1-DT	1	212529946	213531480	0.0453	rs1532951	-4.48	rs1047881	 4.11e-02	 -7.24	 2.3492	408	1	top1	0.041	1.3e-10	-2.34920	1.88e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MCOLN2_1Mwindow.wgt.RDat	MCOLN2	1	84891266	85962796	0.0325	rs17377156	-2.96	rs2304641	 6.56e-03	  3.70	 0.9034	606	1	top1	0.0066	0.0068	 0.90340	3.66e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ITGB3BP_1Mwindow.wgt.RDat	ITGB3BP	1	63406441	64488896	0.049	rs6697508	 2.99	rs10789138	 2.62e-02	  6.02	 2.9495	551	1	lasso	0.029	6.2e-08	 0.09690	9.23e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MASP2_1Mwindow.wgt.RDat	MASP2	1	10586580	11607296	0.0373		   NA		       NA	    NA	     NA	0	0	lasso	-0.00047	0.46	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLC44A5_1Mwindow.wgt.RDat	SLC44A5	1	75167814	76581848	0.028		   NA		       NA	    NA	     NA	0	0	enet	0.0065	0.007	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C1orf220_1Mwindow.wgt.RDat	C1orf220	1	178011931	179018024	0.0296	rs2025582	-2.83	rs6700266	 6.82e-03	  5.06	-0.1622	322	322	blup	0.017	2.7e-05	-0.13810	8.90e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.USF1_1Mwindow.wgt.RDat	USF1	1	160509041	161515767	0.047	rs7519821	 4.29	rs1128750	 3.87e-02	  4.24	 0.4485	430	1	top1	0.039	4.3e-10	 0.44850	6.54e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CDC42_1Mwindow.wgt.RDat	CDC42	1	21879202	22927853	0.0383	rs829411	 3.17	rs3765350	 5.25e-03	  4.48	-1.2774	508	508	blup	0.0086	0.0023	-0.56864	5.70e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CHI3L2_1Mwindow.wgt.RDat	CHI3L2	1	111270281	112286062	0.2824	rs7411387	-2.83	rs2494004	 2.85e-01	-16.79	 0.2848	566	10	enet	0.31	3.5e-80	-0.35904	7.20e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.UTS2_1Mwindow.wgt.RDat	UTS2	1	7407672	8413551	0.103	rs10399665	 5.38	rs161803	 3.00e-02	  8.36	 0.0224	441	1	top1	0.03	3.7e-08	 0.02240	9.82e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM51-AS1_1Mwindow.wgt.RDat	TMEM51-AS1	1	14938311	15978960	0.0573	rs11589870	 2.83	rs3856275	-8.27e-04	  5.31	 0.5766	535	1	top1	-0.00083	0.65	 0.57660	5.64e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MDM4_1Mwindow.wgt.RDat	MDM4	1	203985534	205027248	0.0301	rs4951067	 2.46	rs4252685	 2.30e-02	  5.23	-0.5957	608	1	top1	0.023	1.3e-06	-0.59570	5.51e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TSTD1_1Mwindow.wgt.RDat	TSTD1	1	160507421	161508754	0.0646	rs7519821	 4.29	rs3737787	 3.80e-02	 -7.22	 2.2706	429	1	lasso	0.063	1.9e-15	-2.28800	2.21e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TTLL10-AS1_1Mwindow.wgt.RDat	TTLL10-AS1	1	608436	1614935	0.0449		   NA		       NA	    NA	     NA	0	0	lasso	-0.00064	0.53	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GAS5_1Mwindow.wgt.RDat	GAS5	1	173333037	174338020	0.0239		   NA		       NA	    NA	     NA	0	0	lasso	0.026	2.3e-07	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RCSD1_1Mwindow.wgt.RDat	RCSD1	1	167099469	168177933	0.0625	rs1214598	 5.75	rs3738222	 1.60e-02	  5.82	 0.0040	526	2	lasso	0.027	2e-07	 0.00114	9.99e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GSTM4_1Mwindow.wgt.RDat	GSTM4	1	109698721	110708119	0.0575	rs484959	-5.74	rs12745189	 3.12e-02	 -5.27	 0.3059	431	1	top1	0.031	2e-08	-0.30590	7.60e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGKV2-29_1Mwindow.wgt.RDat	IGKV2-29	2	89033666	90034392	0.0138	rs2306676	-1.91	rs17037556	-0.000972	  3.41	-0.3370	 20	20	blup	-0.00016	0.36	 0.0498	9.60e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01857_1Mwindow.wgt.RDat	LINC01857	2	208027108	209043846	0.0849		   NA		       NA	    NA	     NA	  0	0	lasso	0.052	4.5e-13	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SERPINE2_1Mwindow.wgt.RDat	SERPINE2	2	224339762	225404003	0.0673	rs6752648	-3.70	rs1530017	 0.049319	  7.15	 0.2504	488	4	enet	0.05	1.2e-12	-0.1979	8.43e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CWC22_1Mwindow.wgt.RDat	CWC22	2	180309603	181372024	0.0241	rs12468587	 2.66	rs4289144	-0.000488	 -4.01	 0.7786	555	555	blup	0.0064	0.0073	 0.0856	9.32e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS7_1Mwindow.wgt.RDat	RPS7	2	3122850	4128510	0.0728	rs2164793	 2.56	rs13017757	 0.040337	 -4.72	 0.9919	534	1	top1	0.04	1.9e-10	-0.9919	3.21e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNTG2-AS1_1Mwindow.wgt.RDat	SNTG2-AS1	2	445320	1447078	0.0317	rs2071402	 9.90	rs7600786	 0.003752	 -5.18	 0.5297	490	490	blup	0.0095	0.0014	-2.5196	1.17e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C2orf15_1Mwindow.wgt.RDat	C2orf15	2	99258170	100268132	0.0123	rs901596	 3.15	rs11897712	 0.014379	  4.25	 1.7556	290	1	top1	0.014	0.00011	 1.7556	7.92e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.INHBB_1Mwindow.wgt.RDat	INHBB	2	120603712	121609379	0.0312	rs28930677	-2.65	rs6542592	-0.000927	  4.34	-1.5215	324	324	blup	0.0014	0.12	-1.5362	1.24e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PTPN4_1Mwindow.wgt.RDat	PTPN4	2	120017498	121242475	0.0263	rs28930677	-2.65	rs2861028	-0.000996	 -3.55	-1.9287	378	378	blup	0.0014	0.13	 1.3352	1.82e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM98A_1Mwindow.wgt.RDat	FAM98A	2	33308727	34324366	0.0383	rs7576999	-2.99	rs11675822	-0.000916	 -3.34	-0.0379	624	624	blup	0.012	0.00044	 0.4376	6.62e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NEURL3_1Mwindow.wgt.RDat	NEURL3	2	96663383	97673846	0.0324		   NA		       NA	    NA	     NA	  0	0	enet	0.00049	0.22	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SESTD1_1Mwindow.wgt.RDat	SESTD1	2	179466405	180629559	0.0309		   NA		       NA	    NA	     NA	  0	0	enet	0.014	0.00012	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VSNL1_1Mwindow.wgt.RDat	VSNL1	2	17221239	18338285	0.017		   NA		       NA	    NA	     NA	  0	0	lasso	0.081	1.3e-19	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NDUFA10_1Mwindow.wgt.RDat	NDUFA10	2	240331859	241464759	0.0422	rs4852140	 2.81	rs6735806	-0.000110	 -4.30	 0.6137	593	593	blup	0.0059	0.0095	-1.2835	1.99e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TAF1B_1Mwindow.wgt.RDat	TAF1B	2	9483571	10574545	0.03	rs2715878	 3.55	rs17364189	 0.009527	 -4.40	 0.3076	527	527	blup	0.011	0.00077	 1.0604	2.89e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RASGRP3_1Mwindow.wgt.RDat	RASGRP3	2	33161415	34289798	0.0809	rs7576999	-2.99	rs7574183	 0.037388	  6.32	-2.1259	682	1	lasso	0.044	3.6e-11	-2.1259	3.35e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EN1_1Mwindow.wgt.RDat	EN1	2	119099747	120105224	0.9876	rs17823497	 3.33	rs1867751	-0.001039	  5.75	 1.1446	508	2	lasso	0.0011	0.15	 0.5915	5.54e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02245_1Mwindow.wgt.RDat	LINC02245	2	64628974	65659581	0.0256	rs6727281	 4.17	rs6736728	 0.003154	 -4.46	-1.6516	430	1	lasso	0.0059	0.0096	 1.9789	4.78e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PLEKHH2_1Mwindow.wgt.RDat	PLEKHH2	2	43364399	44495126	0.037	rs6727824	-4.70	rs10495907	-0.000628	  3.97	-0.9365	516	516	blup	0.0043	0.024	 1.1212	2.62e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TSGA10_1Mwindow.wgt.RDat	TSGA10	2	99113724	100271429	0.0245	rs901596	 3.15	rs1563108	 0.007468	 -4.07	 1.7222	340	340	blup	0.016	5.9e-05	-1.7285	8.39e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C2orf27A_1Mwindow.wgt.RDat	C2orf27A	2	131940072	133024977	0.0556		   NA		       NA	    NA	     NA	  0	0	lasso	0.042	7.9e-11	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KRTCAP3_1Mwindow.wgt.RDat	KRTCAP3	2	27165248	28169348	0.0189		   NA		       NA	    NA	     NA	  0	0	lasso	0.011	0.00072	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KYNU_1Mwindow.wgt.RDat	KYNU	2	143135233	144313402	0.025	rs16858573	-3.14	rs164732	 0.006039	  4.21	 0.2407	408	1	top1	0.006	0.009	 0.2407	8.10e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GPR155_1Mwindow.wgt.RDat	GPR155	2	174796299	175851757	0.0639	rs6433453	-4.70	rs2358668	 0.056020	  7.77	 1.4637	384	1	top1	0.056	5.8e-14	 1.4637	1.43e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.METTL8_1Mwindow.wgt.RDat	METTL8	2	171672256	172791282	0.1372	rs2723253	-3.40	rs13031794	 0.121506	-10.87	-1.3497	398	1	lasso	0.12	8.2e-30	 0.6715	5.02e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.AFF3_1Mwindow.wgt.RDat	AFF3	2	99661881	101259052	0.2254	rs11692215	-5.16	rs1437377	 0.158945	 12.66	 1.5927	617	4	enet	0.19	9e-46	 2.8189	4.82e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCDC141_1Mwindow.wgt.RDat	CCDC141	2	179194484	180414864	0.0292	rs3813245	 3.05	rs7581299	 0.015412	 -5.16	-0.7366	547	1	top1	0.015	6.6e-05	 0.7366	4.61e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PAX8_1Mwindow.wgt.RDat	PAX8	2	113473574	114536498	0.0381	rs3791334	 3.81	rs11123172	 0.019580	 -4.95	-1.3040	486	1	top1	0.02	7.7e-06	 1.3040	1.92e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.POMC_1Mwindow.wgt.RDat	POMC	2	24883729	25891449	0.0313		   NA		       NA	    NA	     NA	  0	0	lasso	0.0083	0.0027	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ASIC4_1Mwindow.wgt.RDat	ASIC4	2	219879204	220903494	0.0326		   NA		       NA	    NA	     NA	  0	0	lasso	-0.00069	0.56	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGKV6-21_1Mwindow.wgt.RDat	IGKV6-21	2	88959235	89959786	0.0148	rs908277	-1.95	rs17037571	 0.016023	  4.90	-0.3445	 42	1	top1	0.016	4.8e-05	-0.3445	7.30e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TLK1_1Mwindow.wgt.RDat	TLK1	2	171347333	172587803	0.0266	rs2723253	-3.40	rs12471930	 0.013257	 -4.45	-0.4567	475	1	top1	0.013	0.0002	 0.4567	6.48e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.WDSUB1_1Mwindow.wgt.RDat	WDSUB1	2	159592309	160643214	0.0326	rs6432534	 5.01	rs11690351	 0.013361	  5.12	 1.1127	443	1	top1	0.013	0.00019	 1.1127	2.66e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SOCS5_1Mwindow.wgt.RDat	SOCS5	2	46426076	47490268	0.0329	rs7579899	 3.07	rs4953408	 0.025652	 -5.27	-0.4761	657	1	top1	0.026	3.4e-07	 0.4761	6.34e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ICA1L_1Mwindow.wgt.RDat	ICA1L	2	203137899	204236489	0.0136	rs17637266	 4.40	rs2351116	 0.010672	  4.46	 1.6586	267	1	top1	0.011	0.00077	 1.6586	9.72e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGKV1D-12_1Mwindow.wgt.RDat	IGKV1D-12	2	89698716	90699190	0.1116		   NA		       NA	    NA	     NA	 NA	0	top1	0.0091	0.0018	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.THAP4_1Mwindow.wgt.RDat	THAP4	2	242023820	243076573	0.0349	rs7596240	 6.57	rs7587670	-0.001028	  2.83	-3.6918	303	303	blup	0.006	0.0092	-0.0422	9.66e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ANXA4_1Mwindow.wgt.RDat	ANXA4	2	69370940	70554244	0.0807		   NA		       NA	    NA	     NA	  0	0	enet	0.046	1.3e-11	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MFF-DT_1Mwindow.wgt.RDat	MFF-DT	2	227585768	228689880	0.0415	rs13034664	 4.44	rs10439364	-0.000904	  3.37	 0.7399	544	544	blup	0.0038	0.032	 1.9226	5.45e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL37A_1Mwindow.wgt.RDat	RPL37A	2	216863567	217868809	0.0363	rs1922000	 2.37	rs3755140	 0.009063	 -4.41	-0.0567	478	1	top1	0.0091	0.0018	 0.0567	9.55e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.AP1S3_1Mwindow.wgt.RDat	AP1S3	2	224120043	225202299	0.0848	rs6752648	-3.70	rs1345120	 0.111578	 10.90	 0.9561	453	8	enet	0.11	8.2e-27	 0.9786	3.28e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02610_1Mwindow.wgt.RDat	LINC02610	2	238633754	239640318	0.0494	rs895572	 4.17	rs2304674	 0.019501	  4.65	 0.3399	459	1	top1	0.02	8e-06	 0.3399	7.34e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ASAP2_1Mwindow.wgt.RDat	ASAP2	2	8846941	10045807	0.0356	rs2715878	 3.55	rs12479189	-0.001034	  5.48	-0.0082	417	1	lasso	0.0028	0.054	-0.0082	9.93e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DBI_1Mwindow.wgt.RDat	DBI	2	119624553	120630119	0.0338	rs11678719	 2.53	rs6759589	 0.000784	 -2.92	-0.2243	427	1	top1	0.00078	0.19	 0.2243	8.23e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCDC88A_1Mwindow.wgt.RDat	CCDC88A	2	55014978	56146992	0.0532	rs10496044	 5.71	rs6545490	 0.018434	  5.26	-0.3040	554	554	blup	0.027	2e-07	 1.3377	1.81e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PAX8-AS1_1Mwindow.wgt.RDat	PAX8-AS1	2	113493104	114524600	0.1701	rs3791334	 3.81	rs11123172	 0.176533	-13.13	-1.3040	465	3	enet	0.18	1.4e-43	 1.8033	7.13e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ACYP2_1Mwindow.wgt.RDat	ACYP2	2	53698250	55032437	0.0403	rs10186140	-2.31	rs10183655	 0.027731	 -6.70	 0.1362	637	1	top1	0.028	1.2e-07	-0.1362	8.92e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PLEK_1Mwindow.wgt.RDat	PLEK	2	68092414	69124585	0.0438	rs11126187	 3.46	rs7604812	 0.027352	 -5.91	-0.8411	519	1	top1	0.027	1.4e-07	 0.8411	4.00e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ABCA12_1Mwindow.wgt.RDat	ABCA12	2	215296266	216503349	0.0404	rs4507103	-3.80	rs10196159	-0.000935	  5.01	-0.8882	562	1	lasso	-0.00089	0.7	-0.8882	3.74e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYT1L_1Mwindow.wgt.RDat	MYT1L	2	1292885	2835047	0.057	rs2071402	 9.90	rs3829839	-0.000318	  4.74	-1.5451	809	809	blup	0.0024	0.07	-4.3310	1.48e-05
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LIMS2_1Mwindow.wgt.RDat	LIMS2	2	127896001	128939360	0.0331	rs11691902	-2.90	rs2245711	 0.037470	 -6.29	-2.0744	400	1	top1	0.037	8.2e-10	 2.0744	3.80e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SH3YL1_1Mwindow.wgt.RDat	SH3YL1	2	0	764824	0.0744		   NA		       NA	    NA	     NA	  0	0	lasso	0.079	2.8e-19	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ITM2C_1Mwindow.wgt.RDat	ITM2C	2	231228900	232243969	0.0509	rs7599715	-3.11	rs12469403	 0.002670	 -4.43	-1.7523	468	7	enet	0.023	1.7e-06	 2.8464	4.42e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.REL_1Mwindow.wgt.RDat	REL	2	60608709	61658747	0.0669	rs13003464	 4.93	rs34223071	 0.019384	  5.63	-1.8667	378	1	lasso	0.036	2.2e-09	-1.8667	6.19e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ACADL_1Mwindow.wgt.RDat	ACADL	2	210552647	211590171	0.0321		   NA		       NA	    NA	     NA	  0	0	enet	0.00043	0.23	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GCC2_1Mwindow.wgt.RDat	GCC2	2	108565662	109625871	0.0281	rs17770853	-3.33	rs2577599	 0.024373	 -5.47	-0.3959	387	1	top1	0.024	6.6e-07	 0.3959	6.92e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GPATCH11_1Mwindow.wgt.RDat	GPATCH11	2	36811661	37826387	0.0274	rs11896614	 3.67	rs6738282	 0.044626	  6.65	 1.0913	487	1	top1	0.045	2.1e-11	 1.0913	2.75e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.COL5A2_1Mwindow.wgt.RDat	COL5A2	2	189396624	190544487	0.0658	rs12614574	 3.02	rs10166301	 0.006517	  8.07	 1.0933	340	1	lasso	0.0093	0.0016	 1.0933	2.74e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MAP3K19_1Mwindow.wgt.RDat	MAP3K19	2	135222061	136305017	0.0203	rs1954874	 2.47	rs11888766	 0.007418	  4.03	 2.0805	242	2	enet	0.011	0.00072	 0.4694	6.39e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NMI_1Mwindow.wgt.RDat	NMI	2	151626984	152646182	0.0272	rs2341849	-2.83	rs4144514	 0.006671	 -3.86	-2.0153	456	456	blup	0.0074	0.0043	 1.4491	1.47e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HTR2B_1Mwindow.wgt.RDat	HTR2B	2	231472944	232489756	0.0292	rs7599715	-3.11	rs11674175	-0.000987	  5.02	-0.2631	419	419	blup	-0.00075	0.6	-2.0982	3.59e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYO7B_1Mwindow.wgt.RDat	MYO7B	2	127793259	128895301	0.139	rs11691902	-2.90	rs2245711	 0.073384	 -8.69	-2.0744	442	1	top1	0.073	6.8e-18	 2.0744	3.80e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PPIL3_1Mwindow.wgt.RDat	PPIL3	2	201235630	202253800	0.0223	rs12990174	 3.49	rs10183261	 0.005911	 -4.31	 0.6281	466	466	blup	0.0081	0.003	-0.6435	5.20e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LYG2_1Mwindow.wgt.RDat	LYG2	2	99358709	100372129	0.0149	rs901596	 3.15	rs7572157	 0.013728	  3.90	-1.0499	300	1	top1	0.014	0.00016	-1.0499	2.94e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ANKRD36_1Mwindow.wgt.RDat	ANKRD36	2	97278890	98430258	0.0132	rs5865	 6.96	rs13430237	 0.003897	 -3.81	 1.6570	170	170	blup	0.014	0.00015	-2.6339	8.44e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C2orf74_1Mwindow.wgt.RDat	C2orf74	2	60872251	61891963	0.0339	rs13003464	 4.93	rs777587	 0.022135	  5.91	 3.5291	320	320	blup	0.031	2e-08	 4.0939	4.24e-05
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MZT2A_1Mwindow.wgt.RDat	MZT2A	2	131741533	132749970	0.0212	rs7574466	-2.64	rs12469056	 0.016153	  4.60	-1.7762	135	1	top1	0.016	4.5e-05	-1.7762	7.57e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HS1BP3-IT1_1Mwindow.wgt.RDat	HS1BP3-IT1	2	20290535	21292308	0.0976	rs4666396	 3.57	rs7569328	-0.000953	  6.04	 1.1465	502	1	lasso	0.15	6.2e-36	 1.1465	2.52e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MAP3K20_1Mwindow.wgt.RDat	MAP3K20	2	173440574	174632743	0.0463	rs10930609	-3.16	rs935007	 0.012480	 -4.55	 0.4971	532	532	blup	0.018	1.8e-05	 0.4295	6.68e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ALG1L2_1Mwindow.wgt.RDat	ALG1L2	3	129300674	130317233	0.0292	rs9818624	 2.73	rs9757129	 0.008019	-4.38	-0.1703	326	326	blup	0.011	0.00054	-0.105	0.91627
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RBM6_1Mwindow.wgt.RDat	RBM6	3	49477583	50614682	0.0151	rs420536	-2.47	rs7613875	 0.023492	 4.44	-1.1935	362	1	top1	0.023	1e-06	-1.193	0.23267
+B_naive	RA_only/B_naive_5pcs_all/B_naive.INKA1_1Mwindow.wgt.RDat	INKA1	3	49340694	50342463	0.0285		   NA		       NA	   NA	     NA	0	0	enet	0.0038	0.032	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF385D-AS1_1Mwindow.wgt.RDat	ZNF385D-AS1	3	21084281	22121451	0.0477		   NA		       NA	   NA	     NA	0	0	lasso	0.12	1.1000000000000001e-27	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLC4A7_1Mwindow.wgt.RDat	SLC4A7	3	26914214	28025875	0.0404	rs337426	-3.87	rs2643828	 0.002705	-4.99	-0.0605	428	428	blup	0.011	0.00083	 1.662	0.09656
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EAF2_1Mwindow.wgt.RDat	EAF2	3	121054056	122105373	0.0851		   NA		       NA	   NA	     NA	0	0	lasso	0.12	3.7e-29	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DPPA2_1Mwindow.wgt.RDat	DPPA2	3	108512635	109535364	0.0359	rs2290055	-5.38	rs12632453	 0.019161	 6.79	 0.6800	371	1	top1	0.019	9.5e-06	 0.680	0.49650
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DCUN1D1_1Mwindow.wgt.RDat	DCUN1D1	3	182155862	183203706	0.0326	rs4074110	-4.18	rs9290751	 0.005216	-4.62	-3.0774	377	377	blup	0.0085	0.0024	 3.078	0.00208
+B_naive	RA_only/B_naive_5pcs_all/B_naive.P2RY13_1Mwindow.wgt.RDat	P2RY13	3	150544100	151547337	0.0458	rs1005726	 4.49	rs654995	-0.000710	 4.17	 0.4777	489	489	blup	0.0057	0.011	 0.050	0.96011
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ALAS1_1Mwindow.wgt.RDat	ALAS1	3	51732099	52748343	0.0258	rs12107484	 3.10	rs3852066	 0.000530	 3.61	 1.1061	312	312	blup	0.0086	0.0023	 1.740	0.08180
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ULK4_1Mwindow.wgt.RDat	ULK4	3	40788090	42503595	0.0121	rs6802072	-2.53	rs17284313	 0.003958	 4.18	 0.4206	629	629	blup	0.0064	0.0073	-0.089	0.92905
+B_naive	RA_only/B_naive_5pcs_all/B_naive.WDR5B-DT_1Mwindow.wgt.RDat	WDR5B-DT	3	121635053	122662094	0.0447		   NA		       NA	   NA	     NA	0	0	lasso	0.032	1.3e-08	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MRPL47_1Mwindow.wgt.RDat	MRPL47	3	178806073	179822434	0.0271	rs3961211	-2.50	rs7623154	 0.007103	-4.16	 0.7226	378	378	blup	0.011	0.00053	 0.196	0.84427
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DNASE1L3_1Mwindow.wgt.RDat	DNASE1L3	3	57677984	58696699	0.0402	rs11130633	 4.38	rs3772985	 0.038272	-6.28	 0.7570	452	1	top1	0.038	5.4e-10	-0.757	0.44905
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLC15A2_1Mwindow.wgt.RDat	SLC15A2	3	121113248	122163035	0.0506	rs2254911	 5.50	rs4676744	 0.013863	 5.27	 2.0818	461	461	blup	0.027	1.4e-07	 1.841	0.06567
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TIPARP-AS1_1Mwindow.wgt.RDat	TIPARP-AS1	3	155890960	156893502	0.025	rs4680274	-3.49	rs1367311	 0.004163	-4.50	-0.4940	428	428	blup	0.0087	0.0021	-0.495	0.62043
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARHGEF3_1Mwindow.wgt.RDat	ARHGEF3	3	56261448	57613296	0.0361		   NA		       NA	   NA	     NA	0	0	lasso	0.027	2e-07	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ANKRD28_1Mwindow.wgt.RDat	ANKRD28	3	15208743	16401321	0.0244	rs6800062	 2.64	rs2166759	 0.007110	-3.89	-0.0624	521	521	blup	0.008	0.0031	-0.491	0.62346
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CPA3_1Mwindow.wgt.RDat	CPA3	3	148083083	149114990	0.0561		   NA		       NA	   NA	     NA	0	0	lasso	0.14	2.9e-34	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NEK4_1Mwindow.wgt.RDat	NEK4	3	52242460	53304956	0.0221	rs750527	-3.29	rs13063160	-0.000434	-3.48	 1.0920	422	422	blup	0.01	0.00084	-1.833	0.06687
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MIX23_1Mwindow.wgt.RDat	MIX23	3	121578438	122602078	0.0605	rs2254911	 5.50	rs7641530	 0.045727	 7.20	-0.5285	474	1	top1	0.046	1.2e-11	-0.529	0.59715
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HSPBAP1_1Mwindow.wgt.RDat	HSPBAP1	3	121958846	123012678	0.1841	rs1042636	 4.20	rs11712252	 0.174969	13.19	 1.8326	543	1	top1	0.17	2.5e-42	 1.833	0.06686
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FBXO40_1Mwindow.wgt.RDat	FBXO40	3	120812226	121849142	0.0202	rs2254911	 5.50	rs17740066	 0.055538	 4.06	-1.0973	336	1	top1	0.056	7.5e-14	-1.097	0.27251
+B_naive	RA_only/B_naive_5pcs_all/B_naive.XXYLT1-AS1_1Mwindow.wgt.RDat	XXYLT1-AS1	3	194315317	195316786	0.075		   NA		       NA	   NA	     NA	0	0	enet	-0.00016	0.36	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MLH1_1Mwindow.wgt.RDat	MLH1	3	36535009	37592337	0.0171	rs11926768	-5.33	rs7649846	-0.000932	 3.35	-2.2824	441	441	blup	0.0094	0.0015	 2.527	0.01151
+B_naive	RA_only/B_naive_5pcs_all/B_naive.WWTR1-IT1_1Mwindow.wgt.RDat	WWTR1-IT1	3	148866712	149869760	0.044		   NA		       NA	   NA	     NA	0	0	lasso	0.12	1.2e-28	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SHOX2_1Mwindow.wgt.RDat	SHOX2	3	157313694	158324209	0.9106	rs827168	 2.92	rs9864196	-0.001009	 4.65	-0.1964	332	332	blup	0.00043	0.23	-0.849	0.39599
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CD86_1Mwindow.wgt.RDat	CD86	3	121274209	122339983	0.1168	rs2254911	 5.50	rs2681411	 0.042927	-5.63	-0.4006	478	7	enet	0.062	2.2e-15	-0.212	0.83243
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SH3BP5_1Mwindow.wgt.RDat	SH3BP5	3	14795860	15882887	0.0473	rs9882368	-2.76	rs6766086	 0.002338	 4.29	 0.4368	458	458	blup	0.016	5.3e-05	 1.288	0.19776
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPSA_1Mwindow.wgt.RDat	RPSA	3	38948211	39954033	0.019	rs9825782	 6.51	rs10454237	 0.020101	 4.76	 2.4209	416	1	top1	0.02	5.9e-06	 2.421	0.01548
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZBBX_1Mwindow.wgt.RDat	ZBBX	3	166457631	167625674	0.0134		   NA		       NA	   NA	     NA	0	0	enet	0.00014	0.29	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PARP14_1Mwindow.wgt.RDat	PARP14	3	121899686	122949687	0.0328	rs1042636	 4.20	rs2303982	-0.000806	-3.89	 1.6384	556	556	blup	0.0061	0.0088	-1.741	0.08163
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NPRL2_1Mwindow.wgt.RDat	NPRL2	3	49884761	50888206	0.0129	rs11711534	 2.74	rs2071803	-0.001032	 3.33	 0.1198	295	295	blup	0.0075	0.0042	 0.619	0.53579
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02052_1Mwindow.wgt.RDat	LINC02052	3	185672770	186711450	0.0885		   NA		       NA	   NA	     NA	0	0	enet	0.02	6.7e-06	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL14_1Mwindow.wgt.RDat	RPL14	3	39998830	41010078	0.0417	rs1714406	-2.00	rs4973906	 0.000439	 3.28	-1.1853	283	4	enet	0.0065	0.0072	-1.202	0.22928
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CD96_1Mwindow.wgt.RDat	CD96	3	110761044	111884843	0.3243	rs17429033	-3.04	rs6773238	 0.335749	17.66	-0.1887	516	1	lasso	0.34	1.5e-89	 0.669	0.50330
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZDHHC19_1Mwindow.wgt.RDat	ZDHHC19	3	195424323	196438271	0.0424	rs11707537	-3.84	rs6795707	 0.034932	-6.31	 0.6185	338	1	top1	0.035	3e-09	-0.619	0.53625
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MST1R_1Mwindow.wgt.RDat	MST1R	3	49424435	50441306	0.0784		   NA		       NA	   NA	     NA	0	0	lasso	-0.00085	0.67	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ADGRG7_1Mwindow.wgt.RDat	ADGRG7	3	99828445	100914323	0.2587	rs2089447	-3.00	rs7615467	 0.088389	 3.89	-1.5800	459	1	top1	0.088	2.4e-21	-1.580	0.11411
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OXSR1_1Mwindow.wgt.RDat	OXSR1	3	37707028	38796975	0.0267	rs9311163	-3.31	rs7611638	 0.002442	-4.26	-1.4892	468	2	enet	0.011	0.00074	 1.225	0.22040
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LIMD1_1Mwindow.wgt.RDat	LIMD1	3	45136243	46227833	0.1585	rs13434336	 4.83	rs1318992	 0.140614	11.71	-0.8390	539	1	top1	0.14	9.1e-34	-0.839	0.40147
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FRG2C_1Mwindow.wgt.RDat	FRG2C	3	75213479	76216324	0.032		   NA		       NA	   NA	     NA	0	0	lasso	0.058	2.7e-14	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LTF_1Mwindow.wgt.RDat	LTF	3	45977136	47026724	0.0469		   NA		       NA	   NA	     NA	0	0	enet	0.0034	0.039	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KLHL18_1Mwindow.wgt.RDat	KLHL18	3	46824434	47888306	0.0692	rs5016899	-3.06	rs10490798	 0.004268	-3.37	-0.0723	160	4	enet	0.017	2.8e-05	-0.164	0.86966
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NAALADL2-AS2_1Mwindow.wgt.RDat	NAALADL2-AS2	3	174452882	175488885	0.0317	rs10936847	 2.99	rs10936848	-0.001015	 3.59	 0.5072	482	482	blup	0.00022	0.27	 0.298	0.76568
+B_naive	RA_only/B_naive_5pcs_all/B_naive.WDR17_1Mwindow.wgt.RDat	WDR17	4	176486992	177603966	0.0526	rs17062734	-3.56	rs17062338	-0.000985	  4.98	-0.3175	534	534	blup	-0.00059	0.51	 2.0312	0.0422
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CLOCK_1Mwindow.wgt.RDat	CLOCK	4	55794070	56913076	0.0184	rs11725155	-4.02	rs13132420	 0.000681	  4.44	 0.2619	442	442	blup	0.0029	0.053	-1.6213	0.1050
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MAPK10_1Mwindow.wgt.RDat	MAPK10	4	86431558	87874348	0.0866	rs13120839	 6.27	rs11097084	 0.069504	  8.38	-1.7596	528	1	top1	0.07	5.2e-17	-1.7596	0.0785
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNCA_1Mwindow.wgt.RDat	SNCA	4	90145250	91259455	0.0389	rs1870795	 3.23	rs28777703	 0.015180	 -5.83	-1.7219	427	427	blup	0.016	5.5e-05	 2.2999	0.0215
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CTBP1-DT_1Mwindow.wgt.RDat	CTBP1-DT	4	743228	1746795	0.04	rs1867924	 3.37	rs7340883	 0.000785	 -3.21	 0.4791	400	400	blup	0.011	0.00073	-0.5753	0.5651
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SPINK2_1Mwindow.wgt.RDat	SPINK2	4	57176026	58188035	0.1007	rs4131086	-3.00	rs2016218	 0.039065	  6.72	 1.5468	498	6	enet	0.062	2.2e-15	 2.2240	0.0261
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS3A_1Mwindow.wgt.RDat	RPS3A	4	151520780	152525794	0.1203	rs9999828	-2.62	rs6839157	 0.170674	-13.22	 1.1758	256	1	lasso	0.17	4.5e-42	-1.1758	0.2397
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TBC1D14_1Mwindow.wgt.RDat	TBC1D14	4	6411193	7534841	0.0664	rs10012590	-3.49	rs6819148	 0.003475	  4.31	 1.1728	667	667	blup	0.022	2e-06	-0.8203	0.4121
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DCLK2_1Mwindow.wgt.RDat	DCLK2	4	150499597	151678590	0.09	rs4513544	-3.35	rs13435543	 0.090314	 10.15	 1.4130	427	1	lasso	0.097	2.1e-23	 1.4130	0.1577
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KCNIP4-IT1_1Mwindow.wgt.RDat	KCNIP4-IT1	4	21344964	22354811	0.0575	rs11933818	-2.42	rs16872470	 0.009428	  7.50	-2.2113	446	1	top1	0.0094	0.0015	-2.2113	0.0270
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SEL1L3_1Mwindow.wgt.RDat	SEL1L3	4	25249055	26365188	0.0503	rs7673206	 9.08	rs1545606	 0.034988	  5.53	-0.9375	499	1	top1	0.035	2.9e-09	-0.9375	0.3485
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ALB_1Mwindow.wgt.RDat	ALB	4	73770004	74787199	0.0174		   NA		       NA	    NA	     NA	0	0	lasso	0.064	1.1e-15	     NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRAM1L1_1Mwindow.wgt.RDat	TRAM1L1	4	117504710	118506732	0.0198		   NA		       NA	    NA	     NA	0	0	enet	-0.001	0.85	     NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02562_1Mwindow.wgt.RDat	LINC02562	4	75507135	76509918	0.0382	rs4859536	 2.62	rs1353606	 0.026452	  5.99	 2.1299	404	1	top1	0.026	2.3e-07	 2.1299	0.0332
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TIFA_1Mwindow.wgt.RDat	TIFA	4	112695693	113707060	0.0496	rs11098149	-3.46	rs17604008	 0.030014	 -6.72	-1.6541	372	1	top1	0.03	3.7e-08	 1.6541	0.0981
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MANBA_1Mwindow.wgt.RDat	MANBA	4	103051927	104182125	0.0109	rs10489121	 4.12	rs6810668	 0.002955	 -3.76	-0.0800	382	1	top1	0.003	0.05	 0.0800	0.9362
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02362_1Mwindow.wgt.RDat	LINC02362	4	184786714	185803460	0.0315	rs7696821	-3.47	rs1405940	 0.007764	  3.52	-1.5247	529	1	top1	0.0078	0.0036	-1.5247	0.1273
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CNOT6L_1Mwindow.wgt.RDat	CNOT6L	4	78134541	79241423	0.0203	rs4298160	 2.65	rs6533382	 0.009398	  4.93	 0.2357	524	1	lasso	0.013	0.00022	-0.7580	0.4485
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SRD5A3_1Mwindow.wgt.RDat	SRD5A3	4	55712409	56739267	0.0324	rs11725155	-4.02	rs2412664	 0.014212	 -4.02	-1.4886	398	1	lasso	0.016	4.9e-05	 1.4886	0.1366
+B_naive	RA_only/B_naive_5pcs_all/B_naive.USP53_1Mwindow.wgt.RDat	USP53	4	119633868	120716673	0.1529	rs11940444	-2.06	rs13113462	 0.157990	 10.98	 0.0553	481	1	top1	0.16	4.7000000000000005e-38	 0.0553	0.9559
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DOK7_1Mwindow.wgt.RDat	DOK7	4	2965033	4003209	0.0356	rs1188600	 3.56	rs3135164	 0.022342	 -5.02	 0.2738	319	1	top1	0.022	1.9e-06	-0.2738	0.7842
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GUCY1A1_1Mwindow.wgt.RDat	GUCY1A1	4	156088000	157158211	0.0716	rs6848883	 2.45	rs4691841	 0.027558	  6.44	 0.0881	483	1	top1	0.028	1.3e-07	 0.0881	0.9298
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARHGAP24_1Mwindow.wgt.RDat	ARHGAP24	4	85896303	87423819	0.2247	rs1344260	 5.64	rs9884932	 0.281201	-16.66	 1.4224	609	3	lasso	0.28	7e-72	-1.3925	0.1638
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HOPX_1Mwindow.wgt.RDat	HOPX	4	57014164	58047462	0.1325	rs4131086	-3.00	rs6818605	 0.078944	  9.07	 2.1275	502	5	enet	0.085	1.5e-20	 2.1758	0.0296
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ADAM29_1Mwindow.wgt.RDat	ADAM29	4	175339509	176399331	0.0282	rs6851959	-3.36	rs10434411	-0.001036	 -3.60	-0.0162	404	404	blup	0.004	0.027	-0.7794	0.4357
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CRACD_1Mwindow.wgt.RDat	CRACD	4	56415264	57696775	0.033	rs11725155	-4.02	rs12648828	-0.000968	  5.75	-0.6779	538	1	top1	-0.00097	0.79	-0.6779	0.4978
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GPM6A_1Mwindow.wgt.RDat	GPM6A	4	176054088	177423842	0.046	rs17062734	-3.56	rs1564880	 0.024819	 -6.13	-0.2181	503	1	lasso	0.026	2.2e-07	 0.2181	0.8274
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNHG8_1Mwindow.wgt.RDat	SNHG8	4	118699917	119700978	0.0809	rs7696163	-1.93	rs3107483	 0.073991	  8.56	-0.6721	277	1	top1	0.074	4.9e-18	-0.6721	0.5015
+B_naive	RA_only/B_naive_5pcs_all/B_naive.UGT2B17_1Mwindow.wgt.RDat	UGT2B17	4	68902891	69942040	0.1222		   NA		       NA	    NA	     NA	0	0	lasso	0.09	9.7e-22	     NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NAAA_1Mwindow.wgt.RDat	NAAA	4	76331808	77362166	0.0194	rs2280100	 3.42	rs6834291	 0.008689	 -4.76	-0.2813	462	1	top1	0.0087	0.0022	 0.2813	0.7785
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02482_1Mwindow.wgt.RDat	LINC02482	4	6172455	7175608	0.0841	rs10012590	-3.49	rs2301787	 0.037683	 -6.27	-1.7046	503	7	enet	0.039	4.1e-10	 0.9279	0.3535
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM156_1Mwindow.wgt.RDat	TMEM156	4	38468365	39534029	0.1324	rs337638	-5.10	rs2711981	 0.138298	-11.73	 1.8428	501	1	top1	0.14	3.4e-33	-1.8428	0.0654
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM184B_1Mwindow.wgt.RDat	FAM184B	4	17130929	18283244	0.1646		   NA		       NA	    NA	     NA	0	0	lasso	0.32	1.1e-81	     NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.AFAP1_1Mwindow.wgt.RDat	AFAP1	4	7260440	8441588	0.0562	rs6446605	-2.74	rs12512108	-0.000821	  4.38	 0.1633	824	1	lasso	0.0027	0.057	 1.2438	0.2136
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CTBP1_1Mwindow.wgt.RDat	CTBP1	4	705233	1744143	0.0392	rs1867924	 3.37	rs1374468	 0.002128	  3.52	-1.2404	408	408	blup	0.012	0.0004	-1.6694	0.0950
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DHFR_1Mwindow.wgt.RDat	DHFR	5	79422045	80450802	0.0342	rs1072841	-2.83	rs4703814	 7.68e-05	 3.89	 0.9564	501	501	blup	0.012	0.00045	-0.3483	0.72763
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BTNL9_1Mwindow.wgt.RDat	BTNL9	5	179967266	180988521	0.0701	rs2545098	-4.59	rs7709346	 6.05e-02	 8.06	-0.7751	269	1	top1	0.06	5.7e-15	-0.7751	0.43828
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SGCD_1Mwindow.wgt.RDat	SGCD	5	155254174	156694799	0.0604	rs819238	 6.13	rs7724912	-9.11e-04	 3.07	-0.2308	568	568	blup	-0.00021	0.37	-0.6682	0.50398
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CRHBP_1Mwindow.wgt.RDat	CRHBP	5	75748870	76765296	0.0652		   NA		       NA	   NA	     NA	0	0	lasso	0.0088	0.0021	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GDNF_1Mwindow.wgt.RDat	GDNF	5	37312779	38340143	0.1263	rs2910725	-3.34	rs13355907	 5.96e-02	 8.66	 0.1116	397	1	top1	0.06	8.9e-15	 0.1116	0.91114
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MIR3936HG_1Mwindow.wgt.RDat	MIR3936HG	5	131146969	132205608	0.0185	rs2706338	-4.19	rs3792881	 2.76e-03	 3.79	-1.1257	425	425	blup	0.0081	0.0029	 2.0465	0.04071
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HMHB1_1Mwindow.wgt.RDat	HMHB1	5	142691726	143700281	0.1857	rs7701443	-5.16	rs17100739	 7.81e-02	 9.91	 0.1896	464	1	top1	0.078	5.6e-19	 0.1896	0.84962
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SETD9_1Mwindow.wgt.RDat	SETD9	5	55705087	56724727	0.0405	rs831652	-4.13	rs2591968	 2.83e-02	-5.72	-0.3248	483	1	top1	0.028	8.8e-08	 0.3248	0.74533
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM53C_1Mwindow.wgt.RDat	FAM53C	5	137173246	138185418	0.0162	rs740076	-2.77	rs13171173	 6.56e-03	-3.89	-0.8526	287	287	blup	0.012	0.00048	 0.0712	0.94321
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HBEGF_1Mwindow.wgt.RDat	HBEGF	5	139212428	140226188	0.0298	rs155939	 2.73	rs17118785	-9.58e-04	-2.77	-0.6957	316	316	blup	0.0083	0.0027	 0.2107	0.83310
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GPRIN1_1Mwindow.wgt.RDat	GPRIN1	5	175522803	176537157	0.0461		   NA		       NA	   NA	     NA	0	0	lasso	0.0019	0.091	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GTF2H2_1Mwindow.wgt.RDat	GTF2H2	5	69831174	70863503	0.094	rs6453406	 1.40	rs13168712	 4.97e-02	 6.31	 0.9464	48	1	top1	0.05	1.5e-12	 0.9464	0.34394
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IQGAP2_1Mwindow.wgt.RDat	IQGAP2	5	75199110	76503957	0.0543	rs12171500	-3.03	rs961536	 1.06e-02	 4.44	-1.8012	701	701	blup	0.013	0.00019	-2.7040	0.00685
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ERAP2_1Mwindow.wgt.RDat	ERAP2	5	95711643	96755420	0.0487	rs11738358	 3.88	rs27306	 4.01e-02	 6.77	 1.2568	501	1	top1	0.04	2.2e-10	 1.2568	0.20883
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ATG10_1Mwindow.wgt.RDat	ATG10	5	80767842	82051952	0.0381	rs10514228	 2.42	rs150934	 1.93e-02	 6.25	 0.4019	522	522	blup	0.022	2.8e-06	-0.9385	0.34798
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NR3C1_1Mwindow.wgt.RDat	NR3C1	5	142157496	143315077	0.0338	rs7701443	-5.16	rs12521436	 3.01e-03	 3.37	-0.1316	587	587	blup	0.0067	0.0062	 1.2923	0.19625
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CENPK_1Mwindow.wgt.RDat	CENPK	5	64312119	65358995	0.0146	rs2020262	 3.81	rs6870248	 2.23e-02	-4.95	 1.7555	424	1	top1	0.022	1.9e-06	-1.7555	0.07917
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NSA2_1Mwindow.wgt.RDat	NSA2	5	73563074	74575938	0.0378	rs10462511	-2.75	rs957680	 2.49e-02	 5.10	-0.5910	448	1	top1	0.025	5.1e-07	-0.5910	0.55452
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CAST_1Mwindow.wgt.RDat	CAST	5	95497741	96610387	0.025	rs11738358	 3.88	rs26503	 2.07e-02	 4.99	-2.2318	507	1	top1	0.021	4.3e-06	-2.2318	0.02563
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01511_1Mwindow.wgt.RDat	LINC01511	5	863697	1880188	0.0506	rs2736100	-4.34	rs6350	-7.25e-04	 4.25	-0.5353	485	485	blup	0.002	0.085	-1.9964	0.04589
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TCERG1_1Mwindow.wgt.RDat	TCERG1	5	145326893	146391524	0.0189	rs7736604	 3.05	rs10077240	-4.42e-04	-3.87	-0.0702	370	370	blup	0.0058	0.01	 1.4819	0.13838
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ADAMTS6_1Mwindow.wgt.RDat	ADAMTS6	5	63944565	65277747	0.0236	rs2020262	 3.81	rs16893435	 4.33e-03	-4.12	 0.6138	522	522	blup	0.0089	0.0019	-1.1691	0.24238
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GM2A_1Mwindow.wgt.RDat	GM2A	5	150132746	151150001	0.088	rs4958490	 3.04	rs1004736	 4.80e-02	 7.26	 0.3184	618	1	top1	0.048	3.7e-12	 0.3184	0.75018
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PRR7-AS1_1Mwindow.wgt.RDat	PRR7-AS1	5	176364890	177374945	0.137	rs10463063	 2.90	rs2731670	 9.38e-02	-9.81	 1.2072	237	1	top1	0.094	1.3e-22	-1.2072	0.22736
+B_naive	RA_only/B_naive_5pcs_all/B_naive.UBE2B_1Mwindow.wgt.RDat	UBE2B	5	133207260	134227799	0.0285	rs244670	 7.80	rs10040679	 6.27e-03	-4.60	 0.9147	296	296	blup	0.014	0.00015	 1.1933	0.23274
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TREML4_1Mwindow.wgt.RDat	TREML4	6	40696087	41706620	0.0673	rs2495233	 3.29	rs9369264	 6.59e-02	  7.14	 0.2306	525	1	top1	0.066	3.4e-16	 0.2306	8.18e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MDGA1_1Mwindow.wgt.RDat	MDGA1	6	37098455	38165659	0.174	rs9470540	 3.13	rs6938061	 8.63e-02	  9.13	 0.8665	463	1	top1	0.086	7.1e-21	 0.8665	3.86e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SMIM8_1Mwindow.wgt.RDat	SMIM8	6	87532306	88552047	0.015	rs910563	-3.71	rs7774080	 4.58e-04	  3.83	 2.6349	417	417	blup	0.0023	0.074	 2.0499	4.04e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PSMG4_1Mwindow.wgt.RDat	PSMG4	6	2759181	3768283	0.022	rs409346	 3.04	rs11242831	 1.90e-02	 -4.80	 0.5169	552	1	top1	0.019	1.1e-05	-0.5169	6.05e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZBED9_1Mwindow.wgt.RDat	ZBED9	6	28038312	29083979	0.0286							0	0	enet	6e-05	0.3		
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TSTD3_1Mwindow.wgt.RDat	TSTD3	6	99468925	100481061	0.0568	rs4839737	-2.76	rs9402863	 6.12e-02	  7.56	-1.9752	467	1	top1	0.061	4e-15	-1.9752	4.82e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.UBE2J1_1Mwindow.wgt.RDat	UBE2J1	6	89536344	90562441	0.0745	rs393203	 4.40	rs12189673	 8.00e-02	  4.68	-2.7294	447	1	top1	0.08	2.1e-19	-2.7294	6.34e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CALHM6_1Mwindow.wgt.RDat	CALHM6	6	116282538	117284934	0.2779	rs339343	-3.05	rs11755235	 1.74e-01	 -9.46	-1.1075	378	1	top1	0.17	3.7e-42	 1.1075	2.68e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS12_1Mwindow.wgt.RDat	RPS12	6	132635708	133638703	0.0314	rs7751879	-4.29	rs17061930	 2.89e-02	  3.70	-1.4010	541	1	top1	0.029	6.5e-08	-1.4010	1.61e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DSE_1Mwindow.wgt.RDat	DSE	6	116075334	117266024	0.0365	rs339343	-3.05	rs9488914	 2.21e-02	 -5.05	 1.1161	445	1	top1	0.022	2.1e-06	-1.1161	2.64e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LY86_1Mwindow.wgt.RDat	LY86	6	6088953	7155215	0.1258		   NA		       NA	    NA	     NA	0	0	lasso	0.091	4.8e-22	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DSP_1Mwindow.wgt.RDat	DSP	6	7041904	8086947	0.1259	rs11755724	 3.51	rs12196679	 2.07e-01	-14.35	 0.0994	604	8	enet	0.21	5.1e-51	-0.1011	9.19e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CENPQ_1Mwindow.wgt.RDat	CENPQ	6	48931083	49960820	0.0228	rs17722373	 2.99	rs9367358	 4.78e-03	  3.99	-0.1710	357	357	blup	0.011	0.00077	-0.7328	4.64e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CRYBG1_1Mwindow.wgt.RDat	CRYBG1	6	106308592	107519892	0.033	rs6568431	 4.35	rs11968064	 2.08e-02	  5.63	-0.0911	662	2	enet	0.025	5.5e-07	-0.6126	5.40e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.B3GAT2_1Mwindow.wgt.RDat	B3GAT2	6	71066382	72166763	0.0607	rs1885675	-2.52	rs17764105	 2.72e-02	 -6.20	 1.0029	434	1	top1	0.027	1.5e-07	-1.0029	3.16e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NT5E_1Mwindow.wgt.RDat	NT5E	6	85659801	86705502	0.0751	rs6913387	-2.52	rs6942065	 7.20e-02	 -8.65	 0.2414	442	1	top1	0.072	1.4e-17	-0.2414	8.09e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HDDC2_1Mwindow.wgt.RDat	HDDC2	6	125096496	126123113	0.0235	rs1413595	 3.70	rs17053352	-8.42e-04	  3.19	-1.2918	418	418	blup	0.0096	0.0014	-0.0719	9.43e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BTN3A2_1Mwindow.wgt.RDat	BTN3A2	6	25865426	26878548	0.0442		   NA		       NA	    NA	     NA	541	0	top1	0.014	0.00017	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RNF144B_1Mwindow.wgt.RDat	RNF144B	6	17887581	18969101	0.0347	rs9396923	-2.60	rs6907980	 1.78e-05	 -4.50	 1.0121	541	541	blup	0.0092	0.0017	-0.6458	5.18e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FIG4_1Mwindow.wgt.RDat	FIG4	6	109512499	110646629	0.0256	rs9487019	-4.33	rs6568602	 4.89e-03	  4.32	-2.8035	426	426	blup	0.011	0.00057	-2.9241	3.46e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNHG5_1Mwindow.wgt.RDat	SNHG5	6	85886725	86888451	0.2075	rs17443200	-2.01	rs1059307	 3.11e-01	-17.42	-0.7906	329	3	enet	0.32	6.7e-82	 0.6043	5.46e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS10_1Mwindow.wgt.RDat	RPS10	6	33885231	34893846	0.1543	rs2744961	 6.32	rs6925243	 1.35e-01	 11.48	 1.3041	348	1	lasso	0.15	3.8e-37	 1.3041	1.92e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CARMIL1_1Mwindow.wgt.RDat	CARMIL1	6	24779602	26120758	0.0582		   NA		       NA	    NA	     NA	830	0	top1	0.023	1.6e-06	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.WDR27_1Mwindow.wgt.RDat	WDR27	6	169357307	170602125	0.0364	rs6605524	 2.99	rs9396992	 1.55e-03	 -3.76	-0.2359	661	661	blup	0.0076	0.0039	-1.5322	1.25e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.L3MBTL3_1Mwindow.wgt.RDat	L3MBTL3	6	129839726	130962583	0.0318	rs4897377	 4.40	rs6569648	 2.95e-02	  5.73	-1.0818	612	1	enet	0.035	2.9e-09	-1.0818	2.79e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00242_1Mwindow.wgt.RDat	LINC00242	6	169688886	170698921	0.0289		   NA		       NA	    NA	     NA	0	0	lasso	-0.00053	0.48	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PRDM1_1Mwindow.wgt.RDat	PRDM1	6	106034211	107057813	0.0384	rs6568431	 4.35	rs2787514	 5.68e-03	 -4.34	 2.4734	572	1	top1	0.0057	0.011	-2.4734	1.34e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NKAPL_1Mwindow.wgt.RDat	NKAPL	6	27727075	28728736	0.0143							0	0	enet	-5.7e-05	0.33		
+B_naive	RA_only/B_naive_5pcs_all/B_naive.COL11A2_1Mwindow.wgt.RDat	COL11A2	6	32630471	33660244	0.0446							381	0	blup	0.00096	0.17		
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NQO2_1Mwindow.wgt.RDat	NQO2	6	2500128	3519989	0.0551	rs409346	 3.04	rs6915338	 2.71e-02	  6.17	-2.2530	649	3	enet	0.03	4.4e-08	 0.1498	8.81e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GINM1_1Mwindow.wgt.RDat	GINM1	6	149387511	150412884	0.0136	rs9384030	 2.56	rs2065664	 8.32e-03	 -4.16	-1.0053	431	431	blup	0.014	0.00017	 0.1975	8.43e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01558_1Mwindow.wgt.RDat	LINC01558	6	167685217	168697539	0.0439	rs7738825	 3.09	rs4612145	-9.95e-04	  4.03	 0.7098	469	469	blup	0.0016	0.11	-0.3136	7.54e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BTBD9_1Mwindow.wgt.RDat	BTBD9	6	37636227	39107705	0.031	rs17620389	-2.96	rs2235711	 3.18e-02	  6.07	-0.4318	683	1	top1	0.032	1.5e-08	-0.4318	6.66e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL10A_1Mwindow.wgt.RDat	RPL10A	6	34936178	35938557	0.0433	rs3800373	-5.90	rs2395626	 3.01e-02	  6.23	 1.0882	427	1	enet	0.036	1.7e-09	 1.0882	2.77e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HEBP2_1Mwindow.wgt.RDat	HEBP2	6	138224668	139243334	0.0318	rs3734299	 3.14	rs9495076	 1.94e-02	 -6.23	 1.1765	452	2	lasso	0.029	5.4e-08	-0.6195	5.36e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.AHI1_1Mwindow.wgt.RDat	AHI1	6	135104670	136318878	0.1813	rs947583	 5.85	rs7759971	 2.33e-01	-15.08	 5.5854	432	1	top1	0.23	1e-57	-5.5854	2.33e-08
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RNGTT_1Mwindow.wgt.RDat	RNGTT	6	88819616	90173337	0.0527	rs393203	 4.40	rs2756368	 4.41e-02	 -6.84	-2.5449	611	1	top1	0.044	2.7e-11	 2.5449	1.09e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PEX6_1Mwindow.wgt.RDat	PEX6	6	42431603	43446919	0.0296	rs12191298	 2.85	rs2395943	 2.45e-02	 -5.34	 0.6713	341	1	enet	0.024	6.2e-07	 1.5152	1.30e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TDRD6_1Mwindow.wgt.RDat	TDRD6	6	46148005	47172056	0.9957	rs1884048	-3.06	rs16875242	-9.98e-04	  3.95	 0.9546	518	20	lasso	0.0028	0.053	-0.8327	4.05e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LRFN2_1Mwindow.wgt.RDat	LRFN2	6	39859330	41055103	0.071		   NA		       NA	    NA	     NA	0	0	lasso	-0.00096	0.79	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HLA-DRB5_1Mwindow.wgt.RDat	HLA-DRB5	6	31985130	32998064	0.5411							262	0	lasso	0.55	2.1000000000000002e-168		
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TOMM7_1Mwindow.wgt.RDat	TOMM7	7	22352593	23362468	0.0966	rs6965421	-3.01	rs10276099	 0.059302	 -8.58	 0.8396	500	1	top1	0.059	1.1e-14	-0.8396	0.401133
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LAMTOR4_1Mwindow.wgt.RDat	LAMTOR4	7	99246541	100251826	0.0169	rs4729598	-5.15	rs4729566	-0.000494	 -3.98	-0.4285	277	277	blup	0.004	0.027	 1.3921	0.163904
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRG-AS1_1Mwindow.wgt.RDat	TRG-AS1	7	37881178	38918238	0.0479	rs2722339	-3.21	rs12532845	 0.019720	  4.84	-0.4718	630	1	top1	0.02	7.2e-06	-0.4718	0.637070
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PILRB_1Mwindow.wgt.RDat	PILRB	7	99455740	100465454	0.0365	rs221774	-6.62	rs28578163	 0.051252	  7.38	-0.6458	300	1	enet	0.053	3.4e-13	-0.6458	0.518409
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CDK13_1Mwindow.wgt.RDat	CDK13	7	39489855	40639179	0.0407	rs17171677	-3.49	rs9655407	 0.036037	  6.65	-1.1302	304	1	top1	0.036	1.7e-09	-1.1302	0.258392
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KCNH2_1Mwindow.wgt.RDat	KCNH2	7	150142049	151175409	0.03	rs4725970	-3.77	rs4146035	-0.000132	 -3.65	-0.5572	561	561	blup	0.0019	0.093	-0.3095	0.756961
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCDC126_1Mwindow.wgt.RDat	CCDC126	7	23137001	24184327	0.0378	rs10225926	-3.19	rs11980035	 0.024992	  6.19	-0.5529	457	2	lasso	0.027	2.1e-07	-0.0794	0.936731
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FIS1_1Mwindow.wgt.RDat	FIS1	7	100382753	101388362	0.0418	rs314363	-4.24	rs7808669	 0.000580	 -4.37	 0.1393	362	362	blup	0.012	0.00037	 1.2998	0.193673
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CAMK2B_1Mwindow.wgt.RDat	CAMK2B	7	43756753	44865193	0.0602	rs3735477	 4.12	rs1434960	-0.000586	  4.89	-0.4989	391	391	blup	0.006	0.0094	-0.2769	0.781886
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CNTNAP2_1Mwindow.wgt.RDat	CNTNAP2	7	145313893	148618090	0.2598	rs2717805	-3.63	rs1110038	 0.194768	-14.08	 0.0250	1458	5	enet	0.21	1.7e-51	-0.1211	0.903634
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ASB15_1Mwindow.wgt.RDat	ASB15	7	122741875	123779535	0.0235	rs2285996	 3.09	rs7799354	 0.001426	  4.22	 2.0957	373	7	enet	0.011	0.0006	 0.3695	0.711771
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DENND2A_1Mwindow.wgt.RDat	DENND2A	7	139718219	140841260	0.0531	rs4626515	 3.29	rs6947516	-0.000952	  4.23	 1.5052	387	387	blup	0.012	0.00033	-0.1682	0.866392
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LRRC61_1Mwindow.wgt.RDat	LRRC61	7	149506588	150535245	0.026	rs10952234	-3.62	rs6964110	 0.020177	  4.56	-1.4172	338	1	top1	0.02	5.7e-06	-1.4172	0.156424
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCZ1B_1Mwindow.wgt.RDat	CCZ1B	7	6338568	7365906	0.0525	rs2042524	 3.82	rs10242703	 0.053188	 -7.05	 1.7689	370	1	top1	0.053	2.5e-13	-1.7689	0.076911
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZC3HAV1_1Mwindow.wgt.RDat	ZC3HAV1	7	138228261	139294466	0.0341	rs7801123	 3.67	rs7803490	 0.020331	  5.01	 2.4426	416	1	top1	0.02	5.2e-06	 2.4426	0.014582
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZP3_1Mwindow.wgt.RDat	ZP3	7	75526839	76571386	0.109	rs13239185	 2.23	rs13232187	 0.050301	  7.21	 1.5450	207	207	blup	0.062	2.6e-15	 1.8580	0.063164
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FIGNL1_1Mwindow.wgt.RDat	FIGNL1	7	50011831	51018048	0.0267	rs12673071	-2.99	rs6945253	 0.023866	 -5.34	-0.6203	489	1	top1	0.024	8.6e-07	 0.6203	0.535060
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CHCHD2_1Mwindow.wgt.RDat	CHCHD2	7	55669266	56674169	0.0371	rs12671973	 2.31	rs2965455	-0.000350	  4.65	-1.2521	273	273	blup	0.01	0.00099	-0.8826	0.377436
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PEG10_1Mwindow.wgt.RDat	PEG10	7	93785637	94799007	0.0247	rs13231561	 3.11	rs1568214	 0.007840	 -4.49	-1.0287	309	309	blup	0.011	0.00052	 1.0670	0.285991
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DYNC2I1_1Mwindow.wgt.RDat	DYNC2I1	7	158131936	159238880	0.0234	rs2602565	-3.29	rs2527201	 0.017423	 -4.55	-1.9712	387	1	top1	0.017	2.3e-05	 1.9712	0.048701
+B_naive	RA_only/B_naive_5pcs_all/B_naive.POLR2J2_1Mwindow.wgt.RDat	POLR2J2	7	101806493	102812110	0.0274	rs10238421	 3.06	rs12113073	 0.012269	 -3.77	 0.9486	114	2	enet	0.033	6.7e-09	 0.2994	0.764598
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SGCE_1Mwindow.wgt.RDat	SGCE	7	93714292	94785445	0.0334	rs13231561	 3.11	rs6948647	 0.015738	  5.58	 1.3252	316	4	enet	0.021	4.6e-06	 1.3112	0.189805
+B_naive	RA_only/B_naive_5pcs_all/B_naive.POMZP3_1Mwindow.wgt.RDat	POMZP3	7	75739303	76756596	0.0602	rs13239185	 2.23	rs17645871	 0.006710	  4.47	-1.6315	142	5	enet	0.023	1.1e-06	 0.4724	0.636676
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF107_1Mwindow.wgt.RDat	ZNF107	7	63626511	64671955	0.0825	rs4717205	-1.91	rs10273013	 0.070562	 -8.75	 0.1330	287	1	lasso	0.072	1.8e-17	 0.2053	0.837338
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRBV10-1_1Mwindow.wgt.RDat	TRBV10-1	7	141731573	142732022	0.0337	rs17722379	-3.13	rs6973412	-0.000161	  4.82	 0.0217	457	2	lasso	0.001	0.16	 0.1262	0.899613
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LSM8_1Mwindow.wgt.RDat	LSM8	7	117324218	118344089	0.0133	rs1510498	-2.64	rs1061731	 0.016691	  4.41	 1.5728	341	1	top1	0.017	3.4e-05	 1.5728	0.115765
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00997_1Mwindow.wgt.RDat	LINC00997	7	32297898	33302536	0.0169	rs412876	 4.84	rs12670233	-0.000824	  4.48	 0.1950	410	410	blup	0.0041	0.026	 2.5343	0.011268
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LAMB1_1Mwindow.wgt.RDat	LAMB1	7	107064244	108143606	0.0973	rs722519	-2.76	rs2237685	 0.120452	-11.00	-1.3177	528	1	top1	0.12	6.9e-29	 1.3177	0.187604
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HOXA-AS3_1Mwindow.wgt.RDat	HOXA-AS3	7	26679983	27695547	0.0693		   NA		       NA	    NA	     NA	0	0	enet	0.0043	0.024	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GNA12_1Mwindow.wgt.RDat	GNA12	7	2267739	3383942	0.0326	rs6948739	 4.53	rs798548	 0.011426	  4.47	 0.2905	594	1	top1	0.011	0.00052	 0.2905	0.771434
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SKAP2_1Mwindow.wgt.RDat	SKAP2	7	26206687	27404209	0.0498	rs212850	-4.08	rs10486478	 0.030585	  5.46	-3.7008	562	1	top1	0.031	2.8e-08	-3.7008	0.000215
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RAC1_1Mwindow.wgt.RDat	RAC1	7	5914158	6943598	0.0349	rs2042524	 3.82	rs2689420	 0.005008	  4.21	 2.8630	282	282	blup	0.0092	0.0016	 2.4598	0.013901
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GSDME_1Mwindow.wgt.RDat	GSDME	7	24237974	25297558	0.0255	rs6952796	 3.10	rs754555	 0.008872	 -4.39	 1.6218	662	1	top1	0.0089	0.002	-1.6218	0.104846
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SERPINE1_1Mwindow.wgt.RDat	SERPINE1	7	100270385	101282528	0.0473		   NA		       NA	    NA	     NA	0	0	enet	-0.00083	0.65	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.INHBA-AS1_1Mwindow.wgt.RDat	INHBA-AS1	7	41233517	42318976	0.0416	rs2051935	 2.71	rs17774484	-0.000954	  5.33	-0.2525	494	494	blup	0.00045	0.23	-0.8387	0.401642
+B_naive	RA_only/B_naive_5pcs_all/B_naive.UPK3BL1_1Mwindow.wgt.RDat	UPK3BL1	7	101777472	102783238	0.0255	rs10238421	 3.06	rs4729791	 0.017089	  4.29	 1.0148	118	3	lasso	0.022	2.9e-06	 1.0148	0.310201
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MUC3A_1Mwindow.wgt.RDat	MUC3A	7	100047166	101111620	0.0575		   NA		       NA	    NA	     NA	0	0	enet	0.00071	0.19	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRBV28_1Mwindow.wgt.RDat	TRBV28	7	141928504	142928984	0.031	rs17722379	-3.13	rs4252372	-0.000973	  5.74	 0.5815	428	428	blup	0.00034	0.25	 0.7395	0.459609
+B_naive	RA_only/B_naive_5pcs_all/B_naive.INTS1_1Mwindow.wgt.RDat	INTS1	7	1009913	2044025	0.0284	rs6951956	-2.55	rs10275401	-0.000733	  2.96	-0.5858	363	363	blup	0.0074	0.0044	-0.6710	0.502231
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM249_1Mwindow.wgt.RDat	TMEM249	8	145076888	146078591	0.0368		   NA		       NA	    NA	     NA	0	0	lasso	0.022	1.9e-06	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EPHX2_1Mwindow.wgt.RDat	EPHX2	8	26848660	27903081	0.0433	rs12334538	-2.70	rs4149239	 2.28e-02	  5.80	-1.7988	670	1	top1	0.023	1.5e-06	-1.7988	0.07205
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ANK1_1Mwindow.wgt.RDat	ANK1	8	41010744	42254259	0.0991	rs7837156	-2.38	rs12708212	 1.13e-01	-10.61	 0.1351	475	1	top1	0.11	3.9000000000000004e-27	-0.1351	0.89253
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OPLAH_1Mwindow.wgt.RDat	OPLAH	8	144606167	145615595	0.04		   NA		       NA	    NA	     NA	0	0	lasso	-0.00038	0.43	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PPP1R16A_1Mwindow.wgt.RDat	PPP1R16A	8	145203365	146227504	0.0749		   NA		       NA	    NA	     NA	0	0	lasso	0.02	7.4e-06	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NAPRT_1Mwindow.wgt.RDat	NAPRT	8	144156955	145160500	0.0735	rs4874099	-2.91	rs10282929	 7.27e-02	 -8.43	 0.9032	347	1	top1	0.073	9.9e-18	-0.9032	0.36642
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IL7_1Mwindow.wgt.RDat	IL7	8	79145007	80217698	0.0249	rs11779259	-2.35	rs7016026	-4.45e-04	  3.06	-0.4364	333	333	blup	0.0059	0.0095	 0.0312	0.97512
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZDHHC2_1Mwindow.wgt.RDat	ZDHHC2	8	16513991	17582308	0.0466	rs2517273	 3.13	rs2517273	 1.07e-03	  4.54	 3.1281	741	741	blup	0.016	5.5e-05	 0.1634	0.87023
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RBPMS-AS1_1Mwindow.wgt.RDat	RBPMS-AS1	8	29739635	30742917	0.0801		   NA		       NA	    NA	     NA	0	0	lasso	0.11	2.3e-27	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.POP1_1Mwindow.wgt.RDat	POP1	8	98629521	99672063	0.0398	rs7840318	-3.13	rs3802197	-9.17e-04	  3.45	 0.0016	469	469	blup	-0.00022	0.37	 0.3227	0.74696
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCNE2_1Mwindow.wgt.RDat	CCNE2	8	95392452	96407429	0.0366	rs2956210	-3.86	rs16917426	-6.93e-04	  3.68	 1.3683	450	450	blup	0.0036	0.035	 0.0492	0.96076
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SAMD12_1Mwindow.wgt.RDat	SAMD12	8	118644064	120134202	0.1094	rs12679857	-5.99	rs2514603	 1.07e-01	 10.18	 3.2088	756	1	top1	0.11	1.3e-25	 3.2088	0.00133
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HMBOX1_1Mwindow.wgt.RDat	HMBOX1	8	28247912	29410787	0.1351	rs653125	-3.82	rs1487969	 1.29e-01	 -9.18	-0.9064	451	1	top1	0.13	5.2e-31	 0.9064	0.36472
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PKHD1L1_1Mwindow.wgt.RDat	PKHD1L1	8	109874690	111049436	0.1291	rs12677646	-2.33	rs1783153	 1.46e-01	 12.09	 0.3798	384	6	enet	0.15	6.8e-36	 0.3388	0.73479
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZC2HC1A_1Mwindow.wgt.RDat	ZC2HC1A	8	79078324	80132000	0.0293	rs11779259	-2.35	rs6993386	 2.90e-02	 -5.82	 0.0716	331	1	top1	0.029	6.1e-08	-0.0716	0.94292
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MICU3_1Mwindow.wgt.RDat	MICU3	8	16384747	17480151	0.0427	rs2517273	 3.13	rs822293	-3.41e-06	 -3.97	 0.0052	674	2	enet	0.011	0.00078	-0.1047	0.91665
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARC_1Mwindow.wgt.RDat	ARC	8	143192410	144195840	0.0385	rs11997117	-2.69	rs4736319	-9.87e-04	  3.73	-0.8133	404	404	blup	0.00031	0.25	-0.5979	0.54992
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ENTPD4_1Mwindow.wgt.RDat	ENTPD4	8	22786675	23815160	0.0339	rs7829094	-5.29	rs2017650	 2.73e-03	  3.92	-1.8619	588	588	blup	0.011	0.00082	-2.9351	0.00333
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DKK4_1Mwindow.wgt.RDat	DKK4	8	41731581	42734747	0.0583		   NA		       NA	    NA	     NA	0	0	enet	0.017	3.5e-05	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SAMD12-AS1_1Mwindow.wgt.RDat	SAMD12-AS1	8	119133240	120238306	0.0381	rs12679857	-5.99	rs2514603	 5.56e-02	  7.96	 3.2088	580	1	top1	0.056	7.1e-14	 3.2088	0.00133
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCN3_1Mwindow.wgt.RDat	CCN3	8	119928686	120936674	0.0193		   NA		       NA	    NA	     NA	0	0	lasso	-0.00089	0.7	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL8_1Mwindow.wgt.RDat	RPL8	8	145515154	146517775	0.2625	rs12678688	-2.00	rs2955195	 3.89e-01	 19.10	 0.7917	190	2	enet	0.4	2.4e-109	 0.8220	0.41108
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LY6E-DT_1Mwindow.wgt.RDat	LY6E-DT	8	143563448	144599807	0.0243	rs369051	-2.80	rs7843869	-1.01e-03	  3.56	-1.1857	417	417	blup	0.00046	0.23	-1.2995	0.19377
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ERICH1_1Mwindow.wgt.RDat	ERICH1	8	64746	1181224	0.0407	rs7460646	 3.09	rs17738097	 3.90e-03	 -4.43	-2.0973	573	1	top1	0.0039	0.029	 2.0973	0.03597
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NKX6-3_1Mwindow.wgt.RDat	NKX6-3	8	41002696	42008336	0.0659		   NA		       NA	    NA	     NA	0	0	lasso	0.055	1.2e-13	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS6_1Mwindow.wgt.RDat	RPS6	9	18875713	19880234	0.0341	rs12001364	  3.22	rs10119465	-0.000840	 -3.92	-0.9677	529	529	blup	0.007	0.0052	 0.2070	8.36e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RAB14_1Mwindow.wgt.RDat	RAB14	9	123440411	124464147	0.0253	rs1060817	  5.40	rs12551209	 0.003326	  3.49	-0.8486	415	415	blup	0.0078	0.0035	-1.8040	7.12e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HACD4_1Mwindow.wgt.RDat	HACD4	9	20499508	21531639	0.082		    NA		       NA	    NA	     NA	0	0	lasso	0.07	4.9e-17	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DNLZ_1Mwindow.wgt.RDat	DNLZ	9	138753935	139758196	0.0352	rs7860634	 -3.05	rs11145958	-0.000144	  4.06	 0.8588	298	298	blup	0.0041	0.026	-0.1365	8.91e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DIPK1B_1Mwindow.wgt.RDat	DIPK1B	9	139107024	140119194	0.0825	rs10122824	 -2.96	rs4880136	 0.071768	 -8.15	 0.8819	325	1	top1	0.072	1.6e-17	-0.8819	3.78e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF462_1Mwindow.wgt.RDat	ZNF462	9	109125447	110275915	0.0507		    NA		       NA	    NA	     NA	0	0	lasso	0.0036	0.035	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ENDOG_1Mwindow.wgt.RDat	ENDOG	9	131080779	132084955	0.0368	rs9697210	 -5.43	rs2997922	 0.007888	 -4.33	-3.8090	277	277	blup	0.012	0.00046	 2.7256	6.42e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CDK20_1Mwindow.wgt.RDat	CDK20	9	90081356	91089448	0.0738	rs10746822	  2.67	rs12346877	 0.002706	  3.68	 0.6861	474	1	top1	0.0027	0.058	 0.6861	4.93e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CEMIP2_1Mwindow.wgt.RDat	CEMIP2	9	73798282	74883429	0.0492	rs923704	 -4.71	rs25688	 0.033472	  6.11	-2.6644	441	1	top1	0.033	6.3e-09	-2.6644	7.71e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LCN8_1Mwindow.wgt.RDat	LCN8	9	139148838	140152995	0.4771	rs4880158	 -2.51	rs2282259	 0.628304	 24.72	 0.3155	326	3	lasso	0.63	1.2e-212	-0.3646	7.15e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MSMP_1Mwindow.wgt.RDat	MSMP	9	35252987	36254273	0.059	rs7847862	 -2.20	rs1322045	 0.060999	 -7.90	-0.2687	411	1	top1	0.061	4.4e-15	 0.2687	7.88e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TEX48_1Mwindow.wgt.RDat	TEX48	9	116928714	117944472	0.0693		    NA		       NA	    NA	     NA	0	0	enet	-0.00081	0.64	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ALDH1B1_1Mwindow.wgt.RDat	ALDH1B1	9	37892699	38898658	0.0362	rs4878790	  2.51	rs10511950	 0.001536	  3.33	-1.4967	422	422	blup	0.0028	0.056	 0.4036	6.87e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NDUFB6_1Mwindow.wgt.RDat	NDUFB6	9	32052999	33073157	0.0346	rs944582	  2.69	rs12551778	 0.005190	 -4.60	-0.0675	508	1	top1	0.0052	0.014	 0.0675	9.46e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.B4GALT1_1Mwindow.wgt.RDat	B4GALT1	9	32604075	33667334	0.0492	rs1856202	  2.26	rs1411609	 0.003092	 -4.57	 1.8903	479	479	blup	0.016	4.4e-05	-0.2493	8.03e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NUDT2_1Mwindow.wgt.RDat	NUDT2	9	33829567	34843697	0.0652		    NA		       NA	    NA	     NA	0	0	lasso	0.056	5.9e-14	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FUT7_1Mwindow.wgt.RDat	FUT7	9	139424626	140426540	0.0268	rs4880158	 -2.51	rs7047770	 0.027942	  5.72	-0.1755	270	1	top1	0.028	1.1e-07	-0.1755	8.61e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01242_1Mwindow.wgt.RDat	LINC01242	9	29888933	30908452	0.3041		    NA		       NA	    NA	     NA	0	0	lasso	0.034	4.2e-09	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OSTF1_1Mwindow.wgt.RDat	OSTF1	9	77203430	78262181	0.0505	rs7029929	  2.89	rs2273770	 0.023147	 -5.68	 0.1791	468	1	top1	0.023	1.2e-06	-0.1791	8.58e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OMD_1Mwindow.wgt.RDat	OMD	9	94674662	95686753	0.0176	rs7874985	 -2.80	rs4744122	 0.002316	  4.84	 0.0653	377	2	enet	0.0066	0.0067	-0.2075	8.36e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SHC3_1Mwindow.wgt.RDat	SHC3	9	91120686	92293733	0.0274	rs10908892	 -3.17	rs7853231	 0.002626	  4.80	-1.6257	487	487	blup	0.007	0.0054	-0.3030	7.62e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CTNNAL1_1Mwindow.wgt.RDat	CTNNAL1	9	111204857	112275779	0.1122	rs13286453	 -2.60	rs1140064	 0.081561	  9.08	 0.7743	634	1	top1	0.082	9.1e-20	 0.7743	4.39e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SEC61B_1Mwindow.wgt.RDat	SEC61B	9	101484564	102492897	0.0392	rs1537504	  5.58	rs12336513	 0.020210	 -5.66	 0.9600	366	1	top1	0.02	5.6e-06	-0.9600	3.37e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNHG7_1Mwindow.wgt.RDat	SNHG7	9	139119046	140122636	0.1269		    NA		       NA	    NA	     NA	0	0	enet	0.066	3.8e-16	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRMO_1Mwindow.wgt.RDat	TRMO	9	100159137	101184782	0.0507	rs7850258	-21.51	rs1127703	 0.046984	  7.34	 6.9522	490	1	top1	0.047	6.2e-12	 6.9522	3.60e-12
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BICD2_1Mwindow.wgt.RDat	BICD2	9	94973645	96027115	0.0412	rs4078501	  3.20	rs2296080	 0.040583	  6.63	 1.4253	409	1	lasso	0.041	1.5e-10	 1.4253	1.54e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL12_1Mwindow.wgt.RDat	RPL12	9	129709953	130713685	0.1312	rs1887266	  3.95	rs2244468	 0.133612	-11.79	-1.2549	348	3	lasso	0.14	7.8e-34	 0.5665	5.71e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FOXD4_1Mwindow.wgt.RDat	FOXD4	9	0	618417	0.0269	rs10972564	 -2.07	rs12555266	 0.000231	  4.19	-0.6879	366	366	blup	0.0033	0.04	 0.2571	7.97e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLC25A51_1Mwindow.wgt.RDat	SLC25A51	9	37377572	38404124	0.029	rs1325918	  3.06	rs3827515	 0.003828	  3.94	-1.2141	532	532	blup	0.012	0.00041	 0.3419	7.32e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PMPCA_1Mwindow.wgt.RDat	PMPCA	9	138805110	139818213	0.0375	rs7860634	 -3.05	rs3829112	 0.012103	  4.48	-0.3917	304	1	top1	0.012	0.00036	-0.3917	6.95e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TLE4_1Mwindow.wgt.RDat	TLE4	9	81686880	82841797	0.0387	rs1688964	  2.35	rs10867409	 0.019475	  5.57	 0.5625	561	2	enet	0.02	5.7e-06	 0.4858	6.27e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HELLS_1Mwindow.wgt.RDat	HELLS	10	95805545	96861856	0.0424	rs2860746	 2.74	rs7921420	 3.89e-03	 4.41	 0.6169	372	2	enet	0.016	5.5e-05	 0.6669	0.5048
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS24_1Mwindow.wgt.RDat	RPS24	10	79293621	80316564	0.0443	rs12415679	-3.24	rs2493568	 1.98e-03	-4.04	-1.4873	496	496	blup	0.0099	0.0012	-0.0739	0.9411
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NCOA4_1Mwindow.wgt.RDat	NCOA4	10	51065199	52090734	0.0141	rs2338050	-3.27	rs2611513	 1.15e-02	-3.73	-0.8945	120	1	top1	0.011	0.0005	 0.8945	0.3711
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SH3PXD2A_1Mwindow.wgt.RDat	SH3PXD2A	10	104853784	106115334	0.0222	rs7898224	 3.04	rs11191839	-7.42e-04	-4.20	 0.2910	470	470	blup	0.0046	0.02	-0.5017	0.6159
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GSTO1_1Mwindow.wgt.RDat	GSTO1	10	105513931	106527213	0.0257	rs7898224	 3.04	rs4917404	 5.01e-03	 4.21	 0.0105	417	417	blup	0.012	0.00033	-0.0765	0.9391
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VCL_1Mwindow.wgt.RDat	VCL	10	75257874	76381121	0.038	rs2227551	-2.96	rs4745740	 9.16e-06	-4.16	 0.9407	243	243	blup	0.015	9.1e-05	 0.5333	0.5938
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SAR1A_1Mwindow.wgt.RDat	SAR1A	10	71407045	72430270	0.043	rs1053105	-3.74	rs9971029	 1.21e-02	-4.14	-2.7819	703	1	top1	0.012	0.00037	 2.7819	0.0054
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM254_1Mwindow.wgt.RDat	TMEM254	10	81338421	82352307	0.0246	rs4255480	-2.59	rs1923541	 3.12e-04	-2.90	 1.7206	356	356	blup	0.0043	0.023	-1.0502	0.2936
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ENTPD7_1Mwindow.wgt.RDat	ENTPD7	10	100919266	101970998	0.0456	rs6584283	 5.43	rs11190151	 1.92e-03	 3.92	 0.9299	457	457	blup	0.0027	0.058	 0.2370	0.8127
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BTRC_1Mwindow.wgt.RDat	BTRC	10	102613922	103817070	0.044	rs6584453	-3.31	rs633384	-3.55e-04	 3.47	-0.7540	403	403	blup	0.0054	0.013	-1.7065	0.0879
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PPA1_1Mwindow.wgt.RDat	PPA1	10	71462591	72493185	0.0416	rs1053105	-3.74	rs10509321	 3.46e-02	 6.29	-2.5726	702	1	top1	0.035	3.6e-09	-2.5726	0.0101
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF32-AS2_1Mwindow.wgt.RDat	ZNF32-AS2	10	43641390	44643467	0.0508		   NA		       NA	   NA	     NA	0	0	lasso	0.02	6.7e-06	     NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.STOX1_1Mwindow.wgt.RDat	STOX1	10	70087288	71155188	0.0481	rs10998754	 3.38	rs12268631	 1.70e-02	 5.62	-0.8186	432	432	blup	0.025	5.4e-07	-0.7068	0.4797
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ADARB2_1Mwindow.wgt.RDat	ADARB2	10	723253	2279719	0.0528	rs7096088	 3.82	rs4145044	-9.66e-04	 7.00	 0.4320	1004	1004	blup	0.00032	0.25	-1.3613	0.1734
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MCMBP_1Mwindow.wgt.RDat	MCMBP	10	121088952	122133093	0.0289	rs915110	-3.42	rs10749330	 1.50e-02	 4.78	-0.4298	501	1	top1	0.015	8.1e-05	-0.4298	0.6673
+B_naive	RA_only/B_naive_5pcs_all/B_naive.STK32C_1Mwindow.wgt.RDat	STK32C	10	133520986	134645384	0.0399	rs7893611	-3.69	rs10870290	 1.01e-02	 5.03	 1.0661	482	482	blup	0.018	2e-05	-1.8407	0.0657
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ACTA2-AS1_1Mwindow.wgt.RDat	ACTA2-AS1	10	90192441	91199731	0.0534	rs4406737	 5.31	rs7904718	 1.29e-02	 6.72	 0.1655	536	1	lasso	0.036	2.2e-09	 0.1655	0.8686
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00856_1Mwindow.wgt.RDat	LINC00856	10	79508382	80512402	0.0359		   NA		       NA	   NA	     NA	0	0	lasso	0.12	4.9e-29	     NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PAOX_1Mwindow.wgt.RDat	PAOX	10	134692766	135705198	0.0361	rs4880285	 2.24	rs11146076	 4.12e-04	-3.56	 1.6523	329	329	blup	0.0053	0.013	 0.1045	0.9167
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SKIDA1_1Mwindow.wgt.RDat	SKIDA1	10	21302404	22314611	0.0265	rs11012496	-2.87	rs7903144	 5.14e-04	 5.08	-0.9337	270	1	top1	0.00051	0.22	-0.9337	0.3505
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARL14EP_1Mwindow.wgt.RDat	ARL14EP	11	29844651	30859770	0.0359	rs3824982	 2.44	rs7951928	 4.02e-02	-6.01	-0.1262	398	1	top1	0.04	2e-10	 0.1262	0.899574
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02716_1Mwindow.wgt.RDat	LINC02716	11	45292983	46293909	0.0374	rs991986	 2.33	rs7109158	-8.60e-04	 5.15	-0.6994	396	396	blup	-0.00029	0.4	-0.3301	0.741296
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TNNI2_1Mwindow.wgt.RDat	TNNI2	11	1360211	2362908	0.0371	rs2074023	 4.07	rs7115056	-9.13e-04	 3.54	-0.4003	461	461	blup	0.0057	0.011	 0.4692	0.638906
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM111A_1Mwindow.wgt.RDat	FAM111A	11	58410329	59422512	0.0303	rs480352	-2.73	rs11229895	-1.04e-03	 3.73	-0.6693	281	281	blup	0.0087	0.0021	-1.0945	0.273715
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EEF1G_1Mwindow.wgt.RDat	EEF1G	11	61827068	62841363	0.0556	rs7942991	 3.71	rs2509961	 4.19e-02	 6.82	 2.8490	375	1	top1	0.042	8.3e-11	 2.8490	0.004386
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL27A_1Mwindow.wgt.RDat	RPL27A	11	8204339	9211419	0.0261	rs2568031	 2.66	rs1079452	 2.99e-03	 4.33	 0.8207	485	485	blup	0.0042	0.024	 0.3387	0.734863
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OR4D11_1Mwindow.wgt.RDat	OR4D11	11	58771049	59771984	0.018		   NA		       NA	   NA	     NA	0	0	lasso	0.1	2.1999999999999996e-24	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CSTF3-DT_1Mwindow.wgt.RDat	CSTF3-DT	11	32683203	33713144	0.0382	rs2761197	 2.71	rs16923830	 1.55e-03	 4.13	 0.2036	303	1	top1	0.0015	0.11	 0.2036	0.838666
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NAA40_1Mwindow.wgt.RDat	NAA40	11	63206474	64224791	0.0168	rs479777	-6.07	rs10897466	-9.72e-06	 3.99	-0.2249	303	303	blup	0.0069	0.0055	-0.4191	0.675107
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C11orf24_1Mwindow.wgt.RDat	C11orf24	11	67528806	68539441	0.0485	rs308309	-3.26	rs10896313	 3.47e-02	 6.50	-0.4141	283	1	top1	0.035	3.5e-09	-0.4141	0.678801
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GAB2_1Mwindow.wgt.RDat	GAB2	11	77426339	78628866	0.0336	rs530588	 2.96	rs7925034	 8.54e-03	 3.99	-0.7422	440	440	blup	0.011	0.00071	-0.0218	0.982621
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZBTB16_1Mwindow.wgt.RDat	ZBTB16	11	113430433	114627492	0.0385	rs397461	-3.37	rs585287	 9.44e-03	 4.40	 1.1997	612	4	enet	0.012	0.00035	 0.3161	0.751918
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GRM5-AS1_1Mwindow.wgt.RDat	GRM5-AS1	11	87737744	88757222	0.1264		   NA		       NA	   NA	     NA	0	0	enet	-0.00088	0.69	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CAT_1Mwindow.wgt.RDat	CAT	11	33960481	34993607	0.0314	rs10836279	 2.77	rs12789531	 1.59e-03	-3.89	-1.3650	582	582	blup	0.013	0.00019	 0.6526	0.513987
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BEST1_1Mwindow.wgt.RDat	BEST1	11	61217293	62232987	0.0369	rs174574	-6.73	rs11230906	 5.30e-04	 3.73	-0.4847	443	443	blup	0.0062	0.0083	-0.9167	0.359281
+B_naive	RA_only/B_naive_5pcs_all/B_naive.XRRA1_1Mwindow.wgt.RDat	XRRA1	11	74051955	75160136	0.1489	rs2119028	 3.90	rs7396866	 1.94e-01	13.70	 3.7924	494	7	enet	0.2	1e-47	 3.3339	0.000856
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PAX6_1Mwindow.wgt.RDat	PAX6	11	31310574	32339509	0.0375		   NA		       NA	   NA	     NA	0	0	lasso	0.0031	0.045	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TAGLN_1Mwindow.wgt.RDat	TAGLN	11	116570010	117578181	0.0446	rs12271161	-6.43	rs9326248	 1.96e-02	-6.07	-2.1509	540	3	enet	0.031	1.8e-08	 2.8656	0.004162
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FADS2_1Mwindow.wgt.RDat	FADS2	11	61083675	62134826	0.0746		   NA		       NA	   NA	     NA	0	0	enet	0.077	7.8e-19	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.THAP12_1Mwindow.wgt.RDat	THAP12	11	75561000	76592176	0.0319	rs10899269	-4.58	rs663746	 9.40e-03	 4.48	 0.1037	460	1	top1	0.0094	0.0015	 0.1037	0.917407
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VWA5A_1Mwindow.wgt.RDat	VWA5A	11	123486157	124518428	0.0259	rs1617377	 2.71	rs546658	 1.65e-02	-4.29	-1.2351	590	1	top1	0.016	3.8e-05	 1.2351	0.216793
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MRPL21_1Mwindow.wgt.RDat	MRPL21	11	68158746	69171300	0.0345	rs1060435	-2.90	rs10896384	-1.53e-04	-3.94	-0.0674	395	395	blup	0.016	5.4e-05	-1.4869	0.137031
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPLP2_1Mwindow.wgt.RDat	RPLP2	11	309967	1312876	0.0522	rs11246068	-5.55	rs10902222	 3.73e-02	 5.36	-0.3589	395	1	top1	0.037	8.8e-10	-0.3589	0.719670
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SF1_1Mwindow.wgt.RDat	SF1	11	64032078	65046014	0.0438	rs479777	-6.07	rs2073798	 6.96e-03	 4.19	-1.1713	348	348	blup	0.025	5.2e-07	-0.9009	0.367618
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRMT112_1Mwindow.wgt.RDat	TRMT112	11	63583932	64586068	0.0314	rs479777	-6.07	rs4930702	-9.32e-04	-3.92	 3.1981	347	347	blup	0.013	0.00022	-2.7130	0.006668
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGHMBP2_1Mwindow.wgt.RDat	IGHMBP2	11	68171359	69208069	0.0392	rs1060435	-2.90	rs10896384	 1.29e-02	 5.36	-0.0674	410	410	blup	0.015	8e-05	 1.1307	0.258200
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KCTD21-AS1_1Mwindow.wgt.RDat	KCTD21-AS1	11	77350839	78385023	0.0273	rs530588	 2.96	rs1144764	 1.82e-02	-5.26	-0.4354	351	1	top1	0.018	1.6e-05	 0.4354	0.663272
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM41B_1Mwindow.wgt.RDat	TMEM41B	11	8802201	9836140	0.016	rs10118	-3.49	rs10840170	-2.45e-04	-3.52	 0.5290	390	390	blup	0.0097	0.0013	-0.7552	0.450135
+B_naive	RA_only/B_naive_5pcs_all/B_naive.P4HA3_1Mwindow.wgt.RDat	P4HA3	11	73477702	74522685	0.0569	rs11236236	 3.59	rs869616	 2.38e-02	 5.21	-1.2169	433	1	top1	0.024	9.1e-07	-1.2169	0.223642
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ADM_1Mwindow.wgt.RDat	ADM	11	9826620	10828944	0.0465	rs9292	 4.41	rs16908309	-1.04e-03	 3.78	-2.0180	479	479	blup	0.0025	0.064	 0.5840	0.559200
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02696_1Mwindow.wgt.RDat	LINC02696	11	44876922	45878208	0.0377	rs7129095	 2.42	rs1530872	 2.72e-02	 4.25	 0.7764	493	1	top1	0.027	1.6e-07	 0.7764	0.437513
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRIM66_1Mwindow.wgt.RDat	TRIM66	11	8133587	9204778	0.0287	rs4758295	 2.69	rs10840112	 1.80e-02	 4.62	-1.2170	512	1	top1	0.018	1.8e-05	-1.2170	0.223604
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS3_1Mwindow.wgt.RDat	RPS3	11	74610562	75633346	0.0823	rs2119028	 3.90	rs3094304	 3.28e-02	-6.32	 0.9472	436	1	top1	0.033	9e-09	-0.9472	0.343537
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM80_1Mwindow.wgt.RDat	TMEM80	11	195639	1205028	0.0251	rs3809112	-5.78	rs11246262	 9.29e-03	-4.34	 1.8355	454	1	top1	0.0093	0.0016	-1.8355	0.066432
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CHORDC1_1Mwindow.wgt.RDat	CHORDC1	11	89433597	90456217	0.0368	rs558562	-1.96	rs12361249	 4.65e-03	 3.81	 0.3419	281	281	blup	0.01	0.001	 0.6027	0.546722
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FEZ1_1Mwindow.wgt.RDat	FEZ1	11	124812777	125866161	0.0429	rs1783926	-2.56	rs494989	-5.86e-04	 3.79	-0.3252	554	3	enet	0.0032	0.044	-0.5782	0.563122
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HEPHL1_1Mwindow.wgt.RDat	HEPHL1	11	93254520	94347374	0.1612	rs12793348	-5.26	rs504207	-9.42e-04	 5.60	-0.6116	452	452	blup	-0.0007	0.57	 1.0495	0.293967
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TIMM10_1Mwindow.wgt.RDat	TIMM10	11	56795937	57798227	0.0205	rs2250887	-3.64	rs731384	 2.75e-03	-4.54	-0.5325	380	380	blup	0.011	0.00082	-2.0550	0.039881
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IL10RA_1Mwindow.wgt.RDat	IL10RA	11	117357109	118373752	0.0365	rs12576486	 3.82	rs3741311	-6.81e-04	-3.17	-1.6261	611	611	blup	0.009	0.0019	-0.3409	0.733196
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LDLRAD3_1Mwindow.wgt.RDat	LDLRAD3	11	35465612	36753686	0.0375	rs4755450	-3.57	rs16928973	-9.23e-04	 4.53	-1.3052	720	1	lasso	-2.1e-05	0.32	-1.3052	0.191825
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RBM4_1Mwindow.wgt.RDat	RBM4	11	65906174	66935851	0.0254	rs513474	-3.17	rs1791682	 1.68e-03	-3.42	-0.8737	259	259	blup	0.0071	0.0051	-0.6666	0.505051
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LDHC_1Mwindow.wgt.RDat	LDHC	11	17933865	18973610	0.1459	rs2037868	-3.32	rs4757650	 1.56e-01	12.26	 1.2214	447	1	top1	0.16	1.1e-37	 1.2214	0.221935
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SIDT2_1Mwindow.wgt.RDat	SIDT2	11	116549459	117568158	0.0256	rs12271161	-6.43	rs1060211	 1.08e-02	-5.34	 1.2519	552	1	top1	0.011	0.00073	-1.2519	0.210606
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLC2A14_1Mwindow.wgt.RDat	SLC2A14	12	7465110	8543792	0.1165		   NA		       NA	   NA	     NA	 NA	0	top1	0.04	2.1e-10	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CORO1C_1Mwindow.wgt.RDat	CORO1C	12	108538885	109625294	0.124	rs7975237	 3.60	rs10746129	 0.101914	 9.18	 2.2873	476	1	top1	0.1	1.7e-24	 2.287	2.22e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF605_1Mwindow.wgt.RDat	ZNF605	12	132994892	134032892	0.0334	rs1050225	 2.87	rs4883536	 0.002370	 3.43	-0.9045	224	224	blup	0.011	0.00051	-1.246	2.13e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CLLU1_1Mwindow.wgt.RDat	CLLU1	12	92315307	93324778	0.0779	rs790722	 3.46	rs12580153	 0.061470	 8.32	 0.5224	467	1	top1	0.061	3.4e-15	 0.522	6.01e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TAPBPL_1Mwindow.wgt.RDat	TAPBPL	12	6060815	7071482	0.043		   NA		       NA	   NA	     NA	  0	0	lasso	0.023	1.1e-06	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IL26_1Mwindow.wgt.RDat	IL26	12	68095129	69119590	0.0401		   NA		       NA	   NA	     NA	  0	0	lasso	0.13	4.4000000000000004e-30	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PPFIBP1_1Mwindow.wgt.RDat	PPFIBP1	12	27177139	28348497	0.0276	rs1471407	-3.03	rs7971294	 0.018077	 4.39	-0.4681	591	1	top1	0.018	1.7e-05	-0.468	6.40e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01252_1Mwindow.wgt.RDat	LINC01252	12	11200964	12217337	0.037	rs1573612	 4.19	rs1650030	 0.018894	 5.21	 0.9056	426	1	top1	0.019	1.1e-05	 0.906	3.65e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TAS2R20_1Mwindow.wgt.RDat	TAS2R20	12	10648560	11650903	0.0171	rs17809421	 2.38	rs17817150	 0.019429	-5.20	-2.0906	387	1	top1	0.019	8.3e-06	 2.091	3.66e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NT5DC3_1Mwindow.wgt.RDat	NT5DC3	12	103666088	104735012	0.0591	rs1320344	 7.62	rs11111790	 0.041042	 6.99	 0.2595	611	1	top1	0.041	1.3e-10	 0.260	7.95e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02422_1Mwindow.wgt.RDat	LINC02422	12	31529903	32540137	0.0333	rs1797779	-3.54	rs1666204	 0.018131	-5.21	-1.2897	535	1	top1	0.018	1.6e-05	 1.290	1.97e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ATP23_1Mwindow.wgt.RDat	ATP23	12	57835350	58852931	0.0214	rs11172254	-3.61	rs7299249	 0.017711	-4.89	-1.0254	417	1	top1	0.018	2e-05	 1.025	3.05e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00940_1Mwindow.wgt.RDat	LINC00940	12	1538368	2545742	0.0529		   NA		       NA	   NA	     NA	  0	0	lasso	0.014	0.00014	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MAP3K12_1Mwindow.wgt.RDat	MAP3K12	12	53373453	54393242	0.0441	rs2364598	 3.01	rs10876447	 0.022625	 6.05	-0.6294	387	387	blup	0.035	2.4e-09	-0.772	4.40e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IQSEC3_1Mwindow.wgt.RDat	IQSEC3	12	0	787621	0.037		   NA		       NA	   NA	     NA	  0	0	lasso	-0.00075	0.6	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC02392_1Mwindow.wgt.RDat	LINC02392	12	90187095	91194475	0.2097	rs1897382	-2.33	rs17783100	-0.000992	 6.32	-0.1003	339	1	top1	-0.00099	0.83	-0.100	9.20e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CLEC2D_1Mwindow.wgt.RDat	CLEC2D	12	9322309	10352149	0.0524		   NA		       NA	   NA	     NA	  0	0	enet	0.046	8.3e-12	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KLRK1_1Mwindow.wgt.RDat	KLRK1	12	10024952	11042640	0.1318	rs6488258	 4.08	rs11053802	 0.131363	11.47	 0.1817	509	1	top1	0.13	1.5999999999999999e-31	 0.182	8.56e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DDX11_1Mwindow.wgt.RDat	DDX11	12	30726794	31757733	0.049		   NA		       NA	   NA	     NA	  0	0	lasso	0.054	1.3e-13	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KDM5A_1Mwindow.wgt.RDat	KDM5A	12	0	998486	0.03	rs7136756	 3.91	rs1500105	-0.000696	 3.72	-0.0001	371	371	blup	0.0048	0.018	-1.994	4.62e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KRR1_1Mwindow.wgt.RDat	KRR1	12	75384643	76405389	0.0646	rs11180766	 2.83	rs11540407	 0.028985	 5.82	-0.3843	510	510	blup	0.029	5.4e-08	-1.849	6.45e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ASB8_1Mwindow.wgt.RDat	ASB8	12	48041572	49051298	0.0316	rs11830537	 4.46	rs7299704	 0.000961	 3.44	-0.1077	498	498	blup	0.0068	0.006	 0.258	7.96e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IRAK3_1Mwindow.wgt.RDat	IRAK3	12	66082994	67148402	0.044	rs11176385	 3.15	rs1168745	 0.029392	 5.88	 0.7321	508	1	top1	0.029	5.1e-08	 0.732	4.64e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SOAT2_1Mwindow.wgt.RDat	SOAT2	12	52997270	54018319	0.0812	rs7296390	-3.15	rs11170242	 0.078795	 4.49	 1.3584	490	1	top1	0.079	3.9e-19	 1.358	1.74e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GLIPR1L1_1Mwindow.wgt.RDat	GLIPR1L1	12	75228450	76264340	0.0355	rs10735984	 2.82	rs7485576	 0.000176	 3.09	 1.7170	454	454	blup	0.0059	0.0096	 0.467	6.41e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CLLU1-AS1_1Mwindow.wgt.RDat	CLLU1-AS1	12	92313862	93326775	0.2538	rs790722	 3.46	rs12580153	 0.221959	14.63	 0.5224	469	1	top1	0.22	1.1999999999999999e-54	 0.522	6.01e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PRR4_1Mwindow.wgt.RDat	PRR4	12	10498448	11502074	0.0325	rs17809421	 2.38	rs16925785	 0.019490	 5.07	-1.1330	389	1	top1	0.019	8.1e-06	-1.133	2.57e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SPSB2_1Mwindow.wgt.RDat	SPSB2	12	6480099	7482467	0.0295	rs4764622	 3.63	rs5446	 0.022950	 4.67	 1.6230	199	1	top1	0.023	1.4e-06	 1.623	1.05e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ERGIC2_1Mwindow.wgt.RDat	ERGIC2	12	28990285	30034105	0.0266	rs2054438	 3.28	rs4931148	-0.000769	 3.63	-1.0824	593	593	blup	0.012	0.00035	-0.310	7.56e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MMP17_1Mwindow.wgt.RDat	MMP17	12	131812938	132836316	0.0262	rs12367271	 2.72	rs4964924	 0.009302	 4.28	-0.1259	408	1	top1	0.0093	0.0016	-0.126	9.00e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C12orf43_1Mwindow.wgt.RDat	C12orf43	12	120938289	121954290	0.0356	rs3213566	 4.36	rs4767915	-0.000198	 3.95	-2.5703	458	458	blup	0.0067	0.0063	 0.359	7.20e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ESPL1_1Mwindow.wgt.RDat	ESPL1	12	53162083	54187422	0.026	rs2364598	 3.01	rs902774	-0.000822	 3.66	 1.2298	422	422	blup	0.0034	0.038	 0.411	6.81e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS26_1Mwindow.wgt.RDat	RPS26	12	55935702	56938481	0.5513	rs705698	 6.37	rs10876864	 0.736514	26.26	 6.0408	257	1	lasso	0.74	3e-281	 6.108	1.01e-09
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GLIPR1_1Mwindow.wgt.RDat	GLIPR1	12	75374535	76397643	0.0311	rs11180766	 2.83	rs4882626	-0.000809	-3.54	 0.0137	501	501	blup	0.018	1.9e-05	 0.987	3.23e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IFNG-AS1_1Mwindow.wgt.RDat	IFNG-AS1	12	67883225	68915107	0.077	rs7134599	-4.68	rs10878726	 0.030635	 6.14	-2.1736	587	8	enet	0.035	2.3e-09	-2.757	5.83e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SMIM2_1Mwindow.wgt.RDat	SMIM2	13	44217286	45235393	0.1108		   NA		     NA	   NA	    NA	0	0	lasso	0.12	3.7e-29	    NA	   NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GJB6_1Mwindow.wgt.RDat	GJB6	13	20296101	21306458	0.0629	rs7993500	-3.06	rs9315627	0.01223	 5.14	-1.088	424	1	enet	0.024	8e-07	-0.161	0.872
+B_naive	RA_only/B_naive_5pcs_all/B_naive.COMMD6_1Mwindow.wgt.RDat	COMMD6	13	75599350	76623575	0.0865	rs2297208	-3.68	rs9634729	0.07515	-9.30	-1.399	545	1	top1	0.075	2.7e-18	 1.399	0.162
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EBPL_1Mwindow.wgt.RDat	EBPL	13	49734810	50765623	0.0565	rs2066632	 4.99	rs7982132	0.01869	-4.89	-1.744	401	4	enet	0.021	4.8e-06	 0.937	0.349
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCDC122_1Mwindow.wgt.RDat	CCDC122	13	43910488	44953876	0.036	rs2325033	 2.75	rs12874590	0.02000	 5.22	 1.228	541	1	top1	0.02	6.2e-06	 1.228	0.219
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARL11_1Mwindow.wgt.RDat	ARL11	13	49702643	50708008	0.0383	rs9316484	 4.48	rs9535274	0.03475	 6.32	-0.923	376	1	top1	0.035	3.3e-09	-0.923	0.356
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ITM2B_1Mwindow.wgt.RDat	ITM2B	13	48307342	49344493	0.0475	rs17071331	-2.69	rs1323555	0.00896	-5.15	 0.184	349	2	enet	0.012	0.00044	-0.986	0.324
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SUGT1-DT_1Mwindow.wgt.RDat	SUGT1-DT	13	52725440	53726442	0.0138	rs9527036	 2.55	rs28756262	0.00151	-3.69	-0.422	399	399	blup	0.0066	0.0066	 0.301	0.763
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00384_1Mwindow.wgt.RDat	LINC00384	13	30226023	31227211	0.1081	rs7333892	 3.42	rs2038936	0.01723	 6.23	 1.255	493	1	lasso	0.031	2.5e-08	 1.255	0.209
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EPSTI1_1Mwindow.wgt.RDat	EPSTI1	13	42960524	44066377	0.0577	rs9594759	-7.71	rs3825511	0.01823	 5.76	 0.798	626	3	enet	0.033	6.9e-09	 1.040	0.298
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DNAJC15_1Mwindow.wgt.RDat	DNAJC15	13	43097722	44188349	0.0465	rs4941432	 6.37	rs17553284	0.04746	-7.65	-0.924	624	1	lasso	0.053	2.9e-13	 0.924	0.355
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GAS6-AS1_1Mwindow.wgt.RDat	GAS6-AS1	13	114018583	115045814	0.0449	rs3895392	-3.74	rs11843762	0.04539	 6.67	-0.457	341	1	top1	0.045	1.4e-11	-0.457	0.648
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM253_1Mwindow.wgt.RDat	TMEM253	14	21066995	22071883	0.0753	rs11628702	 3.50	rs1243449	-0.000956	 6.56	-0.127	463	1	lasso	-0.00058	0.51	-0.1268	0.89910
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OR4Q3_1Mwindow.wgt.RDat	OR4Q3	14	19715587	20716528	0.4014		   NA		       NA	   NA	    NA	0	0	enet	-0.00018	0.36	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DLK1_1Mwindow.wgt.RDat	DLK1	14	100693229	101704561	0.0412		   NA		       NA	   NA	    NA	0	0	lasso	0.092	3.3e-22	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL36AL_1Mwindow.wgt.RDat	RPL36AL	14	49585248	50587344	0.035	rs7155104	-2.68	rs2985697	 0.033245	-6.44	-0.226	360	1	top1	0.033	7.1e-09	 0.2259	0.82128
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RIOX1_1Mwindow.wgt.RDat	RIOX1	14	73457638	74460098	0.0332	rs11159011	 3.31	rs4899468	-0.001014	-3.36	-0.486	355	355	blup	0.0061	0.0088	 0.2474	0.80462
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TRAV20_1Mwindow.wgt.RDat	TRAV20	14	22008909	23009399	0.8743	rs2331469	 3.22	rs17113205	-0.001037	 4.96	-0.684	661	661	blup	0.00031	0.25	 1.4731	0.14071
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TCL1B_1Mwindow.wgt.RDat	TCL1B	14	95652763	96658965	0.062	rs4905360	-3.05	rs1743519	 0.009638	 5.65	-0.354	712	1	lasso	0.037	8.6e-10	-0.3544	0.72304
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00642_1Mwindow.wgt.RDat	LINC00642	14	90421574	91425249	0.0443		   NA		       NA	   NA	    NA	0	0	lasso	0.12	1.4000000000000001e-28	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RNASE6_1Mwindow.wgt.RDat	RNASE6	14	20749427	21750626	0.1114	rs1953551	 4.35	rs4982347	 0.072257	 6.14	-0.570	566	2	enet	0.074	3.9e-18	 0.9607	0.33672
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SCFD1_1Mwindow.wgt.RDat	SCFD1	14	30591460	31705056	0.029	rs17097458	-2.56	rs2070340	 0.004990	-4.32	 0.376	355	355	blup	0.01	0.0011	-0.5451	0.58567
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TC2N_1Mwindow.wgt.RDat	TC2N	14	91746090	92833880	0.0733	rs3814833	-2.85	rs12891090	 0.030912	 6.19	 0.668	487	487	blup	0.038	6.6e-10	 0.6833	0.49440
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CFL2_1Mwindow.wgt.RDat	CFL2	14	34678319	35683799	0.0351	rs11156868	-4.23	rs6571682	 0.006588	 4.53	 0.923	397	1	enet	0.018	1.4e-05	 1.4097	0.15863
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DHRS4L2_1Mwindow.wgt.RDat	DHRS4L2	14	23939083	24975617	0.0311	rs17184829	-2.58	rs11626721	-0.000227	 3.81	-1.916	473	473	blup	0.015	6.3e-05	-0.6255	0.53168
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CDKN3_1Mwindow.wgt.RDat	CDKN3	14	54363725	55386936	0.0276	rs4901530	-2.91	rs10483634	-0.001038	 4.15	-0.103	447	447	blup	0.0026	0.06	-0.3456	0.72964
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PCNX1_1Mwindow.wgt.RDat	PCNX1	14	70874176	72082099	0.0227	rs8023177	-2.40	rs36555	 0.003656	-3.51	 0.142	441	1	top1	0.0037	0.033	-0.1425	0.88669
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IFI27L2_1Mwindow.wgt.RDat	IFI27L2	14	94094118	95095941	0.035	rs10131610	 3.43	rs878554	-0.001021	 3.16	 1.987	717	717	blup	0.0048	0.017	 1.2205	0.22227
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SYNE2_1Mwindow.wgt.RDat	SYNE2	14	63819722	65193167	0.0288		   NA		       NA	   NA	    NA	0	0	enet	0.026	2.3e-07	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.WARS1_1Mwindow.wgt.RDat	WARS1	14	100300127	101342664	0.1565	rs7156824	 3.45	rs12882934	 0.228563	14.97	 1.664	429	2	lasso	0.23	1.1e-56	 1.7300	0.08362
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FOS_1Mwindow.wgt.RDat	FOS	14	75245531	76248933	0.0298	rs7303	-4.05	rs12323563	 0.001388	-4.53	 0.207	383	1	top1	0.0014	0.13	-0.2074	0.83570
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DLGAP5_1Mwindow.wgt.RDat	DLGAP5	14	55114853	56158303	0.2848	rs9323285	 3.46	rs8009660	 0.033816	 8.99	 0.428	409	1	top1	0.034	5.3e-09	 0.4283	0.66843
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DYNC1H1_1Mwindow.wgt.RDat	DYNC1H1	14	101930910	103022780	0.0197	rs10134976	 3.41	rs7153402	 0.000439	-3.51	-0.757	343	343	blup	0.0061	0.0088	-0.0683	0.94553
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPPH1_1Mwindow.wgt.RDat	RPPH1	14	20311230	21311570	0.0386		   NA		       NA	   NA	    NA	0	0	lasso	0.0047	0.019	     NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TCL1A_1Mwindow.wgt.RDat	TCL1A	14	95676284	96680462	0.0536	rs4905360	-3.05	rs11849747	-0.001014	-3.92	 0.602	712	712	blup	0.01	0.001	-2.6368	0.00837
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZFP36L1_1Mwindow.wgt.RDat	ZFP36L1	14	68754372	69762960	0.0466	rs7150988	-5.43	rs7142145	 0.001412	-4.63	-1.542	618	618	blup	0.011	0.00052	-0.6278	0.53011
+B_naive	RA_only/B_naive_5pcs_all/B_naive.USP3-AS1_1Mwindow.wgt.RDat	USP3-AS1	15	63379909	64393026	0.0229	rs8033658	-4.17	rs11630720	-1.04e-03	  3.66	 2.6056	380	380	blup	0.00088	0.17	 1.5107	0.130867
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS17_1Mwindow.wgt.RDat	RPS17	15	82705501	83709208	0.1029	rs11633991	 3.05	rs803686	 1.25e-01	-11.42	-1.3164	183	2	lasso	0.13	7.000000000000001e-31	 1.1996	0.230280
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BCL2A1_1Mwindow.wgt.RDat	BCL2A1	15	79753234	80763538	0.1555	rs3848206	 3.14	rs1074979	 1.61e-01	 12.33	-0.6211	583	1	top1	0.16	9.1e-39	-0.6211	0.534534
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NGRN_1Mwindow.wgt.RDat	NGRN	15	90308895	91315443	0.0896		   NA		       NA	    NA	     NA	  0	0	lasso	0.044	2.8e-11	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SPATA5L1_1Mwindow.wgt.RDat	SPATA5L1	15	45194534	46213613	0.019	rs12148892	-2.19	rs872192	 3.05e-04	  3.86	 1.6800	342	342	blup	0.0083	0.0027	 0.8739	0.382175
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GOLGA8O_1Mwindow.wgt.RDat	GOLGA8O	15	32234115	33247835	0.0292	rs11635135	-3.34	rs1258732	-9.41e-04	  4.14	-1.0557	334	334	blup	0.0074	0.0043	-1.2731	0.202977
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RSL24D1_1Mwindow.wgt.RDat	RSL24D1	15	54973004	55989139	0.0258	rs1014597	 2.92	rs28589384	 2.68e-03	  4.25	-1.3460	448	448	blup	0.013	0.00029	 0.5928	0.553324
+B_naive	RA_only/B_naive_5pcs_all/B_naive.APBA2_1Mwindow.wgt.RDat	APBA2	15	28631120	29910518	0.02		   NA		       NA	    NA	     NA	  0	0	lasso	0.002	0.088	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GABPB1-AS1_1Mwindow.wgt.RDat	GABPB1-AS1	15	50146371	51150509	0.1333		   NA		       NA	    NA	     NA	  0	0	lasso	0.11	1.2e-25	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SAXO2_1Mwindow.wgt.RDat	SAXO2	15	82055159	83077268	0.0334	rs12915334	-2.53	rs9972386	 4.08e-02	  6.16	 0.5311	242	1	top1	0.041	1.5e-10	 0.5311	0.595349
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NPAP1_1Mwindow.wgt.RDat	NPAP1	15	24420922	25428540	0.011		   NA		       NA	    NA	     NA	  0	0	enet	0.00026	0.26	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GATM_1Mwindow.wgt.RDat	GATM	15	45153322	46194425	0.0314		   NA		       NA	    NA	     NA	  0	0	lasso	0.021	3e-06	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TSPAN3_1Mwindow.wgt.RDat	TSPAN3	15	76833745	77863451	0.047		   NA		       NA	    NA	     NA	  0	0	lasso	0.032	1.3e-08	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GOLGA6L6_1Mwindow.wgt.RDat	GOLGA6L6	15	20237094	21247114	0.0457		   NA		       NA	    NA	     NA	 NA	0	lasso	0.044	3.1e-11	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00926_1Mwindow.wgt.RDat	LINC00926	15	57092563	58099967	0.0244	rs16977631	-2.68	rs2440943	 2.02e-02	  4.06	-0.3040	462	1	top1	0.02	5.7e-06	-0.3040	0.761128
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ACAN_1Mwindow.wgt.RDat	ACAN	15	88846667	89918584	0.0493		   NA		       NA	    NA	     NA	  0	0	lasso	0.0014	0.13	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NDUFAF1_1Mwindow.wgt.RDat	NDUFAF1	15	41179551	42194694	0.0215	rs11630901	-4.21	rs1200345	-9.64e-04	 -3.10	-3.2586	300	300	blup	0.0036	0.034	 2.7326	0.006284
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MEGF11_1Mwindow.wgt.RDat	MEGF11	15	65687637	67046088	0.0313	rs8034534	 3.38	rs1549854	 5.34e-02	 -3.79	-1.2912	565	1	top1	0.053	2.2e-13	 1.2912	0.196634
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ANKDD1A_1Mwindow.wgt.RDat	ANKDD1A	15	64704101	65751033	0.0641	rs2277582	-3.70	rs871447	 4.05e-02	  7.04	 2.4725	289	1	top1	0.041	1.7e-10	 2.4725	0.013417
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GOLGA6L10_1Mwindow.wgt.RDat	GOLGA6L10	15	82429674	83439197	0.0224	rs11633991	 3.05	rs17507216	 3.79e-04	 -3.77	-0.1265	143	143	blup	0.0055	0.012	 0.0624	0.950266
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZFAND6_1Mwindow.wgt.RDat	ZFAND6	15	79852018	80930735	0.027	rs3848206	 3.14	rs12898642	-1.78e-05	  4.19	-1.0641	581	581	blup	0.0053	0.013	-2.1198	0.034020
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYO5A_1Mwindow.wgt.RDat	MYO5A	15	52099480	53321247	0.03	rs8034728	 2.55	rs4774633	 9.01e-03	 -4.10	 1.9299	468	468	blup	0.014	0.00013	-0.7588	0.447984
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RAD51-AS1_1Mwindow.wgt.RDat	RAD51-AS1	15	40485932	41487303	0.0167	rs8042729	-4.91	rs12593359	 1.54e-02	  5.00	-2.8602	290	1	top1	0.015	6.7e-05	-2.8602	0.004234
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FES_1Mwindow.wgt.RDat	FES	15	90927734	91939006	0.04	rs3803563	 3.41	rs17514846	 1.14e-03	 -4.24	-0.2543	467	5	enet	0.0099	0.0012	 1.2582	0.208304
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYO1E_1Mwindow.wgt.RDat	MYO1E	15	58924633	60165070	0.0528	rs2242321	-3.11	rs4369593	 3.01e-02	 -5.59	 0.5180	497	1	top1	0.03	3.5e-08	-0.5180	0.604458
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GOLGA6L1_1Mwindow.wgt.RDat	GOLGA6L1	15	22236246	23246002	0.065		   NA		       NA	    NA	     NA	  0	0	lasso	0.091	7.400000000000001e-22	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNX33_1Mwindow.wgt.RDat	SNX33	15	75440253	76454642	0.0847		   NA		       NA	    NA	     NA	  0	0	lasso	0.048	3.5e-12	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.AKAP13_1Mwindow.wgt.RDat	AKAP13	15	85423834	86792589	0.0384	rs17553790	-4.55	rs12438445	 1.33e-03	 -4.58	-0.0415	764	764	blup	0.01	0.00087	-3.5408	0.000399
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS2_1Mwindow.wgt.RDat	RPS2	16	1512059	2514827	0.0667		   NA		       NA	   NA	    NA	0	0	lasso	0.031	2.4e-08	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CDK10_1Mwindow.wgt.RDat	CDK10	16	89253097	90262762	0.0451		   NA		       NA	   NA	    NA	0	0	enet	0.018	1.7e-05	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TGFB1I1_1Mwindow.wgt.RDat	TGFB1I1	16	30983473	31989281	0.03	rs8056122	-3.17	rs9934336	 0.001506	 3.66	-2.791	247	247	blup	0.0077	0.0037	-2.397	0.01652
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DBNDD1_1Mwindow.wgt.RDat	DBNDD1	16	89571279	90586298	0.0457	rs8049897	-2.70	rs17178299	 0.025315	 6.17	-1.367	267	1	top1	0.025	4.1e-07	-1.366	0.17178
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TLCD3B_1Mwindow.wgt.RDat	TLCD3B	16	29535748	30547851	0.1405		   NA		       NA	   NA	    NA	0	0	lasso	0.086	8.7e-21	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MBTPS1_1Mwindow.wgt.RDat	MBTPS1	16	83587368	84650547	0.0677	rs12445007	-3.60	rs11149611	-0.000932	 3.43	-0.849	1007	1007	blup	0.013	0.00024	 0.214	0.83070
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL13_1Mwindow.wgt.RDat	RPL13	16	89127065	90133237	0.0527	rs8049897	-2.70	rs12709089	 0.034189	-6.30	-1.470	437	1	top1	0.034	4.4e-09	 1.470	0.14153
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYH11_1Mwindow.wgt.RDat	MYH11	16	15296992	16450885	0.056	rs2239322	-3.14	rs16967494	 0.035687	 7.25	 0.686	434	1	top1	0.036	2e-09	 0.686	0.49278
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01228_1Mwindow.wgt.RDat	LINC01228	16	79331732	80361047	0.0465		   NA		       NA	   NA	    NA	0	0	enet	-0.00033	0.41	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM204_1Mwindow.wgt.RDat	TMEM204	16	1078679	2105569	0.1526	rs1057610	 4.43	rs2294623	 0.102053	10.65	 3.115	453	2	lasso	0.1	1.0000000000000001e-24	 3.115	0.00184
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TUFM_1Mwindow.wgt.RDat	TUFM	16	28353732	29357669	0.0412	rs151229	 4.83	rs12928404	 0.072471	 8.67	 2.170	167	1	top1	0.072	1.1e-17	 2.170	0.03004
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SETD6_1Mwindow.wgt.RDat	SETD6	16	58049383	59057746	0.0661	rs16960664	-3.73	rs151815	 0.042882	 6.63	-0.443	452	452	blup	0.045	1.7e-11	-0.821	0.41138
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TERB1_1Mwindow.wgt.RDat	TERB1	16	66288543	67335487	0.0213	rs16957304	 5.50	rs9926649	-0.000549	 4.75	-2.302	345	345	blup	0.0017	0.11	-0.510	0.60997
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FANCA_1Mwindow.wgt.RDat	FANCA	16	89303957	90383055	0.042	rs8049897	-2.70	rs16965867	 0.006128	 3.88	 1.446	380	380	blup	0.019	9.3e-06	 0.596	0.55108
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NME4_1Mwindow.wgt.RDat	NME4	16	0	950754	0.0536	rs2288490	 3.54	rs4984871	 0.033583	 6.46	 0.319	330	330	blup	0.038	7.3e-10	-1.294	0.19580
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HEATR3_1Mwindow.wgt.RDat	HEATR3	16	49599881	50641183	0.0212		   NA		       NA	   NA	    NA	0	0	lasso	0.0046	0.02	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CIAO3_1Mwindow.wgt.RDat	CIAO3	16	279765	1290997	0.0354	rs3751668	 2.77	rs6600231	 0.013803	 4.00	 0.206	386	1	top1	0.014	0.00015	 0.206	0.83703
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF778_1Mwindow.wgt.RDat	ZNF778	16	88784111	89803549	0.0377	rs747232	 3.93	rs555191	-0.000774	 4.07	-0.648	398	398	blup	0.017	3.5e-05	-0.165	0.86906
+B_naive	RA_only/B_naive_5pcs_all/B_naive.BBS2_1Mwindow.wgt.RDat	BBS2	16	56004315	57053936	0.0346	rs4538013	-3.77	rs4783955	 0.000141	 3.71	-2.655	504	504	blup	0.0022	0.075	-0.998	0.31813
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DOK4_1Mwindow.wgt.RDat	DOK4	16	57005834	58021234	0.0363	rs7192652	 5.19	rs637718	-0.001036	 3.75	 0.400	563	563	blup	0.0048	0.017	-0.705	0.48112
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PRSS33_1Mwindow.wgt.RDat	PRSS33	16	2333954	3337916	0.0315	rs2107321	-4.90	rs12443553	 0.002119	 6.12	-0.758	258	1	top1	0.0021	0.081	-0.758	0.44851
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MARVELD3_1Mwindow.wgt.RDat	MARVELD3	16	71160087	72175868	0.0578	rs7202840	 2.38	rs4149497	 0.011156	 5.35	-0.408	425	425	blup	0.019	1.1e-05	-1.792	0.07305
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NPIPA9_1Mwindow.wgt.RDat	NPIPA9	16	17951947	18968028	0.0202	rs2106949	-2.42	rs2471431	-0.000378	 4.08	-1.998	109	1	top1	-0.00038	0.43	-1.998	0.04576
+B_naive	RA_only/B_naive_5pcs_all/B_naive.COTL1_1Mwindow.wgt.RDat	COTL1	16	84099202	85151684	0.055	rs2934467	 3.65	rs2018540	 0.036059	-6.18	-0.257	846	1	top1	0.036	1.7e-09	 0.257	0.79687
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RMI2_1Mwindow.wgt.RDat	RMI2	16	10939316	11945617	0.0486	rs7501308	 5.14	rs7191700	 0.033409	 5.29	-1.733	481	1	top1	0.033	6.5e-09	-1.733	0.08313
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NPIPB2_1Mwindow.wgt.RDat	NPIPB2	16	11521120	12570500	0.0374	rs12926451	-3.47	rs8045634	 0.007683	 6.06	 1.626	471	1	enet	0.017	2.3e-05	 1.626	0.10393
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TMEM199_1Mwindow.wgt.RDat	TMEM199	17	26184670	27190705	0.0248	rs11545699	 3.80	rs7213268	-0.000806	-3.42	 0.621	245	245	blup	0.0025	0.067	-1.11521	0.264762
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PYCR1_1Mwindow.wgt.RDat	PYCR1	17	79390267	80395176	0.0341		   NA		       NA	   NA	    NA	0	0	enet	0.0031	0.047	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NME1_1Mwindow.wgt.RDat	NME1	17	48730920	49739529	0.0287	rs4794227	 2.82	rs16949649	 0.019668	 5.22	 0.986	412	1	top1	0.02	7.4e-06	 0.98620	0.324035
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HOXB2_1Mwindow.wgt.RDat	HOXB2	17	46120017	47122471	0.061	rs10514943	 4.07	rs1042815	 0.021656	-6.03	 1.030	410	6	enet	0.032	1.5e-08	 0.03876	0.969079
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EIF5A_1Mwindow.wgt.RDat	EIF5A	17	6710318	7715782	0.2404	rs35776863	 8.46	rs4796398	 0.214055	14.41	-1.656	427	1	top1	0.21	1.6e-52	-1.65600	0.097722
+B_naive	RA_only/B_naive_5pcs_all/B_naive.G6PC1_1Mwindow.wgt.RDat	G6PC1	17	40552816	41566455	0.0452		   NA		       NA	   NA	    NA	0	0	lasso	0.061	3.7e-15	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GAA_1Mwindow.wgt.RDat	GAA	17	77575380	78593680	0.0457	rs4318264	-2.58	rs12451471	 0.014758	-4.76	-0.269	406	406	blup	0.023	1.3e-06	 0.77290	0.439585
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PLD6_1Mwindow.wgt.RDat	PLD6	17	16604309	17609647	0.0372	rs12940014	-3.26	rs4985714	 0.016047	 5.80	 2.257	344	344	blup	0.019	9.3e-06	 0.67011	0.502787
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCL4_1Mwindow.wgt.RDat	CCL4	17	33931220	34933007	0.038	rs2073667	-2.98	rs1719141	 0.036591	 6.35	 1.346	237	1	top1	0.037	1.3e-09	 1.34560	0.178432
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SDK2_1Mwindow.wgt.RDat	SDK2	17	70830523	72140584	0.0794	rs8065206	 3.32	rs8075553	 0.023070	-3.66	 1.119	641	1	top1	0.023	1.3e-06	-1.11940	0.262970
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HELZ_1Mwindow.wgt.RDat	HELZ	17	64566560	65741312	0.0355	rs12325881	-2.77	rs9903282	 0.001637	 2.80	 1.232	515	515	blup	0.0072	0.0049	 0.75858	0.448105
+B_naive	RA_only/B_naive_5pcs_all/B_naive.JUP_1Mwindow.wgt.RDat	JUP	17	39410861	40442963	0.0421	rs12325861	 8.35	rs7216034	 0.007914	 4.56	-1.570	376	4	enet	0.035	3.7e-09	-1.66815	0.095286
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ADPRM_1Mwindow.wgt.RDat	ADPRM	17	10100911	11114875	0.0266		   NA		       NA	   NA	    NA	0	0	lasso	0.011	0.00062	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.VPS53_1Mwindow.wgt.RDat	VPS53	17	0	1118079	0.0392	rs910920	 2.47	rs11650418	 0.000229	 2.85	 0.817	417	417	blup	0.0077	0.0037	 1.27355	0.202824
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARL17B_1Mwindow.wgt.RDat	ARL17B	17	43851550	44939153	0.0802	rs7218180	 3.15	rs199530	 0.029060	 5.98	 1.139	81	1	top1	0.029	6e-08	 1.13910	0.254661
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CENPV_1Mwindow.wgt.RDat	CENPV	17	15745851	16756783	0.0265	rs7216088	 2.99	rs2301652	 0.018727	 5.53	 1.727	220	220	blup	0.025	3.9e-07	 1.54508	0.122328
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ABCA8_1Mwindow.wgt.RDat	ABCA8	17	66363430	67451533	0.06	rs9890441	-3.12	rs1860447	 0.000262	 5.93	 1.976	485	1	top1	0.00026	0.26	 1.97600	0.048155
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SP2-DT_1Mwindow.wgt.RDat	SP2-DT	17	45468595	46473182	0.0254	rs11079786	 7.73	rs7207225	 0.010096	 4.90	 1.398	382	1	top1	0.01	0.001	 1.39830	0.162023
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OR3A1_1Mwindow.wgt.RDat	OR3A1	17	2694311	3701654	0.03	rs2459533	-2.82	rs10468478	-0.000908	 5.25	-0.049	480	480	blup	0.00064	0.2	-0.00166	0.998677
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ELP5_1Mwindow.wgt.RDat	ELP5	17	6655043	7663259	0.0358	rs35776863	 8.46	rs2074219	 0.036742	 6.34	 0.792	447	1	top1	0.037	1.2e-09	 0.79190	0.428419
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TEN1_1Mwindow.wgt.RDat	TEN1	17	73475321	74496667	0.0278	rs11868566	 4.92	rs1106343	 0.005519	-4.36	 3.904	374	4	enet	0.014	0.00014	-1.70552	0.088098
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ABHD15_1Mwindow.wgt.RDat	ABHD15	17	27387565	28394055	0.0427	rs13723	-4.18	rs16964890	 0.001981	-3.78	 3.325	305	1	enet	0.013	0.00026	-0.51750	0.604807
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DHX33_1Mwindow.wgt.RDat	DHX33	17	4844237	5872302	0.0411	rs238247	 3.26	rs9891023	 0.018278	-4.48	 0.268	532	1	top1	0.018	1.5e-05	-0.26790	0.788776
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCR10_1Mwindow.wgt.RDat	CCR10	17	40330907	41333861	0.0172	rs2883456	 5.41	rs11650132	-0.000981	-2.81	 0.747	244	244	blup	0.0081	0.003	 1.68881	0.091256
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NME2_1Mwindow.wgt.RDat	NME2	17	48742897	49749105	0.042	rs4794227	 2.82	rs12946936	 0.038310	 6.22	-1.932	420	6	enet	0.039	3.2e-10	-0.44941	0.653135
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EFCAB3_1Mwindow.wgt.RDat	EFCAB3	17	59947579	60993841	0.0279	rs2443112	-3.05	rs2429382	-0.000978	 5.32	 0.529	229	229	blup	-0.00079	0.62	-0.96782	0.333135
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLFN5_1Mwindow.wgt.RDat	SLFN5	17	33070091	34100674	0.034	rs744298	 3.06	rs7215469	 0.024140	 5.58	-0.666	360	1	top1	0.024	7.5e-07	-0.66620	0.505283
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL23A_1Mwindow.wgt.RDat	RPL23A	17	26547003	27551377	0.0197	rs727999	-3.80	rs16964481	 0.004021	-3.89	 0.722	303	1	top1	0.004	0.027	-0.72200	0.470294
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPRML_1Mwindow.wgt.RDat	RPRML	17	44555522	45556619	0.0185	rs5918	 6.49	rs2316758	 0.000299	 4.06	-1.016	288	288	blup	0.008	0.0032	-1.69897	0.089325
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KRTAP4-11_1Mwindow.wgt.RDat	KRTAP4-11	17	38773433	39774625	0.0332	rs757411	-3.48	rs17490885	-0.000704	 3.76	-0.335	483	483	blup	-0.00056	0.5	-1.42446	0.154315
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DNAH17_1Mwindow.wgt.RDat	DNAH17	17	75919778	77073478	0.061	rs4527079	 2.85	rs3744180	 0.009181	 8.84	-0.454	524	1	lasso	0.0098	0.0012	-0.25960	0.795172
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ORMDL3_1Mwindow.wgt.RDat	ORMDL3	17	37577294	38583854	0.0561	rs9911688	-4.15	rs8067378	 0.059877	 8.19	 1.728	261	261	blup	0.062	2.5e-15	 1.38787	0.165176
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ALDH3A2_1Mwindow.wgt.RDat	ALDH3A2	17	19051449	20080909	0.0279	rs172186	 2.67	rs11650399	 0.020881	 4.87	 0.585	197	1	top1	0.021	3.9e-06	 0.58460	0.558817
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SCIMP_1Mwindow.wgt.RDat	SCIMP	17	4612215	5638155	0.0299		   NA		       NA	   NA	    NA	0	0	enet	0.015	7.3e-05	      NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PGAP3_1Mwindow.wgt.RDat	PGAP3	17	37327375	38344310	0.0171	rs9911688	-4.15	rs1046632	 0.005457	 4.09	-1.043	258	1	top1	0.0055	0.012	-1.04300	0.296948
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NT5C3B_1Mwindow.wgt.RDat	NT5C3B	17	39481309	40492484	0.0208	rs12325861	 8.35	rs4796744	 0.016161	 4.76	 1.958	365	1	top1	0.016	4.5e-05	 1.95790	0.050242
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LGALS9_1Mwindow.wgt.RDat	LGALS9	17	25458214	26476586	0.0385	rs4794976	 3.15	rs8065266	 0.000701	-4.48	-0.814	299	299	blup	0.016	6.2e-05	 0.37356	0.708733
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SMCR2_1Mwindow.wgt.RDat	SMCR2	17	17077340	18081002	0.9453	rs12940014	-3.26	rs4646383	-0.001032	 6.20	 0.321	400	8	lasso	-0.00047	0.46	 1.16900	0.242402
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ACAP1_1Mwindow.wgt.RDat	ACAP1	17	6739848	7754796	0.0404	rs35776863	 8.46	rs9899036	 0.000493	-3.33	 0.820	426	426	blup	0.0014	0.12	-3.35379	0.000797
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FN3KRP_1Mwindow.wgt.RDat	FN3KRP	17	80174582	81185889	0.0261	rs4789799	 4.31	rs11650335	 0.000722	 3.97	-1.473	359	359	blup	0.0047	0.019	-0.85001	0.395319
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KANSL1-AS1_1Mwindow.wgt.RDat	KANSL1-AS1	17	43770939	44774089	0.0988	rs17689918	 2.28	rs17689471	 0.022357	 5.64	 2.251	28	28	blup	0.025	3.8e-07	 1.21739	0.223455
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PRPSAP2_1Mwindow.wgt.RDat	PRPSAP2	17	18259612	19334600	0.0104	rs2428373	 2.98	rs4924771	 0.003304	 3.86	 1.902	113	113	blup	0.0034	0.039	 2.84454	0.004448
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZZEF1_1Mwindow.wgt.RDat	ZZEF1	17	3407739	4546324	0.0257	rs422159	 2.66	rs2325881	 0.000288	 3.54	-1.009	465	465	blup	0.0082	0.0028	-0.26498	0.791024
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NEK8_1Mwindow.wgt.RDat	NEK8	17	26555806	27570473	0.0287	rs2041156	-4.08	rs3181215	 0.012814	-3.92	 1.302	305	1	top1	0.013	0.00025	-1.30160	0.193053
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SPATA20_1Mwindow.wgt.RDat	SPATA20	17	48124535	49133213	0.0873	rs16949120	-2.50	rs989128	 0.059820	-7.88	-1.654	434	1	top1	0.06	8.1e-15	 1.65430	0.098067
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HOXB-AS1_1Mwindow.wgt.RDat	HOXB-AS1	17	46121713	47128603	0.0266	rs10514943	 4.07	rs2325948	 0.021621	-4.83	 1.162	412	1	top1	0.022	2.7e-06	-1.16230	0.245114
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NCOR1_1Mwindow.wgt.RDat	NCOR1	17	15432471	16618848	0.0225	rs7216088	 2.99	rs4792731	 0.016166	-4.50	-1.609	262	1	top1	0.016	4.4e-05	 1.60860	0.107704
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C17orf97_1Mwindow.wgt.RDat	C17orf97	17	0	764457	0.1291	rs910920	 2.47	rs11150882	 0.068574	 7.70	-1.000	285	1	top1	0.069	8.4e-17	-1.00000	0.317311
+B_naive	RA_only/B_naive_5pcs_all/B_naive.EVI2A_1Mwindow.wgt.RDat	EVI2A	17	29143428	30148640	0.0443	rs6505219	-2.73	rs7505	 0.036835	-6.31	-0.275	325	1	top1	0.037	1.1e-09	 0.27450	0.783700
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MXRA7_1Mwindow.wgt.RDat	MXRA7	17	74168633	75207047	0.0361	rs4238992	-2.60	rs1005645	 0.002340	 3.88	 0.241	469	469	blup	0.0078	0.0034	 0.87492	0.381616
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SGSM2_1Mwindow.wgt.RDat	SGSM2	17	1740795	2784348	0.0363	rs4525525	-2.27	rs1381247	-0.001039	-3.32	 0.162	395	395	blup	0.00043	0.23	-0.45192	0.651329
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC00907_1Mwindow.wgt.RDat	LINC00907	18	39266633	40771391	0.0335	rs8085753	-3.46	rs2032341	-0.001016	 5.48	-1.116	560	560	blup	-0.00081	0.64	-0.441	0.659242
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TTC39C_1Mwindow.wgt.RDat	TTC39C	18	21072851	22215564	0.0211	rs1788803	 2.59	rs1258112	 0.001139	-4.14	-1.151	504	504	blup	0.0072	0.0049	 1.999	0.045643
+B_naive	RA_only/B_naive_5pcs_all/B_naive.AFG3L2_1Mwindow.wgt.RDat	AFG3L2	18	11828943	12877226	0.028	rs2847297	 7.18	rs4239303	 0.003090	-4.11	-0.015	420	420	blup	0.0032	0.042	-2.528	0.011484
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HSBP1L1_1Mwindow.wgt.RDat	HSBP1L1	18	77224643	78230822	0.0185	rs11660128	 5.42	rs9957220	 0.002957	 4.09	-1.524	283	283	blup	0.0037	0.032	-1.083	0.279009
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TAF4B_1Mwindow.wgt.RDat	TAF4B	18	23306409	24471649	0.0401	rs693939	-5.53	rs7229674	 0.003636	 3.47	 0.332	532	532	blup	0.0096	0.0014	 0.814	0.415649
+B_naive	RA_only/B_naive_5pcs_all/B_naive.C18orf25_1Mwindow.wgt.RDat	C18orf25	18	43254000	44346955	0.0319	rs11082522	 2.82	rs4890617	-0.000368	 3.71	 0.511	551	551	blup	0.011	0.00073	-0.862	0.388851
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CTIF_1Mwindow.wgt.RDat	CTIF	18	45565402	46889588	0.0316	rs7240215	-3.37	rs4939781	-0.000992	 4.69	 0.131	694	694	blup	0.0027	0.059	-0.303	0.761902
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TXNL4A_1Mwindow.wgt.RDat	TXNL4A	18	77230813	78293936	0.0242		   NA		       NA	   NA	    NA	0	0	enet	0.0098	0.0012	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYO5B_1Mwindow.wgt.RDat	MYO5B	18	46849159	48221517	0.0489		   NA		       NA	   NA	    NA	0	0	enet	0.00028	0.26	    NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CYB5A_1Mwindow.wgt.RDat	CYB5A	18	71418081	72459198	0.1241	rs4891237	-4.25	rs1790815	 0.137009	11.66	-0.129	621	1	top1	0.14	6.9e-33	-0.129	0.897041
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF397_1Mwindow.wgt.RDat	ZNF397	18	32320998	33339191	0.0245	rs1424413	-2.47	rs2422313	-0.000512	 3.62	 0.499	374	374	blup	0.0089	0.0019	 0.662	0.508265
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PTPN2_1Mwindow.wgt.RDat	PTPN2	18	12285477	13384236	0.0407	rs2847297	 7.18	rs16939895	-0.001039	 3.98	 4.801	422	422	blup	0.0044	0.022	 3.608	0.000309
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PLEKHJ1_1Mwindow.wgt.RDat	PLEKHJ1	19	1729980	2736328	0.0408	rs4806815	-3.08	rs17828251	 1.23e-03	  3.06	 1.0126	331	331	blup	0.0052	0.015	-0.4871	6.26e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LGALS4_1Mwindow.wgt.RDat	LGALS4	19	38792314	39803585	0.0276	rs7250734	 2.95	rs10424620	 4.28e-03	  4.32	 0.1426	394	394	blup	0.0058	0.01	 2.2439	2.48e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SAFB_1Mwindow.wgt.RDat	SAFB	19	5123094	6168489	0.0419	rs4807015	 2.65	rs708686	 5.49e-03	  3.42	 0.5730	391	391	blup	0.013	0.00028	 0.4480	6.54e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF302_1Mwindow.wgt.RDat	ZNF302	19	34668583	35677301	0.0353	rs749981	 3.80	rs17718247	-3.87e-05	  3.37	-1.7318	327	1	enet	0.0081	0.003	-3.3377	8.45e-04
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF85_1Mwindow.wgt.RDat	ZNF85	19	20606057	21633503	0.0275	rs33948	-3.80	rs11085405	 3.57e-02	  6.59	 0.9439	233	1	top1	0.036	2e-09	 0.9439	3.45e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SERTAD3_1Mwindow.wgt.RDat	SERTAD3	19	40446751	41450242	0.0267	rs11668242	-2.96	rs4150990	 6.63e-03	 -4.13	 0.3581	370	4	enet	0.0087	0.0021	-0.0587	9.53e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF559_1Mwindow.wgt.RDat	ZNF559	19	8934448	9956547	0.0208	rs1862456	-2.46	rs8100230	-4.18e-04	 -3.11	-1.9412	324	324	blup	0.0044	0.022	 1.9043	5.69e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CIRBP-AS1_1Mwindow.wgt.RDat	CIRBP-AS1	19	767470	1770259	0.0372		   NA		       NA	    NA	     NA	0	0	lasso	0.0071	0.0051	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF846_1Mwindow.wgt.RDat	ZNF846	19	9359295	10396836	0.0166	rs16997771	 3.84	rs8101075	-1.03e-03	  3.76	 0.9920	270	270	blup	0.0041	0.026	 0.9196	3.58e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NR2F6_1Mwindow.wgt.RDat	NR2F6	19	16842692	17856728	0.0351	rs7259285	 4.29	rs7259292	 9.43e-04	  4.30	 0.5147	364	364	blup	0.0091	0.0018	-0.7830	4.34e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DIRAS1_1Mwindow.wgt.RDat	DIRAS1	19	2214565	3221370	0.0448	rs567806	-3.12	rs2110120	 1.48e-02	  5.00	 0.6134	330	1	top1	0.015	9e-05	 0.6134	5.40e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LRRC25_1Mwindow.wgt.RDat	LRRC25	19	18001947	19008432	0.035	rs1075403	-7.40	rs4808801	 2.24e-02	 -4.77	 0.4262	366	1	top1	0.022	1.8e-06	-0.4262	6.70e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS9_1Mwindow.wgt.RDat	RPS9	19	54204726	55211515	0.155	rs6509859	 2.96	rs17305311	 7.54e-02	 -8.64	-0.9135	384	3	lasso	0.12	4.4e-29	-1.7123	8.68e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NOP53_1Mwindow.wgt.RDat	NOP53	19	47748803	48760315	0.0285	rs2099102	-3.03	rs3815751	 3.18e-03	  4.54	 1.1750	414	414	blup	0.0078	0.0034	 0.5040	6.14e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RINL_1Mwindow.wgt.RDat	RINL	19	38858470	39868915	0.0244	rs7250734	 2.95	rs7250349	 4.52e-03	  3.86	 1.8942	387	387	blup	0.0085	0.0024	 1.0395	2.99e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FCHO1_1Mwindow.wgt.RDat	FCHO1	19	17358553	18399370	0.0295	rs1075403	-7.40	rs10409801	 4.01e-03	  3.70	 0.6490	406	406	blup	0.0078	0.0035	 3.9048	9.43e-05
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCNP_1Mwindow.wgt.RDat	CCNP	19	40228115	41232596	0.0344	rs11668242	-2.96	rs339512	-1.04e-03	  4.20	-1.1487	379	379	blup	0.0067	0.0062	-0.0735	9.41e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ARRDC5_1Mwindow.wgt.RDat	ARRDC5	19	4390449	5402908	0.0433	rs10424978	11.11	rs2656938	 2.25e-02	  5.79	-0.7547	382	1	top1	0.023	1.7e-06	-0.7547	4.50e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF208_1Mwindow.wgt.RDat	ZNF208	19	21622617	22693745	0.0274	rs2292986	-5.19	rs12980897	-2.25e-06	  3.15	-0.0188	307	307	blup	0.0062	0.0084	 0.3072	7.59e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CD37_1Mwindow.wgt.RDat	CD37	19	49338663	50343863	0.0239	rs12981033	-6.77	rs7248378	 2.67e-02	 -5.42	 3.2246	336	1	top1	0.027	2e-07	-3.2246	1.26e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS11_1Mwindow.wgt.RDat	RPS11	19	49499691	50502965	0.0246	rs12981033	-6.77	rs739349	 2.18e-02	 -5.71	-3.1030	342	1	top1	0.022	2.5e-06	 3.1030	1.92e-03
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PGLS-DT_1Mwindow.wgt.RDat	PGLS-DT	19	17099799	18122698	0.0545	rs7259285	 4.29	rs265558	 1.23e-03	 -3.58	-0.8547	388	388	blup	0.013	0.00018	-1.2876	1.98e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS5_1Mwindow.wgt.RDat	RPS5	19	58398636	59406171	0.1249	rs8103254	-2.60	rs731835	 1.18e-01	-10.67	 0.5300	290	1	top1	0.12	2.1e-28	-0.5300	5.96e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CLEC4G_1Mwindow.wgt.RDat	CLEC4G	19	7293843	8296996	0.0623	rs7252142	 3.26	rs1010046	 2.77e-02	  6.32	 0.8868	365	1	top1	0.028	1.2e-07	 0.8868	3.75e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF749_1Mwindow.wgt.RDat	ZNF749	19	57446693	58458469	0.0743	rs11667177	 3.10	rs11665675	 5.75e-02	 -7.93	 2.1990	484	1	top1	0.057	2.8e-14	-2.1990	2.79e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF266_1Mwindow.wgt.RDat	ZNF266	19	9023105	10046249	0.0256	rs6511284	-2.42	rs11672602	 1.60e-02	 -4.41	 0.6822	311	311	blup	0.018	1.9e-05	-0.7469	4.55e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NLRP2_1Mwindow.wgt.RDat	NLRP2	19	54976652	56012506	0.0347	rs3826884	 4.24	rs12981732	 3.09e-03	  3.97	-0.5658	452	452	blup	0.0086	0.0023	 0.2356	8.14e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGFLR1_1Mwindow.wgt.RDat	IGFLR1	19	35729702	36733353	0.0344	rs12327821	-3.05	rs2871921	 2.19e-02	 -5.26	-0.5384	406	1	top1	0.022	2.4e-06	 0.5384	5.90e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01480_1Mwindow.wgt.RDat	LINC01480	19	41541860	42543266	0.0475	rs11882467	 3.01	rs7255742	 3.78e-03	  4.44	-0.6199	289	289	blup	0.021	4.4e-06	-1.0483	2.94e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PTPRH_1Mwindow.wgt.RDat	PTPRH	19	55192615	56220869	0.0637	rs3826884	 4.24	rs10416488	-1.43e-04	  5.89	 0.2341	427	1	top1	-0.00014	0.35	 0.2341	8.15e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF667-AS1_1Mwindow.wgt.RDat	ZNF667-AS1	19	56489243	57506806	0.0524	rs10421870	 2.98	rs960996	 2.62e-02	  6.24	 1.5978	447	6	enet	0.035	2.9e-09	 0.5556	5.78e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RDH13_1Mwindow.wgt.RDat	RDH13	19	55055684	56080888	0.0286	rs3826884	 4.24	rs6509916	 1.49e-02	  4.11	 0.3159	425	1	top1	0.015	8.5e-05	 0.3159	7.52e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SIGLEC5_1Mwindow.wgt.RDat	SIGLEC5	19	51614213	52633654	0.0651	rs2075803	-3.42	rs8110247	 1.70e-03	  4.14	 1.1745	558	558	blup	0.0069	0.0056	 1.4304	1.53e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GEMIN7_1Mwindow.wgt.RDat	GEMIN7	19	45078885	46094776	0.0402	rs4803791	-4.05	rs3212986	 1.65e-02	  3.03	 0.7755	364	1	top1	0.017	3.7e-05	 0.7755	4.38e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPS16_1Mwindow.wgt.RDat	RPS16	19	39423777	40426589	0.0283	rs2304216	 3.44	rs484379	 1.73e-02	  5.95	-0.0291	430	1	top1	0.017	2.5e-05	-0.0291	9.77e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RPL28_1Mwindow.wgt.RDat	RPL28	19	55397300	56414710	0.1444	rs3826884	 4.24	rs17700376	 1.53e-01	-12.24	 2.1272	504	2	enet	0.15	5.4e-37	-2.1292	3.32e-02
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SIGLEC10-AS1_1Mwindow.wgt.RDat	SIGLEC10-AS1	19	51418978	52421451	0.0404		   NA		       NA	    NA	     NA	0	0	lasso	0.14	1.6e-34	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CAPN12_1Mwindow.wgt.RDat	CAPN12	19	38720832	39735114	0.026	rs7250734	 2.95	rs35335944	 6.65e-04	 -3.63	 0.4100	401	401	blup	0.0069	0.0058	-0.2945	7.68e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FXYD5_1Mwindow.wgt.RDat	FXYD5	19	35145638	36160784	0.0469	rs749981	 3.80	rs916694	 1.71e-02	 -4.54	-0.7102	433	1	lasso	0.024	9.4e-07	-1.2596	2.08e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNF584_1Mwindow.wgt.RDat	ZNF584	19	58420016	59429694	0.0329	rs6510128	-2.49	rs35631681	 2.30e-02	 -4.96	 1.6130	286	1	top1	0.023	1.3e-06	-1.6130	1.07e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.OCEL1_1Mwindow.wgt.RDat	OCEL1	19	16837035	17840028	0.0295	rs7259285	 4.29	rs2279002	 1.03e-02	 -4.38	-0.3986	361	361	blup	0.011	0.00073	-0.2567	7.97e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.COL9A3_1Mwindow.wgt.RDat	COL9A3	20	60948402	61972511	0.054	rs6512324	 3.09	rs910151	 0.022835	 5.66	-0.590	474	2	enet	0.042	8.6e-11	-0.228	0.81927
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZNFX1_1Mwindow.wgt.RDat	ZNFX1	20	47362437	48394594	0.0367	rs6125479	 4.16	rs381262	 0.028454	-6.18	 1.201	433	1	top1	0.028	8.2e-08	-1.201	0.22967
+B_naive	RA_only/B_naive_5pcs_all/B_naive.STX16_1Mwindow.wgt.RDat	STX16	20	56726339	57754582	0.0422	rs6070433	 2.94	rs459588	-0.000356	 3.76	 1.942	519	519	blup	0.01	0.0011	 2.716	0.00660
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SULF2_1Mwindow.wgt.RDat	SULF2	20	45786150	46915371	0.4802	rs877801	 3.03	rs6066361	 0.350970	18.42	 0.768	557	9	enet	0.51	3.5e-151	 1.693	0.09048
+B_naive	RA_only/B_naive_5pcs_all/B_naive.RBM39_1Mwindow.wgt.RDat	RBM39	20	33789269	34830182	0.016	rs6060450	-3.26	rs11696527	 0.008669	 4.27	 1.716	290	290	blup	0.0098	0.0012	 1.044	0.29650
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM209B_1Mwindow.wgt.RDat	FAM209B	20	54608302	55611576	0.0354	rs6014727	-3.85	rs6092361	-0.000540	-3.61	-0.229	540	540	blup	0.0014	0.13	 1.617	0.10587
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PLTP_1Mwindow.wgt.RDat	PLTP	20	44027259	45040794	0.0282	rs2272955	-3.33	rs394643	 0.022688	 5.40	-0.513	500	1	top1	0.023	1.6e-06	-0.513	0.60788
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ASXL1_1Mwindow.wgt.RDat	ASXL1	20	30446134	31527122	0.0382	rs4911259	-3.75	rs7266642	 0.011400	-4.60	-3.018	347	347	blup	0.014	0.00016	 2.703	0.00688
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PKIG_1Mwindow.wgt.RDat	PKIG	20	42660516	43747678	0.0833	rs4812785	-3.29	rs244078	 0.070619	-8.02	 0.694	485	1	top1	0.071	2.9e-17	-0.694	0.48781
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MYBL2_1Mwindow.wgt.RDat	MYBL2	20	41795754	42845122	0.174	rs4812785	-3.29	rs285205	 0.232170	15.20	 0.729	460	3	lasso	0.24	3e-60	 0.947	0.34387
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MACROD2_1Mwindow.wgt.RDat	MACROD2	20	13476162	16533842	0.127	rs6134989	-4.39	rs6043738	 0.063302	 7.84	-0.349	1772	2	lasso	0.073	9.1e-18	-0.751	0.45295
+B_naive	RA_only/B_naive_5pcs_all/B_naive.GGT7_1Mwindow.wgt.RDat	GGT7	20	32932523	33960659	0.0154	rs17305573	-2.72	rs910873	 0.003991	-3.99	-2.713	352	352	blup	0.0096	0.0014	 2.495	0.01259
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TP53TG5_1Mwindow.wgt.RDat	TP53TG5	20	43501197	44506965	0.0434	rs2272955	-3.33	rs6032360	-0.000941	 5.90	-0.323	479	1	lasso	-0.00089	0.71	-0.323	0.74647
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TGM2_1Mwindow.wgt.RDat	TGM2	20	36255787	37294910	0.038	rs805540	-3.33	rs2232581	-0.000728	 5.11	 0.353	467	467	blup	0.0012	0.14	 1.678	0.09342
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KCNQ2_1Mwindow.wgt.RDat	KCNQ2	20	61531561	62604008	0.0828	rs438363	 3.04	rs6122447	-0.000767	 4.29	-1.897	455	455	blup	-0.0002	0.37	 0.466	0.64113
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNHG11_1Mwindow.wgt.RDat	SNHG11	20	36575297	37579564	0.0257		   NA		       NA	   NA	    NA	0	0	lasso	0.008	0.0031	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNAP25_1Mwindow.wgt.RDat	SNAP25	20	9699478	10788066	0.0479	rs6040015	-2.80	rs6040065	-0.000994	 3.86	-0.293	633	633	blup	0.0052	0.014	 0.149	0.88149
+B_naive	RA_only/B_naive_5pcs_all/B_naive.KCNK15_1Mwindow.wgt.RDat	KCNK15	20	42874506	43880954	0.0568	rs16989481	-3.21	rs16988929	-0.000827	 6.74	-0.947	381	2	lasso	0.15	5.299999999999999e-35	-0.389	0.69729
+B_naive	RA_only/B_naive_5pcs_all/B_naive.ZFAS1_1Mwindow.wgt.RDat	ZFAS1	20	47394715	48405797	0.0304	rs6125479	 4.16	rs1983528	 0.019014	 4.91	 0.232	421	421	blup	0.022	2e-06	 1.237	0.21625
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLPI_1Mwindow.wgt.RDat	SLPI	20	43380880	44383205	0.0376		   NA		       NA	   NA	    NA	0	0	enet	-0.00068	0.56	    NA	     NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.JAM2_1Mwindow.wgt.RDat	JAM2	21	26511570	27589874	0.0765	rs12483240	-4.59	rs1892646	 0.014318	  6.00	-1.292	419	419	blup	0.028	8.6e-08	-2.189	0.0286
+B_naive	RA_only/B_naive_5pcs_all/B_naive.PWP2_1Mwindow.wgt.RDat	PWP2	21	45027280	46051063	0.065	rs2096860	 2.89	rs2838512	 0.012747	  6.12	-0.332	408	2	enet	0.04	2.5e-10	 0.145	0.8849
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CCT8_1Mwindow.wgt.RDat	CCT8	21	29928647	30945969	0.0477	rs4816344	-2.96	rs2070610	 0.031532	  6.71	-0.136	408	408	blup	0.043	4.9e-11	-0.653	0.5139
+B_naive	RA_only/B_naive_5pcs_all/B_naive.YBEY_1Mwindow.wgt.RDat	YBEY	21	47206256	48217665	0.0548	rs2839195	 2.64	rs2254522	 0.027685	  6.08	-0.783	429	1	lasso	0.034	4.1e-09	-0.783	0.4337
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SIK1_1Mwindow.wgt.RDat	SIK1	21	44334363	45347011	0.0606	rs415763	 2.92	rs529770	 0.042573	  6.95	-0.393	428	1	top1	0.043	6e-11	-0.393	0.6945
+B_naive	RA_only/B_naive_5pcs_all/B_naive.U2AF1_1Mwindow.wgt.RDat	U2AF1	21	44013066	45027688	0.2339	rs415763	 2.92	rs2839633	 0.149389	-12.16	-0.502	484	4	lasso	0.15	4.1e-36	 0.485	0.6273
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01697_1Mwindow.wgt.RDat	LINC01697	21	28920733	30009928	0.0267	rs1013194	 2.68	rs2254751	-0.000956	  3.91	-0.792	450	3	lasso	0.038	6e-10	-0.708	0.4791
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CSTB_1Mwindow.wgt.RDat	CSTB	21	44693831	45696189	0.1129		   NA		       NA	    NA	    NA	0	0	lasso	0.073	9.4e-18	    NA	    NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SLC25A17_1Mwindow.wgt.RDat	SLC25A17	22	40665634	41715350	0.0179	rs139507	 3.94	rs12168697	 0.003432	  4.18	 0.9129	282	282	blup	0.013	0.00028	-0.7900	4.30e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.UPK3A_1Mwindow.wgt.RDat	UPK3A	22	45180830	46191755	0.0399	rs134863	 3.49	rs5765224	-0.000905	  3.80	-0.9917	586	1	enet	0.0007	0.2	-0.9917	3.21e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGLV8-61_1Mwindow.wgt.RDat	IGLV8-61	22	21953171	22953622	0.0304		   NA		       NA	    NA	     NA	0	0	enet	0.003	0.048	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGLV5-48_1Mwindow.wgt.RDat	IGLV5-48	22	22207289	23207781	0.0651		   NA		       NA	    NA	     NA	0	0	lasso	-0.00047	0.46	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.MGAT3_1Mwindow.wgt.RDat	MGAT3	22	39353017	40388199	0.0399	rs739091	-4.77	rs5757680	 0.028941	  6.77	-0.9997	371	1	top1	0.029	6.4e-08	-0.9997	3.17e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.YWHAH_1Mwindow.wgt.RDat	YWHAH	22	31840521	32853590	0.032	rs5753681	-4.35	rs8141332	 0.001265	  3.58	 2.1752	468	468	blup	0.0083	0.0027	 1.0305	3.03e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGLC6_1Mwindow.wgt.RDat	IGLC6	22	22761707	23762030	0.0601	rs915614	-3.75	rs5996419	 0.045119	  7.15	-0.7729	243	1	top1	0.045	1.6e-11	-0.7729	4.40e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.DDT_1Mwindow.wgt.RDat	DDT	22	23813559	24822695	0.02		   NA		       NA	    NA	     NA	0	0	enet	0.0041	0.026	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGKV2OR22-3_1Mwindow.wgt.RDat	IGKV2OR22-3	22	16902214	17902827	0.0374		   NA		       NA	    NA	     NA	0	0	enet	-0.00091	0.72	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.HORMAD2_1Mwindow.wgt.RDat	HORMAD2	22	29976453	31073064	0.0237	rs714027	-7.18	rs7287647	-0.001019	  4.25	 2.3013	446	446	blup	-0.001	0.85	 5.7750	7.69e-09
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LINC01640_1Mwindow.wgt.RDat	LINC01640	22	33004515	34012280	0.1465		   NA		       NA	    NA	     NA	0	0	enet	0.2	1.5e-48	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.IGLC3_1Mwindow.wgt.RDat	IGLC3	22	22748512	23748831	0.0939	rs915614	-3.75	rs451115	 0.045223	 -7.03	-0.5786	230	1	lasso	0.054	1.8e-13	-1.5048	1.32e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.CRYBB2_1Mwindow.wgt.RDat	CRYBB2	22	25115606	26127836	0.3088	rs542162	 3.41	rs6004675	 0.346817	 18.33	 0.8772	375	1	top1	0.35	2.8e-91	 0.8772	3.80e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SNAP29_1Mwindow.wgt.RDat	SNAP29	22	20713295	21745502	0.0416	rs177421	-2.62	rs12162703	-0.000866	  3.79	 1.7874	365	365	blup	0.0091	0.0017	 1.4400	1.50e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.FAM118A_1Mwindow.wgt.RDat	FAM118A	22	45204841	46237836	0.207	rs134863	 3.49	rs136604	 0.251377	 15.79	-0.1618	586	6	enet	0.25	1.1e-63	-0.2146	8.30e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.SMDT1_1Mwindow.wgt.RDat	SMDT1	22	41975704	42980288	0.1213	rs139553	-4.83	rs133368	 0.263270	-15.63	-0.2572	308	1	top1	0.26	4.5000000000000003e-66	 0.2572	7.97e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.NCAPH2_1Mwindow.wgt.RDat	NCAPH2	22	50446653	51463209	0.0342	rs738683	 5.44	rs7290681	 0.001108	  3.63	-1.2771	309	309	blup	0.0022	0.075	-0.7031	4.82e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.LARGE1_1Mwindow.wgt.RDat	LARGE1	22	33168495	34818812	0.2962	rs2413186	-3.95	rs5749579	 0.212754	 14.35	-0.1770	934	1	enet	0.23	5.5e-56	-0.1770	8.60e-01
+B_naive	RA_only/B_naive_5pcs_all/B_naive.TBX1_1Mwindow.wgt.RDat	TBX1	22	19244226	20271116	0.0354		   NA		       NA	    NA	     NA	0	0	lasso	0.011	0.00055	     NA	      NA
+B_naive	RA_only/B_naive_5pcs_all/B_naive.THAP7-AS1_1Mwindow.wgt.RDat	THAP7-AS1	22	20856211	21864663	0.078	rs463426	 2.82	rs2239961	 0.037103	 -6.40	-0.0202	295	1	top1	0.037	9.9e-10	 0.0202	9.84e-01

@@ -1,0 +1,1094 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LEPROT_1Mwindow.wgt.RDat	LEPROT	1	65386351	66401690	0.0488		     NA		    NA	   NA	    NA	437	0	top1	0.0094	0.0014	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LEPR_1Mwindow.wgt.RDat	LEPR	1	65386335	66607242	0.028		     NA		    NA	   NA	    NA	540	0	blup	0.0031	0.044	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FCN3_1Mwindow.wgt.RDat	FCN3	1	27195601	28201315	0.0925		     NA		    NA	   NA	    NA	195	0	lasso	0.1	1.4999999999999998e-24	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RCSD1_1Mwindow.wgt.RDat	RCSD1	1	167099469	168177933	0.0723		     NA		    NA	   NA	    NA	526	0	blup	0.046	9.9e-12	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STMN1_1Mwindow.wgt.RDat	STMN1	1	25710670	26733371	0.0404		     NA		    NA	   NA	    NA	402	0	blup	0.013	0.00018	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC35F3_1Mwindow.wgt.RDat	SLC35F3	1	233540422	234960257	0.111		     NA		    NA	   NA	    NA	841	0	enet	0.09	8.8e-22	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NCF2_1Mwindow.wgt.RDat	NCF2	1	183024697	184060049	0.1073		     NA		    NA	   NA	    NA	538	0	enet	0.12	5e-28	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC44A5_1Mwindow.wgt.RDat	SLC44A5	1	75167814	76581848	0.03		     NA		    NA	   NA	    NA	567	0	top1	0.031	1.8e-08	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NCMAP-DT_1Mwindow.wgt.RDat	NCMAP-DT	1	24365764	25382515	0.0735		     NA		    NA	   NA	    NA	496	0	lasso	0.064	7.7e-16	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PADI4_1Mwindow.wgt.RDat	PADI4	1	17134692	18190499	0.073		     NA		    NA	   NA	    NA	459	0	blup	0.022	2.3e-06	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAAH_1Mwindow.wgt.RDat	FAAH	1	46359989	47379517	0.0189		     NA		    NA	   NA	    NA	317	0	blup	0.0036	0.034	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FCRLA_1Mwindow.wgt.RDat	FCRLA	1	161177019	162184142	0.0258		     NA		    NA	   NA	    NA	484	0	blup	0.012	0.00034	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NIBAN1_1Mwindow.wgt.RDat	NIBAN1	1	184260166	185443640	0.0238		     NA		    NA	   NA	    NA	490	0	blup	0.0061	0.0084	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CGN_1Mwindow.wgt.RDat	CGN	1	150983863	152011168	0.0284	rs17640579	-3.7685	rs2087549	0.0070	 5.03	2.0833	338	338	blup	0.012	0.00038	 0.7418	0.458
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LRRC7_1Mwindow.wgt.RDat	LRRC7	1	69533605	71110047	0.0416		     NA		    NA	   NA	    NA	594	0	top1	0.019	8.4e-06	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FLVCR1-DT_1Mwindow.wgt.RDat	FLVCR1-DT	1	212529946	213531480	0.0972		     NA		    NA	   NA	    NA	408	0	blup	0.086	9e-21	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HTR6_1Mwindow.wgt.RDat	HTR6	1	19491368	20507459	0.0849		     NA		    NA	   NA	    NA	524	0	top1	0.056	4.3e-14	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGEF16_1Mwindow.wgt.RDat	ARHGEF16	1	2871229	3897677	0.0295		     NA		    NA	   NA	    NA	381	0	lasso	-0.00078	0.62	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OR2T8_1Mwindow.wgt.RDat	OR2T8	1	247583554	248586454	0.1688		     NA		    NA	   NA	    NA	443	0	lasso	0.017	3.2e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSTD1_1Mwindow.wgt.RDat	TSTD1	1	160507421	161508754	0.0375		     NA		    NA	   NA	    NA	429	0	blup	0.0075	0.0039	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MRPL37_1Mwindow.wgt.RDat	MRPL37	1	54165840	55191162	0.039		     NA		    NA	   NA	    NA	479	0	blup	0.0074	0.0043	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNHG3_1Mwindow.wgt.RDat	SNHG3	1	28332455	29337404	0.0141		     NA		    NA	   NA	    NA	261	0	blup	0.0091	0.0017	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00623_1Mwindow.wgt.RDat	LINC00623	1	143798164	144841756	0.0163	rs17346661	 0.0208	rs17346661	0.0152	-4.47	0.0208	1	1	top1	0.015	7.2e-05	-0.0208	0.983
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.REG4_1Mwindow.wgt.RDat	REG4	1	119836640	120854083	0.0227		     NA		    NA	   NA	    NA	306	0	blup	0.0089	0.0019	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CNKSR1_1Mwindow.wgt.RDat	CNKSR1	1	26003982	27016375	0.0162		     NA		    NA	   NA	    NA	429	0	top1	0.015	8.9e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BTF3L4_1Mwindow.wgt.RDat	BTF3L4	1	52021967	53056388	0.0194		     NA		    NA	   NA	    NA	203	0	top1	0.012	0.00044	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GBP5_1Mwindow.wgt.RDat	GBP5	1	89221872	90238543	0.0831		     NA		    NA	   NA	    NA	349	0	top1	0.045	1.6e-11	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCT3_1Mwindow.wgt.RDat	CCT3	1	155778759	156808083	0.0658		     NA		    NA	   NA	    NA	388	0	lasso	0.07	3.6e-17	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.USF1_1Mwindow.wgt.RDat	USF1	1	160509041	161515767	0.0435		     NA		    NA	   NA	    NA	430	0	lasso	0.034	5.3e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MAN1A2_1Mwindow.wgt.RDat	MAN1A2	1	117410071	118571494	0.0208		     NA		    NA	   NA	    NA	507	0	top1	0.018	1.6e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRDX6_1Mwindow.wgt.RDat	PRDX6	1	172946474	173957954	0.0871		     NA		    NA	   NA	    NA	308	0	top1	0.1	4.3e-25	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HSD11B1-AS1_1Mwindow.wgt.RDat	HSD11B1-AS1	1	209334704	210415907	0.0297		     NA		    NA	   NA	    NA	506	0	top1	0.01	0.00094	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GBP7_1Mwindow.wgt.RDat	GBP7	1	89097425	90141686	0.0414		     NA		    NA	   NA	    NA	352	0	top1	0.034	4.9e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PIK3CD-AS1_1Mwindow.wgt.RDat	PIK3CD-AS1	1	9212668	10214644	0.0431		     NA		    NA	   NA	    NA	285	0	blup	0.0072	0.0047	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD53_1Mwindow.wgt.RDat	CD53	1	110913832	111942544	0.0466		     NA		    NA	   NA	    NA	594	0	blup	0.0081	0.0029	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NBL1_1Mwindow.wgt.RDat	NBL1	1	19469723	20484945	0.1048		     NA		    NA	   NA	    NA	516	0	enet	0.074	4.3e-18	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IRF6_1Mwindow.wgt.RDat	IRF6	1	209458962	210479487	0.0359		     NA		    NA	   NA	    NA	490	0	blup	0.01	0.00096	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NTPCR_1Mwindow.wgt.RDat	NTPCR	1	232586357	233619628	0.0603		     NA		    NA	   NA	    NA	590	0	top1	0.073	8.8e-18	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TTF2_1Mwindow.wgt.RDat	TTF2	1	117102948	118150075	0.0254		     NA		    NA	   NA	    NA	427	0	lasso	0.014	0.00016	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FHL3_1Mwindow.wgt.RDat	FHL3	1	37962442	38971186	0.0484		     NA		    NA	   NA	    NA	419	0	top1	0.043	5.3e-11	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MGST3_1Mwindow.wgt.RDat	MGST3	1	165100471	166125373	0.0518		     NA		    NA	   NA	    NA	610	0	blup	0.017	3.2e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARPC5_1Mwindow.wgt.RDat	ARPC5	1	183089981	184104918	0.0359		     NA		    NA	   NA	    NA	518	0	top1	0.034	3.9e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TCEA3_1Mwindow.wgt.RDat	TCEA3	1	23207402	24251241	0.0471		     NA		    NA	   NA	    NA	320	0	blup	0.0066	0.0064	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CRYZ_1Mwindow.wgt.RDat	CRYZ	1	74671170	75698734	0.0528		     NA		    NA	   NA	    NA	369	0	enet	0.036	1.3e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSACC_1Mwindow.wgt.RDat	TSACC	1	155807105	156816786	0.0309		     NA		    NA	   NA	    NA	388	0	blup	0.016	4.9e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GALNT2_1Mwindow.wgt.RDat	GALNT2	1	229693536	230917868	0.0885		     NA		    NA	   NA	    NA	707	0	enet	0.038	7.3e-10	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GORAB_1Mwindow.wgt.RDat	GORAB	1	170001307	171022975	0.0307		     NA		    NA	   NA	    NA	406	0	blup	0.01	0.00096	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EDARADD_1Mwindow.wgt.RDat	EDARADD	1	236057586	237148230	0.0394		     NA		    NA	   NA	    NA	578	0	top1	0.035	3.1e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DR1_1Mwindow.wgt.RDat	DR1	1	93311464	94335050	0.0237		     NA		    NA	   NA	    NA	304	0	blup	0.0058	0.01	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MACF1_1Mwindow.wgt.RDat	MACF1	1	39049839	40452810	0.0408		     NA		    NA	   NA	    NA	515	0	top1	0.038	6.9e-10	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ERLNC1_1Mwindow.wgt.RDat	ERLNC1	1	203610536	204612137	0.0601		     NA		    NA	   NA	    NA	500	0	top1	-0.001	0.86	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HPCAL4_1Mwindow.wgt.RDat	HPCAL4	1	39644320	40657105	0.0402		     NA		    NA	   NA	    NA	359	0	blup	0.011	0.00054	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRKAA2_1Mwindow.wgt.RDat	PRKAA2	1	56610987	57681008	0.1657		     NA		    NA	   NA	    NA	0	0	lasso	-0.001	0.95	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TTC24_1Mwindow.wgt.RDat	TTC24	1	156049515	157057511	0.0478		     NA		    NA	   NA	    NA	409	0	top1	0.023	1.2e-06	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SCAMP3_1Mwindow.wgt.RDat	SCAMP3	1	154725772	155732151	0.0122		     NA		    NA	   NA	    NA	305	0	blup	0.0052	0.014	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD164L2_1Mwindow.wgt.RDat	CD164L2	1	27205666	28209823	0.014		     NA		    NA	   NA	    NA	196	0	top1	0.013	0.0002	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MCL1_1Mwindow.wgt.RDat	MCL1	1	150047034	151052086	0.0248		     NA		    NA	   NA	    NA	271	0	blup	0.0083	0.0027	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MMEL1_1Mwindow.wgt.RDat	MMEL1	1	2022078	3064455	0.0418		     NA		    NA	   NA	    NA	364	0	top1	0.037	9.8e-10	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IL24_1Mwindow.wgt.RDat	IL24	1	206570788	207577484	0.0462		     NA		    NA	   NA	    NA	427	0	top1	0.041	1.1e-10	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KIAA0040_1Mwindow.wgt.RDat	KIAA0040	1	174626122	175662123	0.082		     NA		    NA	   NA	    NA	486	0	enet	0.051	8.1e-13	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OR2L2_1Mwindow.wgt.RDat	OR2L2	1	247693372	248705607	0.0346		     NA		    NA	   NA	    NA	375	0	blup	0.0069	0.0056	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.WARS2-AS1_1Mwindow.wgt.RDat	WARS2-AS1	1	119183019	120318596	0.0384		     NA		    NA	   NA	    NA	479	0	blup	0.0086	0.0023	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTM3_1Mwindow.wgt.RDat	GSTM3	1	109776559	110783660	0.2828		     NA		    NA	   NA	    NA	416	0	lasso	0.26	1.6e-66	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANXA9_1Mwindow.wgt.RDat	ANXA9	1	150454768	151468110	0.4436		     NA		    NA	   NA	    NA	298	0	lasso	0.27	5.5e-69	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC30A10_1Mwindow.wgt.RDat	SLC30A10	1	219583787	220632440	0.0342		     NA		    NA	   NA	    NA	476	0	blup	0.0044	0.022	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC163_1Mwindow.wgt.RDat	CCDC163	1	45459538	46465745	0.1499		     NA		    NA	   NA	    NA	280	0	enet	0.2	1.0999999999999999e-47	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EDN2_1Mwindow.wgt.RDat	EDN2	1	41444446	42450354	0.7122		     NA		    NA	   NA	    NA	418	0	top1	-0.00095	0.78	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CHRM3-AS2_1Mwindow.wgt.RDat	CHRM3-AS2	1	239370426	240382419	0.1707		     NA		    NA	   NA	    NA	503	0	enet	0.15	1.8e-36	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TPR_1Mwindow.wgt.RDat	TPR	1	185780784	186844385	0.0356		     NA		    NA	   NA	    NA	332	0	blup	0.00046	0.23	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TADA1_1Mwindow.wgt.RDat	TADA1	1	166325747	167345501	0.0532		     NA		    NA	   NA	    NA	566	0	enet	0.0053	0.013	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FMO4_1Mwindow.wgt.RDat	FMO4	1	170783322	171811223	0.0263		     NA		    NA	   NA	    NA	612	0	blup	0.0063	0.0079	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DAP3_1Mwindow.wgt.RDat	DAP3	1	155158882	156208801	0.0121		     NA		    NA	   NA	    NA	239	0	blup	0.0033	0.04	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD84_1Mwindow.wgt.RDat	CD84	1	160010888	161049286	0.0294		     NA		    NA	   NA	    NA	438	0	lasso	0.0079	0.0033	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FNBP1L_1Mwindow.wgt.RDat	FNBP1L	1	93413675	94520218	0.0403		     NA		    NA	   NA	    NA	401	0	blup	0.0076	0.0038	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UTS2_1Mwindow.wgt.RDat	UTS2	1	7407672	8413551	0.3005		     NA		    NA	   NA	    NA	441	0	enet	0.33	4.4e-86	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GPA33_1Mwindow.wgt.RDat	GPA33	1	166522073	167559614	0.0359		     NA		    NA	   NA	    NA	622	0	lasso	0.026	3.1e-07	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02608_1Mwindow.wgt.RDat	LINC02608	1	211886344	212958363	0.0517		     NA		    NA	   NA	    NA	461	0	blup	0.011	0.00056	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HIVEP3_1Mwindow.wgt.RDat	HIVEP3	1	41472036	43001605	0.0766		     NA		    NA	   NA	    NA	574	0	lasso	0.033	7.7e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MRPL24_1Mwindow.wgt.RDat	MRPL24	1	156207095	157210880	0.0491		     NA		    NA	   NA	    NA	422	0	blup	0.019	8.1e-06	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.THEM4_1Mwindow.wgt.RDat	THEM4	1	151343342	152381987	0.0371		     NA		    NA	   NA	    NA	334	0	top1	0.034	3.7e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ALG6_1Mwindow.wgt.RDat	ALG6	1	63333298	64404224	0.0455		     NA		    NA	   NA	    NA	562	0	blup	0.011	0.00051	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01772_1Mwindow.wgt.RDat	LINC01772	1	16287443	17294976	0.037		     NA		    NA	   NA	    NA	226	0	top1	0.022	2.7e-06	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VAMP4_1Mwindow.wgt.RDat	VAMP4	1	171169300	172211205	0.0485		     NA		    NA	   NA	    NA	544	0	blup	0.025	4.3e-07	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC16A4_1Mwindow.wgt.RDat	SLC16A4	1	110405479	111433648	0.0515		     NA		    NA	   NA	    NA	548	0	blup	0.012	0.00031	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DDX59-AS1_1Mwindow.wgt.RDat	DDX59-AS1	1	200138635	201163378	0.0239		     NA		    NA	   NA	    NA	538	0	blup	0.0098	0.0012	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PDC-AS1_1Mwindow.wgt.RDat	PDC-AS1	1	185904293	186939423	0.0332		     NA		    NA	   NA	    NA	350	0	blup	0.0074	0.0042	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.THEMIS2_1Mwindow.wgt.RDat	THEMIS2	1	27699055	28713186	0.0814		     NA		    NA	   NA	    NA	224	0	enet	0.081	1.3e-19	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MDM4_1Mwindow.wgt.RDat	MDM4	1	203985534	205027248	0.0373		     NA		    NA	   NA	    NA	608	0	blup	0.012	0.0003	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTM4_1Mwindow.wgt.RDat	GSTM4	1	109698721	110708119	0.1002		     NA		    NA	   NA	    NA	431	0	top1	0.081	7.9e-20	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C1orf105_1Mwindow.wgt.RDat	C1orf105	1	171889825	172937969	0.0558		     NA		    NA	   NA	    NA	398	0	lasso	0.012	0.00036	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC18-AS1_1Mwindow.wgt.RDat	CCDC18-AS1	1	93275666	94311368	0.0439		     NA		    NA	   NA	    NA	310	0	top1	0.043	3.9e-11	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS8_1Mwindow.wgt.RDat	RPS8	1	44741212	45744451	0.1253		     NA		    NA	   NA	    NA	328	0	lasso	0.11	3.4000000000000004e-27	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CA6_1Mwindow.wgt.RDat	CA6	1	8505927	9535151	0.099		     NA		    NA	   NA	    NA	403	0	lasso	0.096	3.5e-23	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NEXN_1Mwindow.wgt.RDat	NEXN	1	77854309	78909580	0.0241		     NA		    NA	   NA	    NA	371	0	blup	0.016	5.8e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD52_1Mwindow.wgt.RDat	CD52	1	26144449	27147014	0.0849		     NA		    NA	   NA	    NA	391	0	lasso	0.085	1.5e-20	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FMN2_1Mwindow.wgt.RDat	FMN2	1	239755183	241138487	0.67		     NA		    NA	   NA	    NA	804	0	blup	0.0072	0.0047	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LRRIQ3_1Mwindow.wgt.RDat	LRRIQ3	1	73991699	75163860	0.0368		     NA		    NA	   NA	    NA	397	0	blup	0.025	4.2e-07	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BCAN_1Mwindow.wgt.RDat	BCAN	1	156111909	157129320	0.9982		     NA		    NA	   NA	    NA	419	0	lasso	-0.00098	0.81	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PLEKHG5_1Mwindow.wgt.RDat	PLEKHG5	1	6026152	7080152	0.0304		     NA		    NA	   NA	    NA	428	0	enet	0.022	2.5e-06	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PUM1_1Mwindow.wgt.RDat	PUM1	1	30904353	32038564	0.0369		     NA		    NA	   NA	    NA	540	0	blup	0.0068	0.006	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GNG5_1Mwindow.wgt.RDat	GNG5	1	84464008	85472264	0.027		     NA		    NA	   NA	    NA	515	0	blup	0.0025	0.064	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPIE_1Mwindow.wgt.RDat	PPIE	1	39704554	40729586	0.0294		     NA		    NA	   NA	    NA	364	0	blup	0.017	3.6e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LDLRAP1_1Mwindow.wgt.RDat	LDLRAP1	1	25370097	26395377	0.1397		     NA		    NA	   NA	    NA	316	0	enet	0.089	1.2e-21	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01160_1Mwindow.wgt.RDat	LINC01160	1	111641629	112650940	0.0482		     NA		    NA	   NA	    NA	692	0	blup	-0.00041	0.44	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LAX1_1Mwindow.wgt.RDat	LAX1	1	203234311	204245500	0.0254		     NA		    NA	   NA	    NA	465	0	blup	0.0099	0.0011	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC25A24_1Mwindow.wgt.RDat	SLC25A24	1	108176665	109242965	0.0799		     NA		    NA	   NA	    NA	393	0	enet	0.041	1.3e-10	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CAMSAP2_1Mwindow.wgt.RDat	CAMSAP2	1	200208021	201329832	0.0258		     NA		    NA	   NA	    NA	620	0	blup	0.0029	0.052	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OR6Y1_1Mwindow.wgt.RDat	OR6Y1	1	158014340	159024195	0.0373		     NA		    NA	   NA	    NA	0	0	lasso	0.14	1.0000000000000001e-34	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CDC42_1Mwindow.wgt.RDat	CDC42	1	21879202	22927853	0.0455		     NA		    NA	   NA	    NA	508	0	top1	0.036	1.9e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATF6_1Mwindow.wgt.RDat	ATF6	1	161236110	162433860	0.0235		     NA		    NA	   NA	    NA	611	0	top1	0.017	3.5e-05	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTM1_1Mwindow.wgt.RDat	GSTM1	1	109730439	110736367	0.1805		     NA		    NA	   NA	    NA	429	0	top1	0.1	3.8e-25	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ITGB3BP_1Mwindow.wgt.RDat	ITGB3BP	1	63406441	64488896	0.0459		     NA		    NA	   NA	    NA	551	0	top1	0.034	3.6e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OMA1_1Mwindow.wgt.RDat	OMA1	1	58446391	59512398	0.0505		     NA		    NA	   NA	    NA	585	0	blup	0.0069	0.0055	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00115_1Mwindow.wgt.RDat	LINC00115	1	261586	1262902	0.0445		     NA		    NA	   NA	    NA	100	0	enet	0.036	2e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COPA_1Mwindow.wgt.RDat	COPA	1	159758384	160813040	0.0332		     NA		    NA	   NA	    NA	460	0	lasso	0.0064	0.0075	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DNAJC16_1Mwindow.wgt.RDat	DNAJC16	1	15353343	16398228	0.0339		     NA		    NA	   NA	    NA	508	0	top1	0.028	1.1e-07	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KCNAB2_1Mwindow.wgt.RDat	KCNAB2	1	5552736	6661240	0.0715		     NA		    NA	   NA	    NA	515	0	top1	0.034	4.1e-09	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CHI3L2_1Mwindow.wgt.RDat	CHI3L2	1	111270281	112286062	0.2101		     NA		    NA	   NA	    NA	566	0	lasso	0.18	9.2e-43	     NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C2orf27A_1Mwindow.wgt.RDat	C2orf27A	2	131940072	133024977	0.2027		  NA		      NA	  NA	 NA	90	0	enet	0.13	6.1e-31	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01954_1Mwindow.wgt.RDat	LINC01954	2	10518393	11525244	0.7351		  NA		      NA	  NA	 NA	542	0	top1	0.6	4.5e-196	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SH3YL1_1Mwindow.wgt.RDat	SH3YL1	2	0	764824	0.3304		  NA		      NA	  NA	 NA	359	0	top1	0.43	5.1e-121	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DNAJC10_1Mwindow.wgt.RDat	DNAJC10	2	183080984	184159191	0.0272		  NA		      NA	  NA	 NA	439	0	blup	0.014	0.0001	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SGPP2_1Mwindow.wgt.RDat	SGPP2	2	222788707	223927340	0.0411		  NA		      NA	  NA	 NA	500	0	blup	0.008	0.0031	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNED1_1Mwindow.wgt.RDat	SNED1	2	241438035	242534983	0.07		  NA		      NA	  NA	 NA	489	0	enet	0.037	1.1e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CTLA4_1Mwindow.wgt.RDat	CTLA4	2	204232494	205238688	0.1318		  NA		      NA	  NA	 NA	462	0	lasso	0.12	1.0000000000000001e-29	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PASK_1Mwindow.wgt.RDat	PASK	2	241545514	242589637	0.1527		  NA		      NA	  NA	 NA	433	0	enet	0.15	2.3e-35	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC4A3_1Mwindow.wgt.RDat	SLC4A3	2	219992352	221006693	0.0527		  NA		      NA	  NA	 NA	445	0	top1	-0.001	0.92	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GALNT13_1Mwindow.wgt.RDat	GALNT13	2	154228435	155810689	0.0355		  NA		      NA	  NA	 NA	669	0	blup	-0.00028	0.39	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01891_1Mwindow.wgt.RDat	LINC01891	2	234853234	235863239	0.0512		  NA		      NA	  NA	 NA	629	0	top1	0.031	2.7e-08	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACYP2_1Mwindow.wgt.RDat	ACYP2	2	53698250	55032437	0.0722		  NA		      NA	  NA	 NA	637	0	top1	0.099	5.3999999999999994e-24	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DNAH6_1Mwindow.wgt.RDat	DNAH6	2	84243622	85546713	0.0151		  NA		      NA	  NA	 NA	481	0	top1	0.015	7.3e-05	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PAX8-AS1_1Mwindow.wgt.RDat	PAX8-AS1	2	113493104	114524600	0.2211		  NA		      NA	  NA	 NA	465	0	enet	0.23	9.200000000000001e-58	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGAP15_1Mwindow.wgt.RDat	ARHGAP15	2	143386988	145025921	0.0618		  NA		      NA	  NA	 NA	545	0	blup	0.022	1.7e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RBM43_1Mwindow.wgt.RDat	RBM43	2	151604454	152618377	0.0384		  NA		      NA	  NA	 NA	457	0	top1	0.04	1.9e-10	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNTG2-AS1_1Mwindow.wgt.RDat	SNTG2-AS1	2	445320	1447078	0.0249		  NA		      NA	  NA	 NA	490	0	blup	0.0065	0.007	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CAPG_1Mwindow.wgt.RDat	CAPG	2	85121876	86141139	0.0478		  NA		      NA	  NA	 NA	453	0	lasso	0.033	7.4e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PGAP1_1Mwindow.wgt.RDat	PGAP1	2	197197728	198291431	0.0241		  NA		      NA	  NA	 NA	388	0	blup	0.0085	0.0024	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM18_1Mwindow.wgt.RDat	TMEM18	2	163877	1177406	0.0396		  NA		      NA	  NA	 NA	0	0	enet	0.0018	0.1	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF638_1Mwindow.wgt.RDat	ZNF638	2	71058912	72162191	0.0564		  NA		      NA	  NA	 NA	503	0	blup	0.03	3.4e-08	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GYPC_1Mwindow.wgt.RDat	GYPC	2	126913734	127954243	0.1718		  NA		      NA	  NA	 NA	0	0	lasso	0.12	6.3e-29	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KRTCAP3_1Mwindow.wgt.RDat	KRTCAP3	2	27165248	28169348	0.06		  NA		      NA	  NA	 NA	291	0	top1	0.072	1.4e-17	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FTCDNL1_1Mwindow.wgt.RDat	FTCDNL1	2	200125262	201215915	0.0544		  NA		      NA	  NA	 NA	336	0	enet	0.033	7.9e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COX7A2L_1Mwindow.wgt.RDat	COX7A2L	2	42062699	43096097	0.0343		  NA		      NA	  NA	 NA	0	0	lasso	0.021	3.9e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PAX8_1Mwindow.wgt.RDat	PAX8	2	113473574	114536498	0.067		  NA		      NA	  NA	 NA	486	0	enet	0.043	3.6e-11	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ASB18_1Mwindow.wgt.RDat	ASB18	2	236602102	237673049	0.132		  NA		      NA	  NA	 NA	0	0	enet	-0.00024	0.38	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SP140_1Mwindow.wgt.RDat	SP140	2	230590451	231677930	0.064		  NA		      NA	  NA	 NA	498	0	enet	0.024	9.7e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM182_1Mwindow.wgt.RDat	TMEM182	2	102853394	103934138	0.0211		  NA		      NA	  NA	 NA	435	0	blup	0.013	0.00028	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC74B_1Mwindow.wgt.RDat	CCDC74B	2	130396860	131402685	0.0399		  NA		      NA	  NA	 NA	154	0	lasso	-0.001	0.97	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSGA10_1Mwindow.wgt.RDat	TSGA10	2	99113724	100271429	0.0235		  NA		      NA	  NA	 NA	340	0	lasso	0.023	1.2e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.REG1A_1Mwindow.wgt.RDat	REG1A	2	78847614	79850535	0.2923		  NA		      NA	  NA	 NA	0	0	enet	0.014	0.00011	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.POMC_1Mwindow.wgt.RDat	POMC	2	24883729	25891449	0.05		  NA		      NA	  NA	 NA	341	0	lasso	0.032	1.5e-08	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STEAP3_1Mwindow.wgt.RDat	STEAP3	2	119481410	120523228	0.0336		  NA		      NA	  NA	 NA	0	0	enet	-0.00064	0.54	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RETSAT_1Mwindow.wgt.RDat	RETSAT	2	85069078	86081651	0.0473		  NA		      NA	  NA	 NA	438	0	blup	0.0043	0.023	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CMPK2_1Mwindow.wgt.RDat	CMPK2	2	6480684	7506766	0.0294		  NA		      NA	  NA	 NA	584	0	blup	0.0063	0.0076	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KHK_1Mwindow.wgt.RDat	KHK	2	26809640	27823630	0.0158		  NA		      NA	  NA	 NA	309	0	blup	0.0068	0.0058	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NMI_1Mwindow.wgt.RDat	NMI	2	151626984	152646182	0.0363		  NA		      NA	  NA	 NA	456	0	top1	0.035	2.9e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZC3H8_1Mwindow.wgt.RDat	ZC3H8	2	112469106	113512619	0.0217		  NA		      NA	  NA	 NA	347	0	top1	0.007	0.0054	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ICA1L_1Mwindow.wgt.RDat	ICA1L	2	203137899	204236489	0.0381		  NA		      NA	  NA	 NA	267	0	top1	0.049	1.7e-12	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPRM_1Mwindow.wgt.RDat	RPRM	2	153833852	154835276	0.2248		  NA		      NA	  NA	 NA	444	0	enet	0.11	5.2e-26	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANKRD44-AS1_1Mwindow.wgt.RDat	ANKRD44-AS1	2	197562715	198563997	0.0916		  NA		      NA	  NA	 NA	336	0	top1	0.11	6.5e-26	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RBMS1_1Mwindow.wgt.RDat	RBMS1	2	160628662	161850318	0.0694		  NA		      NA	  NA	 NA	529	0	top1	0.061	3.1e-15	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PTPN4_1Mwindow.wgt.RDat	PTPN4	2	120017498	121242475	0.127		  NA		      NA	  NA	 NA	378	0	blup	0.093	1.9e-22	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RHOB_1Mwindow.wgt.RDat	RHOB	2	20146835	21149201	0.0354		  NA		      NA	  NA	 NA	519	0	top1	0.02	7.7e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPEG_1Mwindow.wgt.RDat	SPEG	2	219799565	220858351	0.0233		  NA		      NA	  NA	 NA	429	0	blup	0.0072	0.0047	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM117B_1Mwindow.wgt.RDat	FAM117B	2	202999692	204134480	0.0346		  NA		      NA	  NA	 NA	287	0	blup	0.018	1.9e-05	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LYPD6B_1Mwindow.wgt.RDat	LYPD6B	2	149395213	150571776	0.0376		  NA		      NA	  NA	 NA	0	0	enet	-0.001	0.85	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IRS1_1Mwindow.wgt.RDat	IRS1	2	227096028	228164536	0.0313		  NA		      NA	  NA	 NA	470	0	enet	0.012	0.0004	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SEPTIN10_1Mwindow.wgt.RDat	SEPTIN10	2	109800376	110871543	0.0213		  NA		      NA	  NA	 NA	234	0	top1	0.01	0.001	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GCC2_1Mwindow.wgt.RDat	GCC2	2	108565662	109625871	0.0664		  NA		      NA	  NA	 NA	387	0	enet	0.11	2.7e-26	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS7_1Mwindow.wgt.RDat	RPS7	2	3122850	4128510	0.0902		  NA		      NA	  NA	 NA	534	0	enet	0.054	1.3e-13	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BMP10_1Mwindow.wgt.RDat	BMP10	2	68588041	69598529	0.0213		  NA		      NA	  NA	 NA	530	0	lasso	-0.001	0.93	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MZT2A_1Mwindow.wgt.RDat	MZT2A	2	131741533	132749970	0.1129		  NA		      NA	  NA	 NA	135	0	blup	0.081	1e-19	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EPHA4_1Mwindow.wgt.RDat	EPHA4	2	221782747	222938922	0.0563		  NA		      NA	  NA	 NA	505	0	blup	0.028	1.2e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRAPPC12-AS1_1Mwindow.wgt.RDat	TRAPPC12-AS1	2	2982364	3987024	0.0648		  NA		      NA	  NA	 NA	547	0	enet	0.043	5.5e-11	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00954_1Mwindow.wgt.RDat	LINC00954	2	19568615	20584808	0.064		  NA		      NA	  NA	 NA	588	0	top1	0.055	1.1e-13	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SESTD1_1Mwindow.wgt.RDat	SESTD1	2	179466405	180629559	0.0613		  NA		      NA	  NA	 NA	0	0	lasso	0.045	1.5e-11	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HDAC4_1Mwindow.wgt.RDat	HDAC4	2	239469864	240823343	0.0449		  NA		      NA	  NA	 NA	645	0	blup	0.015	7.4e-05	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MAL_1Mwindow.wgt.RDat	MAL	2	95191453	96219737	0.0706	rs11164117	3.77	rs3112992	3.16e-05	3.37	2.1	77	77	blup	0.013	0.00023	-1.61	0.107
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CFLAR_1Mwindow.wgt.RDat	CFLAR	2	201480887	202541410	0.0207		  NA		      NA	  NA	 NA	404	0	enet	0.0033	0.041	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SERPINE2_1Mwindow.wgt.RDat	SERPINE2	2	224339762	225404003	0.1279		  NA		      NA	  NA	 NA	488	0	lasso	0.098	1.2e-23	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02610_1Mwindow.wgt.RDat	LINC02610	2	238633754	239640318	0.0694		  NA		      NA	  NA	 NA	0	0	lasso	0.053	2.6e-13	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LCLAT1_1Mwindow.wgt.RDat	LCLAT1	2	30170112	31367091	0.0773		  NA		      NA	  NA	 NA	606	0	top1	0.099	6.0999999999999996e-24	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PLEKHH2_1Mwindow.wgt.RDat	PLEKHH2	2	43364399	44495126	0.1038		  NA		      NA	  NA	 NA	516	0	top1	0.085	1.2e-20	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BIN1_1Mwindow.wgt.RDat	BIN1	2	127305599	128364730	0.0735		  NA		      NA	  NA	 NA	477	0	top1	0.041	1.1e-10	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LBH_1Mwindow.wgt.RDat	LBH	2	29954400	30982894	0.038		  NA		      NA	  NA	 NA	509	0	blup	0.01	0.0011	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ALMS1_1Mwindow.wgt.RDat	ALMS1	2	73112886	74337046	0.0252		  NA		      NA	  NA	 NA	380	0	blup	0.019	1.3e-05	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CEBPZOS_1Mwindow.wgt.RDat	CEBPZOS	2	36923639	37943336	0.0435		  NA		      NA	  NA	 NA	0	0	lasso	0.035	2.6e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PSD4_1Mwindow.wgt.RDat	PSD4	2	113431548	114466968	0.0336		  NA		      NA	  NA	 NA	459	0	blup	0.0046	0.019	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TLK1_1Mwindow.wgt.RDat	TLK1	2	171347333	172587803	0.0457		  NA		      NA	  NA	 NA	0	0	lasso	0.021	3.2e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LIMS2_1Mwindow.wgt.RDat	LIMS2	2	127896001	128939360	0.0304		  NA		      NA	  NA	 NA	400	0	enet	0.0086	0.0023	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPIL3_1Mwindow.wgt.RDat	PPIL3	2	201235630	202253800	0.0895		  NA		      NA	  NA	 NA	466	0	top1	0.11	3.1e-26	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C2orf74_1Mwindow.wgt.RDat	C2orf74	2	60872251	61891963	0.0381		  NA		      NA	  NA	 NA	0	0	lasso	0.052	3.7e-13	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RNF149_1Mwindow.wgt.RDat	RNF149	2	101392063	102425163	0.0291		  NA		      NA	  NA	 NA	401	0	blup	0.0097	0.0013	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MFSD6_1Mwindow.wgt.RDat	MFSD6	2	190772302	191867040	0.0201		  NA		      NA	  NA	 NA	355	0	blup	0.0044	0.022	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02580_1Mwindow.wgt.RDat	LINC02580	2	42824884	43829583	0.0732		  NA		      NA	  NA	 NA	0	0	lasso	0.034	4.3e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACKR3_1Mwindow.wgt.RDat	ACKR3	2	236978468	237990997	0.0321		  NA		      NA	  NA	 NA	424	0	top1	0.039	3.4e-10	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VAMP5_1Mwindow.wgt.RDat	VAMP5	2	85311554	86320529	0.0677		  NA		      NA	  NA	 NA	473	0	blup	0.027	2e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL37A_1Mwindow.wgt.RDat	RPL37A	2	216863567	217868809	0.0437		  NA		      NA	  NA	 NA	478	0	top1	0.028	9.4e-08	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SEPTIN2_1Mwindow.wgt.RDat	SEPTIN2	2	241754770	242793442	0.0673		  NA		      NA	  NA	 NA	368	0	lasso	0.041	1.5e-10	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNTG2_1Mwindow.wgt.RDat	SNTG2	2	446535	1871385	0.0322		  NA		      NA	  NA	 NA	691	0	lasso	0.0098	0.0012	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC4A7_1Mwindow.wgt.RDat	SLC4A7	3	26914214	28025875	0.0265							428	0	top1	0.018	1.6e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.B3GALNT1_1Mwindow.wgt.RDat	B3GALNT1	3	160301671	161323137	0.042							365	0	top1	0.02	5.6e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LMLN_1Mwindow.wgt.RDat	LMLN	3	197187088	198270591	0.0177							180	0	blup	0.0061	0.0085		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGEF3_1Mwindow.wgt.RDat	ARHGEF3	3	56261448	57613296	0.0667							541	0	top1	0.062	2.5e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MLF1_1Mwindow.wgt.RDat	MLF1	3	157788983	158824245	0.0167							398	0	top1	0.012	0.00039		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC66_1Mwindow.wgt.RDat	CCDC66	3	56091184	57155865	0.0364							463	0	blup	0.029	5.2e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HSPBAP1_1Mwindow.wgt.RDat	HSPBAP1	3	121958846	123012678	0.1466							543	0	top1	0.13	5.200000000000001e-32		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MUC20_1Mwindow.wgt.RDat	MUC20	3	194947849	195960422	0.0723							301	0	enet	0.048	3.6e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RUVBL1-AS1_1Mwindow.wgt.RDat	RUVBL1-AS1	3	127294653	128297899	0.0975							386	0	lasso	0.0076	0.0038		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACVR2B_1Mwindow.wgt.RDat	ACVR2B	3	37995381	39034633	0.0217							461	0	blup	0.0042	0.024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FHIT_1Mwindow.wgt.RDat	FHIT	3	59233003	61737126	0.2118							1747	0	lasso	0.25	1.1e-63		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RNF168_1Mwindow.wgt.RDat	RNF168	3	195695654	196730639	0.0297							395	0	enet	0.0049	0.016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DZIP3_1Mwindow.wgt.RDat	DZIP3	3	107808569	108913687	0.0237							477	0	top1	0.011	0.0008		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MAP6D1_1Mwindow.wgt.RDat	MAP6D1	3	183033710	184043365	0.0342							470	0	blup	0.015	7.3e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RBM6_1Mwindow.wgt.RDat	RBM6	3	49477583	50614682	0.0175							362	0	blup	0.0053	0.013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADGRG7_1Mwindow.wgt.RDat	ADGRG7	3	99828445	100914323	0.5164							459	0	top1	0.21	9.999999999999999e-51		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PTH1R_1Mwindow.wgt.RDat	PTH1R	3	46419211	47445289	0.1007							322	0	top1	-0.00098	0.83		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NEK4_1Mwindow.wgt.RDat	NEK4	3	52242460	53304956	0.0184							422	0	top1	0.018	1.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TAFA1_1Mwindow.wgt.RDat	TAFA1	3	67540686	69094772	0.0774							0	0	lasso	0.06	7.2e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SENP2_1Mwindow.wgt.RDat	SENP2	3	184804083	185851339	0.0569							376	0	lasso	0.0068	0.0059		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RRP9_1Mwindow.wgt.RDat	RRP9	3	51467445	52475920	0.0243							214	0	enet	0.022	2.2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02021_1Mwindow.wgt.RDat	LINC02021	3	129330550	130339412	0.0174							321	0	blup	0.012	0.00029		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC50_1Mwindow.wgt.RDat	CCDC50	3	190547183	191616448	0.0273							468	0	top1	0.023	1.2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PTPRG-AS1_1Mwindow.wgt.RDat	PTPRG-AS1	3	61747494	62804622	0.0615							641	0	blup	0.0011	0.15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.WDR5B-DT_1Mwindow.wgt.RDat	WDR5B-DT	3	121635053	122662094	0.0635							482	0	enet	0.06	7.6e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL14_1Mwindow.wgt.RDat	RPL14	3	39998830	41010078	0.2417							283	0	enet	0.085	1e-20		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SGO1-AS1_1Mwindow.wgt.RDat	SGO1-AS1	3	19715778	20727607	0.0227							438	0	blup	0.004	0.027		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.WNT7A_1Mwindow.wgt.RDat	WNT7A	3	13357755	14421568	0.0422							519	0	blup	0.0013	0.13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIX23_1Mwindow.wgt.RDat	MIX23	3	121578438	122602078	0.1235							474	0	blup	0.089	1.1e-21		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CMTM8_1Mwindow.wgt.RDat	CMTM8	3	31780172	32911813	0.3759							500	0	lasso	0.22	5.2e-55		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SCAANT1_1Mwindow.wgt.RDat	SCAANT1	3	63397194	64397448	0.0327							574	0	blup	0.013	0.00021		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANAPC13_1Mwindow.wgt.RDat	ANAPC13	3	133696546	134704865	0.0279							471	0	blup	0.009	0.0018		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KLHL18_1Mwindow.wgt.RDat	KLHL18	3	46824434	47888306	0.0467							160	0	top1	0.0094	0.0015		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PFN2_1Mwindow.wgt.RDat	PFN2	3	149182691	150188682	0.0315							447	0	top1	0.026	2.7e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EIF2A_1Mwindow.wgt.RDat	EIF2A	3	149764574	150803803	0.0756							435	0	lasso	0.053	2e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TNFSF10_1Mwindow.wgt.RDat	TNFSF10	3	171723298	172741220	0.0436							452	0	blup	0.0078	0.0034		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZBTB38_1Mwindow.wgt.RDat	ZBTB38	3	140543028	141668634	0.0399							426	0	blup	0.016	4.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF502_1Mwindow.wgt.RDat	ZNF502	3	44254152	45265323	0.0441							367	0	top1	0.056	4.6e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LIMD1_1Mwindow.wgt.RDat	LIMD1	3	45136243	46227833	0.0849							539	0	blup	0.045	1.8e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPSA_1Mwindow.wgt.RDat	RPSA	3	38948211	39954033	0.0404							416	0	enet	0.052	3.8e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FLNB_1Mwindow.wgt.RDat	FLNB	3	57494149	58657978	0.0357							507	0	blup	0.0051	0.015		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC51_1Mwindow.wgt.RDat	CCDC51	3	47973583	48981529	0.0171							256	0	top1	0.0091	0.0017		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CMSS1_1Mwindow.wgt.RDat	CMSS1	3	99036706	100400576	0.029							518	0	blup	0.012	0.00034		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FANCD2OS_1Mwindow.wgt.RDat	FANCD2OS	3	9623004	10649939	0.0535							555	0	lasso	0.14	1.1e-32		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ULK4_1Mwindow.wgt.RDat	ULK4	3	40788090	42503595	0.0357							0	0	lasso	0.031	1.7e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GPR160_1Mwindow.wgt.RDat	GPR160	3	169255783	170303180	0.0724							398	0	top1	0.095	6.900000000000001e-23		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GRK7_1Mwindow.wgt.RDat	GRK7	3	140982250	142038194	0.0152							389	0	blup	0.0045	0.02		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ENTPD3-AS1_1Mwindow.wgt.RDat	ENTPD3-AS1	3	39932442	40994799	0.0172							312	0	top1	0.012	0.0003		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.THUMPD3-AS1_1Mwindow.wgt.RDat	THUMPD3-AS1	3	8926948	9939178	0.1012							522	0	blup	0.021	3.3e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.XYLB_1Mwindow.wgt.RDat	XYLB	3	37888276	38968677	0.0277							472	0	enet	0.025	5.3e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00852_1Mwindow.wgt.RDat	LINC00852	3	9826103	10827430	0.0426							604	0	top1	0.032	1e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CYP4V2_1Mwindow.wgt.RDat	CYP4V2	4	186612721	187634617	0.0449		   NA		   NA	   NA	   NA	584	0	top1	0.041	1.4e-10	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM13A_1Mwindow.wgt.RDat	FAM13A	4	89147111	90478336	0.0926		   NA		   NA	   NA	   NA	530	0	enet	0.093	2.2e-22	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HPGDS_1Mwindow.wgt.RDat	HPGDS	4	94719686	95763987	0.0823		   NA		   NA	   NA	   NA	0	0	lasso	-0.0009	0.72	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02513_1Mwindow.wgt.RDat	LINC02513	4	37868535	38887380	0.0332		   NA		   NA	   NA	   NA	591	0	top1	0.032	1.1e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02482_1Mwindow.wgt.RDat	LINC02482	4	6172455	7175608	0.0851		   NA		   NA	   NA	   NA	503	0	top1	0.047	6.5e-12	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MANBA_1Mwindow.wgt.RDat	MANBA	4	103051927	104182125	0.0566		   NA		   NA	   NA	   NA	382	0	enet	0.051	8e-13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BDH2_1Mwindow.wgt.RDat	BDH2	4	103498749	104520991	0.0268		   NA		   NA	   NA	   NA	315	0	top1	0.033	6.4e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CENPU_1Mwindow.wgt.RDat	CENPU	4	185115239	186155250	0.023		   NA		   NA	   NA	   NA	533	0	enet	0.012	0.00045	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CASP6_1Mwindow.wgt.RDat	CASP6	4	110109784	111124601	0.0305		   NA		   NA	   NA	   NA	376	0	blup	0.012	0.00031	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FABP2_1Mwindow.wgt.RDat	FABP2	4	119738405	120743293	0.0292		   NA		   NA	   NA	   NA	442	0	blup	0.017	2.6e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NEK1_1Mwindow.wgt.RDat	NEK1	4	169813960	171033734	0.0177		   NA		   NA	   NA	   NA	422	0	top1	0.019	8.8e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNHG8_1Mwindow.wgt.RDat	SNHG8	4	118699917	119700978	0.2796		   NA		   NA	   NA	   NA	0	0	lasso	0.26	4e-64	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CTBP1-DT_1Mwindow.wgt.RDat	CTBP1-DT	4	743228	1746795	0.0492		   NA		   NA	   NA	   NA	400	0	top1	0.025	5e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SEPSECS-AS1_1Mwindow.wgt.RDat	SEPSECS-AS1	4	24662294	25700128	0.089		   NA		   NA	   NA	   NA	524	0	lasso	0.052	3.9e-13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM241A_1Mwindow.wgt.RDat	FAM241A	4	112566610	113616412	0.0403		   NA		   NA	   NA	   NA	376	0	enet	0.053	2e-13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM184B_1Mwindow.wgt.RDat	FAM184B	4	17130929	18283244	0.2554		   NA		   NA	   NA	   NA	469	0	lasso	0.47	5.5e-134	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANKRD50_1Mwindow.wgt.RDat	ANKRD50	4	125085203	126133887	0.0337		   NA		   NA	   NA	   NA	393	0	blup	0.0039	0.029	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NAAA_1Mwindow.wgt.RDat	NAAA	4	76331808	77362166	0.022		   NA		   NA	   NA	   NA	462	0	blup	0.0033	0.04	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATP8A1_1Mwindow.wgt.RDat	ATP8A1	4	41910390	43159122	0.0286		   NA		   NA	   NA	   NA	581	0	blup	0.0035	0.036	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LCORL_1Mwindow.wgt.RDat	LCORL	4	17342810	18523498	0.0317		   NA		   NA	   NA	   NA	413	0	blup	0.0062	0.0083	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GYPE_1Mwindow.wgt.RDat	GYPE	4	144292017	145326712	0.0201		   NA		   NA	   NA	   NA	260	0	blup	0.014	0.00017	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CXCL1_1Mwindow.wgt.RDat	CXCL1	4	74235110	75237025	0.0257		   NA		   NA	   NA	   NA	294	0	lasso	0.0015	0.12	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AFAP1_1Mwindow.wgt.RDat	AFAP1	4	7260440	8441588	0.1187		   NA		   NA	   NA	   NA	824	0	top1	0.12	1.2e-29	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ABCG2_1Mwindow.wgt.RDat	ABCG2	4	88511416	89652778	0.0487		   NA		   NA	   NA	   NA	493	0	top1	0.035	2.3e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HSD17B11_1Mwindow.wgt.RDat	HSD17B11	4	87757667	88812340	0.0778		   NA		   NA	   NA	   NA	458	0	blup	0.028	1e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02562_1Mwindow.wgt.RDat	LINC02562	4	75507135	76509918	0.0624		   NA		   NA	   NA	   NA	404	0	top1	0.05	1.3e-12	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01179_1Mwindow.wgt.RDat	LINC01179	4	166105791	167183930	0.0537		   NA		   NA	   NA	   NA	0	0	lasso	0.19	1.7e-46	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.G3BP2_1Mwindow.wgt.RDat	G3BP2	4	76067970	77149621	0.0309		   NA		   NA	   NA	   NA	484	0	top1	0.026	3.5e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SRD5A3_1Mwindow.wgt.RDat	SRD5A3	4	55712409	56739267	0.0542		   NA		   NA	   NA	   NA	398	0	blup	0.034	4.8e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KLF3-AS1_1Mwindow.wgt.RDat	KLF3-AS1	4	38100714	39166514	0.0749		   NA		   NA	   NA	   NA	0	0	lasso	0.042	6e-11	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MRPS18C_1Mwindow.wgt.RDat	MRPS18C	4	83877211	84883451	0.0209		   NA		   NA	   NA	   NA	352	0	blup	0.0063	0.0078	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02273_1Mwindow.wgt.RDat	LINC02273	4	152521905	153525872	0.1498		   NA		   NA	   NA	   NA	351	0	lasso	0.14	1.4e-32	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CFAP97_1Mwindow.wgt.RDat	CFAP97	4	185580819	186625154	0.0356		   NA		   NA	   NA	   NA	518	0	blup	0.0082	0.0029	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RNF175_1Mwindow.wgt.RDat	RNF175	4	154131312	155181176	0.0745		   NA		   NA	   NA	   NA	420	0	blup	0.059	1.1e-14	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RGS12_1Mwindow.wgt.RDat	RGS12	4	2787618	3941640	0.0313		   NA		   NA	   NA	   NA	393	0	top1	0.01	0.001	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNX25_1Mwindow.wgt.RDat	SNX25	4	185625391	186785120	0.0453		   NA		   NA	   NA	   NA	610	0	top1	0.051	7.9e-13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AGA_1Mwindow.wgt.RDat	AGA	4	177851928	178863591	0.0373		   NA		   NA	   NA	   NA	427	0	top1	0.031	2e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MCUB_1Mwindow.wgt.RDat	MCUB	4	109981402	111109875	0.0518		   NA		   NA	   NA	   NA	400	0	enet	0.029	5.4e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UBA6_1Mwindow.wgt.RDat	UBA6	4	67978370	69066873	0.0269		   NA		   NA	   NA	   NA	428	0	top1	0.017	3.2e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CNOT6L_1Mwindow.wgt.RDat	CNOT6L	4	78134541	79241423	0.055		   NA		   NA	   NA	   NA	524	0	blup	0.015	6.6e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPAT_1Mwindow.wgt.RDat	PPAT	4	56759528	57801781	0.0372		   NA		   NA	   NA	   NA	445	0	top1	0.022	2.6e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GYPB_1Mwindow.wgt.RDat	GYPB	4	144417257	145440533	1.0		   NA		   NA	   NA	   NA	256	0	top1	-0.00097	0.81	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.INPP4B_1Mwindow.wgt.RDat	INPP4B	4	142444313	144267688	0.0274		   NA		   NA	   NA	   NA	602	0	top1	0.035	2.7e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STAP1_1Mwindow.wgt.RDat	STAP1	4	67924445	68973055	0.0352		   NA		   NA	   NA	   NA	414	0	blup	0.014	0.00012	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM156_1Mwindow.wgt.RDat	TMEM156	4	38468365	39534029	0.1429		   NA		   NA	   NA	   NA	501	0	enet	0.11	4.5e-27	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANXA5_1Mwindow.wgt.RDat	ANXA5	4	122089101	123118135	0.0691		   NA		   NA	   NA	   NA	455	0	top1	0.047	4.4e-12	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.USP53_1Mwindow.wgt.RDat	USP53	4	119633868	120716673	0.1541		   NA		   NA	   NA	   NA	0	0	lasso	0.14	5.3000000000000004e-33	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS3A_1Mwindow.wgt.RDat	RPS3A	4	151520780	152525794	0.1811	rs7689875	-2.54	rs6839157	0.275	-16.7	0.388	256	1	enet	0.28	1.4e-70	-0.388	0.698
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LSM6_1Mwindow.wgt.RDat	LSM6	4	146596870	147612687	0.0224		   NA		   NA	   NA	   NA	354	0	blup	0.012	0.00035	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NSG1_1Mwindow.wgt.RDat	NSG1	4	3888259	4920785	0.239		   NA		   NA	   NA	   NA	423	0	lasso	0.21	1.9e-50	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPINK2_1Mwindow.wgt.RDat	SPINK2	4	57176026	58188035	0.1		   NA		   NA	   NA	   NA	0	0	lasso	0.06	6.3e-15	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PIGY-DT_1Mwindow.wgt.RDat	PIGY-DT	4	88944961	89946142	0.0254		   NA		   NA	   NA	   NA	384	0	blup	0.01	0.00084	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC6A7_1Mwindow.wgt.RDat	SLC6A7	5	149069625	150090626	0.3312							548	0	blup	-0.0006	0.52		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02150_1Mwindow.wgt.RDat	LINC02150	5	15873470	16941211	0.7408							484	0	lasso	-0.00036	0.42		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02197_1Mwindow.wgt.RDat	LINC02197	5	70116858	71242583	0.018							221	0	top1	0.031	2.3e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.POC5_1Mwindow.wgt.RDat	POC5	5	74469949	75513262	0.0215							392	0	blup	0.005	0.016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPWD1_1Mwindow.wgt.RDat	PPWD1	5	64359123	65383376	0.0165							407	0	blup	0.01	0.00091		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MSH3_1Mwindow.wgt.RDat	MSH3	5	79450471	80672634	0.0384							586	0	blup	0.0098	0.0012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SETD9_1Mwindow.wgt.RDat	SETD9	5	55705087	56724727	0.0472							0	0	lasso	0.045	1.4e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.S100Z_1Mwindow.wgt.RDat	S100Z	5	75645839	76717475	0.0346							0	0	enet	0.0018	0.099		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SKP1_1Mwindow.wgt.RDat	SKP1	5	132984626	134012641	0.0358							462	0	top1	0.01	0.00098		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RETREG1_1Mwindow.wgt.RDat	RETREG1	5	15973162	17117106	0.0406							504	0	top1	0.039	3.3e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GNPDA1_1Mwindow.wgt.RDat	GNPDA1	5	140880236	141892592	0.0303							543	0	blup	0.012	0.00045		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANKRD55_1Mwindow.wgt.RDat	ANKRD55	5	54895507	56029157	0.0825							541	0	top1	0.1	4.9e-25		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IL31RA_1Mwindow.wgt.RDat	IL31RA	5	54647185	55718678	0.0341							395	0	blup	0.00029	0.26		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNX24_1Mwindow.wgt.RDat	SNX24	5	121681308	122844900	0.031							507	0	blup	0.006	0.0091		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FST_1Mwindow.wgt.RDat	FST	5	52276459	53282964	0.5967							0	0	lasso	0.37	1e-100		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.P4HA2_1Mwindow.wgt.RDat	P4HA2	5	131025840	132063546	0.04							411	0	top1	0.0089	0.0019		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CAMK4_1Mwindow.wgt.RDat	CAMK4	5	110059281	111330584	0.0522							506	0	blup	0.018	1.8e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SMAD5_1Mwindow.wgt.RDat	SMAD5	5	134968534	136018421	0.0684							466	0	top1	0.088	2.6e-21		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DIAPH1-AS1_1Mwindow.wgt.RDat	DIAPH1-AS1	5	140437878	141444827	0.0744							0	0	lasso	0.0017	0.11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SGTB_1Mwindow.wgt.RDat	SGTB	5	64461755	65517936	0.0237							391	0	blup	0.0073	0.0044		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGAP26-IT1_1Mwindow.wgt.RDat	ARHGAP26-IT1	5	142072065	143073731	0.0726							502	0	top1	0.0028	0.054		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRR7-AS1_1Mwindow.wgt.RDat	PRR7-AS1	5	176364890	177374945	0.3059							237	0	top1	0.23	9.1e-56		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CAMLG_1Mwindow.wgt.RDat	CAMLG	5	133574238	134587847	0.0249							311	0	blup	0.0034	0.038		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC9A3-AS1_1Mwindow.wgt.RDat	SLC9A3-AS1	5	0	981007	0.0958							307	0	top1	0.069	6.2e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PCDHGB1_1Mwindow.wgt.RDat	PCDHGB1	5	140229666	141392542	0.0605							0	0	enet	0.058	1.8e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NAIP_1Mwindow.wgt.RDat	NAIP	5	69763993	70821166	0.0223							35	0	blup	0.0081	0.0029		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NDUFAF2_1Mwindow.wgt.RDat	NDUFAF2	5	59741032	60948853	0.0255							386	0	blup	0.012	0.0003		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EIF4E1B_1Mwindow.wgt.RDat	EIF4E1B	5	175557676	176573645	0.0481							389	0	top1	-0.00092	0.74		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPATA9_1Mwindow.wgt.RDat	SPATA9	5	94487885	95567806	0.1208							410	0	top1	0.077	8.4e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRIM23_1Mwindow.wgt.RDat	TRIM23	5	64385517	65420160	0.0165							396	0	blup	0.016	5.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.JAKMIP2_1Mwindow.wgt.RDat	JAKMIP2	5	146465001	147662291	0.1283							509	0	enet	0.067	2e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GTF2H2_1Mwindow.wgt.RDat	GTF2H2	5	69831174	70863503	0.202							48	0	lasso	0.078	4.6e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DHFR_1Mwindow.wgt.RDat	DHFR	5	79422045	80450802	0.0483							501	0	top1	0.03	3.7e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUDT12_1Mwindow.wgt.RDat	NUDT12	5	102384556	103398490	0.0945							381	0	enet	0.037	1e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ENC1_1Mwindow.wgt.RDat	ENC1	5	73423234	74436553	0.0445							516	0	top1	0.024	6.1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANKDD1B_1Mwindow.wgt.RDat	ANKDD1B	5	74407278	75467671	0.0207							390	0	blup	0.0061	0.0088		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SMIM15-AS1_1Mwindow.wgt.RDat	SMIM15-AS1	5	59958143	61027907	0.8592							392	0	blup	-0.00048	0.47		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SCGB3A1_1Mwindow.wgt.RDat	SCGB3A1	5	179517105	180518499	0.6551							0	0	lasso	0.67	9.8e-238		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GLRX_1Mwindow.wgt.RDat	GLRX	5	94649553	95658430	0.0571							378	0	blup	0.0007	0.2		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TBCA_1Mwindow.wgt.RDat	TBCA	5	76486991	77572163	0.0811							0	0	lasso	0.085	1.4e-20		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ERAP2_1Mwindow.wgt.RDat	ERAP2	5	95711643	96755420	0.1618							501	0	top1	0.26	6.2e-65		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01962_1Mwindow.wgt.RDat	LINC01962	5	180118046	181118908	0.0419							209	0	top1	0.027	1.6e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PCDHGB5_1Mwindow.wgt.RDat	PCDHGB5	5	140277514	141392542	0.0913							0	0	lasso	0.14	6e-33		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM153B_1Mwindow.wgt.RDat	FAM153B	5	174990058	176054145	0.1559							329	0	lasso	0.18	3.6000000000000004e-44		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATG10_1Mwindow.wgt.RDat	ATG10	5	80767842	82051952	0.0171							522	0	blup	0.0034	0.038		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS23_1Mwindow.wgt.RDat	RPS23	5	81069139	82074173	0.0256							427	0	lasso	0.013	0.00027		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HMHB1_1Mwindow.wgt.RDat	HMHB1	5	142691726	143700281	0.2197							464	0	top1	0.13	1.2000000000000001e-30		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PCDHB4_1Mwindow.wgt.RDat	PCDHB4	5	140001400	141005205	0.0489							438	0	lasso	0.0018	0.096		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GCNT4_1Mwindow.wgt.RDat	GCNT4	5	73821171	74848383	0.013							363	0	blup	0.0064	0.0074		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CENPK_1Mwindow.wgt.RDat	CENPK	5	64312119	65358995	0.2274							424	0	lasso	0.43	1e-120		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NSA2_1Mwindow.wgt.RDat	NSA2	5	73563074	74575938	0.0974							448	0	top1	0.062	1.8e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADAMTS6_1Mwindow.wgt.RDat	ADAMTS6	5	63944565	65277747	0.057							522	0	top1	0.075	2.7e-18		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CKMT2-AS1_1Mwindow.wgt.RDat	CKMT2-AS1	5	80033384	81097388	0.0332							478	0	blup	0.0045	0.021		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EXOC3_1Mwindow.wgt.RDat	EXOC3	5	0	967405	0.0736							304	0	lasso	0.058	1.6e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM153CP_1Mwindow.wgt.RDat	FAM153CP	5	176934693	177990589	0.1218							398	0	lasso	0.092	2.8000000000000004e-22		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02527_1Mwindow.wgt.RDat	LINC02527	6	111721508	112730600	0.0307							504	0	top1	0.021	2.8e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SAMD3_1Mwindow.wgt.RDat	SAMD3	6	129965460	131187013	0.1502							0	0	lasso	0.12	2.5e-29		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSTD3_1Mwindow.wgt.RDat	TSTD3	6	99468925	100481061	0.1697							467	0	lasso	0.16	1.2e-37		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.B3GAT2_1Mwindow.wgt.RDat	B3GAT2	6	71066382	72166763	0.0759							434	0	lasso	0.032	1.5e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RNF217_1Mwindow.wgt.RDat	RNF217	6	124783583	125913780	0.0554							508	0	top1	0.022	2.1e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CARMIL1_1Mwindow.wgt.RDat	CARMIL1	6	24779602	26120758	0.0511							830	0	enet	0.015	8.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CAPN11_1Mwindow.wgt.RDat	CAPN11	6	43626557	44652138	0.0884							560	0	top1	0.092	2.6e-22		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.L3MBTL3_1Mwindow.wgt.RDat	L3MBTL3	6	129839726	130962583	0.0597							612	0	lasso	0.033	6.1e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GCM2_1Mwindow.wgt.RDat	GCM2	6	10373456	11382274	0.087							452	0	top1	-0.00099	0.84		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS10_1Mwindow.wgt.RDat	RPS10	6	33885231	34893846	0.2414							348	0	lasso	0.32	1.6e-84		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SYNJ2-IT1_1Mwindow.wgt.RDat	SYNJ2-IT1	6	157922139	158923415	0.0388							0	0	enet	0.00017	0.28		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00222_1Mwindow.wgt.RDat	LINC00222	6	108572857	109591145	0.0187							0	0	lasso	0.4	4.6e-108		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RUNX2_1Mwindow.wgt.RDat	RUNX2	6	44796067	46018819	0.0274							496	0	enet	0.03	3.4e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CLPS_1Mwindow.wgt.RDat	CLPS	6	35262759	36265100	0.0519							0	0	lasso	-0.00068	0.56		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SESN1_1Mwindow.wgt.RDat	SESN1	6	108805512	109916049	0.0862							0	0	lasso	0.11	1.5e-25		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SERPINB9_1Mwindow.wgt.RDat	SERPINB9	6	2387504	3403543	0.0435							640	0	enet	0.03	3.6e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ABRACL_1Mwindow.wgt.RDat	ABRACL	6	138849882	139864439	0.0383							458	0	blup	0.014	0.00011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RSPH9_1Mwindow.wgt.RDat	RSPH9	6	43112773	44140337	0.061							440	0	lasso	0.008	0.0031		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HULC_1Mwindow.wgt.RDat	HULC	6	8152442	9154079	0.0277							426	0	enet	0.013	0.00022		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MDGA1_1Mwindow.wgt.RDat	MDGA1	6	37098455	38165659	0.1723							463	0	lasso	0.13	6e-32		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LY86-AS1_1Mwindow.wgt.RDat	LY86-AS1	6	5846698	7123059	0.0529							906	0	top1	0.033	5.8e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MICAL1_1Mwindow.wgt.RDat	MICAL1	6	109265265	110287171	0.0153							381	0	blup	0.0067	0.0062		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GPR63_1Mwindow.wgt.RDat	GPR63	6	96742001	97785353	0.0271							420	0	top1	0.017	2.6e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ALDH8A1_1Mwindow.wgt.RDat	ALDH8A1	6	134738531	135771239	0.0263							409	0	top1	0.00048	0.23		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADTRP_1Mwindow.wgt.RDat	ADTRP	6	11213756	12279036	0.0668							650	0	blup	0.019	8.5e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PHACTR2_1Mwindow.wgt.RDat	PHACTR2	6	143358015	144652322	0.0576							598	0	blup	0.019	1.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EPM2A_1Mwindow.wgt.RDat	EPM2A	6	145446441	146557159	0.0123							330	0	top1	0.01	0.00085		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CALHM6_1Mwindow.wgt.RDat	CALHM6	6	116282538	117284934	0.2263							0	0	lasso	0.21	1.4e-52		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BTBD9_1Mwindow.wgt.RDat	BTBD9	6	37636227	39107705	0.0406							683	0	top1	0.03	4.3e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SERPINB6_1Mwindow.wgt.RDat	SERPINB6	6	2448393	3472027	0.1336							655	0	lasso	0.11	1.9e-27		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BTN3A2_1Mwindow.wgt.RDat	BTN3A2	6	25865426	26878548	0.1259							541	0	enet	0.095	6.5e-23		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNHG5_1Mwindow.wgt.RDat	SNHG5	6	85886725	86888451	0.4016							329	0	top1	0.62	5.899999999999999e-206		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS12_1Mwindow.wgt.RDat	RPS12	6	132635708	133638703	0.0285							0	0	lasso	0.019	1.2e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTA1_1Mwindow.wgt.RDat	GSTA1	6	52156169	53168614	0.0448							0	0	enet	-0.00021	0.37		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PI16_1Mwindow.wgt.RDat	PI16	6	36416072	37432613	0.1439							497	0	enet	0.14	1.3000000000000001e-32		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SYNGAP1-AS1_1Mwindow.wgt.RDat	SYNGAP1-AS1	6	32905140	33922182	0.0261							491	0	blup	0.0073	0.0045		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RNASET2_1Mwindow.wgt.RDat	RNASET2	6	166835601	167870038	0.1395							682	0	enet	0.24	1.9000000000000001e-59		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PEX6_1Mwindow.wgt.RDat	PEX6	6	42431603	43446919	0.0565							341	0	blup	0.026	3e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FRS3_1Mwindow.wgt.RDat	FRS3	6	41237914	42247638	0.0334							488	0	blup	0.0031	0.047		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AKAP12_1Mwindow.wgt.RDat	AKAP12	6	151061102	152179694	0.1239							674	0	top1	0.15	1.5e-35		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NCOA7_1Mwindow.wgt.RDat	NCOA7	6	125602261	126753180	0.0347							326	0	enet	0.021	4.4e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL10A_1Mwindow.wgt.RDat	RPL10A	6	34936178	35938557	0.2345							427	0	lasso	0.11	3.4000000000000004e-27		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TUBB2A_1Mwindow.wgt.RDat	TUBB2A	6	2653900	3657778	0.0853							588	0	lasso	0.012	0.00041		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HCG25_1Mwindow.wgt.RDat	HCG25	6	32717313	33722667	0.0238							445	0	blup	0.008	0.0031		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AIF1_1Mwindow.wgt.RDat	AIF1	6	31083011	32084792	0.1561							297	0	enet	0.07	3.8e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.POM121L2_1Mwindow.wgt.RDat	POM121L2	6	26776156	27780052	0.209							354	0	top1	-0.00086	0.68		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NQO2_1Mwindow.wgt.RDat	NQO2	6	2500128	3519989	0.0542							649	0	lasso	0.029	4.7e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PSMG4_1Mwindow.wgt.RDat	PSMG4	6	2759181	3768283	0.0576							552	0	blup	0.004	0.027		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZBTB24_1Mwindow.wgt.RDat	ZBTB24	6	109283797	110304422	0.0164							391	0	blup	0.0077	0.0035		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DST_1Mwindow.wgt.RDat	DST	6	55822794	57319628	0.0271							522	0	enet	0.011	0.00054		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AHI1_1Mwindow.wgt.RDat	AHI1	6	135104670	136318878	0.1329							432	0	lasso	0.15	2.2e-37		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SDHAF4_1Mwindow.wgt.RDat	SDHAF4	6	70776633	71799272	0.0159							494	0	blup	0.0084	0.0025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC167_1Mwindow.wgt.RDat	CCDC167	6	36950714	37967669	0.0503							473	0	enet	0.036	2e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BLOC1S5_1Mwindow.wgt.RDat	BLOC1S5	6	7513800	8564647	0.0274							646	0	blup	0.0068	0.006		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SUPT3H_1Mwindow.wgt.RDat	SUPT3H	6	44276794	45845671	0.0939							655	0	top1	0.12	3e-29		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HOXA7_1Mwindow.wgt.RDat	HOXA7	7	26693335	27696294	0.1027							390	0	lasso	0.0059	0.0096		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00997_1Mwindow.wgt.RDat	LINC00997	7	32297898	33302536	0.036							0	0	lasso	0.027	1.4e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EPHA1-AS1_1Mwindow.wgt.RDat	EPHA1-AS1	7	142604906	143720542	0.0538							314	0	enet	0.025	5.7e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IKZF1_1Mwindow.wgt.RDat	IKZF1	7	49843660	50972799	0.0385							524	0	enet	0.03	3.4e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ASL_1Mwindow.wgt.RDat	ASL	7	65040806	66058563	0.0333							0	0	lasso	0.026	2.6e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SEMA3A_1Mwindow.wgt.RDat	SEMA3A	7	83085093	84324105	0.0497							503	0	enet	0.041	1.4e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TBRG4_1Mwindow.wgt.RDat	TBRG4	7	44639699	45651296	0.0324							427	0	blup	0.013	0.00028		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RAC1_1Mwindow.wgt.RDat	RAC1	7	5914158	6943598	0.0499							282	0	enet	0.029	5.7e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRBV28_1Mwindow.wgt.RDat	TRBV28	7	141928504	142928984	0.1289							0	0	lasso	0.15	4.6e-37		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EPHB6_1Mwindow.wgt.RDat	EPHB6	7	142052838	143068847	0.0357							378	0	blup	0.012	0.00041		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NT5C3A_1Mwindow.wgt.RDat	NT5C3A	7	32553725	33602388	0.0251							347	0	blup	0.0082	0.0027		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GIMAP4_1Mwindow.wgt.RDat	GIMAP4	7	149764478	150771041	0.0387							425	0	top1	0.035	2.2e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HIPK2_1Mwindow.wgt.RDat	HIPK2	7	138746316	139977797	0.0367							482	0	blup	0.0048	0.018		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DAGLB_1Mwindow.wgt.RDat	DAGLB	7	5948760	6987585	0.0486							278	0	top1	0.027	1.3e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.JAZF1_1Mwindow.wgt.RDat	JAZF1	7	27370196	28720414	0.0385							711	0	top1	0.032	1e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TOMM7_1Mwindow.wgt.RDat	TOMM7	7	22352593	23362468	0.2558							500	0	top1	0.22	5.499999999999999e-55		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LSM8_1Mwindow.wgt.RDat	LSM8	7	117324218	118344089	0.0287							341	0	top1	0.019	1.2e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTK1_1Mwindow.wgt.RDat	GSTK1	7	142460534	143466208	0.044							317	0	blup	0.015	8.6e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AVL9_1Mwindow.wgt.RDat	AVL9	7	32035101	33128338	0.0238							525	0	blup	0.0052	0.014		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.WDR86_1Mwindow.wgt.RDat	WDR86	7	150578210	151607798	0.0658							521	0	enet	0.029	5.2e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.WDR86-AS1_1Mwindow.wgt.RDat	WDR86-AS1	7	150606247	151610440	0.0519							504	0	blup	0.0043	0.024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PTPRN2_1Mwindow.wgt.RDat	PTPRN2	7	156831750	158880515	0.0423							896	0	lasso	0.027	2.1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COL1A2-AS1_1Mwindow.wgt.RDat	COL1A2-AS1	7	93496524	94521504	0.6882							336	0	lasso	0.005	0.016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CRYGN_1Mwindow.wgt.RDat	CRYGN	7	150625918	151637899	0.1006							509	0	top1	0.056	4.3e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MET_1Mwindow.wgt.RDat	MET	7	115812250	116938431	0.0276							394	0	top1	-0.001	0.92		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC146_1Mwindow.wgt.RDat	CCDC146	7	76251932	77424521	0.05							326	0	blup	0.025	3.6e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FIGNL1_1Mwindow.wgt.RDat	FIGNL1	7	50011831	51018048	0.0439							489	0	top1	0.046	9.7e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FGL2_1Mwindow.wgt.RDat	FGL2	7	76322686	77329136	0.0884							291	0	top1	0.055	7.8e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SEM1_1Mwindow.wgt.RDat	SEM1	7	95610938	96839158	0.0444							468	0	enet	0.0015	0.12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRG-AS1_1Mwindow.wgt.RDat	TRG-AS1	7	37881178	38918238	0.0595							630	0	blup	0.043	4.2e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COG5_1Mwindow.wgt.RDat	COG5	7	106341817	107704365	0.0271							483	0	blup	0.019	8.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZC3HAV1_1Mwindow.wgt.RDat	ZC3HAV1	7	138228261	139294466	0.104							416	0	top1	0.066	2.2e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZFAND2A-DT_1Mwindow.wgt.RDat	ZFAND2A-DT	7	700010	1705594	0.0289							359	0	top1	0.017	3.3e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00174_1Mwindow.wgt.RDat	LINC00174	7	65341031	66365395	0.0228							132	0	top1	0.01	0.00083		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UPK3BL1_1Mwindow.wgt.RDat	UPK3BL1	7	101777472	102783238	0.1361							118	0	top1	0.065	5.4e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PILRB_1Mwindow.wgt.RDat	PILRB	7	99455740	100465454	0.0535							300	0	enet	0.058	2.1e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STYXL1_1Mwindow.wgt.RDat	STYXL1	7	75125655	76177318	0.0268							324	0	lasso	0.033	7.8e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC26A5_1Mwindow.wgt.RDat	SLC26A5	7	102493177	103586654	0.0654							394	0	top1	0.061	3.8e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CHCHD2_1Mwindow.wgt.RDat	CHCHD2	7	55669266	56674169	0.0298							273	0	top1	0.016	3.8e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZP3_1Mwindow.wgt.RDat	ZP3	7	75526839	76571386	0.0983							207	0	enet	0.053	2.5e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCZ1B_1Mwindow.wgt.RDat	CCZ1B	7	6338568	7365906	0.1465							370	0	lasso	0.11	3.2000000000000003e-27		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZDHHC4_1Mwindow.wgt.RDat	ZDHHC4	7	6117085	7129005	0.0294							262	0	blup	0.0066	0.0067		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STMP1_1Mwindow.wgt.RDat	STMP1	7	134847262	135861164	0.0354							453	0	top1	0.017	3.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GPR22_1Mwindow.wgt.RDat	GPR22	7	106610502	107616129	0.0447							335	0	blup	0.0022	0.079		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUPR2_1Mwindow.wgt.RDat	NUPR2	7	55682374	56684110	0.0196							279	0	blup	0.012	0.00037		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TAS2R38_1Mwindow.wgt.RDat	TAS2R38	7	141172431	142173573	0.0293							377	0	blup	-0.00088	0.7		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.METTL27_1Mwindow.wgt.RDat	METTL27	7	72748920	73756846	0.055							263	0	top1	0.055	8.4e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CPA5_1Mwindow.wgt.RDat	CPA5	7	129484656	130508571	0.3118							357	0	lasso	0.33	8.4e-86		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSPAN12_1Mwindow.wgt.RDat	TSPAN12	7	119927374	120998198	0.0414							0	0	lasso	-0.00067	0.55		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AOAH_1Mwindow.wgt.RDat	AOAH	7	36052549	37264099	0.0642							725	0	lasso	0.044	2.9e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PSPH_1Mwindow.wgt.RDat	PSPH	7	55578757	56619137	0.0569							0	0	enet	0.036	1.4e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCZ1_1Mwindow.wgt.RDat	CCZ1	7	5438364	6466181	0.0474							356	0	blup	0.014	0.00011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BCL7B_1Mwindow.wgt.RDat	BCL7B	7	72450686	73472020	0.0165							201	0	blup	0.0034	0.038		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRGV3_1Mwindow.wgt.RDat	TRGV3	7	37898113	38898580	0.0404							608	0	blup	0.0082	0.0028		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DUS4L-BCAP29_1Mwindow.wgt.RDat	DUS4L-BCAP29	7	106704416	107763762	0.034							357	0	blup	0.0042	0.025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LRRC61_1Mwindow.wgt.RDat	LRRC61	7	149506588	150535245	0.053							338	0	top1	0.037	8e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LAMB1_1Mwindow.wgt.RDat	LAMB1	7	107064244	108143606	0.1903							528	0	enet	0.24	1.2e-60		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EMSLR_1Mwindow.wgt.RDat	EMSLR	7	100451588	101454620	0.0611							0	0	lasso	0.035	3.3e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KLHL7-DT_1Mwindow.wgt.RDat	KLHL7-DT	7	22640847	23645322	0.0206							424	0	blup	0.0099	0.0011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF713_1Mwindow.wgt.RDat	ZNF713	7	55455149	56509918	0.0359							0	0	enet	0.035	2.8e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VWDE_1Mwindow.wgt.RDat	VWDE	7	11870511	12943491	0.0762							668	0	top1	0.08	2.1e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.POLR2J2_1Mwindow.wgt.RDat	POLR2J2	7	101806493	102812110	0.0639							114	0	top1	0.028	1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COA1_1Mwindow.wgt.RDat	COA1	7	43148056	44269122	0.0323							486	0	lasso	0.029	5.8e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FIS1_1Mwindow.wgt.RDat	FIS1	7	100382753	101388362	0.0311							362	0	top1	0.0058	0.01		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRGC1_1Mwindow.wgt.RDat	TRGC1	7	37799689	38805279	0.0337							627	0	blup	0.0042	0.024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ASB15_1Mwindow.wgt.RDat	ASB15	7	122741875	123779535	0.0199							373	0	top1	0.017	2.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MTSS1_1Mwindow.wgt.RDat	MTSS1	8	125063025	126240714	0.0678							564	0	top1	0.045	1.8e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NTAQ1_1Mwindow.wgt.RDat	NTAQ1	8	123928965	124960331	0.0297							540	0	top1	0.014	0.00015		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM71_1Mwindow.wgt.RDat	TMEM71	8	133218085	134288245	0.0386							653	0	top1	0.017	3.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PKIA_1Mwindow.wgt.RDat	PKIA	8	78928575	80017502	0.0502							350	0	lasso	0.042	6.9e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL8_1Mwindow.wgt.RDat	RPL8	8	145515154	146517775	0.2093							190	0	top1	0.34	1.1e-90		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MTUS1_1Mwindow.wgt.RDat	MTUS1	8	17001311	18159030	0.0567							948	0	top1	0.027	1.9e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DUSP26_1Mwindow.wgt.RDat	DUSP26	8	32948848	33957541	0.9899							267	0	lasso	0.00052	0.22		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PLEC_1Mwindow.wgt.RDat	PLEC	8	144489321	145550913	0.0374							253	0	top1	0.033	8.6e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGEF10_1Mwindow.wgt.RDat	ARHGEF10	8	1272092	2406807	0.0841							737	0	top1	0.078	6.1e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HMBOX1_1Mwindow.wgt.RDat	HMBOX1	8	28247912	29410787	0.1555							451	0	top1	0.19	1.2999999999999999e-46		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C8orf82_1Mwindow.wgt.RDat	C8orf82	8	145251117	146254495	0.0179							189	0	top1	0.0098	0.0012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ERICH1_1Mwindow.wgt.RDat	ERICH1	8	64746	1181224	0.0666							573	0	enet	0.039	3e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NAPRT_1Mwindow.wgt.RDat	NAPRT	8	144156955	145160500	0.1349							347	0	top1	0.13	1.1000000000000001e-30		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LRRC14_1Mwindow.wgt.RDat	LRRC14	8	145243376	146250556	0.0243							190	0	top1	0.027	1.8e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OTUD6B-AS1_1Mwindow.wgt.RDat	OTUD6B-AS1	8	91572134	92582417	0.021							300	0	top1	0.017	3.6e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LZTS1_1Mwindow.wgt.RDat	LZTS1	8	19603676	20661474	0.031							653	0	blup	0.0027	0.059		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NEFL_1Mwindow.wgt.RDat	NEFL	8	24308468	25314126	0.0284							480	0	top1	0.03	3.6e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LGI3_1Mwindow.wgt.RDat	LGI3	8	21504343	22514319	0.0563							437	0	lasso	0.16	6.9e-38		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADAMDEC1_1Mwindow.wgt.RDat	ADAMDEC1	8	23741798	24763526	0.0344							388	0	blup	0.0083	0.0026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FSBP_1Mwindow.wgt.RDat	FSBP	8	94939944	95949172	0.0433							475	0	lasso	0.017	3.4e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SQLE_1Mwindow.wgt.RDat	SQLE	8	125510747	126534525	0.0608							512	0	blup	0.013	0.00026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ENTPD4_1Mwindow.wgt.RDat	ENTPD4	8	22786675	23815160	0.0794							588	0	blup	0.022	2.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FGFR1_1Mwindow.wgt.RDat	FGFR1	8	37768661	38826153	0.0522							280	0	top1	0.035	2.8e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TPD52_1Mwindow.wgt.RDat	TPD52	8	80443317	81583799	0.0528							417	0	enet	0.028	1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EMC2_1Mwindow.wgt.RDat	EMC2	8	108955853	110001425	0.0117							362	0	blup	0.0041	0.026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00534_1Mwindow.wgt.RDat	LINC00534	8	90733716	91900187	0.0248							413	0	blup	0.0059	0.0098		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PCM1_1Mwindow.wgt.RDat	PCM1	8	17280497	18387457	0.0236							927	0	blup	0.011	0.00057		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZC2HC1A_1Mwindow.wgt.RDat	ZC2HC1A	8	79078324	80132000	0.0233							331	0	blup	0.012	0.00038		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CPSF1_1Mwindow.wgt.RDat	CPSF1	8	145118446	146134719	0.0265							171	0	blup	0.0057	0.011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VPS28_1Mwindow.wgt.RDat	VPS28	8	145149000	146153931	0.0429							168	0	blup	0.018	2.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MYOM2_1Mwindow.wgt.RDat	MYOM2	8	1493161	2593380	0.1067							697	0	top1	0.075	2.7e-18		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PDGFRL_1Mwindow.wgt.RDat	PDGFRL	8	16933942	18000653	0.0315							869	0	lasso	0.12	1.3e-29		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FDFT1_1Mwindow.wgt.RDat	FDFT1	8	11153091	12196818	0.0533							450	0	top1	0.044	2.9e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01602_1Mwindow.wgt.RDat	LINC01602	8	58390917	59396685	0.0669							468	0	top1	0.033	7e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FUT10_1Mwindow.wgt.RDat	FUT10	8	32728342	33830664	0.0151							254	0	blup	0.008	0.003		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CALB1_1Mwindow.wgt.RDat	CALB1	8	90570836	91595107	0.1696							384	0	top1	-0.00081	0.64		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRIQK_1Mwindow.wgt.RDat	TRIQK	8	93395762	94478372	0.0689							406	0	blup	0.034	5e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KCTD9_1Mwindow.wgt.RDat	KCTD9	8	24785363	25815949	0.0479							491	0	blup	0.0085	0.0023		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LACTB2-AS1_1Mwindow.wgt.RDat	LACTB2-AS1	8	71020812	72075514	0.0309							0	0	lasso	0.055	7.9e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.XKR9_1Mwindow.wgt.RDat	XKR9	8	71081574	72148177	0.0306							347	0	blup	0.026	2.6e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SAMD12_1Mwindow.wgt.RDat	SAMD12	8	118644064	120134202	0.0538							756	0	top1	0.045	1.5e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MSRA_1Mwindow.wgt.RDat	MSRA	8	9411802	10786401	0.0533							0	0	enet	0.016	5.9e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NANS_1Mwindow.wgt.RDat	NANS	9	100319014	101345359	0.033		  NA		     NA	  NA	   NA	549	0	top1	0.018	1.8e-05	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CENPP_1Mwindow.wgt.RDat	CENPP	9	94587750	95882811	0.0329		  NA		     NA	  NA	   NA	508	0	top1	0.027	1.6e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS6_1Mwindow.wgt.RDat	RPS6	9	18875713	19880234	0.0998		  NA		     NA	  NA	   NA	529	0	top1	0.063	1.6e-15	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TTC16_1Mwindow.wgt.RDat	TTC16	9	129978358	130993869	0.0328	rs3824414	3.59	rs10760497	0.00426	4.48	0.628	352	352	blup	0.0099	0.0011	-1.24	0.214
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNAPC4_1Mwindow.wgt.RDat	SNAPC4	9	138770023	139794622	0.0425		  NA		     NA	  NA	   NA	301	0	enet	0.013	0.00018	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LCN10_1Mwindow.wgt.RDat	LCN10	9	139132622	140137392	0.0402		  NA		     NA	  NA	   NA	323	0	blup	0.0077	0.0036	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CTNNAL1_1Mwindow.wgt.RDat	CTNNAL1	9	111204857	112275779	0.0456		  NA		     NA	  NA	   NA	634	0	blup	0.012	0.00045	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PHYHD1_1Mwindow.wgt.RDat	PHYHD1	9	131183261	132204320	0.0344		  NA		     NA	  NA	   NA	306	0	enet	0.023	1.3e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DNAJA1_1Mwindow.wgt.RDat	DNAJA1	9	32525271	33539905	0.0405		  NA		     NA	  NA	   NA	467	0	blup	0.015	6.4e-05	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PTENP1-AS_1Mwindow.wgt.RDat	PTENP1-AS	9	33177266	34188009	0.022		  NA		     NA	  NA	   NA	327	0	top1	0.062	1.8e-15	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIR181A2HG_1Mwindow.wgt.RDat	MIR181A2HG	9	126920715	127960907	0.0205		  NA		     NA	  NA	   NA	308	0	blup	0.0094	0.0015	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ISCA1_1Mwindow.wgt.RDat	ISCA1	9	88379461	89397453	0.028		  NA		     NA	  NA	   NA	378	0	blup	0.0067	0.0063	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.B4GALT1_1Mwindow.wgt.RDat	B4GALT1	9	32604075	33667334	0.1054		  NA		     NA	  NA	   NA	479	0	lasso	0.093	1.4000000000000002e-22	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EBLN3P_1Mwindow.wgt.RDat	EBLN3P	9	36579893	37590398	0.0265		  NA		     NA	  NA	   NA	423	0	blup	0.006	0.0089	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KANK1_1Mwindow.wgt.RDat	KANK1	9	0	1246103	0.0671		  NA		     NA	  NA	   NA	842	0	blup	0.027	1.4e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01492_1Mwindow.wgt.RDat	LINC01492	9	105402810	106587315	0.0312		  NA		     NA	  NA	   NA	580	0	top1	0.0018	0.098	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PSAT1_1Mwindow.wgt.RDat	PSAT1	9	80412041	81445009	0.0373		  NA		     NA	  NA	   NA	433	0	top1	0.02	5.8e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GRHPR_1Mwindow.wgt.RDat	GRHPR	9	36922693	37936987	0.0538		  NA		     NA	  NA	   NA	451	0	top1	0.036	2e-09	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CARNMT1_1Mwindow.wgt.RDat	CARNMT1	9	77095706	78143346	0.0305		  NA		     NA	  NA	   NA	450	0	blup	0.0052	0.014	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DOCK8_1Mwindow.wgt.RDat	DOCK8	9	0	965255	0.0393		  NA		     NA	  NA	   NA	647	0	lasso	0.025	5.3e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HACD4_1Mwindow.wgt.RDat	HACD4	9	20499508	21531639	0.0281		  NA		     NA	  NA	   NA	477	0	top1	0.024	6.4e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NMRK1_1Mwindow.wgt.RDat	NMRK1	9	77175493	78203071	0.0724		  NA		     NA	  NA	   NA	441	0	enet	0.047	5.3e-12	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KCNT1_1Mwindow.wgt.RDat	KCNT1	9	138094031	139187348	0.0476		  NA		     NA	  NA	   NA	443	0	blup	0.00093	0.17	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TLE4_1Mwindow.wgt.RDat	TLE4	9	81686880	82841797	0.0452		  NA		     NA	  NA	   NA	561	0	top1	0.027	1.7e-07	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AK1_1Mwindow.wgt.RDat	AK1	9	130128759	131141900	0.0285		  NA		     NA	  NA	   NA	335	0	enet	0.0021	0.081	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RALGPS1_1Mwindow.wgt.RDat	RALGPS1	9	129177061	130485445	0.03		  NA		     NA	  NA	   NA	481	0	top1	0.021	4.3e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OLFM1_1Mwindow.wgt.RDat	OLFM1	9	137467351	138513030	0.0668		  NA		     NA	  NA	   NA	608	0	blup	0.0044	0.022	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NPDC1_1Mwindow.wgt.RDat	NPDC1	9	139433915	140440629	0.0259		  NA		     NA	  NA	   NA	271	0	top1	0.021	3e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CTSL_1Mwindow.wgt.RDat	CTSL	9	89841034	90846384	0.0795		  NA		     NA	  NA	   NA	580	0	lasso	0.073	8.8e-18	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ASTN2-AS1_1Mwindow.wgt.RDat	ASTN2-AS1	9	118766562	119824572	0.046		  NA		     NA	  NA	   NA	0	0	enet	-0.0009	0.72	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ERCC6L2_1Mwindow.wgt.RDat	ERCC6L2	9	98137973	99303374	0.0246		  NA		     NA	  NA	   NA	569	0	top1	0.019	9.9e-06	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OMD_1Mwindow.wgt.RDat	OMD	9	94674662	95686753	0.0644		  NA		     NA	  NA	   NA	377	0	top1	0.056	5.2e-14	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANXA1_1Mwindow.wgt.RDat	ANXA1	9	75266781	76285309	0.078		  NA		     NA	  NA	   NA	367	0	lasso	0.032	1.2e-08	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SIGMAR1_1Mwindow.wgt.RDat	SIGMAR1	9	34134719	35137784	0.0677		  NA		     NA	  NA	   NA	358	0	lasso	0.015	0.0001	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C9orf78_1Mwindow.wgt.RDat	C9orf78	9	132089569	133097554	0.0296		  NA		     NA	  NA	   NA	441	0	top1	0.014	0.00015	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FBP1_1Mwindow.wgt.RDat	FBP1	9	96865415	97902545	0.015		  NA		     NA	  NA	   NA	370	0	top1	0.0098	0.0012	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNHG7_1Mwindow.wgt.RDat	SNHG7	9	139119046	140122636	0.3452		  NA		     NA	  NA	   NA	322	0	enet	0.16	4.2e-39	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL12_1Mwindow.wgt.RDat	RPL12	9	129709953	130713685	0.1476		  NA		     NA	  NA	   NA	348	0	enet	0.18	8.000000000000001e-45	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUDT2_1Mwindow.wgt.RDat	NUDT2	9	33829567	34843697	0.0683		  NA		     NA	  NA	   NA	345	0	enet	0.055	9.3e-14	   NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SVIL_1Mwindow.wgt.RDat	SVIL	10	29246267	30525865	0.0473							852	0	blup	0.0061	0.0087		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRDMT1_1Mwindow.wgt.RDat	TRDMT1	10	16679335	17743671	0.0394							671	0	blup	0.0068	0.0058		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SAR1A_1Mwindow.wgt.RDat	SAR1A	10	71407045	72430270	0.0655							703	0	top1	0.042	6.3e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01374_1Mwindow.wgt.RDat	LINC01374	10	91113663	92174713	0.0753							491	0	blup	0.00063	0.2		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C10orf143_1Mwindow.wgt.RDat	C10orf143	10	131362160	132409094	0.0575							600	0	blup	0.012	0.00031		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STOX1_1Mwindow.wgt.RDat	STOX1	10	70087288	71155188	0.0858							432	0	top1	0.097	2.0000000000000002e-23		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF503-AS1_1Mwindow.wgt.RDat	ZNF503-AS1	10	76556141	77621436	0.1241							312	0	lasso	0.064	7.6e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MASTL_1Mwindow.wgt.RDat	MASTL	10	26944281	27976882	0.0228							476	0	blup	0.014	0.00012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRKCQ-AS1_1Mwindow.wgt.RDat	PRKCQ-AS1	10	6122387	7127323	0.0565							734	0	top1	0.07	3.3e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SIRT1_1Mwindow.wgt.RDat	SIRT1	10	69144414	70178147	0.0153							360	0	blup	0.0082	0.0028		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AKR1C2_1Mwindow.wgt.RDat	AKR1C2	10	4529967	5560192	0.1268							653	0	top1	0.1	1.2e-24		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADIRF_1Mwindow.wgt.RDat	ADIRF	10	88228239	89230672	0.0548							245	0	top1	0.031	1.8e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTO1_1Mwindow.wgt.RDat	GSTO1	10	105513931	106527213	0.0204							417	0	top1	0.013	0.0002		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUTM2A-AS1_1Mwindow.wgt.RDat	NUTM2A-AS1	10	88498424	89602315	0.0308							293	0	blup	0.011	0.00065		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIR1915HG_1Mwindow.wgt.RDat	MIR1915HG	10	21281587	22286189	0.0337							0	0	lasso	0.12	1.5000000000000002e-28		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MGMT_1Mwindow.wgt.RDat	MGMT	10	130765505	132069247	0.0616							711	0	lasso	0.046	1e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CASP7_1Mwindow.wgt.RDat	CASP7	10	114938953	115990668	0.0362							580	0	top1	0.0075	0.0041		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DPYSL4_1Mwindow.wgt.RDat	DPYSL4	10	133500452	134519263	0.1912							440	0	enet	0.12	3.4000000000000005e-28		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SCD_1Mwindow.wgt.RDat	SCD	10	101606990	102624583	0.0213							386	0	blup	0.0059	0.0094		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FOXI2_1Mwindow.wgt.RDat	FOXI2	10	129035449	130039447	0.0927							0	0	lasso	0.028	9.2e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C10orf95_1Mwindow.wgt.RDat	C10orf95	10	103709594	104711300	0.0256							343	0	enet	0.016	4.3e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PFKP_1Mwindow.wgt.RDat	PFKP	10	2609740	3678997	0.0459							745	0	top1	0.0092	0.0016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AS3MT_1Mwindow.wgt.RDat	AS3MT	10	104129227	105161656	0.037							353	0	blup	0.013	0.00026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANXA8_1Mwindow.wgt.RDat	ANXA8	10	47755247	48771369	0.0233							161	0	top1	-0.001	0.87		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC7_1Mwindow.wgt.RDat	CCDC7	10	32235068	33671792	0.0271							590	0	blup	0.0055	0.012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CFAP46_1Mwindow.wgt.RDat	CFAP46	10	134121896	135256074	0.0549							448	0	top1	0.016	5.8e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SRGN_1Mwindow.wgt.RDat	SRGN	10	70347359	71364567	0.043							469	0	blup	0.028	1.2e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CWF19L1_1Mwindow.wgt.RDat	CWF19L1	10	101492055	102527395	0.0317							377	0	blup	0.0061	0.0086		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.YME1L1_1Mwindow.wgt.RDat	YME1L1	10	26899040	27943313	0.0242							461	0	top1	0.013	0.00021		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRKCQ_1Mwindow.wgt.RDat	PRKCQ	10	5936059	7122608	0.0471							870	0	blup	0.0034	0.039		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HELLS_1Mwindow.wgt.RDat	HELLS	10	95805545	96861856	0.0929							372	0	enet	0.12	1.2e-28		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADARB2_1Mwindow.wgt.RDat	ADARB2	10	723253	2279719	0.0591							1004	0	top1	0.037	9.6e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPA1_1Mwindow.wgt.RDat	PPA1	10	71462591	72493185	0.2339							702	0	top1	0.24	4e-59		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GDI2_1Mwindow.wgt.RDat	GDI2	10	5307186	6355397	0.0434							674	0	top1	0.041	1.2e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SEPHS1_1Mwindow.wgt.RDat	SEPHS1	10	12859428	13890293	0.0479							707	0	top1	0.004	0.028		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RTKN2_1Mwindow.wgt.RDat	RTKN2	10	63452845	64528603	0.0407							489	0	lasso	0.016	5.2e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STK32C_1Mwindow.wgt.RDat	STK32C	10	133520986	134645384	0.0552							0	0	lasso	0.037	9.2e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VCL_1Mwindow.wgt.RDat	VCL	10	75257874	76381121	0.034							243	0	lasso	0.027	1.3e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS24_1Mwindow.wgt.RDat	RPS24	10	79293621	80316564	0.0497							496	0	lasso	0.059	1e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZRANB1_1Mwindow.wgt.RDat	ZRANB1	10	126130692	127176758	0.0353							549	0	blup	0.0061	0.0085		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCSER2_1Mwindow.wgt.RDat	CCSER2	10	85588345	86778273	0.0542							620	0	top1	0.049	2.4e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ECHDC3_1Mwindow.wgt.RDat	ECHDC3	10	11284381	12306069	0.0363							434	0	blup	0.01	0.00099		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPIF_1Mwindow.wgt.RDat	PPIF	10	80607225	81615090	0.0356							372	0	blup	0.0053	0.014		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ITIH5_1Mwindow.wgt.RDat	ITIH5	10	7101232	8208929	0.0445							637	0	top1	0.0054	0.013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANK3_1Mwindow.wgt.RDat	ANK3	10	61286056	62993286	0.0884							0	0	lasso	0.092	3e-22		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AKR1C3_1Mwindow.wgt.RDat	AKR1C3	10	4590973	5649878	0.0351							698	0	top1	0.053	2e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.JAML_1Mwindow.wgt.RDat	JAML	11	117564440	118595726	0.0424							545	0	lasso	0.041	9.5e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02749_1Mwindow.wgt.RDat	LINC02749	11	3708382	4723883	0.0167							0	0	enet	-0.00075	0.6		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CLNS1A_1Mwindow.wgt.RDat	CLNS1A	11	76825575	77848839	0.0174							372	0	blup	0.012	0.00044		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C11orf24_1Mwindow.wgt.RDat	C11orf24	11	67528806	68539441	0.0389							283	0	blup	0.011	0.00071		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS3_1Mwindow.wgt.RDat	RPS3	11	74610562	75633346	0.0507							436	0	blup	0.0078	0.0035		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NPAT_1Mwindow.wgt.RDat	NPAT	11	107527942	108593365	0.0139							0	0	enet	0.0068	0.0059		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IGHMBP2_1Mwindow.wgt.RDat	IGHMBP2	11	68171359	69208069	0.0288							410	0	lasso	0.033	9.4e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD44-AS1_1Mwindow.wgt.RDat	CD44-AS1	11	34731165	35736557	0.0681							0	0	lasso	0.19	1.2999999999999999e-46		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.XRRA1_1Mwindow.wgt.RDat	XRRA1	11	74051955	75160136	0.1297							494	0	lasso	0.21	2e-52		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RNASEH2C_1Mwindow.wgt.RDat	RNASEH2C	11	64985144	65988269	0.028							330	0	blup	0.0095	0.0014		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATM_1Mwindow.wgt.RDat	ATM	11	107593794	108739829	0.035							363	0	blup	0.04	2.1e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LDHC_1Mwindow.wgt.RDat	LDHC	11	17933865	18973610	0.271							447	0	enet	0.36	5e-95		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UCP2_1Mwindow.wgt.RDat	UCP2	11	73185717	74194247	0.1015							362	0	top1	0.02	5e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KMT2A_1Mwindow.wgt.RDat	KMT2A	11	117807207	118897547	0.0235							484	0	blup	0.0059	0.0098		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FADD_1Mwindow.wgt.RDat	FADD	11	69549402	70553496	0.0463							423	0	blup	0.011	0.00063		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM45B_1Mwindow.wgt.RDat	TMEM45B	11	129185743	130229898	0.1063							450	0	lasso	0.077	8.2e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACRV1_1Mwindow.wgt.RDat	ACRV1	11	125041417	126050742	0.2665							546	0	blup	0.001	0.16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RIC3_1Mwindow.wgt.RDat	RIC3	11	7614512	8690572	0.0893							638	0	top1	0.034	5.3e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SWAP70_1Mwindow.wgt.RDat	SWAP70	11	9185624	10274540	0.0258							376	0	blup	0.017	2.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02696_1Mwindow.wgt.RDat	LINC02696	11	44876922	45878208	0.0755							493	0	top1	0.068	9.6e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FNBP4_1Mwindow.wgt.RDat	FNBP4	11	47238046	48288893	0.0197							305	0	enet	0.0029	0.052		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM181B_1Mwindow.wgt.RDat	FAM181B	11	81940982	82944906	0.0457							435	0	top1	0.033	9.6e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CTSF_1Mwindow.wgt.RDat	CTSF	11	65830935	66836077	0.0139							256	0	blup	0.0064	0.0073		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COPB1_1Mwindow.wgt.RDat	COPB1	11	13979058	15021357	0.0214							349	0	blup	0.014	0.00014		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RCOR2_1Mwindow.wgt.RDat	RCOR2	11	63178702	64184636	0.0468							291	0	lasso	0.048	3.6e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MPZL3_1Mwindow.wgt.RDat	MPZL3	11	117597405	118623080	0.0454							541	0	top1	0.047	6.1e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD151_1Mwindow.wgt.RDat	CD151	11	332952	1338831	0.0937							402	0	top1	0.078	4.6e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAR1_1Mwindow.wgt.RDat	FAR1	11	13190215	14253893	0.0436							514	0	top1	0.044	2.4e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HMBS_1Mwindow.wgt.RDat	HMBS	11	118455591	119464259	0.0224							362	0	top1	0.013	0.00029		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MRPL48_1Mwindow.wgt.RDat	MRPL48	11	72998919	74076178	0.0125							336	0	enet	0.0086	0.0023		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NCAPD3_1Mwindow.wgt.RDat	NCAPD3	11	133520008	134595355	0.0572							595	0	blup	0.018	1.7e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OR51B4_1Mwindow.wgt.RDat	OR51B4	11	4822244	5823176	0.0708							0	0	enet	0.014	0.00013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CTSW_1Mwindow.wgt.RDat	CTSW	11	65147308	66151212	0.2019							349	0	enet	0.2	1.0999999999999999e-47		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FXYD2_1Mwindow.wgt.RDat	FXYD2	11	117190772	118198804	0.08							663	0	lasso	0.048	3e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM9B_1Mwindow.wgt.RDat	TMEM9B	11	8468749	9486494	0.0361							366	0	blup	0.022	2.6e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACAT1_1Mwindow.wgt.RDat	ACAT1	11	107487432	108518330	0.0475							374	0	top1	0.026	2.4e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DEAF1_1Mwindow.wgt.RDat	DEAF1	11	144220	1207083	0.0423							454	0	top1	0.023	1.1e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM123_1Mwindow.wgt.RDat	TMEM123	11	101767063	102823496	0.0423							520	0	top1	0.019	1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.P2RX3_1Mwindow.wgt.RDat	P2RX3	11	56605826	57639869	0.4738							0	0	enet	-0.00082	0.65		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ROBO3_1Mwindow.wgt.RDat	ROBO3	11	124235328	125251367	0.0575							487	0	lasso	0.035	3.1e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARL14EP_1Mwindow.wgt.RDat	ARL14EP	11	29844651	30859770	0.0333							398	0	blup	0.018	1.4e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VWCE_1Mwindow.wgt.RDat	VWCE	11	60525758	61562788	0.0373							360	0	blup	0.0059	0.0095		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC22A18_1Mwindow.wgt.RDat	SLC22A18	11	2420921	3446476	0.0947							468	0	top1	0.053	2.1e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.WNT11_1Mwindow.wgt.RDat	WNT11	11	75397369	76417546	0.9831							440	0	lasso	-0.00072	0.58		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM41B_1Mwindow.wgt.RDat	TMEM41B	11	8802201	9836140	0.0221							390	0	top1	0.0026	0.059		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACER3_1Mwindow.wgt.RDat	ACER3	11	76071962	77237841	0.0577							457	0	top1	0.017	3.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FADS2_1Mwindow.wgt.RDat	FADS2	11	61083675	62134826	0.1733							411	0	top1	0.12	2.2000000000000004e-28		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EI24_1Mwindow.wgt.RDat	EI24	11	124939373	125954579	0.0337							552	0	top1	0.011	0.00051		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IFITM2_1Mwindow.wgt.RDat	IFITM2	11	0	809395	0.0973							302	0	enet	0.046	7.6e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TIMM10_1Mwindow.wgt.RDat	TIMM10	11	56795937	57798227	0.1064							380	0	top1	0.069	5.7e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPFIBP2_1Mwindow.wgt.RDat	PPFIBP2	11	7035230	8179372	0.224							716	0	lasso	0.2	1.4e-49		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KCTD21-AS1_1Mwindow.wgt.RDat	KCTD21-AS1	11	77350839	78385023	0.0708							0	0	lasso	0.082	6.4e-20		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KAT5_1Mwindow.wgt.RDat	KAT5	11	64979723	65987075	0.0276							334	0	blup	0.0049	0.016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.P4HA3_1Mwindow.wgt.RDat	P4HA3	11	73477702	74522685	0.0439							433	0	blup	0.031	2.3e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TIRAP_1Mwindow.wgt.RDat	TIRAP	11	125652988	126664828	0.0304							643	0	blup	0.0071	0.0049		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SF1_1Mwindow.wgt.RDat	SF1	11	64032078	65046014	0.0338							348	0	blup	0.023	1.6e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EEF1G_1Mwindow.wgt.RDat	EEF1G	11	61827068	62841363	0.0241							375	0	top1	0.011	0.00066		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PPP1R14B-AS1_1Mwindow.wgt.RDat	PPP1R14B-AS1	11	63513338	64515686	0.0251							0	0	lasso	0.0056	0.011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM9B-AS1_1Mwindow.wgt.RDat	TMEM9B-AS1	11	8486222	9497830	0.0353							362	0	top1	0.028	1.1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AMPD3_1Mwindow.wgt.RDat	AMPD3	11	9971935	11029126	0.0386							506	0	blup	0.0076	0.0039		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DIXDC1_1Mwindow.wgt.RDat	DIXDC1	11	111298039	112393377	0.069							346	0	lasso	0.041	1.1e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPLP2_1Mwindow.wgt.RDat	RPLP2	11	309967	1312876	0.0998							395	0	top1	0.094	9.8e-23		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IFITM3_1Mwindow.wgt.RDat	IFITM3	11	0	820860	0.1656							308	0	top1	0.12	4.1e-28		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SAAL1_1Mwindow.wgt.RDat	SAAL1	11	17601839	18627629	0.0316							440	0	blup	0.013	0.00027		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HSD17B12_1Mwindow.wgt.RDat	HSD17B12	11	43202288	44378165	0.0383							581	0	enet	0.023	1.1e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PGGHG_1Mwindow.wgt.RDat	PGGHG	11	0	796107	0.0692							298	0	top1	0.038	5.2e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS25_1Mwindow.wgt.RDat	RPS25	11	118386427	119389053	0.026							369	0	top1	0.018	1.9e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.AKIP1_1Mwindow.wgt.RDat	AKIP1	11	8432736	9441626	0.0301							372	0	top1	0.022	2.1e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ENDOD1_1Mwindow.wgt.RDat	ENDOD1	11	94323010	95365809	0.0351							0	0	lasso	0.014	0.00014		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DPAGT1_1Mwindow.wgt.RDat	DPAGT1	11	118467220	119472563	0.0205							365	0	top1	0.01	0.00097		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EHBP1L1_1Mwindow.wgt.RDat	EHBP1L1	11	64843524	65860121	0.0237							357	0	blup	0.014	0.00014		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CORO1B_1Mwindow.wgt.RDat	CORO1B	11	66702981	67711280	0.0494							220	0	top1	0.06	7.2e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MRPL21_1Mwindow.wgt.RDat	MRPL21	11	68158746	69171300	0.0278							395	0	top1	0.021	2.9e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSTP1_1Mwindow.wgt.RDat	GSTP1	11	66851283	67854124	0.0325							235	0	top1	0.047	5.6e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUCB2_1Mwindow.wgt.RDat	NUCB2	11	16798286	17853758	0.0233							560	0	blup	0.0025	0.064		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC43A3_1Mwindow.wgt.RDat	SLC43A3	11	56674427	57695053	0.0277							377	0	blup	0.009	0.0018		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUP107_1Mwindow.wgt.RDat	NUP107	12	68580758	69639589	0.0269		  NA		      NA	   NA	    NA	  0	0	lasso	0.019	8.6e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.YBX3_1Mwindow.wgt.RDat	YBX3	12	10351688	11375922	0.1442		  NA		      NA	   NA	    NA	  0	0	lasso	0.065	4.3e-16	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NDUFA12_1Mwindow.wgt.RDat	NDUFA12	12	94865109	95897473	0.0413		  NA		      NA	   NA	    NA	630	0	top1	0.023	1.4e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PCED1B-AS1_1Mwindow.wgt.RDat	PCED1B-AS1	12	47102203	48110226	0.0557		  NA		      NA	   NA	    NA	459	0	top1	0.052	4e-13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PITPNM2-AS1_1Mwindow.wgt.RDat	PITPNM2-AS1	12	123065931	124069291	0.041	rs2458449	2.59	rs11060064	0.000927	 6.25	-0.486	298	1	top1	0.00093	0.17	-0.486	0.627
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SDSL_1Mwindow.wgt.RDat	SDSL	12	113360185	114376081	0.1516		  NA		      NA	   NA	    NA	479	0	top1	0.1	8.6e-25	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MORN3_1Mwindow.wgt.RDat	MORN3	12	121586648	122610550	0.1303		  NA		      NA	   NA	    NA	356	0	lasso	0.11	1.6e-26	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BCL2L14_1Mwindow.wgt.RDat	BCL2L14	12	11702795	12752629	0.0418		  NA		      NA	   NA	    NA	541	0	top1	0.037	9.2e-10	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.A2M-AS1_1Mwindow.wgt.RDat	A2M-AS1	12	8717773	9720651	0.1204		  NA		      NA	   NA	    NA	 NA	0	enet	0.042	7.4e-11	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PEX5_1Mwindow.wgt.RDat	PEX5	12	6841249	7871170	0.0237		  NA		      NA	   NA	    NA	  0	0	enet	0.0098	0.0012	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZC3H10_1Mwindow.wgt.RDat	ZC3H10	12	56012050	57021298	0.0291		  NA		      NA	   NA	    NA	262	0	blup	0.014	0.00016	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CAMKK2_1Mwindow.wgt.RDat	CAMKK2	12	121175495	122235622	0.0332		  NA		      NA	   NA	    NA	430	0	top1	0.0055	0.012	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC2A14_1Mwindow.wgt.RDat	SLC2A14	12	7465110	8543792	0.4051		  NA		      NA	   NA	    NA	 NA	0	enet	0.22	1.4999999999999999e-55	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PZP_1Mwindow.wgt.RDat	PZP	12	8801436	9860991	0.0629		  NA		      NA	   NA	    NA	 NA	0	blup	0.019	8.5e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS26_1Mwindow.wgt.RDat	RPS26	12	55935702	56938481	0.712		  NA		      NA	   NA	    NA	257	0	lasso	0.84	0.0	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PAWR_1Mwindow.wgt.RDat	PAWR	12	79478659	80584744	0.0198		  NA		      NA	   NA	    NA	253	0	top1	0.0034	0.039	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PIP4K2C_1Mwindow.wgt.RDat	PIP4K2C	12	57484975	58497201	0.0258		  NA		      NA	   NA	    NA	336	0	blup	0.0062	0.0082	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMPRSS12_1Mwindow.wgt.RDat	TMPRSS12	12	50736709	51781667	0.3139		  NA		      NA	   NA	    NA	  0	0	enet	-0.00086	0.68	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IQSEC3_1Mwindow.wgt.RDat	IQSEC3	12	0	787621	0.0448		  NA		      NA	   NA	    NA	296	0	top1	0.023	1e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KRT73-AS1_1Mwindow.wgt.RDat	KRT73-AS1	12	52503635	53509089	0.0915		  NA		      NA	   NA	    NA	768	0	enet	0.059	1.3e-14	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GPRC5A_1Mwindow.wgt.RDat	GPRC5A	12	12544496	13570871	0.0615		  NA		      NA	   NA	    NA	570	0	blup	0.0048	0.018	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NAP1L1_1Mwindow.wgt.RDat	NAP1L1	12	75930365	76978465	0.052		  NA		      NA	   NA	    NA	475	0	enet	0.017	2.9e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.B4GALNT3_1Mwindow.wgt.RDat	B4GALNT3	12	69105	1172675	0.0366		  NA		      NA	   NA	    NA	423	0	top1	0.026	3.1e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FKBP11_1Mwindow.wgt.RDat	FKBP11	12	48815746	49819275	0.0193		  NA		      NA	   NA	    NA	  0	0	lasso	0.012	0.00033	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NDUFA4L2_1Mwindow.wgt.RDat	NDUFA4L2	12	57128686	58134545	0.0283		  NA		      NA	   NA	    NA	343	0	blup	0.0035	0.037	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MPHOSPH9_1Mwindow.wgt.RDat	MPHOSPH9	12	123138762	124217688	0.0213		  NA		      NA	   NA	    NA	342	0	enet	0.013	0.00021	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KRT1_1Mwindow.wgt.RDat	KRT1	12	52568520	53574191	0.1283		  NA		      NA	   NA	    NA	749	0	lasso	0.098	1.1e-23	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATP23_1Mwindow.wgt.RDat	ATP23	12	57835350	58852931	0.0229		  NA		      NA	   NA	    NA	  0	0	enet	0.029	4.7e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD27_1Mwindow.wgt.RDat	CD27	12	6054121	7060879	0.0393		  NA		      NA	   NA	    NA	388	0	blup	0.004	0.027	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TCP11L2_1Mwindow.wgt.RDat	TCP11L2	12	106196511	107240781	0.0316		  NA		      NA	   NA	    NA	512	0	blup	0.012	0.00044	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.THRIL_1Mwindow.wgt.RDat	THRIL	12	125009989	126011969	0.0285		  NA		      NA	   NA	    NA	533	0	top1	0.0014	0.13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM120B_1Mwindow.wgt.RDat	TMEM120B	12	121650658	122719974	0.0373		  NA		      NA	   NA	    NA	363	0	lasso	0.014	0.00012	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NELL2_1Mwindow.wgt.RDat	NELL2	12	44402058	45807772	0.0414		  NA		      NA	   NA	    NA	416	0	top1	0.029	6.6e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TPI1_1Mwindow.wgt.RDat	TPI1	12	6476584	7480112	0.0436		  NA		      NA	   NA	    NA	201	0	blup	0.0026	0.062	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DAZAP2_1Mwindow.wgt.RDat	DAZAP2	12	51132610	52140501	0.0316		  NA		      NA	   NA	    NA	386	0	blup	0.0096	0.0013	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TAS2R20_1Mwindow.wgt.RDat	TAS2R20	12	10648560	11650903	0.013		  NA		      NA	   NA	    NA	387	0	blup	0.0032	0.044	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LPAR5_1Mwindow.wgt.RDat	LPAR5	12	6228001	7245125	0.0276		  NA		      NA	   NA	    NA	276	0	blup	0.002	0.088	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM117_1Mwindow.wgt.RDat	TMEM117	12	43729884	45283541	0.0231		  NA		      NA	   NA	    NA	507	0	blup	0.0081	0.003	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRB2_1Mwindow.wgt.RDat	PRB2	12	11044474	12048501	0.0514		  NA		      NA	   NA	    NA	412	0	top1	-0.001	0.89	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGDIB_1Mwindow.wgt.RDat	ARHGDIB	12	14594949	15614535	0.0236		  NA		      NA	   NA	    NA	354	0	enet	0.003	0.048	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MRPL42_1Mwindow.wgt.RDat	MRPL42	12	93361290	94409990	0.0366		  NA		      NA	   NA	    NA	457	0	top1	0.02	5.9e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRR4_1Mwindow.wgt.RDat	PRR4	12	10498448	11502074	0.0188		  NA		      NA	   NA	    NA	389	0	blup	0.015	6.7e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MSI1_1Mwindow.wgt.RDat	MSI1	12	120279133	121306967	0.037		  NA		      NA	   NA	    NA	380	0	blup	-0.00032	0.41	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC38A1_1Mwindow.wgt.RDat	SLC38A1	12	46076846	47162826	0.0529		  NA		      NA	   NA	    NA	338	0	top1	0.02	5e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PFDN5_1Mwindow.wgt.RDat	PFDN5	12	53189326	54193234	0.0257		  NA		      NA	   NA	    NA	393	0	blup	0.0034	0.038	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KLRG1_1Mwindow.wgt.RDat	KLRG1	12	8602640	9663347	0.1488		  NA		      NA	   NA	    NA	 NA	0	enet	0.075	1.9e-18	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MAP3K12_1Mwindow.wgt.RDat	MAP3K12	12	53373453	54393242	0.0762		  NA		      NA	   NA	    NA	387	0	lasso	0.038	5.7e-10	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DDX11_1Mwindow.wgt.RDat	DDX11	12	30726794	31757733	0.1086		  NA		      NA	   NA	    NA	457	0	lasso	0.16	1.6e-39	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRB3_1Mwindow.wgt.RDat	PRB3	12	10918847	11922641	0.0364	rs11835196	2.57	rs10772397	0.005237	-5.55	 0.343	364	1	lasso	0.029	4.6e-08	-0.343	0.732
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00987_1Mwindow.wgt.RDat	LINC00987	12	8892669	9915497	0.1711		  NA		      NA	   NA	    NA	 NA	0	blup	0.078	5.7e-19	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CELA1_1Mwindow.wgt.RDat	CELA1	12	51222226	52240463	0.1514	rs10161277	2.61	rs7959814	0.116736	10.78	-0.336	396	1	top1	0.12	4.1e-28	-0.336	0.736
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KRT2_1Mwindow.wgt.RDat	KRT2	12	52538342	53545995	0.0305		  NA		      NA	   NA	    NA	758	0	enet	0.013	0.00018	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GLIPR1L2_1Mwindow.wgt.RDat	GLIPR1L2	12	75284869	76326468	0.0422		  NA		      NA	   NA	    NA	481	0	top1	0.037	1.2e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TESPA1_1Mwindow.wgt.RDat	TESPA1	12	54841799	55878546	0.023		  NA		      NA	   NA	    NA	431	0	blup	0.0022	0.079	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC02470_1Mwindow.wgt.RDat	LINC02470	12	9589178	10596094	0.184		  NA		      NA	   NA	    NA	326	0	top1	0.16	2.3e-39	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF268_1Mwindow.wgt.RDat	ZNF268	12	133258081	134291418	0.0159		  NA		      NA	   NA	    NA	125	0	enet	0.011	0.00076	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EEF1AKMT3_1Mwindow.wgt.RDat	EEF1AKMT3	12	57666397	58676324	0.0167		  NA		      NA	   NA	    NA	342	0	top1	0.019	9.5e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EEA1_1Mwindow.wgt.RDat	EEA1	12	92664413	93823071	0.0643		  NA		      NA	   NA	    NA	494	0	enet	0.044	3.2e-11	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMBIM4_1Mwindow.wgt.RDat	TMBIM4	12	66029626	67063776	0.0478		  NA		      NA	   NA	    NA	473	0	blup	0.024	7.8e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KRT72_1Mwindow.wgt.RDat	KRT72	12	52479373	53495247	0.1576		  NA		      NA	   NA	    NA	767	0	enet	0.11	9.4e-27	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CHPT1_1Mwindow.wgt.RDat	CHPT1	12	101591418	102622852	0.1352		  NA		      NA	   NA	    NA	  0	0	lasso	0.12	4.3e-28	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01252_1Mwindow.wgt.RDat	LINC01252	12	11200964	12217337	0.0657		  NA		      NA	   NA	    NA	426	0	top1	0.055	8.2e-14	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RB1-DT_1Mwindow.wgt.RDat	RB1-DT	13	48370649	49377838	0.0226							337	0	blup	0.005	0.016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00347_1Mwindow.wgt.RDat	LINC00347	13	74626980	75631257	0.0475							0	0	enet	0.0024	0.07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LMO7-AS1_1Mwindow.wgt.RDat	LMO7-AS1	13	75678836	76710130	0.0509							561	0	top1	0.042	8.1e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DNAJC15_1Mwindow.wgt.RDat	DNAJC15	13	43097722	44188349	0.0987							624	0	top1	0.079	3.7e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MTUS2_1Mwindow.wgt.RDat	MTUS2	13	28894100	30580084	0.2618							0	0	enet	0.027	1.8e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EBPL_1Mwindow.wgt.RDat	EBPL	13	49734810	50765623	0.0755							0	0	lasso	0.04	1.8e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EPSTI1_1Mwindow.wgt.RDat	EPSTI1	13	42960524	44066377	0.0817							626	0	enet	0.057	3.2e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.B3GLCT_1Mwindow.wgt.RDat	B3GLCT	13	31274112	32406413	0.0403							615	0	blup	0.011	0.00055		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GAS6-AS1_1Mwindow.wgt.RDat	GAS6-AS1	13	114018583	115045814	0.0856							341	0	top1	0.061	3.3e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STARD13-AS_1Mwindow.wgt.RDat	STARD13-AS	13	33351691	34355471	0.114							0	0	enet	-0.00088	0.7		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PAN3_1Mwindow.wgt.RDat	PAN3	13	28212682	29369472	0.0284							551	0	enet	0.019	1.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ESD_1Mwindow.wgt.RDat	ESD	13	46845391	47871296	0.0451							536	0	blup	0.0045	0.02		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.POLR1D_1Mwindow.wgt.RDat	POLR1D	13	27694880	28741548	0.104							496	0	top1	0.077	1.1e-18		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMTC4_1Mwindow.wgt.RDat	TMTC4	13	100755879	101827049	0.0785							560	0	top1	0.051	6.3e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CSNK1A1L_1Mwindow.wgt.RDat	CSNK1A1L	13	37177396	38179801	0.0357							0	0	enet	0.0018	0.097		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIR17HG_1Mwindow.wgt.RDat	MIR17HG	13	91500074	92506829	0.0248							406	0	blup	0.009	0.0019		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PAN3-AS1_1Mwindow.wgt.RDat	PAN3-AS1	13	28210980	29213311	0.0325							485	0	top1	0.0042	0.024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LRCH1_1Mwindow.wgt.RDat	LRCH1	13	46627305	47827176	0.0324							634	0	blup	0.0018	0.097		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SHISA2_1Mwindow.wgt.RDat	SHISA2	13	26118735	27126154	0.0286							460	0	blup	0.0032	0.042		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TBC1D4_1Mwindow.wgt.RDat	TBC1D4	13	75357639	76556305	0.0382							564	0	top1	0.0051	0.015		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ELF1_1Mwindow.wgt.RDat	ELF1	13	41006055	42135522	0.0265							367	0	blup	0.0075	0.0041		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PCCA-AS1_1Mwindow.wgt.RDat	PCCA-AS1	13	100616691	101633269	0.1434							0	0	enet	0.015	9.6e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCDC122_1Mwindow.wgt.RDat	CCDC122	13	43910488	44953876	0.0744							541	0	lasso	0.065	5.1e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GJB6_1Mwindow.wgt.RDat	GJB6	13	20296101	21306458	0.0838							424	0	top1	0.066	3.3e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UPF3A_1Mwindow.wgt.RDat	UPF3A	13	114547076	115571292	0.071							171	0	blup	0.062	1.8e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COMMD6_1Mwindow.wgt.RDat	COMMD6	13	75599350	76623575	0.0343							545	0	top1	0.04	2.2e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUDT14_1Mwindow.wgt.RDat	NUDT14	14	105139276	106147649	0.0337							231	0	blup	0.004	0.028		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BEGAIN_1Mwindow.wgt.RDat	BEGAIN	14	100503484	101553754	0.0569							423	0	top1	0.028	7.8e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GMFB_1Mwindow.wgt.RDat	GMFB	14	54441203	55455698	0.0298							425	0	lasso	0.012	0.0003		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC7A8_1Mwindow.wgt.RDat	SLC7A8	14	23094504	24152869	0.1825							0	0	lasso	0.13	1e-31		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TRAV41_1Mwindow.wgt.RDat	TRAV41	14	22288620	23289123	0.0345							707	0	blup	0.0096	0.0013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FUT8-AS1_1Mwindow.wgt.RDat	FUT8-AS1	14	65377310	66379335	0.0171							371	0	blup	0.0083	0.0026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC25A29_1Mwindow.wgt.RDat	SLC25A29	14	100257453	101272781	0.0635							405	0	lasso	0.054	1.7e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MARK3_1Mwindow.wgt.RDat	MARK3	14	103351752	104470168	0.0191							385	0	blup	0.01	0.00089		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.POLE2_1Mwindow.wgt.RDat	POLE2	14	49610273	50654932	0.0183							0	0	lasso	0.012	0.00035		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ESR2_1Mwindow.wgt.RDat	ESR2	14	64193425	65305331	0.1895							503	0	enet	0.13	1.7999999999999998e-31		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C14orf132_1Mwindow.wgt.RDat	C14orf132	14	96005699	97060308	0.089							0	0	lasso	0.06	5.6e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LIN52_1Mwindow.wgt.RDat	LIN52	14	74051659	75168196	0.0182							453	0	top1	0.015	6.8e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FBLN5_1Mwindow.wgt.RDat	FBLN5	14	91835755	92914038	0.1621							495	0	top1	0.14	7.199999999999999e-35		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIDEAS_1Mwindow.wgt.RDat	MIDEAS	14	73681825	74753911	0.0248							424	0	top1	0.0083	0.0026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SYNE2_1Mwindow.wgt.RDat	SYNE2	14	63819722	65193167	0.0383							505	0	top1	0.034	5e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL36AL_1Mwindow.wgt.RDat	RPL36AL	14	49585248	50587344	0.0591							360	0	top1	0.062	2.3e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM121_1Mwindow.wgt.RDat	TMEM121	14	105492920	106496535	0.0256							104	0	top1	0.018	1.9e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SDR39U1_1Mwindow.wgt.RDat	SDR39U1	14	24408972	25412049	0.0278							557	0	lasso	0.0089	0.0019		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FNTB_1Mwindow.wgt.RDat	FNTB	14	64953613	66029368	0.0315							484	0	top1	0.017	2.9e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CFL2_1Mwindow.wgt.RDat	CFL2	14	34678319	35683799	0.0366							397	0	lasso	0.022	1.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACOT4_1Mwindow.wgt.RDat	ACOT4	14	73558577	74562470	0.036							361	0	top1	0.024	8.6e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.INF2_1Mwindow.wgt.RDat	INF2	14	104655955	105688872	0.044							353	0	blup	0.015	7.2e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ERH_1Mwindow.wgt.RDat	ERH	14	69346845	70365016	0.0226							437	0	blup	0.007	0.0052		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GLRX5_1Mwindow.wgt.RDat	GLRX5	14	95501387	96511051	0.0561							671	0	blup	0.0048	0.017		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATG14_1Mwindow.wgt.RDat	ATG14	14	55333109	56378548	0.0403							430	0	blup	0.014	0.00011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ANKDD1A_1Mwindow.wgt.RDat	ANKDD1A	15	64704101	65751033	0.1033							289	0	top1	0.11	1.6000000000000001e-27		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GOLGA8A_1Mwindow.wgt.RDat	GOLGA8A	15	34171269	35230009	0.0382							372	0	top1	0.02	5.6e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DUOX1_1Mwindow.wgt.RDat	DUOX1	15	44922192	45957772	0.0375							308	0	blup	0.022	1.9e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LMAN1L_1Mwindow.wgt.RDat	LMAN1L	15	74605176	75618095	0.2427							291	0	top1	0.012	0.0004		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HDGFL3_1Mwindow.wgt.RDat	HDGFL3	15	83296505	84376575	0.0172							387	0	top1	0.026	3.5e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PEAK1_1Mwindow.wgt.RDat	PEAK1	15	76900500	78212446	0.0194							358	0	blup	0.0042	0.025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FMN1_1Mwindow.wgt.RDat	FMN1	15	32557745	33986915	0.3179							783	0	enet	0.36	2.8e-95		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CYFIP1_1Mwindow.wgt.RDat	CYFIP1	15	22392170	23506016	0.0273							68	0	blup	0.0092	0.0016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADAL_1Mwindow.wgt.RDat	ADAL	15	43122549	44146767	0.028							196	0	blup	0.0055	0.012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RSL24D1_1Mwindow.wgt.RDat	RSL24D1	15	54973004	55989139	0.0449							0	0	lasso	0.03	3.6e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.OIP5-AS1_1Mwindow.wgt.RDat	OIP5-AS1	15	41074895	42105536	0.0273							280	0	top1	0.029	6.5e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GOLGA8B_1Mwindow.wgt.RDat	GOLGA8B	15	34317296	35375852	0.0763							337	0	enet	0.063	1.2e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATP10A_1Mwindow.wgt.RDat	ATP10A	15	25423859	26608474	0.0546							582	0	top1	0.022	2.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RAD51-AS1_1Mwindow.wgt.RDat	RAD51-AS1	15	40485932	41487303	0.0347							290	0	top1	0.027	1.8e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GOLGA6B_1Mwindow.wgt.RDat	GOLGA6B	15	72447038	73461940	0.4432							0	0	enet	-0.00023	0.38		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAN1_1Mwindow.wgt.RDat	FAN1	15	30696055	31735311	0.0301							318	0	top1	0.0088	0.002		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF710_1Mwindow.wgt.RDat	ZNF710	15	90044556	91125423	0.035							412	0	enet	0.0099	0.0011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GABPB1-AS1_1Mwindow.wgt.RDat	GABPB1-AS1	15	50146371	51150509	0.1501							422	0	top1	0.17	1.4999999999999999e-40		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SMAD3_1Mwindow.wgt.RDat	SMAD3	15	66857940	67987507	0.0271							574	0	blup	0.007	0.0053		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01579_1Mwindow.wgt.RDat	LINC01579	15	93939288	94943828	0.0356							609	0	blup	0.016	4.5e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SAXO2_1Mwindow.wgt.RDat	SAXO2	15	82055159	83077268	0.1201							242	0	top1	0.14	4.8e-33		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS17_1Mwindow.wgt.RDat	RPS17	15	82705501	83709208	0.2723							183	0	top1	0.34	5.3e-89		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MINDY2_1Mwindow.wgt.RDat	MINDY2	15	58563501	59654099	0.049							523	0	top1	0.033	7.9e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UACA_1Mwindow.wgt.RDat	UACA	15	70446893	71555897	0.0497							429	0	enet	0.024	7.2e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DUT_1Mwindow.wgt.RDat	DUT	15	48123292	49135570	0.0137							301	0	top1	0.0079	0.0032		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NOP10_1Mwindow.wgt.RDat	NOP10	15	34133920	35135337	0.0264							361	0	blup	0.0092	0.0016		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GOLGA6L10_1Mwindow.wgt.RDat	GOLGA6L10	15	82429674	83439197	0.041							0	0	lasso	0.026	2.1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZKSCAN2-DT_1Mwindow.wgt.RDat	ZKSCAN2-DT	16	24768898	25772387	0.0253							397	0	blup	0.012	0.00048		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MT1E_1Mwindow.wgt.RDat	MT1E	16	56159693	57161024	0.0813							521	0	top1	0.051	7.4e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PGAP6_1Mwindow.wgt.RDat	PGAP6	16	0	931978	0.1705							327	0	enet	0.2	3.0999999999999996e-49		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRKCB_1Mwindow.wgt.RDat	PRKCB	16	23347304	24731932	0.2124							615	0	top1	0.17	1.9e-41		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS2_1Mwindow.wgt.RDat	RPS2	16	1512059	2514827	0.1041							391	0	enet	0.071	2e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CDR2_1Mwindow.wgt.RDat	CDR2	16	21857257	22885940	0.0504							165	0	blup	0.02	4.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NPIPA5_1Mwindow.wgt.RDat	NPIPA5	16	14957481	15972151	0.0444							219	0	blup	0.0042	0.024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PDIA2_1Mwindow.wgt.RDat	PDIA2	16	0	837215	0.0565							305	0	top1	-0.00055	0.49		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CYLD_1Mwindow.wgt.RDat	CYLD	16	50275997	51335846	0.0319							448	0	blup	0.0059	0.0097		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CNGB1_1Mwindow.wgt.RDat	CNGB1	16	57416244	58505032	0.0329							0	0	lasso	0.13	9.7e-32		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRSS36_1Mwindow.wgt.RDat	PRSS36	16	30650247	31661387	0.0168							245	0	blup	0.0037	0.032		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CDK10_1Mwindow.wgt.RDat	CDK10	16	89253097	90262762	0.043							401	0	top1	0.02	4.9e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MPHOSPH6_1Mwindow.wgt.RDat	MPHOSPH6	16	81681767	82703829	0.0357							710	0	blup	0.0048	0.017		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MYH11_1Mwindow.wgt.RDat	MYH11	16	15296992	16450885	0.0483							434	0	blup	0.022	2.2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NPIPA1_1Mwindow.wgt.RDat	NPIPA1	16	14531300	15545913	0.0559							98	0	enet	0.018	2.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATP2C2_1Mwindow.wgt.RDat	ATP2C2	16	83902144	84997793	0.0472							889	0	blup	0.0086	0.0022		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SULT1A2_1Mwindow.wgt.RDat	SULT1A2	16	28103264	29108371	0.2338							169	0	top1	0.1	1.2999999999999998e-24		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01570_1Mwindow.wgt.RDat	LINC01570	16	5151170	6166251	0.0695							645	0	blup	-3.9e-05	0.33		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CENPN_1Mwindow.wgt.RDat	CENPN	16	80540819	81566712	0.0282							636	0	top1	0.0067	0.0061		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COX4I1_1Mwindow.wgt.RDat	COX4I1	16	85333301	86340674	0.0529							603	0	blup	0.0025	0.063		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZDHHC7_1Mwindow.wgt.RDat	ZDHHC7	16	84507781	85545141	0.0572							641	0	blup	0.019	9.2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HAGH_1Mwindow.wgt.RDat	HAGH	16	1357630	2377195	0.0252							432	0	top1	0.014	0.00015		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BOLA2_1Mwindow.wgt.RDat	BOLA2	16	28964909	29966285	0.0199							148	0	blup	0.0072	0.0048		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SGF29_1Mwindow.wgt.RDat	SGF29	16	28065241	29103111	0.0138							181	0	top1	0.019	9.8e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NPIPB2_1Mwindow.wgt.RDat	NPIPB2	16	11521120	12570500	0.0531							471	0	top1	0.032	1.6e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RHBDL1_1Mwindow.wgt.RDat	RHBDL1	16	225671	1228268	0.0382							371	0	top1	0.03	4.4e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SETD6_1Mwindow.wgt.RDat	SETD6	16	58049383	59057746	0.0536							452	0	blup	0.022	1.9e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM204_1Mwindow.wgt.RDat	TMEM204	16	1078679	2105569	0.0284							453	0	top1	0.024	8.5e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL13_1Mwindow.wgt.RDat	RPL13	16	89127065	90133237	0.0561							0	0	lasso	0.037	1.1e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NMRAL1_1Mwindow.wgt.RDat	NMRAL1	16	4011695	5026338	0.028							412	0	enet	0.0026	0.062		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PDXDC1_1Mwindow.wgt.RDat	PDXDC1	16	14568592	15733267	0.0228							133	0	blup	0.002	0.086		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ATF7IP2_1Mwindow.wgt.RDat	ATF7IP2	16	9979918	11077495	0.0457							627	0	top1	0.034	5.4e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSC2_1Mwindow.wgt.RDat	TSC2	16	1597986	2639492	0.0382							341	0	blup	0.0057	0.011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KIAA0513_1Mwindow.wgt.RDat	KIAA0513	16	84561401	85627836	0.0358							602	0	blup	0.0099	0.0011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IL32_1Mwindow.wgt.RDat	IL32	16	2615404	3619531	0.3014							330	0	enet	0.21	1.6e-51		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NIP7_1Mwindow.wgt.RDat	NIP7	16	68873675	69877009	0.0258							294	0	blup	0.013	0.00023		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC22A31_1Mwindow.wgt.RDat	SLC22A31	16	88762169	89768086	0.0316							407	0	blup	0.0069	0.0057		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF267_1Mwindow.wgt.RDat	ZNF267	16	31385128	32428678	0.014							135	0	blup	0.0074	0.0043		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TEPP_1Mwindow.wgt.RDat	TEPP	16	57510448	58522020	0.0777							519	0	enet	0.032	1.5e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ERVK13-1_1Mwindow.wgt.RDat	ERVK13-1	16	2208390	3223440	0.0278							257	0	blup	0.0089	0.002		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TUFM_1Mwindow.wgt.RDat	TUFM	16	28353732	29357669	0.0405							167	0	top1	0.067	1.4e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C16orf54_1Mwindow.wgt.RDat	C16orf54	16	29253784	30257311	0.0312							164	0	top1	0.019	9.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL23A_1Mwindow.wgt.RDat	RPL23A	17	26547003	27551377	0.0341							303	0	blup	0.021	3.4e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SMCR5_1Mwindow.wgt.RDat	SMCR5	17	17180000	18182843	0.0347							408	0	blup	0.02	5.4e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HOXB-AS1_1Mwindow.wgt.RDat	HOXB-AS1	17	46121713	47128603	0.0939							412	0	enet	0.054	1.6e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PIK3R6_1Mwindow.wgt.RDat	PIK3R6	17	8206040	9270994	0.0284							440	0	blup	0.0024	0.068		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EFCAB13_1Mwindow.wgt.RDat	EFCAB13	17	44901321	46018678	0.0226							398	0	top1	0.015	7.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPATA20_1Mwindow.wgt.RDat	SPATA20	17	48124535	49133213	0.053							434	0	top1	0.024	7e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARL17B_1Mwindow.wgt.RDat	ARL17B	17	43851550	44939153	0.1912							81	0	blup	0.063	1.6e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ORMDL3_1Mwindow.wgt.RDat	ORMDL3	17	37577294	38583854	0.1238							261	0	top1	0.078	5.8e-19		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSPOAP1-AS1_1Mwindow.wgt.RDat	TSPOAP1-AS1	17	55902811	56931088	0.0374							289	0	blup	0.0058	0.01		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADAM11_1Mwindow.wgt.RDat	ADAM11	17	42336356	43359214	0.0364							395	0	blup	-7.9e-05	0.34		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPTOR_1Mwindow.wgt.RDat	RPTOR	17	78018638	79440168	0.048							602	0	blup	0.01	0.00097		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CLDN7_1Mwindow.wgt.RDat	CLDN7	17	6663222	7666532	0.0262							438	0	top1	0.0037	0.033		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HOXB4_1Mwindow.wgt.RDat	HOXB4	17	46152869	47155712	0.0548							396	0	top1	0.044	2.7e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF232_1Mwindow.wgt.RDat	ZNF232	17	4509029	5526411	0.0329							429	0	blup	0.0068	0.0059		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC52A1_1Mwindow.wgt.RDat	SLC52A1	17	4435897	5438721	0.0272							420	0	blup	0.011	0.00075		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARL16_1Mwindow.wgt.RDat	ARL16	17	79148195	80150827	0.0486							275	0	lasso	0.027	1.9e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C17orf50_1Mwindow.wgt.RDat	C17orf50	17	33587906	34592098	0.0449							0	0	lasso	0.029	7.5e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SERPINF1_1Mwindow.wgt.RDat	SERPINF1	17	1165354	2180859	0.0671							414	0	top1	0.049	1.5e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MXRA7_1Mwindow.wgt.RDat	MXRA7	17	74168633	75207047	0.0363							0	0	lasso	0.024	7.4e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ABCA8_1Mwindow.wgt.RDat	ABCA8	17	66363430	67451533	0.038							485	0	lasso	-0.00091	0.73		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SDK2_1Mwindow.wgt.RDat	SDK2	17	70830523	72140584	0.0568							0	0	lasso	0.029	7.5e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HOXB2_1Mwindow.wgt.RDat	HOXB2	17	46120017	47122471	0.0704							410	0	top1	0.056	5.4e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C17orf97_1Mwindow.wgt.RDat	C17orf97	17	0	764457	0.1197							285	0	top1	0.1	3.0999999999999997e-24		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DHRS11_1Mwindow.wgt.RDat	DHRS11	17	34448309	35457233	0.022							297	0	blup	0.0017	0.11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KANSL1-AS1_1Mwindow.wgt.RDat	KANSL1-AS1	17	43770939	44774089	0.1289							28	0	blup	0.051	5.6e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TTC19_1Mwindow.wgt.RDat	TTC19	17	15403138	16432718	0.0244							251	0	blup	0.0098	0.0012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL19_1Mwindow.wgt.RDat	RPL19	17	36856536	37860985	0.0318							305	0	blup	0.0076	0.0039		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPH3AL-AS1_1Mwindow.wgt.RDat	RPH3AL-AS1	17	0	683279	0.0466							0	0	lasso	0.027	1.5e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DCXR_1Mwindow.wgt.RDat	DCXR	17	79493734	80495573	0.0975							279	0	lasso	0.028	8.8e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ELP5_1Mwindow.wgt.RDat	ELP5	17	6655043	7663259	0.0358							447	0	top1	0.028	9.3e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RFLNB_1Mwindow.wgt.RDat	RFLNB	17	0	795731	0.0554							303	0	blup	0.023	1.3e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NME2_1Mwindow.wgt.RDat	NME2	17	48742897	49749105	0.0511							420	0	enet	0.034	3.8e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FBF1_1Mwindow.wgt.RDat	FBF1	17	73405655	74437123	0.0335							379	0	blup	0.0054	0.013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SHMT1_1Mwindow.wgt.RDat	SHMT1	17	17731187	18766864	0.0241							251	0	top1	0.011	0.00066		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RAB34_1Mwindow.wgt.RDat	RAB34	17	26541299	27545286	0.0198							302	0	top1	0.022	2.2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GIT1_1Mwindow.wgt.RDat	GIT1	17	27400493	28416666	0.0234							0	0	enet	0.012	0.00045		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TBCD_1Mwindow.wgt.RDat	TBCD	17	80209941	81403790	0.0267							350	0	top1	0.038	6.5e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LLGL1_1Mwindow.wgt.RDat	LLGL1	17	17628949	18648189	0.0383							262	0	blup	0.0084	0.0025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VAMP2_1Mwindow.wgt.RDat	VAMP2	17	7562465	8566266	0.0337							387	0	top1	0.014	0.00011		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DNAH17-AS1_1Mwindow.wgt.RDat	DNAH17-AS1	17	75980992	76999138	0.0349							486	0	top1	0.012	0.00032		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VPS53_1Mwindow.wgt.RDat	VPS53	17	0	1118079	0.0344							417	0	blup	0.0041	0.026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM101_1Mwindow.wgt.RDat	TMEM101	17	41588556	42600583	0.0261							0	0	enet	0.012	0.00032		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPHK1_1Mwindow.wgt.RDat	SPHK1	17	73879285	74883936	0.0324							371	0	blup	0.0011	0.15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GFAP_1Mwindow.wgt.RDat	GFAP	17	42480527	43492868	0.1397							366	0	top1	0.047	5e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HOXB3_1Mwindow.wgt.RDat	HOXB3	17	46126232	47167603	0.0252							413	0	blup	0.015	6.4e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NT5C3B_1Mwindow.wgt.RDat	NT5C3B	17	39481309	40492484	0.0177							365	0	top1	0.012	0.00041		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EVI2A_1Mwindow.wgt.RDat	EVI2A	17	29143428	30148640	0.0267							325	0	blup	0.024	6.2e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FN3KRP_1Mwindow.wgt.RDat	FN3KRP	17	80174582	81185889	0.0465							359	0	top1	0.032	1.5e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CDK5R1_1Mwindow.wgt.RDat	CDK5R1	17	30314011	31318271	0.0221							273	0	top1	0.024	6e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GAST_1Mwindow.wgt.RDat	GAST	17	39368583	40372221	0.0611							0	0	enet	-0.00029	0.4		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MYCBPAP_1Mwindow.wgt.RDat	MYCBPAP	17	48085800	49108862	0.078							441	0	top1	0.044	3e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TBC1D3L_1Mwindow.wgt.RDat	TBC1D3L	17	35784005	36794915	0.0278							238	0	blup	0.011	0.00071		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPECC1_1Mwindow.wgt.RDat	SPECC1	17	19412672	20722339	0.02							253	0	top1	0.028	8.3e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TXNDC17_1Mwindow.wgt.RDat	TXNDC17	17	6044380	7047861	0.0327							538	0	blup	0.0084	0.0025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DDX5_1Mwindow.wgt.RDat	DDX5	17	61994372	63002984	0.0161							209	0	top1	0.033	8.9e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ARHGAP44_1Mwindow.wgt.RDat	ARHGAP44	17	12192815	13394960	0.0438							624	0	blup	0.011	0.00059		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C17orf114_1Mwindow.wgt.RDat	C17orf114	17	4204454	5210304	0.0278							387	0	top1	0.024	6.1e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACTG1_1Mwindow.wgt.RDat	ACTG1	17	78976997	79979825	0.0464							264	0	top1	0.027	1.7e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNHG29_1Mwindow.wgt.RDat	SNHG29	17	15842301	16873962	0.1196							274	0	lasso	0.1	2.1999999999999996e-24		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ASB16-AS1_1Mwindow.wgt.RDat	ASB16-AS1	17	41753341	42764085	0.0263							0	0	lasso	0.0072	0.0047		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACLY_1Mwindow.wgt.RDat	ACLY	17	39523170	40575275	0.0183							387	0	top1	0.011	0.0007		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SP2-DT_1Mwindow.wgt.RDat	SP2-DT	17	45468595	46473182	0.0331							382	0	lasso	0.017	2.4e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GSDMA_1Mwindow.wgt.RDat	GSDMA	17	37619257	38634021	0.023							274	0	blup	0.012	0.00039		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ST6GALNAC1_1Mwindow.wgt.RDat	ST6GALNAC1	17	74120845	75139839	0.0998							470	0	enet	0.059	1.1e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TEKT3_1Mwindow.wgt.RDat	TEKT3	17	14707129	15744914	0.0654							0	0	lasso	0.043	5.6e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SCAT1_1Mwindow.wgt.RDat	SCAT1	17	76113466	77128139	0.079							519	0	top1	0.044	3.1e-11		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NME1_1Mwindow.wgt.RDat	NME1	17	48730920	49739529	0.0212							412	0	enet	0.022	2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EIF5A_1Mwindow.wgt.RDat	EIF5A	17	6710318	7715782	0.311							427	0	enet	0.34	6.799999999999999e-91		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FASN_1Mwindow.wgt.RDat	FASN	17	79536214	80556112	0.0196							285	0	blup	0.009	0.0018		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RAB27B_1Mwindow.wgt.RDat	RAB27B	18	51885088	53062747	0.0328							382	0	enet	0.019	7.8e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GTSCR1_1Mwindow.wgt.RDat	GTSCR1	18	67797755	68818190	0.0461							443	0	top1	0.025	3.9e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01630_1Mwindow.wgt.RDat	LINC01630	18	48418412	49588839	0.127							0	0	enet	-0.00077	0.61		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRELID3A_1Mwindow.wgt.RDat	PRELID3A	18	11907928	12932237	0.0497							418	0	top1	-0.00027	0.39		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PSTPIP2_1Mwindow.wgt.RDat	PSTPIP2	18	43063502	44152226	0.042							559	0	blup	0.018	2e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LDLRAD4-AS1_1Mwindow.wgt.RDat	LDLRAD4-AS1	18	12919498	13927533	0.0247							486	0	blup	0.00061	0.21		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC14A1_1Mwindow.wgt.RDat	SLC14A1	18	42804146	43832485	0.0479							552	0	lasso	0.03	3.6e-08		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KCTD1_1Mwindow.wgt.RDat	KCTD1	18	23534874	24737437	0.0304							606	0	blup	0.0047	0.019		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FBXO15_1Mwindow.wgt.RDat	FBXO15	18	71240603	72315069	0.0505							676	0	blup	0.013	0.00025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GALNT1_1Mwindow.wgt.RDat	GALNT1	18	32660886	33791798	0.0223							395	0	lasso	0.0096	0.0013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF396_1Mwindow.wgt.RDat	ZNF396	18	32446658	33457301	0.0334							366	0	top1	0.012	0.00043		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TWSG1_1Mwindow.wgt.RDat	TWSG1	18	8834771	9902418	0.0416							543	0	blup	0.0096	0.0013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HSBP1L1_1Mwindow.wgt.RDat	HSBP1L1	18	77224643	78230822	0.0291							283	0	top1	0.016	5.9e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EPB41L3_1Mwindow.wgt.RDat	EPB41L3	18	4892385	6130662	0.0865							647	0	lasso	0.052	3.8e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ENOSF1_1Mwindow.wgt.RDat	ENOSF1	18	170318	1212630	0.0346							562	0	top1	0.02	4.7e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CARD8_1Mwindow.wgt.RDat	CARD8	19	48206405	49259203	0.0415		  NA		    NA	   NA	    NA	522	0	blup	0.015	7.9e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KISS1R_1Mwindow.wgt.RDat	KISS1R	19	417333	1421005	0.0464		  NA		    NA	   NA	    NA	370	0	blup	0.012	0.00038	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSKS_1Mwindow.wgt.RDat	TSKS	19	49743017	50766563	0.0413		  NA		    NA	   NA	    NA	321	0	enet	0.015	0.0001	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF781_1Mwindow.wgt.RDat	ZNF781	19	37658652	38683216	0.0248		  NA		    NA	   NA	    NA	247	0	blup	0.012	0.00037	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS11_1Mwindow.wgt.RDat	RPS11	19	49499691	50502965	0.0384		  NA		    NA	   NA	    NA	342	0	top1	0.037	9.2e-10	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPACA6_1Mwindow.wgt.RDat	SPACA6	19	51692635	52708443	0.0405		  NA		    NA	   NA	    NA	578	0	blup	0.0075	0.0039	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRDX2_1Mwindow.wgt.RDat	PRDX2	19	12407637	13412614	0.0519		  NA		    NA	   NA	    NA	279	0	blup	0.014	0.00011	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF429_1Mwindow.wgt.RDat	ZNF429	19	21188404	22223470	0.0186	rs7255049	3.74	rs7254018	0.0268	-5.35	-0.940	292	1	top1	0.027	1.8e-07	 0.940	0.347
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IGFLR1_1Mwindow.wgt.RDat	IGFLR1	19	35729702	36733353	0.1223		  NA		    NA	   NA	    NA	406	0	top1	0.1	8.999999999999998e-25	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UPF1_1Mwindow.wgt.RDat	UPF1	19	18442768	19479039	0.0444		  NA		    NA	   NA	    NA	292	0	blup	0.019	1e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF667-AS1_1Mwindow.wgt.RDat	ZNF667-AS1	19	56489243	57506806	0.0443		  NA		    NA	   NA	    NA	447	0	top1	0.0061	0.0085	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF677_1Mwindow.wgt.RDat	ZNF677	19	53238634	54258126	0.038		  NA		    NA	   NA	    NA	402	0	top1	0.039	4.3e-10	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZBTB32_1Mwindow.wgt.RDat	ZBTB32	19	35695460	36707940	0.0998		  NA		    NA	   NA	    NA	418	0	enet	0.066	2.3e-16	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FCGBP_1Mwindow.wgt.RDat	FCGBP	19	39853963	40940533	0.046		  NA		    NA	   NA	    NA	426	0	top1	0.027	1.8e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF83_1Mwindow.wgt.RDat	ZNF83	19	52615630	53693749	0.0516		  NA		    NA	   NA	    NA	434	0	lasso	0.03	3.9e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.UBA52_1Mwindow.wgt.RDat	UBA52	19	18182534	19188360	0.056		  NA		    NA	   NA	    NA	0	0	lasso	0.074	4.5e-18	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FUT2_1Mwindow.wgt.RDat	FUT2	19	48699228	49709208	0.0258		  NA		    NA	   NA	    NA	422	0	blup	0.0015	0.12	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NCR1_1Mwindow.wgt.RDat	NCR1	19	54917506	55924441	0.037		  NA		    NA	   NA	    NA	446	0	top1	0.022	2.2e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LSM7_1Mwindow.wgt.RDat	LSM7	19	1821520	2828585	0.0455		  NA		    NA	   NA	    NA	314	0	top1	0.024	6.3e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CD209_1Mwindow.wgt.RDat	CD209	19	7304879	8312420	0.0371		  NA		    NA	   NA	    NA	0	0	lasso	0.12	3.5e-29	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DAZAP1_1Mwindow.wgt.RDat	DAZAP1	19	907585	1935683	0.039		  NA		    NA	   NA	    NA	336	0	top1	0.026	2.4e-07	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MAST3_1Mwindow.wgt.RDat	MAST3	19	17708588	18762497	0.0251		  NA		    NA	   NA	    NA	381	0	blup	0.0089	0.0019	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CIRBP_1Mwindow.wgt.RDat	CIRBP	19	769331	1774879	0.0609		  NA		    NA	   NA	    NA	326	0	lasso	0.0096	0.0013	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PLA2G4C_1Mwindow.wgt.RDat	PLA2G4C	19	48051103	49114074	0.0347		  NA		    NA	   NA	    NA	511	0	top1	0.032	1e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF266_1Mwindow.wgt.RDat	ZNF266	19	9023105	10046249	0.0226		  NA		    NA	   NA	    NA	311	0	top1	0.02	5.3e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CGB1_1Mwindow.wgt.RDat	CGB1	19	49038826	50040152	0.0747		  NA		    NA	   NA	    NA	0	0	lasso	0.12	2.5e-28	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GRAMD1A_1Mwindow.wgt.RDat	GRAMD1A	19	34985631	36017373	0.0593		  NA		    NA	   NA	    NA	444	0	enet	0.028	8.1e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.THAP8_1Mwindow.wgt.RDat	THAP8	19	36025886	37045664	0.0269		  NA		    NA	   NA	    NA	296	0	blup	0.0049	0.016	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NOP53_1Mwindow.wgt.RDat	NOP53	19	47748803	48760315	0.1076		  NA		    NA	   NA	    NA	0	0	lasso	0.092	2.3000000000000003e-22	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CARD8-AS1_1Mwindow.wgt.RDat	CARD8-AS1	19	48258932	49261451	0.03		  NA		    NA	   NA	    NA	502	0	enet	0.01	0.00088	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNRPD2_1Mwindow.wgt.RDat	SNRPD2	19	45690712	46695574	0.0251		  NA		    NA	   NA	    NA	350	0	top1	0.047	5.2e-12	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FKRP_1Mwindow.wgt.RDat	FKRP	19	46749314	47761832	0.0471		  NA		    NA	   NA	    NA	303	0	enet	0.021	3.8e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.VRK3_1Mwindow.wgt.RDat	VRK3	19	49979725	51028629	0.0302		  NA		    NA	   NA	    NA	327	0	blup	0.01	0.00087	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PALM3_1Mwindow.wgt.RDat	PALM3	19	13664179	14672888	0.065		  NA		    NA	   NA	    NA	0	0	lasso	-0.00085	0.67	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NR2F6_1Mwindow.wgt.RDat	NR2F6	19	16842692	17856728	0.0729		  NA		    NA	   NA	    NA	364	0	top1	0.052	4.3e-13	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RABAC1_1Mwindow.wgt.RDat	RABAC1	19	41960835	42963473	0.044		  NA		    NA	   NA	    NA	173	0	top1	0.037	8.3e-10	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF773_1Mwindow.wgt.RDat	ZNF773	19	57511306	58529805	0.0394		  NA		    NA	   NA	    NA	0	0	lasso	0.0095	0.0014	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GNG8_1Mwindow.wgt.RDat	GNG8	19	46637210	47639459	0.1262		  NA		    NA	   NA	    NA	326	0	top1	0.12	1.1000000000000002e-28	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF132_1Mwindow.wgt.RDat	ZNF132	19	58444181	59451520	0.0245		  NA		    NA	   NA	    NA	274	0	top1	0.017	2.2e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF552_1Mwindow.wgt.RDat	ZNF552	19	57818450	58826281	0.043		  NA		    NA	   NA	    NA	0	0	lasso	0.034	5.4e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF302_1Mwindow.wgt.RDat	ZNF302	19	34668583	35677301	0.0359		  NA		    NA	   NA	    NA	327	0	blup	0.012	0.00035	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC25A42_1Mwindow.wgt.RDat	SLC25A42	19	18674803	19723839	0.0296		  NA		    NA	   NA	    NA	296	0	blup	0.012	0.00039	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS9_1Mwindow.wgt.RDat	RPS9	19	54204726	55211515	0.3008		  NA		    NA	   NA	    NA	384	0	enet	0.28	1.1e-70	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF584_1Mwindow.wgt.RDat	ZNF584	19	58420016	59429694	0.0673		  NA		    NA	   NA	    NA	286	0	lasso	0.036	2.1e-09	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ADGRE1_1Mwindow.wgt.RDat	ADGRE1	19	6387590	7440461	0.1669		  NA		    NA	   NA	    NA	373	0	blup	0.14	9.900000000000001e-33	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPL28_1Mwindow.wgt.RDat	RPL28	19	55397300	56414710	0.3773		  NA		    NA	   NA	    NA	504	0	top1	0.32	2.8e-84	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CALM3_1Mwindow.wgt.RDat	CALM3	19	46604331	47614039	0.0329		  NA		    NA	   NA	    NA	325	0	enet	0.011	0.00073	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS5_1Mwindow.wgt.RDat	RPS5	19	58398636	59406171	0.2698		  NA		    NA	   NA	    NA	290	0	top1	0.23	3.3e-58	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.EVI5L_1Mwindow.wgt.RDat	EVI5L	19	7395104	8429862	0.0403		  NA		    NA	   NA	    NA	420	0	blup	0.011	0.00053	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.INAFM1_1Mwindow.wgt.RDat	INAFM1	19	47277680	48278980	0.0375		  NA		    NA	   NA	    NA	229	0	enet	0.017	2.7e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF586_1Mwindow.wgt.RDat	ZNF586	19	57781044	58791984	0.0251		  NA		    NA	   NA	    NA	472	0	blup	0.0071	0.005	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF100_1Mwindow.wgt.RDat	ZNF100	19	21405573	22450381	0.0974		  NA		    NA	   NA	    NA	293	0	top1	0.068	9.7e-17	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.HSD17B14_1Mwindow.wgt.RDat	HSD17B14	19	48816275	49839748	0.1233		  NA		    NA	   NA	    NA	396	0	enet	0.11	1.8e-25	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF264_1Mwindow.wgt.RDat	ZNF264	19	57202868	58234214	0.0393		  NA		    NA	   NA	    NA	503	0	enet	0.0076	0.0039	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF257_1Mwindow.wgt.RDat	ZNF257	19	21735286	22774282	0.0498		  NA		    NA	   NA	    NA	321	0	top1	0.028	7.6e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CFD_1Mwindow.wgt.RDat	CFD	19	359664	1363641	0.0938		  NA		    NA	   NA	    NA	0	0	lasso	0.069	6.2e-17	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF433-AS1_1Mwindow.wgt.RDat	ZNF433-AS1	19	11598432	12657090	0.0207		  NA		    NA	   NA	    NA	273	0	blup	0.0048	0.018	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C19orf33_1Mwindow.wgt.RDat	C19orf33	19	38294891	39295646	0.029		  NA		    NA	   NA	    NA	362	0	enet	0.023	1.4e-06	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.JUNB_1Mwindow.wgt.RDat	JUNB	19	12402300	13404129	0.7874		  NA		    NA	   NA	    NA	279	0	top1	0.014	0.00012	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF749_1Mwindow.wgt.RDat	ZNF749	19	57446693	58458469	0.1801		  NA		    NA	   NA	    NA	484	0	enet	0.15	4.8e-36	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PTGIR_1Mwindow.wgt.RDat	PTGIR	19	46623725	47628346	0.1763		  NA		    NA	   NA	    NA	327	0	lasso	0.16	1.8e-38	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF566_1Mwindow.wgt.RDat	ZNF566	19	36436021	37480463	0.0355		  NA		    NA	   NA	    NA	289	0	blup	0.015	8.1e-05	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF85_1Mwindow.wgt.RDat	ZNF85	19	20606057	21633503	0.0309	rs6511202	1.45	rs11085405	0.0420	 6.80	-0.489	233	1	top1	0.042	7.3e-11	-0.489	0.625
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF675_1Mwindow.wgt.RDat	ZNF675	19	23335603	24370014	0.0277		  NA		    NA	   NA	    NA	205	0	blup	0.0087	0.0022	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ZNF208_1Mwindow.wgt.RDat	ZNF208	19	21622617	22693745	0.0335		  NA		    NA	   NA	    NA	307	0	top1	0.03	4.3e-08	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TLE2_1Mwindow.wgt.RDat	TLE2	19	2497642	3547633	0.0566		  NA		    NA	   NA	    NA	332	0	blup	0.0098	0.0012	    NA	   NA
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CST3_1Mwindow.wgt.RDat	CST3	20	23107343	24118592	0.0467							528	0	blup	0.013	0.00023		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LIME1_1Mwindow.wgt.RDat	LIME1	20	61867053	62870456	0.0249							387	0	blup	0.0058	0.01		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSHZ2_1Mwindow.wgt.RDat	TSHZ2	20	51088897	52611869	0.0859							758	0	enet	0.048	3.7e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM182A_1Mwindow.wgt.RDat	FAM182A	20	25535250	26567553	0.0212							61	0	enet	0.012	0.00039		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MYH7B_1Mwindow.wgt.RDat	MYH7B	20	33043671	34090240	0.0434							358	0	enet	0.0082	0.0028		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CPNE1_1Mwindow.wgt.RDat	CPNE1	20	33713966	34752822	0.0254							0	0	lasso	0.014	0.00015		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CDK5RAP1_1Mwindow.wgt.RDat	CDK5RAP1	20	31446645	32489375	0.0186							351	0	blup	0.0066	0.0064		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC12A5_1Mwindow.wgt.RDat	SLC12A5	20	44150325	45188789	0.1419							509	0	top1	0.09	1e-21		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRPF6_1Mwindow.wgt.RDat	PRPF6	20	62112485	63164453	0.0627							327	0	blup	0.013	0.00023		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.KIF16B_1Mwindow.wgt.RDat	KIF16B	20	15752749	17054093	0.046							965	0	top1	0.035	3e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC2A10_1Mwindow.wgt.RDat	SLC2A10	20	44838288	45864986	0.0844							557	0	lasso	0.007	0.0053		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SAMD10_1Mwindow.wgt.RDat	SAMD10	20	62105469	63110995	0.0671							330	0	top1	0.05	9.2e-13		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SNHG17_1Mwindow.wgt.RDat	SNHG17	20	36549235	37564020	0.0652							462	0	lasso	0.059	1.2e-14		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.STMN3_1Mwindow.wgt.RDat	STMN3	20	61771065	62784777	0.0478							0	0	lasso	0.062	1.9e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LKAAEAR1_1Mwindow.wgt.RDat	LKAAEAR1	20	62214729	63216306	0.0189							285	0	blup	0.008	0.003		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01441_1Mwindow.wgt.RDat	LINC01441	20	53536874	54543735	0.0777							0	0	enet	-0.00045	0.45		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BMP2_1Mwindow.wgt.RDat	BMP2	20	6248333	7260893	0.046							0	0	enet	0.0015	0.12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM83C_1Mwindow.wgt.RDat	FAM83C	20	33373534	34380228	0.7357							342	0	blup	-0.00072	0.58		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TMEM230_1Mwindow.wgt.RDat	TMEM230	20	4549021	5593722	0.0457							544	0	top1	0.024	9e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.ACOT8_1Mwindow.wgt.RDat	ACOT8	20	43970360	44986031	0.0136							522	0	top1	0.0069	0.0055		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PANK2_1Mwindow.wgt.RDat	PANK2	20	3369428	4410534	0.0431							588	0	blup	0.018	1.9e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RASSF2_1Mwindow.wgt.RDat	RASSF2	20	4260669	5304254	0.0437							598	0	blup	0.012	0.0003		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BCAS4_1Mwindow.wgt.RDat	BCAS4	20	48911431	49993714	0.0911							496	0	enet	0.047	5.9e-12		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NINL_1Mwindow.wgt.RDat	NINL	20	24933333	26066167	0.0272							273	0	top1	0.02	5.6e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIR663AHG_1Mwindow.wgt.RDat	MIR663AHG	20	25667655	26689869	0.0196							39	0	blup	0.0056	0.012		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SULF2_1Mwindow.wgt.RDat	SULF2	20	45786150	46915371	0.4433							557	0	enet	0.49	3.5e-143		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C20orf204_1Mwindow.wgt.RDat	C20orf204	20	62165062	63170354	0.3522							301	0	enet	0.5	3.7e-146		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LAMP5-AS1_1Mwindow.wgt.RDat	LAMP5-AS1	20	8985827	9995645	0.042							579	0	lasso	0.15	4.6e-37		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CCT8_1Mwindow.wgt.RDat	CCT8	21	29928647	30945969	0.1717							408	0	lasso	0.21	2.4e-51		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GRIK1_1Mwindow.wgt.RDat	GRIK1	21	30409254	31812314	0.0256							585	0	blup	0.0028	0.053		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PRMT2_1Mwindow.wgt.RDat	PRMT2	21	47555586	48585036	0.2082							254	0	enet	0.074	4.6e-18		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.S100B_1Mwindow.wgt.RDat	S100B	21	47518517	48524995	0.1223							282	0	enet	0.099	5.5999999999999996e-24		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.U2AF1_1Mwindow.wgt.RDat	U2AF1	21	44013066	45027688	0.2389							484	0	lasso	0.18	7e-44		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RBM11_1Mwindow.wgt.RDat	RBM11	21	15088478	16100693	0.0379							422	0	blup	0.016	5.1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PWP2_1Mwindow.wgt.RDat	PWP2	21	45027280	46051063	0.0959							408	0	top1	0.086	7.6e-21		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00649_1Mwindow.wgt.RDat	LINC00649	21	34803426	35843487	0.0431							429	0	blup	0.034	4.9e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CBR3_1Mwindow.wgt.RDat	CBR3	21	37007377	38018860	0.0956							477	0	lasso	0.093	2.2e-22		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DIP2A_1Mwindow.wgt.RDat	DIP2A	21	47378804	48491139	0.0298							339	0	blup	0.0064	0.0073		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COL6A1_1Mwindow.wgt.RDat	COL6A1	21	46901684	47924962	0.0481							467	0	blup	0.024	9.8e-07		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC00189_1Mwindow.wgt.RDat	LINC00189	21	30065815	31160526	0.0205							462	0	top1	0.022	2e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COL18A1_1Mwindow.wgt.RDat	COL18A1	21	46325080	47433634	0.3498							514	0	enet	0.34	2.4e-88		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.COL6A2_1Mwindow.wgt.RDat	COL6A2	21	47018026	48052762	0.0749							489	0	lasso	0.035	3.1e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BACH1_1Mwindow.wgt.RDat	BACH1	21	30171243	31234215	0.0189							425	0	blup	0.0089	0.002		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SPATC1L_1Mwindow.wgt.RDat	SPATC1L	21	47081074	48104373	0.2082							0	0	lasso	0.23	1.4e-56		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.PIGP_1Mwindow.wgt.RDat	PIGP	21	37937664	38945371	0.023							399	0	blup	0.0018	0.096		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.YBEY_1Mwindow.wgt.RDat	YBEY	21	47206256	48217665	0.0647							429	0	top1	0.069	7e-17		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FOXRED2_1Mwindow.wgt.RDat	FOXRED2	22	36383237	37403087	0.0397							511	0	blup	0.017	2.7e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RGL4_1Mwindow.wgt.RDat	RGL4	22	23533200	24541355	0.027							417	0	lasso	0.019	1e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IGLV9-49_1Mwindow.wgt.RDat	IGLV9-49	22	22197576	23198086	0.0999							0	0	lasso	0.02	6.9e-06		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SLC2A11_1Mwindow.wgt.RDat	SLC2A11	22	23699121	24728499	0.0346							390	0	blup	0.0041	0.026		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.BPIFC_1Mwindow.wgt.RDat	BPIFC	22	32309832	33360433	0.0948							0	0	lasso	0.18	1.5e-44		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MEI1_1Mwindow.wgt.RDat	MEI1	22	41595507	42695458	0.0121							326	0	blup	0.011	0.00066		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DGCR5_1Mwindow.wgt.RDat	DGCR5	22	18457981	19518755	0.0303							414	0	top1	0.0096	0.0013		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CYP2D6_1Mwindow.wgt.RDat	CYP2D6	22	42022501	43026812	0.0241							322	0	blup	0.0075	0.004		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.C1QTNF6_1Mwindow.wgt.RDat	C1QTNF6	22	37076206	38095463	0.0371							570	0	blup	0.0043	0.024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DDT_1Mwindow.wgt.RDat	DDT	22	23813559	24822695	0.0422							370	0	blup	0.014	0.0001		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CELSR1_1Mwindow.wgt.RDat	CELSR1	22	46257071	47433517	0.0576							530	0	lasso	0.038	4.7e-10		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TEF_1Mwindow.wgt.RDat	TEF	22	41263459	42295330	0.0144							251	0	blup	0.013	0.00019		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TSPO_1Mwindow.wgt.RDat	TSPO	22	43047565	44059248	0.041							541	0	blup	0.0084	0.0025		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MIF_1Mwindow.wgt.RDat	MIF	22	23736570	24737410	0.076							381	0	top1	0.0078	0.0034		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.FAM118A_1Mwindow.wgt.RDat	FAM118A	22	45204841	46237836	0.3199							586	0	enet	0.39	2.4e-107		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IGLV8-61_1Mwindow.wgt.RDat	IGLV8-61	22	21953171	22953622	0.0395							309	0	blup	0.002	0.085		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GCAT_1Mwindow.wgt.RDat	GCAT	22	37703941	38713190	0.0281							0	0	lasso	0.035	3.4e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TYMP_1Mwindow.wgt.RDat	TYMP	22	50464181	51468514	0.0358							301	0	enet	0.0084	0.0024		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RPS19BP1_1Mwindow.wgt.RDat	RPS19BP1	22	39425098	40428753	0.0245							372	0	lasso	0.0026	0.062		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.NUP50-DT_1Mwindow.wgt.RDat	NUP50-DT	22	45029639	46059662	0.032							624	0	top1	0.0074	0.0043		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.TUG1_1Mwindow.wgt.RDat	TUG1	22	30865251	31875381	0.0266							373	0	blup	0.0061	0.0084		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.MICAL3_1Mwindow.wgt.RDat	MICAL3	22	17770415	19007327	0.0576							494	0	top1	0.017	2.4e-05		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.SMDT1_1Mwindow.wgt.RDat	SMDT1	22	41975704	42980288	0.2403							308	0	enet	0.44	9.900000000000001e-123		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CENPM_1Mwindow.wgt.RDat	CENPM	22	41834741	42843156	0.0323							324	0	top1	0.033	9.2e-09		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.RAC2_1Mwindow.wgt.RDat	RAC2	22	37121310	38140309	0.0431							565	0	blup	0.0035	0.037		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.XBP1_1Mwindow.wgt.RDat	XBP1	22	28690548	29696557	0.03							313	0	blup	0.012	0.00048		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.IGLL1_1Mwindow.wgt.RDat	IGLL1	22	23415312	24422477	0.0822							430	0	top1	0.066	2.9e-16		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.LINC01644_1Mwindow.wgt.RDat	LINC01644	22	47357048	48382860	0.0412							578	0	top1	0.012	0.00048		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.THAP7-AS1_1Mwindow.wgt.RDat	THAP7-AS1	22	20856211	21864663	0.1063							295	0	top1	0.06	6.1e-15		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.GTSE1-DT_1Mwindow.wgt.RDat	GTSE1-DT	22	46191040	47192557	0.0505							413	0	blup	0.011	0.0008		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.CRYBB2_1Mwindow.wgt.RDat	CRYBB2	22	25115606	26127836	0.3827							375	0	top1	0.43	5.3999999999999995e-121		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.DDTL_1Mwindow.wgt.RDat	DDTL	22	23809076	24814745	0.0685							368	0	top1	0.085	1.3e-20		
+CD4_Naive	RA_only/CD4_Naive_5pcs_all/CD4_Naive.H1-0_1Mwindow.wgt.RDat	H1-0	22	37701236	38703439	0.0241							338	0	blup	0.0084	0.0025		

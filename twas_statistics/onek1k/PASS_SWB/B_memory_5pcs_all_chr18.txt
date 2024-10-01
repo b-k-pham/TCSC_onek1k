@@ -1,0 +1,12 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_memory	RA_only/B_memory_5pcs_all/B_memory.INO80C_1Mwindow.wgt.RDat	INO80C	18	32548297	33577924	0.0217	NA	  NA	NA	     NA	   NA	    NA	360	  0	top1	0.014	0.00013	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.ELP2_1Mwindow.wgt.RDat	ELP2	18	33209862	34260520	0.0441	rs1540042	3.31	rs7242481	0.02720	 5.28	 2.274	513	  1	lasso	0.029	5.8e-08	2.27	0.0230
+B_memory	RA_only/B_memory_5pcs_all/B_memory.POLI_1Mwindow.wgt.RDat	POLI	18	51295849	52347636	0.0171	rs12960472	4.73	rs981122	0.00281	-4.09	-0.616	351	351	blup	0.011	0.00051	2.12	0.0341
+B_memory	RA_only/B_memory_5pcs_all/B_memory.ENOSF1_1Mwindow.wgt.RDat	ENOSF1	18	170318	1212630	0.0276	NA	  NA	NA	     NA	   NA	    NA	562	  0	top1	0.018	1.4e-05	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.RMC1_1Mwindow.wgt.RDat	RMC1	18	20583434	21611786	0.0232	NA	  NA	NA	     NA	   NA	    NA	346	  0	enet	0.003	0.048	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.HSBP1L1_1Mwindow.wgt.RDat	HSBP1L1	18	77224643	78230822	0.0388	NA	  NA	NA	     NA	   NA	    NA	283	  0	top1	0.046	9.1e-12	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.IMPACT_1Mwindow.wgt.RDat	IMPACT	18	21506634	22533495	0.0314	NA	  NA	NA	     NA	   NA	    NA	544	  0	blup	0.0061	0.0088	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.TUBB6_1Mwindow.wgt.RDat	TUBB6	18	11807668	12829825	0.0945	NA	  NA	NA	     NA	   NA	    NA	416	  0	top1	0.09	1.1e-21	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.LINC01929_1Mwindow.wgt.RDat	LINC01929	18	52273135	53291537	0.0312	NA	  NA	NA	     NA	   NA	    NA	  0	  0	enet	0.0036	0.035	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SPIRE1_1Mwindow.wgt.RDat	SPIRE1	18	11946511	13162090	0.0428	NA	  NA	NA	     NA	   NA	    NA	  0	  0	lasso	0.014	0.00011	  NA	    NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.METTL4_1Mwindow.wgt.RDat	METTL4	18	2037529	3071504	0.0513	NA	  NA	NA	     NA	   NA	    NA	473	  0	blup	0.0059	0.0097	  NA	    NA

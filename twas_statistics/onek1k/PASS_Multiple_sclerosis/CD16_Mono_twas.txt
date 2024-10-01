@@ -1,0 +1,632 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MMEL1_1Mwindow.wgt.RDat	MMEL1	1	2022078	3064455	0.0384							364	0	top1	0.028	2.3e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ANP32E_1Mwindow.wgt.RDat	ANP32E	1	149690717	150708460	0.0226							197	0	blup	0.022	4.4e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FLVCR1-DT_1Mwindow.wgt.RDat	FLVCR1-DT	1	212529946	213531480	0.0417							408	0	enet	0.043	1.9e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.S100A10_1Mwindow.wgt.RDat	S100A10	1	151455391	152466335	0.0191							342	0	blup	0.014	0.00027		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC66A1_1Mwindow.wgt.RDat	SLC66A1	1	19138820	20158922	0.0296							498	0	blup	0.013	0.00037		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SH3BGRL3_1Mwindow.wgt.RDat	SH3BGRL3	1	26106577	27108013	0.0452							402	0	top1	0.043	2.1e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.OR2C3_1Mwindow.wgt.RDat	OR2C3	1	247187979	248199742	0.0523							471	0	blup	-0.00082	0.61		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF692_1Mwindow.wgt.RDat	ZNF692	1	248644207	249653284	0.026							75	0	blup	0.012	0.00054		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RNPEP_1Mwindow.wgt.RDat	RNPEP	1	201451776	202475271	0.0389							429	0	top1	0.037	3e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FHAD1_1Mwindow.wgt.RDat	FHAD1	1	15073719	16224824	0.0261							568	0	top1	0.037	3.2e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD1A_1Mwindow.wgt.RDat	CD1A	1	157718126	158728059	0.0293							465	0	top1	0.0013	0.14		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FHL3_1Mwindow.wgt.RDat	FHL3	1	37962442	38971186	0.1098							419	0	lasso	0.032	3.8e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PDC-AS1_1Mwindow.wgt.RDat	PDC-AS1	1	185904293	186939423	0.02							350	0	blup	0.0028	0.062		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MRPL24_1Mwindow.wgt.RDat	MRPL24	1	156207095	157210880	0.0362							422	0	blup	0.013	0.0004		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DNAI3_1Mwindow.wgt.RDat	DNAI3	1	85028010	86098821	0.2311							607	0	top1	0.00046	0.23		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DNALI1_1Mwindow.wgt.RDat	DNALI1	1	37522541	38532458	0.0355							434	0	blup	0.00068	0.2		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MGST3_1Mwindow.wgt.RDat	MGST3	1	165100471	166125373	0.0267							0	0	lasso	0.035	8e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TAL1_1Mwindow.wgt.RDat	TAL1	1	47181962	48198007	0.0233							399	0	top1	0.005	0.019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD55_1Mwindow.wgt.RDat	CD55	1	206995023	208034311	0.0936							374	0	lasso	0.097	4.900000000000001e-22		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAM177B_1Mwindow.wgt.RDat	FAM177B	1	222410544	223424346	0.0494							304	0	top1	-0.0011	0.89		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CENPS_1Mwindow.wgt.RDat	CENPS	1	9990490	11002865	0.0313							362	0	blup	0.0081	0.004		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ARPC5_1Mwindow.wgt.RDat	ARPC5	1	183089981	184104918	0.0418							518	0	blup	0.0048	0.021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FCER1G_1Mwindow.wgt.RDat	FCER1G	1	160685085	161689035	0.1167							399	0	lasso	0.05	7.4e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LHX4_1Mwindow.wgt.RDat	LHX4	1	179699399	180748119	0.0291							451	0	top1	-0.0011	0.83		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CRYZ_1Mwindow.wgt.RDat	CRYZ	1	74671170	75698734	0.0589							369	0	top1	0.054	9.9e-13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMEM51_1Mwindow.wgt.RDat	TMEM51	1	14979062	16046974	0.0722							539	0	top1	0.044	9.4e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NDUFS5_1Mwindow.wgt.RDat	NDUFS5	1	38992022	40000287	0.0634							367	0	blup	0.037	3.1e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RIIAD1_1Mwindow.wgt.RDat	RIIAD1	1	151193998	152202281	0.0369							0	0	enet	-0.00015	0.35		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BGLAP_1Mwindow.wgt.RDat	BGLAP	1	155711975	156713108	0.0296							363	0	blup	0.013	0.00031		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.COA7_1Mwindow.wgt.RDat	COA7	1	52650121	53664019	0.0181							346	0	top1	0.0077	0.0048		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CNIH4_1Mwindow.wgt.RDat	CNIH4	1	224044581	225067154	0.0339							354	0	enet	0.016	0.0001		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SHISA4_1Mwindow.wgt.RDat	SHISA4	1	201357805	202361715	0.06							478	0	enet	0.0056	0.014		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ECE1-AS1_1Mwindow.wgt.RDat	ECE1-AS1	1	21119783	22126362	0.0567							0	0	enet	0.046	5.1e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.THEMIS2_1Mwindow.wgt.RDat	THEMIS2	1	27699055	28713186	0.0374							224	0	blup	0.016	9.2e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RIT1_1Mwindow.wgt.RDat	RIT1	1	155367599	156381140	0.0259							271	0	blup	0.013	0.00028		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FUCA1_1Mwindow.wgt.RDat	FUCA1	1	23671567	24694780	0.0262							365	0	top1	0.021	9e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF593_1Mwindow.wgt.RDat	ZNF593	1	25996399	26997364	0.0282							429	0	top1	0.039	1.5e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02608_1Mwindow.wgt.RDat	LINC02608	1	211886344	212958363	0.0633							461	0	top1	0.028	2.5e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD52_1Mwindow.wgt.RDat	CD52	1	26144449	27147014	0.2424							391	0	enet	0.41	4.3e-104		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLCNKA_1Mwindow.wgt.RDat	CLCNKA	1	15848531	16860545	0.0331							375	0	top1	0.0014	0.13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PSMB2_1Mwindow.wgt.RDat	PSMB2	1	35565142	36607127	0.0171							90	0	top1	0.0083	0.0035		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C1QB_1Mwindow.wgt.RDat	C1QB	1	22479729	23488130	0.0897							478	0	lasso	0.068	1.2e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C1QA_1Mwindow.wgt.RDat	C1QA	1	22462956	23466171	0.0615							476	0	lasso	0.027	4.6e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNX7_1Mwindow.wgt.RDat	SNX7	1	98627277	99726056	0.0698							438	0	top1	0.04	1e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZDHHC18_1Mwindow.wgt.RDat	ZDHHC18	1	26653179	27684095	0.0212							261	0	enet	0.0059	0.012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPT1_1Mwindow.wgt.RDat	PPT1	1	40037133	41062924	0.0752							402	0	top1	0.034	1.7e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GSTM4_1Mwindow.wgt.RDat	GSTM4	1	109698721	110708119	0.0455							0	0	lasso	0.0069	0.0073		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CDA_1Mwindow.wgt.RDat	CDA	1	20415590	21445396	0.1648							482	0	enet	0.15	1.4e-34		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ELF3-AS1_1Mwindow.wgt.RDat	ELF3-AS1	1	201469179	202479481	0.043							0	0	lasso	0.018	3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CDC73_1Mwindow.wgt.RDat	CDC73	1	192591161	193723945	0.0229							350	0	enet	0.0088	0.0028		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HMCN1_1Mwindow.wgt.RDat	HMCN1	1	185203523	186660081	0.0572							0	0	lasso	-0.00066	0.52		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.L1TD1_1Mwindow.wgt.RDat	L1TD1	1	62160521	63178000	0.0611							420	0	lasso	0.028	2.3e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00970_1Mwindow.wgt.RDat	LINC00970	1	168373143	169556243	0.8648							653	0	lasso	-0.00091	0.67		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RGS1_1Mwindow.wgt.RDat	RGS1	1	192044903	193049154	0.083							334	0	blup	0.048	2.1e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CTNNBIP1_1Mwindow.wgt.RDat	CTNNBIP1	1	9408334	10470327	0.0139							0	0	lasso	0.011	0.00075		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CCDC163_1Mwindow.wgt.RDat	CCDC163	1	45459538	46465745	0.0158							280	0	top1	0.011	0.00088		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FCGR3B_1Mwindow.wgt.RDat	FCGR3B	1	161092986	162101753	0.0489							444	0	lasso	0.0046	0.024		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.OBSCN-AS1_1Mwindow.wgt.RDat	OBSCN-AS1	1	227891207	228901365	0.0692							356	0	blup	0.0015	0.13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ECEL1_1Mwindow.wgt.RDat	ECEL1	2	232844537	233852544	0.0331							410	0	blup	0.0011	0.16		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02610_1Mwindow.wgt.RDat	LINC02610	2	238633754	239640318	0.0368							459	0	top1	0.035	1.1e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02579_1Mwindow.wgt.RDat	LINC02579	2	64334446	65343616	0.089							461	0	top1	0.082	1.1e-18		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NAGK_1Mwindow.wgt.RDat	NAGK	2	70795426	71806938	0.0291							524	0	top1	0.012	0.00066		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPL37A_1Mwindow.wgt.RDat	RPL37A	2	216863567	217868809	0.0336							478	0	blup	0.00078	0.19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.THNSL2_1Mwindow.wgt.RDat	THNSL2	2	87969865	88986146	0.0395							244	0	top1	0.021	5.9e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ITGA6_1Mwindow.wgt.RDat	ITGA6	2	172792064	173871187	0.0535							494	0	blup	0.0053	0.016		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACKR3_1Mwindow.wgt.RDat	ACKR3	2	236978468	237990997	0.032							424	0	blup	0.008	0.0041		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PNKD_1Mwindow.wgt.RDat	PNKD	2	218635242	219711516	0.0208							440	0	blup	0.015	0.00011		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLEC4F_1Mwindow.wgt.RDat	CLEC4F	2	70535775	71547731	0.1615							537	0	top1	0.14	4.4e-31		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ORMDL1_1Mwindow.wgt.RDat	ORMDL1	2	190128585	191149065	0.0346							289	0	blup	0.004	0.031		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPIL3_1Mwindow.wgt.RDat	PPIL3	2	201235630	202253800	0.0254							466	0	top1	0.018	2.8e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NEU4_1Mwindow.wgt.RDat	NEU4	2	242250288	243258739	0.0223							181	0	blup	0.0063	0.0098		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EFR3B_1Mwindow.wgt.RDat	EFR3B	2	24764945	25882004	0.0527							357	0	blup	-0.0003	0.39		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CAPG_1Mwindow.wgt.RDat	CAPG	2	85121876	86141139	0.0316							453	0	enet	0.021	8.7e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACYP2_1Mwindow.wgt.RDat	ACYP2	2	53698250	55032437	0.0252							637	0	blup	0.018	2.5e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TBC1D8_1Mwindow.wgt.RDat	TBC1D8	2	101123690	102267844	0.0266							485	0	enet	0.011	0.00092		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD302_1Mwindow.wgt.RDat	CD302	2	160125139	161154719	0.0495							449	0	blup	0.011	0.0011		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RGPD2_1Mwindow.wgt.RDat	RGPD2	2	87555479	88625315	0.1006							0	0	enet	0.011	0.00098		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NT5DC4_1Mwindow.wgt.RDat	NT5DC4	2	112978597	114000456	0.0889							479	0	top1	0.024	1.4e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01880_1Mwindow.wgt.RDat	LINC01880	2	242489835	243526289	0.0379							98	0	top1	-2.1e-05	0.32		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PREPL_1Mwindow.wgt.RDat	PREPL	2	44044746	45089001	0.0402							477	0	blup	0.0096	0.0019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C2orf27A_1Mwindow.wgt.RDat	C2orf27A	2	131940072	133024977	0.0548							90	0	blup	0.016	8.8e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.COL5A2_1Mwindow.wgt.RDat	COL5A2	2	189396624	190544487	0.0426							340	0	blup	-2.7e-05	0.32		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MEIS1-AS2_1Mwindow.wgt.RDat	MEIS1-AS2	2	66166219	67167462	0.0554							0	0	lasso	0.11	1.2999999999999998e-24		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CYBRD1_1Mwindow.wgt.RDat	CYBRD1	2	171878743	172914639	0.1213							0	0	lasso	0.085	2.3e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MARCO_1Mwindow.wgt.RDat	MARCO	2	119199770	120252236	0.0722							549	0	top1	0.069	5.4e-16		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02611_1Mwindow.wgt.RDat	LINC02611	2	98877526	99888361	0.0389							295	0	blup	0.0041	0.031		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C2orf74_1Mwindow.wgt.RDat	C2orf74	2	60872251	61891963	0.0338							320	0	top1	0.017	5.2e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ANXA4_1Mwindow.wgt.RDat	ANXA4	2	69370940	70554244	0.1201							382	0	top1	0.092	6.3e-21		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACVR1C_1Mwindow.wgt.RDat	ACVR1C	2	157883279	158985376	0.8766							315	0	lasso	0.0059	0.012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ICA1L_1Mwindow.wgt.RDat	ICA1L	2	203137899	204236489	0.0367							267	0	top1	0.024	2.2e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VAMP5_1Mwindow.wgt.RDat	VAMP5	2	85311554	86320529	0.0393							473	0	enet	0.0026	0.068		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TTC21B_1Mwindow.wgt.RDat	TTC21B	2	166229872	167310286	0.0221							468	0	blup	0.0025	0.072		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SCN9A_1Mwindow.wgt.RDat	SCN9A	2	166551695	167732497	0.049							496	0	blup	-0.00028	0.39		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01876_1Mwindow.wgt.RDat	LINC01876	2	156377047	157611443	0.1865							429	0	top1	-0.0011	0.9		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CDKL4_1Mwindow.wgt.RDat	CDKL4	2	38895186	39971124	0.0947							307	0	top1	0.0038	0.036		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC38A11_1Mwindow.wgt.RDat	SLC38A11	2	165250864	166312035	0.0389							0	0	lasso	-0.0011	0.86		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PAX8-AS1_1Mwindow.wgt.RDat	PAX8-AS1	2	113493104	114524600	0.1303							465	0	top1	0.13	3.1000000000000003e-30		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ATIC_1Mwindow.wgt.RDat	ATIC	2	215676782	216714487	0.0325							462	0	top1	0.022	4.1e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAM117B_1Mwindow.wgt.RDat	FAM117B	2	202999692	204134480	0.0877							287	0	blup	0.019	1.7e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CNNM3-DT_1Mwindow.wgt.RDat	CNNM3-DT	2	96977976	97979394	0.0885							0	0	lasso	-0.00098	0.73		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CYP1B1_1Mwindow.wgt.RDat	CYP1B1	2	37794652	38803293	0.0459							581	0	enet	0.024	2e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MZT2A_1Mwindow.wgt.RDat	MZT2A	2	131741533	132749970	0.0408							135	0	blup	0.025	1.3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPIG_1Mwindow.wgt.RDat	PPIG	2	169940861	170997916	0.0194							458	0	blup	0.0069	0.007		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GCC2_1Mwindow.wgt.RDat	GCC2	2	108565662	109625871	0.0246							387	0	top1	0.025	9.4e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TSGA10_1Mwindow.wgt.RDat	TSGA10	2	99113724	100271429	0.0191							340	0	blup	0.004	0.032		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DIRC3-AS1_1Mwindow.wgt.RDat	DIRC3-AS1	2	217647456	218708927	0.0435							530	0	lasso	0.17	1.1e-38		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IL1RL2_1Mwindow.wgt.RDat	IL1RL2	2	102303433	103356462	0.0277							563	0	blup	0.0075	0.0052		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BIN1_1Mwindow.wgt.RDat	BIN1	2	127305599	128364730	0.0989							477	0	top1	0.076	2.2e-17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GRM2_1Mwindow.wgt.RDat	GRM2	3	51241084	52252629	0.0384							219	0	blup	-0.00013	0.35		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TBL1XR1_1Mwindow.wgt.RDat	TBL1XR1	3	176237132	177415270	0.0337							485	0	top1	0.0051	0.018		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RNF13_1Mwindow.wgt.RDat	RNF13	3	149030475	150179926	0.0509							513	0	blup	0.017	4.1e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.UBE2E2_1Mwindow.wgt.RDat	UBE2E2	3	22744589	24133416	0.0203							512	0	blup	0.0072	0.0063		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LIMD1_1Mwindow.wgt.RDat	LIMD1	3	45136243	46227833	0.0595							0	0	lasso	0.048	1.7e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CHST13_1Mwindow.wgt.RDat	CHST13	3	125742998	126762134	0.104							520	0	lasso	0.077	1.5e-17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MIX23_1Mwindow.wgt.RDat	MIX23	3	121578438	122602078	0.027							474	0	blup	0.0082	0.0037		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPN1_1Mwindow.wgt.RDat	RPN1	3	127838812	128869661	0.0603							335	0	top1	0.026	5.6e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EIF1B-AS1_1Mwindow.wgt.RDat	EIF1B-AS1	3	39714636	40851189	0.0223							367	0	blup	0.0044	0.025		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KLHL18_1Mwindow.wgt.RDat	KLHL18	3	46824434	47888306	0.0528							160	0	top1	0.026	5.6e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HSPBAP1_1Mwindow.wgt.RDat	HSPBAP1	3	121958846	123012678	0.0533							543	0	top1	0.048	1.8e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPR27_1Mwindow.wgt.RDat	GPR27	3	71303006	72305647	0.1278							540	0	lasso	0.067	1.6e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ANAPC13_1Mwindow.wgt.RDat	ANAPC13	3	133696546	134704865	0.0228							471	0	blup	0.0066	0.0082		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NISCH_1Mwindow.wgt.RDat	NISCH	3	51989620	53027084	0.0259							370	0	top1	0.026	5.6e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.WDR5B-DT_1Mwindow.wgt.RDat	WDR5B-DT	3	121635053	122662094	0.0451							482	0	blup	0.018	2.8e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BRK1_1Mwindow.wgt.RDat	BRK1	3	9657359	10668874	0.0392							567	0	blup	0.014	0.00023		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00877_1Mwindow.wgt.RDat	LINC00877	3	71584670	72649606	0.0543							560	0	lasso	0.0077	0.0047		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADGRG7_1Mwindow.wgt.RDat	ADGRG7	3	99828445	100914323	0.3468							459	0	lasso	0.078	6.8e-18		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HDAC11-AS1_1Mwindow.wgt.RDat	HDAC11-AS1	3	13018487	14021553	0.0838							518	0	blup	0.0079	0.0044		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NECTIN3_1Mwindow.wgt.RDat	NECTIN3	3	110290663	111413017	0.0305							314	0	blup	5.7e-06	0.32		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PARP14_1Mwindow.wgt.RDat	PARP14	3	121899686	122949687	0.0351							556	0	top1	0.012	0.00071		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01565_1Mwindow.wgt.RDat	LINC01565	3	127790843	128794929	0.0182							0	0	lasso	0.085	2.1e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ST3GAL6-AS1_1Mwindow.wgt.RDat	ST3GAL6-AS1	3	97933177	98951495	0.0625							406	0	lasso	0.011	0.001		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ARHGEF3_1Mwindow.wgt.RDat	ARHGEF3	3	56261448	57613296	0.0616							541	0	blup	0.021	8.8e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TIPARP-AS1_1Mwindow.wgt.RDat	TIPARP-AS1	3	155890960	156893502	0.0291							428	0	top1	0.023	3.2e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PDCD6IP_1Mwindow.wgt.RDat	PDCD6IP	3	33340122	34411195	0.0217							355	0	blup	0.0091	0.0024		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPS3A_1Mwindow.wgt.RDat	RPS3A	4	151520780	152525794	0.0408		   NA		       NA	  NA	   NA	256	0	blup	0.029	1.8e-07	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GYPE_1Mwindow.wgt.RDat	GYPE	4	144292017	145326712	0.023		   NA		       NA	  NA	   NA	260	0	blup	-0.00013	0.35	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PDGFC_1Mwindow.wgt.RDat	PDGFC	4	157181606	158392951	0.0264		   NA		       NA	  NA	   NA	451	0	top1	0.017	5.3e-05	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNHG8_1Mwindow.wgt.RDat	SNHG8	4	118699917	119700978	0.0548		   NA		       NA	  NA	   NA	277	0	top1	0.055	5.6e-13	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPL9_1Mwindow.wgt.RDat	RPL9	4	38955744	39960542	0.0307		   NA		       NA	  NA	   NA	383	0	blup	0.0024	0.077	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.QDPR_1Mwindow.wgt.RDat	QDPR	4	16988018	18013713	0.0654		   NA		       NA	  NA	   NA	457	0	enet	0.026	8.3e-07	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TKTL2_1Mwindow.wgt.RDat	TKTL2	4	163892247	164894906	0.0323		   NA		       NA	  NA	   NA	0	0	lasso	0.0034	0.044	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02432_1Mwindow.wgt.RDat	LINC02432	4	141742278	142753771	0.0817		   NA		       NA	  NA	   NA	391	0	top1	0.041	5.9e-10	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LAP3_1Mwindow.wgt.RDat	LAP3	4	17078821	18109593	0.0436		   NA		       NA	  NA	   NA	430	0	top1	0.057	1.8e-13	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CXCL5_1Mwindow.wgt.RDat	CXCL5	4	74361359	75364394	0.6139		   NA		       NA	  NA	   NA	300	0	top1	-0.00093	0.69	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NDUFC1_1Mwindow.wgt.RDat	NDUFC1	4	139711071	140723705	0.0379		   NA		       NA	  NA	   NA	402	0	blup	0.01	0.0012	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRMT44_1Mwindow.wgt.RDat	TRMT44	4	7942504	8978282	0.0478		   NA		       NA	  NA	   NA	443	0	blup	0.0082	0.0036	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SEL1L3_1Mwindow.wgt.RDat	SEL1L3	4	25249055	26365188	0.0434		   NA		       NA	  NA	   NA	499	0	top1	0.045	8.5e-11	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAM184B_1Mwindow.wgt.RDat	FAM184B	4	17130929	18283244	0.0939		   NA		       NA	  NA	   NA	469	0	lasso	0.16	5.9000000000000005e-37	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C4orf33_1Mwindow.wgt.RDat	C4orf33	4	129514867	130537792	0.0194		   NA		       NA	  NA	   NA	373	0	blup	0.0052	0.017	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MRFAP1L1_1Mwindow.wgt.RDat	MRFAP1L1	4	6209428	7211592	0.0567		   NA		       NA	  NA	   NA	510	0	blup	0.0077	0.0047	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MGST2_1Mwindow.wgt.RDat	MGST2	4	140086973	141161899	0.0426		   NA		       NA	  NA	   NA	433	0	lasso	0.0017	0.11	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TIGD4_1Mwindow.wgt.RDat	TIGD4	4	153190506	154200882	0.0822		   NA		       NA	  NA	   NA	336	0	top1	0.031	7.3e-08	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADH5_1Mwindow.wgt.RDat	ADH5	4	99492129	100509939	0.0325		   NA		       NA	  NA	   NA	507	0	lasso	0.019	2e-05	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RNF150_1Mwindow.wgt.RDat	RNF150	4	141280961	142554623	0.0268		   NA		       NA	  NA	   NA	0	0	lasso	-0.00052	0.47	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADGRA3_1Mwindow.wgt.RDat	ADGRA3	4	21888999	23017689	0.0957		   NA		       NA	  NA	   NA	397	0	blup	0.0015	0.13	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.AFAP1_1Mwindow.wgt.RDat	AFAP1	4	7260440	8441588	0.0398	rs6849590	-2.83	rs11729198	-0.000925	3.76	-1.26	824	824	blup	0.005	0.019	0.816	0.415
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01094_1Mwindow.wgt.RDat	LINC01094	4	79067148	80105655	0.0348		   NA		       NA	  NA	   NA	442	0	top1	0.041	3.9e-10	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RASGEF1B_1Mwindow.wgt.RDat	RASGEF1B	4	81847547	82893061	0.0318		   NA		       NA	  NA	   NA	413	0	blup	0.0012	0.15	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IL12B_1Mwindow.wgt.RDat	IL12B	5	158241788	159257495	0.0853							0	0	enet	-0.00099	0.75		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NNT_1Mwindow.wgt.RDat	NNT	5	43102777	44207498	0.0186							253	0	blup	0.013	0.00032		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ERAP2_1Mwindow.wgt.RDat	ERAP2	5	95711643	96755420	0.1075							0	0	lasso	0.18	2.0999999999999999e-41		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.INSYN2B_1Mwindow.wgt.RDat	INSYN2B	5	168788307	169907499	0.0619							0	0	lasso	0.0033	0.046		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SETD9_1Mwindow.wgt.RDat	SETD9	5	55705087	56724727	0.0321							483	0	enet	0.033	2.7e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DHFR_1Mwindow.wgt.RDat	DHFR	5	79422045	80450802	0.0267							501	0	top1	0.01	0.0014		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NLN_1Mwindow.wgt.RDat	NLN	5	64518032	65625111	0.0226							414	0	top1	0.014	0.00021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RETREG1_1Mwindow.wgt.RDat	RETREG1	5	15973162	17117106	0.052							0	0	lasso	0.011	0.001		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAI14_1Mwindow.wgt.RDat	RAI14	5	34156433	35332717	0.0418							500	0	lasso	0.092	5.4e-21		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMEM232_1Mwindow.wgt.RDat	TMEM232	5	109255197	110562372	0.0277							424	0	lasso	-0.00086	0.64		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNX24_1Mwindow.wgt.RDat	SNX24	5	121681308	122844900	0.044							507	0	blup	0.01	0.0012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LNPEP_1Mwindow.wgt.RDat	LNPEP	5	95771784	96873217	0.0574							506	0	blup	0.015	0.00012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BNIP1_1Mwindow.wgt.RDat	BNIP1	5	172071534	173091390	0.0331							0	0	lasso	0.011	0.00086		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.REEP5_1Mwindow.wgt.RDat	REEP5	5	111712082	112757924	0.0291							485	0	blup	0.0092	0.0023		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.WWC1_1Mwindow.wgt.RDat	WWC1	5	167218650	168399308	0.0246							674	0	blup	0.0029	0.056		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CTNNA1_1Mwindow.wgt.RDat	CTNNA1	5	137589114	138770723	0.0184							334	0	blup	0.017	4e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FBN2_1Mwindow.wgt.RDat	FBN2	5	127093601	128373938	0.0193							516	0	blup	0.018	2.9e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ARHGAP26-IT1_1Mwindow.wgt.RDat	ARHGAP26-IT1	5	142072065	143073731	0.1059							502	0	blup	-7.6e-05	0.33		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RASGRF2-AS1_1Mwindow.wgt.RDat	RASGRF2-AS1	5	79743512	80756726	0.0591							474	0	top1	-0.001	0.77		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GAPT_1Mwindow.wgt.RDat	GAPT	5	57287262	58292917	0.0288							525	0	top1	0.015	0.00012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GTF2H2_1Mwindow.wgt.RDat	GTF2H2	5	69831174	70863503	0.1461							0	0	enet	0.073	8.3e-17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IQGAP2_1Mwindow.wgt.RDat	IQGAP2	5	75199110	76503957	0.0479							701	0	top1	0.038	2.5e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GM2A_1Mwindow.wgt.RDat	GM2A	5	150132746	151150001	0.073							618	0	enet	0.032	3.6e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPIC_1Mwindow.wgt.RDat	PPIC	5	121858945	122872420	0.1203							0	0	lasso	0.097	6.9e-22		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PRR7-AS1_1Mwindow.wgt.RDat	PRR7-AS1	5	176364890	177374945	0.0621							237	0	top1	0.049	8.8e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CYFIP2_1Mwindow.wgt.RDat	CYFIP2	5	156193133	157322602	0.0335							530	0	blup	0.0019	0.099		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPR150_1Mwindow.wgt.RDat	GPR150	5	94455791	95457846	0.0443							0	0	lasso	0.0036	0.039		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RICTOR_1Mwindow.wgt.RDat	RICTOR	5	38438022	39574501	0.0332							495	0	blup	0.0056	0.014		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC12A7_1Mwindow.wgt.RDat	SLC12A7	5	550499	1612178	0.0656							387	0	blup	0.0063	0.0097		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SCGB3A2_1Mwindow.wgt.RDat	SCGB3A2	5	146758274	147761754	0.0694							386	0	blup	0.021	6e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZBED9_1Mwindow.wgt.RDat	ZBED9	6	28038312	29083979	0.9824							255	0	top1	-0.001	0.75		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CALHM6_1Mwindow.wgt.RDat	CALHM6	6	116282538	117284934	0.166							378	0	lasso	0.13	1.4000000000000001e-28		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.AHI1_1Mwindow.wgt.RDat	AHI1	6	135104670	136318878	0.043							432	0	blup	0.027	3.7e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CCDC170_1Mwindow.wgt.RDat	CCDC170	6	151315152	152442328	0.0635							0	0	lasso	0.044	1e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02526_1Mwindow.wgt.RDat	LINC02526	6	106643360	107647869	0.0352							0	0	lasso	-0.0011	0.92		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAB44_1Mwindow.wgt.RDat	RAB44	6	36165603	37200961	0.0475							557	0	enet	0.011	0.001		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DDO_1Mwindow.wgt.RDat	DDO	6	110209524	111236778	0.0277							366	0	top1	0.01	0.0014		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MANEA-DT_1Mwindow.wgt.RDat	MANEA-DT	6	95507972	96525327	0.0301							314	0	top1	0.0081	0.0039		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NQO2_1Mwindow.wgt.RDat	NQO2	6	2500128	3519989	0.0676							649	0	lasso	0.045	7.3e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GSTA4_1Mwindow.wgt.RDat	GSTA4	6	52342751	53360082	0.0516							0	0	lasso	0.03	1.1e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ETV7_1Mwindow.wgt.RDat	ETV7	6	35821865	36855446	0.0243							488	0	blup	0.0076	0.005		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TREML4_1Mwindow.wgt.RDat	TREML4	6	40696087	41706620	0.0306							525	0	lasso	0.0027	0.066		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPS10_1Mwindow.wgt.RDat	RPS10	6	33885231	34893846	0.0365							348	0	blup	0.014	0.00026		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MOXD1_1Mwindow.wgt.RDat	MOXD1	6	132117194	133222614	0.1278							580	0	top1	-0.001	0.81		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MAP7_1Mwindow.wgt.RDat	MAP7	6	136163872	137371560	0.1682							359	0	top1	0.089	2.8e-20		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP1R3G_1Mwindow.wgt.RDat	PPP1R3G	6	4585575	5589721	0.056							603	0	blup	0.019	1.5e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DCBLD1_1Mwindow.wgt.RDat	DCBLD1	6	117303837	118391021	0.0459							441	0	top1	0.017	6.3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LY86_1Mwindow.wgt.RDat	LY86	6	6088953	7155215	0.0759							775	0	lasso	0.066	2.7e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GOPC_1Mwindow.wgt.RDat	GOPC	6	117381432	118423674	0.0241							426	0	blup	0.0003	0.26		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TCTE1_1Mwindow.wgt.RDat	TCTE1	6	43746471	44765435	0.1158							0	0	lasso	0.095	1.6e-21		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.AFDN_1Mwindow.wgt.RDat	AFDN	6	167727244	168872703	0.0498							505	0	blup	0.0078	0.0046		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.POLR1H_1Mwindow.wgt.RDat	POLR1H	6	29529042	30532684	0.0383							41	0	blup	0.0033	0.045		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HLA-DRB5_1Mwindow.wgt.RDat	HLA-DRB5	6	31985130	32998064	0.5559							262	0	enet	0.56	9.6e-163		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IER3_1Mwindow.wgt.RDat	IER3	6	30210976	31212324	0.0291							77	0	top1	0.041	6.1e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HCG25_1Mwindow.wgt.RDat	HCG25	6	32717313	33722667	0.047							445	0	blup	0.0067	0.0081		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZC3H12D_1Mwindow.wgt.RDat	ZC3H12D	6	149267931	150306150	0.0236							460	0	top1	0.014	0.00021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNHG5_1Mwindow.wgt.RDat	SNHG5	6	85886725	86888451	0.1157							329	0	top1	0.2	8.9e-46		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CARMIL1_1Mwindow.wgt.RDat	CARMIL1	6	24779602	26120758	0.0393							830	0	lasso	0.016	9.8e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SENP6_1Mwindow.wgt.RDat	SENP6	6	75811596	76927997	0.0147							357	0	blup	0.0063	0.0097		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TSTD3_1Mwindow.wgt.RDat	TSTD3	6	99468925	100481061	0.0289							467	0	top1	0.022	5.1e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RNF144B_1Mwindow.wgt.RDat	RNF144B	6	17887581	18969101	0.1074							541	0	lasso	0.081	2e-18		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TREM1_1Mwindow.wgt.RDat	TREM1	6	40735123	41754420	0.026							514	0	lasso	0.019	1.7e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VNN1_1Mwindow.wgt.RDat	VNN1	6	132501988	133535194	0.1003							510	0	enet	0.084	3.6e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BTN3A2_1Mwindow.wgt.RDat	BTN3A2	6	25865426	26878548	0.0311							541	0	top1	0.0073	0.0059		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ITGB8-AS1_1Mwindow.wgt.RDat	ITGB8-AS1	7	19867924	20871385	0.0311							517	0	lasso	0.026	7.4e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAC1_1Mwindow.wgt.RDat	RAC1	7	5914158	6943598	0.0477							282	0	top1	0.016	7.9e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BLVRA_1Mwindow.wgt.RDat	BLVRA	7	43298279	44346941	0.0405							422	0	top1	0.033	2.4e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.COPG2_1Mwindow.wgt.RDat	COPG2	7	129646079	130853588	0.0398							468	0	top1	0.021	9.1e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IMMP2L_1Mwindow.wgt.RDat	IMMP2L	7	109802700	111702548	0.0348							645	0	blup	0.0044	0.026		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACTR3C_1Mwindow.wgt.RDat	ACTR3C	7	149078449	150520634	0.0327							476	0	blup	0.0062	0.01		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TOMM7_1Mwindow.wgt.RDat	TOMM7	7	22352593	23362468	0.1207							500	0	blup	0.067	1.7e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SFRP4_1Mwindow.wgt.RDat	SFRP4	7	37445534	38456419	0.03							0	0	lasso	-0.00096	0.71		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRIM73_1Mwindow.wgt.RDat	TRIM73	7	74524903	75534888	0.0195							167	0	blup	0.0045	0.025		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRGV8_1Mwindow.wgt.RDat	TRGV8	7	37869944	38870422	0.0446							621	0	blup	-0.00076	0.58		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RNF216_1Mwindow.wgt.RDat	RNF216	7	5159678	6321294	0.0388							369	0	enet	0.005	0.019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NUPR2_1Mwindow.wgt.RDat	NUPR2	7	55682374	56684110	0.0817							279	0	top1	-0.0011	0.91		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP1R9A_1Mwindow.wgt.RDat	PPP1R9A	7	94036906	95425727	0.06							553	0	blup	0.0034	0.045		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.POMZP3_1Mwindow.wgt.RDat	POMZP3	7	75739303	76756596	0.0399							142	0	top1	0.042	2.8e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00265_1Mwindow.wgt.RDat	LINC00265	7	39273167	40334222	0.0346							358	0	blup	0.0069	0.0071		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ANKRD61_1Mwindow.wgt.RDat	ANKRD61	7	5571007	6576183	0.0395							330	0	top1	-0.00092	0.68		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MICALL2_1Mwindow.wgt.RDat	MICALL2	7	973995	1999106	0.0252							365	0	blup	-4e-05	0.33		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMEM176A_1Mwindow.wgt.RDat	TMEM176A	7	149997857	151002206	0.4245							520	0	lasso	0.36	2e-89		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MAD1L1_1Mwindow.wgt.RDat	MAD1L1	7	1355431	2772580	0.0797							508	0	blup	0.023	3.4e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP1R17_1Mwindow.wgt.RDat	PPP1R17	7	31226829	32248069	0.1136							614	0	top1	0.13	2.4e-28		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ATP6V0E2_1Mwindow.wgt.RDat	ATP6V0E2	7	149070053	150077802	0.036							227	0	blup	0.0059	0.012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAMP3_1Mwindow.wgt.RDat	RAMP3	7	44697390	45723849	0.0554							0	0	lasso	-0.00067	0.53		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZP3_1Mwindow.wgt.RDat	ZP3	7	75526839	76571386	0.0623							207	0	top1	0.03	9.9e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CCZ1B_1Mwindow.wgt.RDat	CCZ1B	7	6338568	7365906	0.1642							0	0	lasso	0.14	3.5000000000000004e-32		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DENND2A_1Mwindow.wgt.RDat	DENND2A	7	139718219	140841260	0.0517							0	0	lasso	0.0091	0.0024		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMEM176B_1Mwindow.wgt.RDat	TMEM176B	7	149988389	150998448	0.4834							520	0	enet	0.42	6.8e-110		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.METTL27_1Mwindow.wgt.RDat	METTL27	7	72748920	73756846	0.0336							263	0	top1	0.027	4.7e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EPHA1-AS1_1Mwindow.wgt.RDat	EPHA1-AS1	7	142604906	143720542	0.1557							0	0	lasso	0.14	2.6000000000000003e-32		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C7orf50_1Mwindow.wgt.RDat	C7orf50	7	517600	1677893	0.0485							375	0	blup	0.014	0.00022		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.UPK3BL1_1Mwindow.wgt.RDat	UPK3BL1	7	101777472	102783238	0.0427							118	0	top1	0.022	3.8e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LAMB1_1Mwindow.wgt.RDat	LAMB1	7	107064244	108143606	0.0489							528	0	top1	0.048	1.7e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PON2_1Mwindow.wgt.RDat	PON2	7	94534174	95564340	0.0412							461	0	top1	0.034	1.3e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DYNC2I1_1Mwindow.wgt.RDat	DYNC2I1	7	158131936	159238880	0.0303							0	0	lasso	0.0078	0.0046		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPR37_1Mwindow.wgt.RDat	GPR37	7	123883939	124905846	0.0255							0	0	lasso	0.1	3.8e-23		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRBV30_1Mwindow.wgt.RDat	TRBV30	7	142010271	143010972	0.1168							0	0	lasso	0.083	5.5e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLCN1_1Mwindow.wgt.RDat	CLCN1	7	142513204	143549176	0.1286							297	0	lasso	0.077	1.2e-17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRBV29-1_1Mwindow.wgt.RDat	TRBV29-1	7	141948120	142948741	0.0281							412	0	lasso	-0.00084	0.63		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.WDR86_1Mwindow.wgt.RDat	WDR86	7	150578210	151607798	0.0485							521	0	blup	0.008	0.0041		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.COA1_1Mwindow.wgt.RDat	COA1	7	43148056	44269122	0.046							486	0	blup	0.02	1.3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GIMAP4_1Mwindow.wgt.RDat	GIMAP4	7	149764478	150771041	0.0304							425	0	blup	0.0082	0.0038		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DEFB1_1Mwindow.wgt.RDat	DEFB1	8	6228114	7235458	0.0573							614	0	blup	0.00056	0.22		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PNOC_1Mwindow.wgt.RDat	PNOC	8	27674785	28700868	0.0318							522	0	blup	0.0069	0.0071		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NCALD_1Mwindow.wgt.RDat	NCALD	8	102198770	103637135	0.0273							699	0	blup	0.0049	0.02		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SMIM19_1Mwindow.wgt.RDat	SMIM19	8	41896291	42910338	0.0226							212	0	top1	0.023	2.8e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01030_1Mwindow.wgt.RDat	LINC01030	8	91105003	92118291	0.0449							0	0	enet	-0.0011	0.85		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SPAG1_1Mwindow.wgt.RDat	SPAG1	8	100670266	101754132	0.0617							395	0	blup	0.0035	0.042		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HMBOX1_1Mwindow.wgt.RDat	HMBOX1	8	28247912	29410787	0.0273							0	0	lasso	0.022	4.5e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FZD6_1Mwindow.wgt.RDat	FZD6	8	103810722	104845094	0.0357							411	0	blup	0.002	0.092		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CCDC25_1Mwindow.wgt.RDat	CCDC25	8	27090833	28130157	0.0272							653	0	blup	0.0081	0.0039		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LYPD2_1Mwindow.wgt.RDat	LYPD2	8	143331568	144333950	0.0232							399	0	top1	0.013	0.00031		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MTUS1_1Mwindow.wgt.RDat	MTUS1	8	17001311	18159030	0.0557							948	0	top1	0.027	4.8e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPL8_1Mwindow.wgt.RDat	RPL8	8	145515154	146517775	0.1528							190	0	top1	0.16	2.6e-36		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.STMN4_1Mwindow.wgt.RDat	STMN4	8	26592825	27615921	0.0617							644	0	blup	-0.00036	0.41		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPR20_1Mwindow.wgt.RDat	GPR20	8	141866570	142877386	0.0462							440	0	blup	0.0051	0.018		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC18A1_1Mwindow.wgt.RDat	SLC18A1	8	19502366	20540647	0.0526							655	0	top1	0.023	2.3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TNFRSF10D_1Mwindow.wgt.RDat	TNFRSF10D	8	22493101	23521540	0.0372							608	0	blup	0.0045	0.024		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EXTL3_1Mwindow.wgt.RDat	EXTL3	8	28059018	29113116	0.0238							436	0	blup	0.0049	0.019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LPL_1Mwindow.wgt.RDat	LPL	8	19296764	20324770	0.1051							662	0	top1	0.14	1e-31		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MSR1_1Mwindow.wgt.RDat	MSR1	8	15465390	16550160	0.0693							645	0	blup	0.029	1.3e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ASAP1-IT2_1Mwindow.wgt.RDat	ASAP1-IT2	8	130594984	131597014	0.0247							440	0	blup	0.0082	0.0037		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NKX6-3_1Mwindow.wgt.RDat	NKX6-3	8	41002696	42008336	0.2334							0	0	enet	-0.00096	0.71		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMEM64_1Mwindow.wgt.RDat	TMEM64	8	91134223	92158311	0.0203							331	0	blup	0.014	0.00022		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GFRA2_1Mwindow.wgt.RDat	GFRA2	8	21047910	22146387	0.0389							553	0	blup	0.0086	0.0031		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LY96_1Mwindow.wgt.RDat	LY96	8	74403627	75441314	0.0317							399	0	blup	0.011	0.00092		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZBTB26_1Mwindow.wgt.RDat	ZBTB26	9	125177845	126193791	0.0229		  NA		       NA	  NA	    NA	374	0	top1	0.013	0.00029	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GFI1B_1Mwindow.wgt.RDat	GFI1B	9	135320918	136367074	0.1721		  NA		       NA	  NA	    NA	0	0	lasso	0.14	9.999999999999999e-31	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CENPP_1Mwindow.wgt.RDat	CENPP	9	94587750	95882811	0.0342		  NA		       NA	  NA	    NA	508	0	blup	0.0093	0.0021	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PRSS3_1Mwindow.wgt.RDat	PRSS3	9	33250677	34299229	0.0417		  NA		       NA	  NA	    NA	309	0	top1	0.036	5.8e-09	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RALGPS1_1Mwindow.wgt.RDat	RALGPS1	9	129177061	130485445	0.0288		  NA		       NA	  NA	    NA	481	0	blup	0.013	0.00028	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NOXA1_1Mwindow.wgt.RDat	NOXA1	9	139817845	140828858	0.0538		  NA		       NA	  NA	    NA	287	0	enet	0.022	5.7e-06	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMEM250_1Mwindow.wgt.RDat	TMEM250	9	138506435	139510721	0.0499		  NA		       NA	  NA	    NA	348	0	blup	0.0068	0.0076	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CARD19_1Mwindow.wgt.RDat	CARD19	9	95358499	96375565	0.0364		  NA		       NA	  NA	    NA	427	0	blup	0.012	0.00056	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GSN_1Mwindow.wgt.RDat	GSN	9	123463761	124595120	0.0827		  NA		       NA	  NA	    NA	441	0	top1	0.05	5.4e-12	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NMRK1_1Mwindow.wgt.RDat	NMRK1	9	77175493	78203071	0.0543		  NA		       NA	  NA	    NA	441	0	top1	0.021	8.3e-06	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAM166B_1Mwindow.wgt.RDat	FAM166B	9	35061828	36063875	0.0346		  NA		       NA	  NA	    NA	0	0	lasso	0.097	5.5e-22	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01502_1Mwindow.wgt.RDat	LINC01502	9	137966771	138978958	0.0887	rs1891994	2.42	rs2297570	-0.000947	5.72	-0.504	492	1	top1	-0.00095	0.7	-0.504	0.614
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FCN1_1Mwindow.wgt.RDat	FCN1	9	137295078	138309758	0.0528	rs7044529	2.88	rs10858300	 0.017877	5.90	-0.468	604	1	enet	0.03	8e-08	 1.467	0.142
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NUDT2_1Mwindow.wgt.RDat	NUDT2	9	33829567	34843697	0.1156		  NA		       NA	  NA	    NA	345	0	blup	0.057	1.8e-13	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LCN12_1Mwindow.wgt.RDat	LCN12	9	139346725	140349949	0.1761		  NA		       NA	  NA	    NA	291	0	top1	0.001	0.16	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPL12_1Mwindow.wgt.RDat	RPL12	9	129709953	130713685	0.0474		  NA		       NA	  NA	    NA	348	0	top1	0.045	7.2e-11	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ANXA1_1Mwindow.wgt.RDat	ANXA1	9	75266781	76285309	0.0286		  NA		       NA	  NA	    NA	367	0	top1	0.022	5.4e-06	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZDHHC21_1Mwindow.wgt.RDat	ZDHHC21	9	14111069	15193430	0.0367		  NA		       NA	  NA	    NA	0	0	lasso	0.018	2.6e-05	    NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DLG5-AS1_1Mwindow.wgt.RDat	DLG5-AS1	10	79186570	80189583	0.3632							466	0	lasso	-0.001	0.78		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NEBL_1Mwindow.wgt.RDat	NEBL	10	20568902	22081979	0.1461							664	0	enet	0.089	3.2e-20		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CYP2C8_1Mwindow.wgt.RDat	CYP2C8	10	96296529	97329254	0.0302							0	0	lasso	-0.00094	0.69		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C10orf53_1Mwindow.wgt.RDat	C10orf53	10	50387697	51418307	0.0283							316	0	blup	-0.00063	0.51		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FRMPD2_1Mwindow.wgt.RDat	FRMPD2	10	48864602	49982739	0.0291							325	0	blup	0.002	0.093		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACTA2_1Mwindow.wgt.RDat	ACTA2	10	90194831	91251154	0.0592							562	0	top1	0.019	2.4e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LIPN_1Mwindow.wgt.RDat	LIPN	10	90019777	91039383	0.0288							535	0	blup	0.007	0.007		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TBC1D12_1Mwindow.wgt.RDat	TBC1D12	10	95662298	96796089	0.0259							378	0	blup	0.01	0.0013		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NKX6-2_1Mwindow.wgt.RDat	NKX6-2	10	134096685	135099651	0.0973							409	0	top1	-0.0011	0.93		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADIRF_1Mwindow.wgt.RDat	ADIRF	10	88228239	89230672	0.0507							0	0	enet	-0.00087	0.64		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KNDC1_1Mwindow.wgt.RDat	KNDC1	10	134473723	135539916	0.0526							420	0	top1	0.041	4.7e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ECHDC3_1Mwindow.wgt.RDat	ECHDC3	10	11284381	12306069	0.048							434	0	blup	0.015	0.00013		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.UTF1_1Mwindow.wgt.RDat	UTF1	10	134543721	135545062	0.0856							0	0	lasso	0.062	1.8e-14		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DNA2_1Mwindow.wgt.RDat	DNA2	10	69673821	70731878	0.026							402	0	blup	0.0039	0.033		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CACUL1_1Mwindow.wgt.RDat	CACUL1	10	119935923	121014482	0.0428							524	0	blup	0.014	0.00019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KCNMA1_1Mwindow.wgt.RDat	KCNMA1	10	78129360	79897566	0.2682							866	0	top1	0.25	2.4e-57		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LIPA_1Mwindow.wgt.RDat	LIPA	10	90473329	91511532	0.0568							571	0	enet	0.038	1.9e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NKX2-3_1Mwindow.wgt.RDat	NKX2-3	10	100792699	101796281	0.0498							421	0	blup	-0.00046	0.45		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VENTX_1Mwindow.wgt.RDat	VENTX	10	134551359	135555432	0.0322							401	0	blup	0.0098	0.0017		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPA1_1Mwindow.wgt.RDat	PPA1	10	71462591	72493185	0.036							702	0	top1	0.018	3.7e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF365_1Mwindow.wgt.RDat	ZNF365	10	63634128	64740044	0.1212							515	0	top1	-0.00032	0.4		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PKD2L1_1Mwindow.wgt.RDat	PKD2L1	10	101547906	102589985	0.0336							394	0	top1	0.019	1.9e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAS_1Mwindow.wgt.RDat	FAS	10	90250555	91276816	0.0398							545	0	blup	0.012	0.00055		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MGMT_1Mwindow.wgt.RDat	MGMT	10	130765505	132069247	0.0366							711	0	blup	0.0099	0.0016		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NEBL-AS1_1Mwindow.wgt.RDat	NEBL-AS1	10	20962919	21963852	0.0731							403	0	top1	-0.00087	0.64		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADK_1Mwindow.wgt.RDat	ADK	10	75410979	76969048	0.1589							0	0	enet	0.11	9.9e-26		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CALHM2_1Mwindow.wgt.RDat	CALHM2	10	104706543	105712127	0.0767							360	0	enet	0.014	0.00023		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ENTPD1_1Mwindow.wgt.RDat	ENTPD1	10	96971521	98137023	0.0324							615	0	blup	0.0095	0.002		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IFIT1B_1Mwindow.wgt.RDat	IFIT1B	10	90637813	91644962	0.0622							0	0	enet	-0.00071	0.55		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VIM_1Mwindow.wgt.RDat	VIM	10	16770240	17779592	0.0391							640	0	blup	0.005	0.019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SHTN1_1Mwindow.wgt.RDat	SHTN1	10	118140988	119386097	0.0431							546	0	lasso	0.028	3.1e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HSPA14_1Mwindow.wgt.RDat	HSPA14	10	14380305	15413740	0.0389							619	0	enet	0.011	0.00075		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SIAE_1Mwindow.wgt.RDat	SIAE	11	124003009	125046199	0.0466							520	0	top1	0.0012	0.15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VEGFB_1Mwindow.wgt.RDat	VEGFB	11	63502056	64506736	0.0304							334	0	blup	0.011	0.00091		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GSTP1_1Mwindow.wgt.RDat	GSTP1	11	66851283	67854124	0.0779							235	0	top1	0.093	4.6e-21		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAB38_1Mwindow.wgt.RDat	RAB38	11	87346419	88408611	0.0588							546	0	blup	0.024	1.8e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TIMM10_1Mwindow.wgt.RDat	TIMM10	11	56795937	57798227	0.0544							380	0	blup	0.023	3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TENM4_1Mwindow.wgt.RDat	TENM4	11	77863874	79652074	0.1208							920	0	lasso	0.041	4.4e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP2R1B_1Mwindow.wgt.RDat	PPP2R1B	11	111097637	112137113	0.0292							362	0	blup	0.012	0.0007		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02550_1Mwindow.wgt.RDat	LINC02550	11	110462656	111468042	0.1552							0	0	enet	0.0018	0.11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADAMTS8_1Mwindow.wgt.RDat	ADAMTS8	11	129774818	130798504	0.0799							486	0	top1	0.085	2.4e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MS4A14_1Mwindow.wgt.RDat	MS4A14	11	59663932	60685229	0.0273							441	0	top1	0.019	2e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IFITM2_1Mwindow.wgt.RDat	IFITM2	11	0	809395	0.0734							302	0	top1	0.041	4.5e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LPXN_1Mwindow.wgt.RDat	LPXN	11	57794344	58845606	0.0278							0	0	lasso	0.0088	0.0028		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IFITM3_1Mwindow.wgt.RDat	IFITM3	11	0	820860	0.0981							308	0	enet	0.063	9.8e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NEAT1_1Mwindow.wgt.RDat	NEAT1	11	64690269	65713011	0.0524							369	0	blup	0.018	3.4e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TAGLN_1Mwindow.wgt.RDat	TAGLN	11	116570010	117578181	0.0329							540	0	enet	0.018	3.2e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACCS_1Mwindow.wgt.RDat	ACCS	11	43587820	44605787	0.0501							532	0	top1	0.027	3.5e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPR83_1Mwindow.wgt.RDat	GPR83	11	93610482	94634585	0.0849							413	0	blup	0.028	3e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EML3_1Mwindow.wgt.RDat	EML3	11	61869690	62880247	0.0334							375	0	blup	0.0085	0.0032		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FADS2_1Mwindow.wgt.RDat	FADS2	11	61083675	62134826	0.0974							411	0	top1	0.089	3.4e-20		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.OR52K2_1Mwindow.wgt.RDat	OR52K2	11	3970525	4971591	0.0489							620	0	enet	-0.00062	0.51		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HBG2_1Mwindow.wgt.RDat	HBG2	11	4774418	5776011	0.0453							920	0	blup	0.0059	0.012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FZD4_1Mwindow.wgt.RDat	FZD4	11	86156721	87166437	0.0369							0	0	enet	0.017	6.1e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DKK3_1Mwindow.wgt.RDat	DKK3	11	11484583	12530883	0.0601							783	0	lasso	-0.00034	0.4		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGHMBP2_1Mwindow.wgt.RDat	IGHMBP2	11	68171359	69208069	0.0354							410	0	enet	0.011	0.00083		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BSCL2_1Mwindow.wgt.RDat	BSCL2	11	61957734	62977009	0.0538							347	0	top1	0.038	2.1e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD151_1Mwindow.wgt.RDat	CD151	11	332952	1338831	0.1458							402	0	top1	0.14	1.3e-31		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FOLR3_1Mwindow.wgt.RDat	FOLR3	11	71346771	72350936	0.1436							250	0	top1	0.058	1.7e-13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.XRRA1_1Mwindow.wgt.RDat	XRRA1	11	74051955	75160136	0.0751							494	0	lasso	0.067	1.3e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SIDT2_1Mwindow.wgt.RDat	SIDT2	11	116549459	117568158	0.0597							552	0	top1	0.055	6.7e-13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SMCO4_1Mwindow.wgt.RDat	SMCO4	11	92711638	93776557	0.0468							455	0	blup	0.026	5.4e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.AMOTL1_1Mwindow.wgt.RDat	AMOTL1	11	94001522	95109913	0.0244							493	0	blup	0.002	0.096		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MMP3_1Mwindow.wgt.RDat	MMP3	11	102206532	103214340	0.0877							0	0	enet	-0.00081	0.6		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MRPL21_1Mwindow.wgt.RDat	MRPL21	11	68158746	69171300	0.0298							395	0	blup	0.012	0.0005		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NAALAD2_1Mwindow.wgt.RDat	NAALAD2	11	89367831	90426062	0.0195							281	0	blup	0.0091	0.0024		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC22A18AS_1Mwindow.wgt.RDat	SLC22A18AS	11	2408574	3424805	0.0993							470	0	top1	0.065	4.3e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LSP1_1Mwindow.wgt.RDat	LSP1	11	1374314	2413493	0.1481							472	0	top1	0.11	6.3999999999999995e-24		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MAJIN_1Mwindow.wgt.RDat	MAJIN	11	64205702	65239580	0.0594							0	0	lasso	0.13	1.6000000000000001e-28		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LDHC_1Mwindow.wgt.RDat	LDHC	11	17933865	18973610	0.09							447	0	top1	0.04	8e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC22A18_1Mwindow.wgt.RDat	SLC22A18	11	2420921	3446476	0.1306							468	0	lasso	0.074	5.7e-17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RIN1_1Mwindow.wgt.RDat	RIN1	11	65597712	66604245	0.0671							306	0	top1	0.035	8.3e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CHPT1_1Mwindow.wgt.RDat	CHPT1	12	101591418	102622852	0.0448							450	0	blup	0.016	7.2e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BCAT1_1Mwindow.wgt.RDat	BCAT1	12	24462958	25602035	0.0637							648	0	top1	0.073	1e-16		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPH3A_1Mwindow.wgt.RDat	RPH3A	12	112513040	113836686	0.0951							422	0	enet	0.086	1.2e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CDK2AP1_1Mwindow.wgt.RDat	CDK2AP1	12	123245523	124256787	0.0321							330	0	blup	0.017	5.3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMTC1_1Mwindow.wgt.RDat	TMTC1	12	29153746	30437692	0.0936							770	0	enet	0.047	2.5e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HRK_1Mwindow.wgt.RDat	HRK	12	116793949	117819246	0.0565							438	0	top1	0.019	1.8e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GAPDH_1Mwindow.wgt.RDat	GAPDH	12	6143683	7147537	0.0328							323	0	enet	0.023	2.6e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LYZ_1Mwindow.wgt.RDat	LYZ	12	69242161	70248014	0.1477							532	0	top1	0.21	4.4e-49		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ALDH2_1Mwindow.wgt.RDat	ALDH2	12	111704737	112755336	0.0272							219	0	lasso	0.02	9.8e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPS26_1Mwindow.wgt.RDat	RPS26	12	55935702	56938481	0.3415							257	0	top1	0.43	5.1e-111		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MYBPC1_1Mwindow.wgt.RDat	MYBPC1	12	101488749	102579806	0.0348							496	0	lasso	-0.00063	0.51		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.OAS1_1Mwindow.wgt.RDat	OAS1	12	112844767	113871024	0.0357							384	0	top1	0.031	6.2e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SPSB2_1Mwindow.wgt.RDat	SPSB2	12	6480099	7482467	0.0233							199	0	top1	0.015	0.00012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02384_1Mwindow.wgt.RDat	LINC02384	12	68325622	69345264	0.0376							540	0	top1	0.0088	0.0028		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KDM5A_1Mwindow.wgt.RDat	KDM5A	12	0	998486	0.034							371	0	blup	0.0073	0.0059		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LTA4H_1Mwindow.wgt.RDat	LTA4H	12	95894531	96937298	0.0665							557	0	top1	0.027	5e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF605_1Mwindow.wgt.RDat	ZNF605	12	132994892	134032892	0.0297							224	0	blup	0.018	3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SELPLG_1Mwindow.wgt.RDat	SELPLG	12	108515671	109527670	0.0344							429	0	blup	0.014	0.00021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLEC12A_1Mwindow.wgt.RDat	CLEC12A	12	9603867	10638194	0.1535							  0	0	lasso	0.18	9.5e-42		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMBIM6_1Mwindow.wgt.RDat	TMBIM6	12	49635340	50658717	0.0255							334	0	blup	0.0082	0.0038		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ATP23_1Mwindow.wgt.RDat	ATP23	12	57835350	58852931	0.0231							417	0	top1	0.027	4.6e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GLIPR1_1Mwindow.wgt.RDat	GLIPR1	12	75374535	76397643	0.0276							501	0	blup	0.0062	0.01		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPTC7_1Mwindow.wgt.RDat	PPTC7	12	110471050	111521123	0.0109							210	0	blup	0.0046	0.023		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02470_1Mwindow.wgt.RDat	LINC02470	12	9589178	10596094	0.0657							326	0	top1	0.061	3.5e-14		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DNAJC22_1Mwindow.wgt.RDat	DNAJC22	12	49240671	50247473	0.1144							291	0	lasso	-0.00069	0.54		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPR84_1Mwindow.wgt.RDat	GPR84	12	54256229	55258270	0.0434							413	0	blup	0.0047	0.022		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C3AR1_1Mwindow.wgt.RDat	C3AR1	12	7709440	8718955	0.065							 NA	0	top1	0.037	2.7e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KRR1_1Mwindow.wgt.RDat	KRR1	12	75384643	76405389	0.0333							510	0	blup	0.0096	0.0019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KIF21A_1Mwindow.wgt.RDat	KIF21A	12	39187030	40336922	0.0297							356	0	top1	0.0014	0.13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD9_1Mwindow.wgt.RDat	CD9	12	5809112	6847432	0.0826							477	0	enet	0.04	9.8e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.YEATS4_1Mwindow.wgt.RDat	YEATS4	12	69253523	70284650	0.0326							548	0	top1	0.0099	0.0016		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BCL2L14_1Mwindow.wgt.RDat	BCL2L14	12	11702795	12752629	0.0657							541	0	top1	0.018	3.8e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MAP3K12_1Mwindow.wgt.RDat	MAP3K12	12	53373453	54393242	0.0518							387	0	enet	0.058	1.3e-13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC02458_1Mwindow.wgt.RDat	LINC02458	12	88904903	89913469	0.0213							313	0	blup	0.00076	0.19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.P2RX7_1Mwindow.wgt.RDat	P2RX7	12	121070679	122125835	0.0297							448	0	blup	0.0064	0.0092		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DDX11_1Mwindow.wgt.RDat	DDX11	12	30726794	31757733	0.0262							457	0	top1	0.013	0.00039		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FRY_1Mwindow.wgt.RDat	FRY	13	32105911	33373262	0.0309							530	0	top1	0.027	3.4e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00379_1Mwindow.wgt.RDat	LINC00379	13	91279867	92363952	0.0437							430	0	blup	0.0019	0.1		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DNAJC15_1Mwindow.wgt.RDat	DNAJC15	13	43097722	44188349	0.1021							624	0	lasso	0.12	6.3e-27		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SMIM2-AS1_1Mwindow.wgt.RDat	SMIM2-AS1	13	44184685	45228215	0.0259							481	0	blup	-0.00093	0.68		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CARS2_1Mwindow.wgt.RDat	CARS2	13	110793757	111858862	0.0437							738	0	top1	0.023	3.3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAB20_1Mwindow.wgt.RDat	RAB20	13	110675413	111714069	0.0402							722	0	top1	0.017	4.4e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IFT88_1Mwindow.wgt.RDat	IFT88	13	20641296	21765583	0.0249							544	0	blup	0.0061	0.011		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SHISA2_1Mwindow.wgt.RDat	SHISA2	13	26118735	27126154	0.05							0	0	lasso	0.13	7.3e-30		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.UPF3A_1Mwindow.wgt.RDat	UPF3A	13	114547076	115571292	0.0209							171	0	blup	0.0039	0.033		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VASH1_1Mwindow.wgt.RDat	VASH1	14	76727811	77749358	0.0443		   NA		     NA	  NA	   NA	525	0	enet	0.035	7.4e-09	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGHV3-11_1Mwindow.wgt.RDat	IGHV3-11	14	106073231	107073680	0.134		   NA		     NA	  NA	   NA	0	0	enet	-0.00094	0.7	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DNAL1_1Mwindow.wgt.RDat	DNAL1	14	73611689	74670435	0.0176		   NA		     NA	  NA	   NA	401	0	blup	0.00043	0.24	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MEG8_1Mwindow.wgt.RDat	MEG8	14	100855986	101965450	0.0594		   NA		     NA	  NA	   NA	506	0	top1	0.061	3.4e-14	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SCFD1_1Mwindow.wgt.RDat	SCFD1	14	30591460	31705056	0.0408		   NA		     NA	  NA	   NA	355	0	blup	0.027	4.2e-07	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGHV4-59_1Mwindow.wgt.RDat	IGHV4-59	14	106583254	107583685	0.2926		   NA		     NA	  NA	   NA	0	0	enet	-0.0003	0.39	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BEGAIN_1Mwindow.wgt.RDat	BEGAIN	14	100503484	101553754	0.0474		   NA		     NA	  NA	   NA	423	0	top1	0.04	7.8e-10	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGHV1-18_1Mwindow.wgt.RDat	IGHV1-18	14	106141561	107141997	0.1754	rs1024350	-1.31	rs17113281	-0.0011	5.58	-1.02	4	1	lasso	-0.001	0.81	-1.02	0.308
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LRRC74A_1Mwindow.wgt.RDat	LRRC74A	14	76792751	77836647	0.0797		   NA		     NA	  NA	   NA	0	0	lasso	0.0044	0.026	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC24A4_1Mwindow.wgt.RDat	SLC24A4	14	92288925	93467825	0.0531		   NA		     NA	  NA	   NA	636	0	top1	0.047	3.2e-11	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGHV1-3_1Mwindow.wgt.RDat	IGHV1-3	14	105971244	106971681	0.0692		   NA		     NA	  NA	   NA	0	0	enet	-0.00085	0.63	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00523_1Mwindow.wgt.RDat	LINC00523	14	100623605	101639081	0.054		   NA		     NA	  NA	   NA	0	0	lasso	0.0017	0.11	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PTGR2_1Mwindow.wgt.RDat	PTGR2	14	73818534	74852429	0.0305		   NA		     NA	  NA	   NA	383	0	enet	0.013	0.00028	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GALNT16_1Mwindow.wgt.RDat	GALNT16	14	69226875	70323759	0.0352		   NA		     NA	  NA	   NA	0	0	lasso	-0.00039	0.42	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MEG3_1Mwindow.wgt.RDat	MEG3	14	100792445	101827363	0.1165		   NA		     NA	  NA	   NA	0	0	lasso	0.098	4.3e-22	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RIN3_1Mwindow.wgt.RDat	RIN3	14	92480125	93655339	0.041		   NA		     NA	  NA	   NA	600	0	top1	0.03	8.3e-08	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00221_1Mwindow.wgt.RDat	LINC00221	14	106438445	107451529	0.2849		   NA		     NA	  NA	   NA	0	0	lasso	-0.00016	0.35	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRAV13-1_1Mwindow.wgt.RDat	TRAV13-1	14	21837043	22837546	0.0332		   NA		     NA	  NA	   NA	607	0	top1	-0.00062	0.51	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPL36AL_1Mwindow.wgt.RDat	RPL36AL	14	49585248	50587344	0.031		   NA		     NA	  NA	   NA	360	0	top1	0.02	1.1e-05	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TBPL2_1Mwindow.wgt.RDat	TBPL2	14	55380928	56407334	0.0203		   NA		     NA	  NA	   NA	0	0	lasso	-0.00086	0.64	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PLEKHG3_1Mwindow.wgt.RDat	PLEKHG3	14	64671142	65716967	0.0673		   NA		     NA	  NA	   NA	507	0	lasso	0.052	2.3e-12	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NDRG2_1Mwindow.wgt.RDat	NDRG2	14	20984922	22039031	0.0738		   NA		     NA	  NA	   NA	499	0	blup	0.0085	0.0032	   NA	   NA
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MAPK6-DT_1Mwindow.wgt.RDat	MAPK6-DT	15	51803196	52811292	0.0613							0	0	lasso	-0.00073	0.56		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPS17_1Mwindow.wgt.RDat	RPS17	15	82705501	83709208	0.0203							0	0	lasso	0.024	1.7e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CPEB1-AS1_1Mwindow.wgt.RDat	CPEB1-AS1	15	82816521	83861572	0.0303							0	0	lasso	0.06	5.2e-14		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TYRO3_1Mwindow.wgt.RDat	TYRO3	15	41351410	42375787	0.0243							387	0	blup	0.0013	0.14		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PCLAF_1Mwindow.wgt.RDat	PCLAF	15	64156503	65179886	0.0207							0	0	enet	0.0071	0.0066		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CTDSPL2_1Mwindow.wgt.RDat	CTDSPL2	15	44219827	45321236	0.0246							194	0	blup	0.0081	0.004		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SAXO2_1Mwindow.wgt.RDat	SAXO2	15	82055159	83077268	0.0419							0	0	lasso	0.0065	0.0085		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GOLGA8M_1Mwindow.wgt.RDat	GOLGA8M	15	28443729	29457567	0.0564							108	0	lasso	-0.0009	0.66		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.USP50_1Mwindow.wgt.RDat	USP50	15	50292759	51338863	0.1117							0	0	enet	0.0026	0.067		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NOP10_1Mwindow.wgt.RDat	NOP10	15	34133920	35135337	0.0399							361	0	enet	0.023	3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC01579_1Mwindow.wgt.RDat	LINC01579	15	93939288	94943828	0.072							609	0	lasso	-0.0011	0.85		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CHAC1_1Mwindow.wgt.RDat	CHAC1	15	40745669	41748710	0.1082							0	0	lasso	0.46	1e-121		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CTSH_1Mwindow.wgt.RDat	CTSH	15	78713400	79737388	0.1454							418	0	enet	0.043	2.4e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TM2D3_1Mwindow.wgt.RDat	TM2D3	15	101673180	102692584	0.0394							432	0	blup	0.004	0.031		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GABPB1-AS1_1Mwindow.wgt.RDat	GABPB1-AS1	15	50146371	51150509	0.0596							422	0	enet	0.034	1.5e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CPEB1_1Mwindow.wgt.RDat	CPEB1	15	82711951	83817546	0.0652							214	0	blup	-0.00093	0.69		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MINAR1_1Mwindow.wgt.RDat	MINAR1	15	79224678	80264646	0.1111							0	0	lasso	-0.00045	0.44		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SPINT1_1Mwindow.wgt.RDat	SPINT1	15	40636246	41650405	0.0342							291	0	blup	0.017	4.4e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ANPEP_1Mwindow.wgt.RDat	ANPEP	15	89828126	90858084	0.1807							374	0	top1	0.11	1.2e-25		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BNIP2_1Mwindow.wgt.RDat	BNIP2	15	59451345	60481519	0.0539							487	0	blup	0.006	0.011		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC12A1_1Mwindow.wgt.RDat	SLC12A1	15	47998499	49096275	0.0963							373	0	top1	-0.0011	0.91		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNX33_1Mwindow.wgt.RDat	SNX33	15	75440253	76454642	0.0165							0	0	lasso	0.0028	0.06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NME4_1Mwindow.wgt.RDat	NME4	16	0	950754	0.1035							330	0	enet	0.1	1.1e-23		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00920_1Mwindow.wgt.RDat	LINC00920	16	65942427	66944804	0.0438							0	0	lasso	0.02	1.5e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SEPTIN12_1Mwindow.wgt.RDat	SEPTIN12	16	4327607	5338346	0.0762							348	0	blup	-0.0011	0.87		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MYH11_1Mwindow.wgt.RDat	MYH11	16	15296992	16450885	0.0465							434	0	top1	0.038	2.2e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SHISA9_1Mwindow.wgt.RDat	SHISA9	16	12495455	13834273	0.0431							862	0	blup	-0.00013	0.35		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NOMO1_1Mwindow.wgt.RDat	NOMO1	16	14427578	15490014	0.0378							97	0	blup	0.0052	0.017		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAHD1_1Mwindow.wgt.RDat	FAHD1	16	1377207	2390208	0.0288							422	0	blup	0.022	5.3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CMTM1_1Mwindow.wgt.RDat	CMTM1	16	66100342	67113038	0.0308							402	0	top1	0.0046	0.023		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TRIM72_1Mwindow.wgt.RDat	TRIM72	16	30725440	31742858	0.0196							260	0	blup	0.0029	0.057		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACSM2B_1Mwindow.wgt.RDat	ACSM2B	16	20047548	21087689	0.043							392	0	lasso	-0.00084	0.62		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C16orf90_1Mwindow.wgt.RDat	C16orf90	16	3043484	4046652	0.0414							333	0	top1	0.0032	0.05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNN_1Mwindow.wgt.RDat	SNN	16	11262311	12273008	0.0377							463	0	blup	0.009	0.0025		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SETD6_1Mwindow.wgt.RDat	SETD6	16	58049383	59057746	0.0304							0	0	lasso	0.012	0.00056		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ROGDI_1Mwindow.wgt.RDat	ROGDI	16	4346969	5352634	0.0215							348	0	enet	0.018	3.3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MSLN_1Mwindow.wgt.RDat	MSLN	16	310734	1318865	0.3868							383	0	enet	0.37	1.6e-92		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MMP2-AS1_1Mwindow.wgt.RDat	MMP2-AS1	16	54960709	55996209	0.1047							625	0	enet	0.067	1.6e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF205_1Mwindow.wgt.RDat	ZNF205	16	2662587	3670518	0.0506							348	0	top1	0.045	8.9e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TUFM_1Mwindow.wgt.RDat	TUFM	16	28353732	29357669	0.0182							0	0	enet	0.021	5.9e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLEC18B_1Mwindow.wgt.RDat	CLEC18B	16	73942529	74956039	0.0227							376	0	blup	0.00098	0.17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C16orf54_1Mwindow.wgt.RDat	C16orf54	16	29253784	30257311	0.0241							164	0	blup	0.0089	0.0026		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LITAF_1Mwindow.wgt.RDat	LITAF	16	11141578	12181322	0.187							476	0	top1	0.1	4.2e-23		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.WASIR2_1Mwindow.wgt.RDat	WASIR2	16	0	575114	0.267							210	0	blup	-0.0011	0.91		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SULT1A1_1Mwindow.wgt.RDat	SULT1A1	16	28116579	29134696	0.0375							0	0	enet	0.037	2.9e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SLC2A4_1Mwindow.wgt.RDat	SLC2A4	17	6685037	7691576	0.0507							438	0	top1	-0.0011	0.89		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MRPL45_1Mwindow.wgt.RDat	MRPL45	17	35953134	36979094	0.0632							235	0	blup	0.014	0.00024		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ELP5_1Mwindow.wgt.RDat	ELP5	17	6655043	7663259	0.0582							447	0	top1	0.024	2.1e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.AKAP10_1Mwindow.wgt.RDat	AKAP10	17	19307615	20381141	0.0148							242	0	top1	0.015	0.00012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TNFSF12_1Mwindow.wgt.RDat	TNFSF12	17	6952375	7961198	0.0504							441	0	top1	0.056	3e-13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KANSL1-AS1_1Mwindow.wgt.RDat	KANSL1-AS1	17	43770939	44774089	0.0956							28	0	blup	0.016	0.0001		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ADORA2B_1Mwindow.wgt.RDat	ADORA2B	17	15348444	16379060	0.0328							274	0	blup	0.0025	0.072		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MED9_1Mwindow.wgt.RDat	MED9	17	16880314	17896535	0.039							383	0	enet	0.0074	0.0056		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SEPTIN4-AS1_1Mwindow.wgt.RDat	SEPTIN4-AS1	17	56097198	57134286	0.0403							236	0	top1	0.0014	0.13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RABEP1_1Mwindow.wgt.RDat	RABEP1	17	4685579	5789660	0.0246							555	0	blup	0.007	0.0069		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EVI2A_1Mwindow.wgt.RDat	EVI2A	17	29143428	30148640	0.0177							325	0	enet	0.01	0.0015		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NT5C3B_1Mwindow.wgt.RDat	NT5C3B	17	39481309	40492484	0.1026							0	0	lasso	0.098	3.5000000000000005e-22		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NME1_1Mwindow.wgt.RDat	NME1	17	48730920	49739529	0.0311							412	0	blup	0.011	0.0011		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CD300C_1Mwindow.wgt.RDat	CD300C	17	72037212	73042254	0.0624							438	0	blup	0.014	0.00026		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.AFMID_1Mwindow.wgt.RDat	AFMID	17	75683443	76703783	0.0425							500	0	top1	0.053	1.6e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ARL17B_1Mwindow.wgt.RDat	ARL17B	17	43851550	44939153	0.064							81	0	blup	0.013	0.00035		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NXN_1Mwindow.wgt.RDat	NXN	17	202550	1383016	0.0564							0	0	lasso	0.0054	0.016		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DLX4_1Mwindow.wgt.RDat	DLX4	17	47546554	48552323	0.0421							401	0	blup	0.0048	0.021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TSEN54_1Mwindow.wgt.RDat	TSEN54	17	73012609	74020816	0.0262							334	0	top1	0.014	0.00021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C17orf97_1Mwindow.wgt.RDat	C17orf97	17	0	764457	0.0983							285	0	top1	0.057	2e-13		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CORO6_1Mwindow.wgt.RDat	CORO6	17	27441780	28449930	0.0244							0	0	lasso	-0.00077	0.58		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ASGR2_1Mwindow.wgt.RDat	ASGR2	17	6504641	7518141	0.0325							468	0	blup	0.0052	0.017		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DUS1L_1Mwindow.wgt.RDat	DUS1L	17	79515382	80523680	0.0303							278	0	blup	0.012	0.00066		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KCNJ12_1Mwindow.wgt.RDat	KCNJ12	17	20779669	21823182	0.0836							186	0	top1	0.044	1.2e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SPATA20_1Mwindow.wgt.RDat	SPATA20	17	48124535	49133213	0.0755							434	0	lasso	0.048	1.7e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.OR3A2_1Mwindow.wgt.RDat	OR3A2	17	2679407	3789602	0.0683							505	0	blup	0.008	0.0041		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RAD51C_1Mwindow.wgt.RDat	RAD51C	17	56269934	57312972	0.0229							220	0	top1	0.026	6.8e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TANC2_1Mwindow.wgt.RDat	TANC2	17	60543596	62005064	0.0249							361	0	enet	0.0072	0.0062		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LRRC37A3_1Mwindow.wgt.RDat	LRRC37A3	17	62350248	63415596	0.0271							283	0	blup	0.0042	0.028		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HSPB9_1Mwindow.wgt.RDat	HSPB9	17	39774822	40775370	0.0514							0	0	enet	0.0017	0.11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EIF5A_1Mwindow.wgt.RDat	EIF5A	17	6710318	7715782	0.1304							427	0	enet	0.11	4.399999999999999e-24		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NPTX1_1Mwindow.wgt.RDat	NPTX1	17	77940634	78950407	0.0596							446	0	blup	0.0028	0.06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.P2RX1_1Mwindow.wgt.RDat	P2RX1	17	3299886	4319759	0.1132							421	0	top1	0.047	2.6e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SMIM36_1Mwindow.wgt.RDat	SMIM36	17	53027224	54088813	0.0838							454	0	top1	0.024	1.6e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.JUP_1Mwindow.wgt.RDat	JUP	17	39410861	40442963	0.1806							376	0	enet	0.12	4.4000000000000005e-27		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LRRC3C_1Mwindow.wgt.RDat	LRRC3C	17	37583985	38601252	0.0292							0	0	lasso	0.16	2.6e-36		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LGALS9_1Mwindow.wgt.RDat	LGALS9	17	25458214	26476586	0.0466							299	0	blup	0.032	3.6e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VPS53_1Mwindow.wgt.RDat	VPS53	17	0	1118079	0.0903							0	0	lasso	0.07	4.7e-16		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GPRC5C_1Mwindow.wgt.RDat	GPRC5C	17	71928227	72947797	0.2971							0	0	enet	0.25	4.6000000000000005e-58		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF594_1Mwindow.wgt.RDat	ZNF594	17	4582830	5595163	0.0598							450	0	blup	0.0036	0.039		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PIMREG_1Mwindow.wgt.RDat	PIMREG	17	5847775	6854789	0.0574							0	0	lasso	0.15	8.3e-33		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FN3KRP_1Mwindow.wgt.RDat	FN3KRP	17	80174582	81185889	0.0571							359	0	enet	0.027	3.5e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GAA_1Mwindow.wgt.RDat	GAA	17	77575380	78593680	0.0364							406	0	top1	0.008	0.004		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LOXHD1_1Mwindow.wgt.RDat	LOXHD1	18	43556924	44737183	0.0452							524	0	top1	0.00014	0.29		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GATA6_1Mwindow.wgt.RDat	GATA6	18	19249550	20282491	0.0513							321	0	lasso	0.012	0.0007		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TTC39C_1Mwindow.wgt.RDat	TTC39C	18	21072851	22215564	0.0557							504	0	top1	0.052	2.1e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HSBP1L1_1Mwindow.wgt.RDat	HSBP1L1	18	77224643	78230822	0.0219							283	0	blup	0.0083	0.0036		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TUBB6_1Mwindow.wgt.RDat	TUBB6	18	11807668	12829825	0.0847							416	0	top1	0.02	1.2e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ELP2_1Mwindow.wgt.RDat	ELP2	18	33209862	34260520	0.0636							513	0	top1	0.05	5.9e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ATP5F1A_1Mwindow.wgt.RDat	ATP5F1A	18	43160214	44184193	0.0263							511	0	enet	0.0065	0.0089		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CABLES1_1Mwindow.wgt.RDat	CABLES1	18	20214528	21340434	0.0416							360	0	lasso	-0.00062	0.51		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ERVK3-1_1Mwindow.wgt.RDat	ERVK3-1	19	58316743	59328178	0.026							315	0	blup	0.0072	0.0061		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LINC00664_1Mwindow.wgt.RDat	LINC00664	19	21166517	22186040	0.0808							0	0	enet	-0.00025	0.38		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FCGBP_1Mwindow.wgt.RDat	FCGBP	19	39853963	40940533	0.1057							426	0	top1	0.11	4.399999999999999e-24		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF579_1Mwindow.wgt.RDat	ZNF579	19	55588140	56592214	0.0435							523	0	blup	0.0041	0.03		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.KCNN4_1Mwindow.wgt.RDat	KCNN4	19	43770685	44785125	0.1036							391	0	enet	0.11	6.099999999999999e-25		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.VSTM1_1Mwindow.wgt.RDat	VSTM1	19	54044079	55067151	0.2712							351	0	lasso	0.23	7.699999999999999e-53		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CEACAM3_1Mwindow.wgt.RDat	CEACAM3	19	41800519	42815592	0.2698							225	0	enet	0.41	8e-106		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.EGLN2_1Mwindow.wgt.RDat	EGLN2	19	40805096	41814339	0.0504							421	0	blup	0.0079	0.0043		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP2R1A_1Mwindow.wgt.RDat	PPP2R1A	19	52193305	53232771	0.0297							535	0	enet	0.0043	0.028		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLEC11A_1Mwindow.wgt.RDat	CLEC11A	19	50726621	51728965	0.0622							465	0	top1	0.018	2.7e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GRAMD1A_1Mwindow.wgt.RDat	GRAMD1A	19	34985631	36017373	0.0534							444	0	enet	0.046	4.8e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BSG_1Mwindow.wgt.RDat	BSG	19	71283	1083493	0.0464							344	0	top1	-0.00014	0.35		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ACP5_1Mwindow.wgt.RDat	ACP5	19	11185475	12189790	0.1827							331	0	enet	0.16	4.2000000000000005e-36		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PALM_1Mwindow.wgt.RDat	PALM	19	208935	1248329	0.135							397	0	lasso	0.099	2.4e-22		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NECTIN2_1Mwindow.wgt.RDat	NECTIN2	19	44849554	45892480	0.0881							424	0	enet	0.046	4.2e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MRPL54_1Mwindow.wgt.RDat	MRPL54	19	3262680	4267563	0.0539							265	0	enet	0.023	2.7e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PRDX2_1Mwindow.wgt.RDat	PRDX2	19	12407637	13412614	0.0955							279	0	enet	0.061	3.3e-14		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ECSIT_1Mwindow.wgt.RDat	ECSIT	19	11116744	12139949	0.0262							347	0	blup	0.0082	0.0038		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ATP13A1_1Mwindow.wgt.RDat	ATP13A1	19	19256007	20274485	0.0256							328	0	blup	0.0032	0.048		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF85_1Mwindow.wgt.RDat	ZNF85	19	20606057	21633503	0.0146							233	0	top1	0.014	0.00026		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ERCC1_1Mwindow.wgt.RDat	ERCC1	19	45410592	46454805	0.0364							373	0	blup	0.006	0.011		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGFLR1_1Mwindow.wgt.RDat	IGFLR1	19	35729702	36733353	0.0786							406	0	top1	0.05	7.9e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PSENEN_1Mwindow.wgt.RDat	PSENEN	19	35736552	36738420	0.0516							405	0	blup	0.0051	0.018		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PLA2G4C_1Mwindow.wgt.RDat	PLA2G4C	19	48051103	49114074	0.0672							511	0	blup	0.023	2.5e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP5C_1Mwindow.wgt.RDat	PPP5C	19	46350344	47394232	0.0373							389	0	enet	0.011	0.00086		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PEX11G_1Mwindow.wgt.RDat	PEX11G	19	7041761	8054286	0.0723							365	0	top1	0.047	2.3e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TNNT1_1Mwindow.wgt.RDat	TNNT1	19	55144066	56160574	0.1455							426	0	top1	0.12	2.3e-27		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ABCA7_1Mwindow.wgt.RDat	ABCA7	19	540106	1565571	0.0474							385	0	blup	0.013	0.00029		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PNMA8B_1Mwindow.wgt.RDat	PNMA8B	19	46494448	47499124	0.9876							342	0	lasso	-0.00081	0.6		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CFD_1Mwindow.wgt.RDat	CFD	19	359664	1363641	0.096							378	0	lasso	0.083	6.7e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NOP53_1Mwindow.wgt.RDat	NOP53	19	47748803	48760315	0.0478							414	0	top1	0.013	0.00034		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IFI30_1Mwindow.wgt.RDat	IFI30	19	17784623	18788927	0.059							371	0	lasso	0.047	2.8e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CLEC4M_1Mwindow.wgt.RDat	CLEC4M	19	7328129	8334491	0.0899							390	0	lasso	-0.0011	0.85		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.APOE_1Mwindow.wgt.RDat	APOE	19	44909053	45912650	0.0493							0	0	lasso	0.00098	0.17		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPS16_1Mwindow.wgt.RDat	RPS16	19	39423777	40426589	0.1769							430	0	enet	0.15	3.7e-33		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FPR1_1Mwindow.wgt.RDat	FPR1	19	51748425	52755131	0.1566							589	0	top1	0.13	7.1e-29		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SPINT2_1Mwindow.wgt.RDat	SPINT2	19	38255213	39283255	0.04							370	0	blup	0.011	0.00099		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RPS9_1Mwindow.wgt.RDat	RPS9	19	54204726	55211515	0.0478							384	0	top1	0.015	0.00012		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CNN2_1Mwindow.wgt.RDat	CNN2	19	526607	1539064	0.0439							380	0	top1	0.028	2.1e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FFAR1_1Mwindow.wgt.RDat	FFAR1	19	35338805	36344766	0.0353							0	0	lasso	0.13	5.1e-29		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SIGLEC11_1Mwindow.wgt.RDat	SIGLEC11	19	49952242	50964429	0.0396							316	0	lasso	0.014	0.00023		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SIGLEC14_1Mwindow.wgt.RDat	SIGLEC14	19	51642731	52650078	0.0425							560	0	top1	0.042	2.6e-10		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ZNF83_1Mwindow.wgt.RDat	ZNF83	19	52615630	53693749	0.09							434	0	lasso	0.054	1.1e-12		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TM9SF4_1Mwindow.wgt.RDat	TM9SF4	20	30197517	31255059	0.0135							277	0	blup	0.0048	0.021		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TNFRSF6B_1Mwindow.wgt.RDat	TNFRSF6B	20	61828005	62830037	0.0197							378	0	blup	0.0064	0.0092		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CST3_1Mwindow.wgt.RDat	CST3	20	23107343	24118592	0.1346							528	0	enet	0.13	2.6e-29		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ABHD16B_1Mwindow.wgt.RDat	ABHD16B	20	61992851	62994341	0.0924							374	0	top1	-0.0011	0.82		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CCN5_1Mwindow.wgt.RDat	CCN5	20	42843502	43856452	0.0479							393	0	blup	-0.0008	0.6		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MGME1_1Mwindow.wgt.RDat	MGME1	20	17449661	18471765	0.0308							564	0	top1	0.032	4.1e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CHMP4B_1Mwindow.wgt.RDat	CHMP4B	20	31899154	32942172	0.0235							238	0	top1	0.013	0.00039		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SIRPB1_1Mwindow.wgt.RDat	SIRPB1	20	1042031	2100655	0.0983							616	0	top1	0.11	4.399999999999999e-24		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CPNE1_1Mwindow.wgt.RDat	CPNE1	20	33713966	34752822	0.0229							312	0	top1	0.022	5.4e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FNDC11_1Mwindow.wgt.RDat	FNDC11	20	61684373	62688061	0.0835							403	0	top1	-0.001	0.8		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.RRBP1_1Mwindow.wgt.RDat	RRBP1	20	17094324	18162887	0.0402							652	0	blup	0.014	0.00026		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNHG17_1Mwindow.wgt.RDat	SNHG17	20	36549235	37564020	0.082							462	0	top1	0.066	2.9e-15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PPP1R16B_1Mwindow.wgt.RDat	PPP1R16B	20	36934340	38051667	0.063							476	0	blup	0.037	3.8e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SULF2_1Mwindow.wgt.RDat	SULF2	20	45786150	46915371	0.0974							557	0	enet	0.085	2.6e-19		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BIRC7_1Mwindow.wgt.RDat	BIRC7	20	61367257	62371847	0.2746							449	0	top1	0.31	2.5e-75		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.U2AF1_1Mwindow.wgt.RDat	U2AF1	21	44013066	45027688	0.1378							484	0	lasso	0.1	2.0000000000000002e-23		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MX1_1Mwindow.wgt.RDat	MX1	21	42292485	43331141	0.0591							654	0	top1	0.023	2.3e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TMPRSS3_1Mwindow.wgt.RDat	TMPRSS3	21	43291999	44316161	0.0574							767	0	lasso	0.034	1.5e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.YBEY_1Mwindow.wgt.RDat	YBEY	21	47206256	48217665	0.0618							0	0	lasso	0.03	1.2e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.HMGN1_1Mwindow.wgt.RDat	HMGN1	21	40214241	41221014	0.0435							640	0	blup	0.033	2.6e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ITSN1_1Mwindow.wgt.RDat	ITSN1	21	34514807	35772165	0.0355							533	0	blup	0.0083	0.0035		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CBR3-AS1_1Mwindow.wgt.RDat	CBR3-AS1	21	37004065	38028606	0.0422							0	0	enet	0.023	2.5e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PRMT2_1Mwindow.wgt.RDat	PRMT2	21	47555586	48585036	0.0233							254	0	top1	0.01	0.0013		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.ITGB2_1Mwindow.wgt.RDat	ITGB2	21	45805868	46848730	0.1495							546	0	top1	0.099	2.4e-22		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAM3B_1Mwindow.wgt.RDat	FAM3B	21	42188728	43229654	0.1756							0	0	lasso	0.13	8.2e-29		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SIK1_1Mwindow.wgt.RDat	SIK1	21	44334363	45347011	0.0576							428	0	lasso	0.045	9.2e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.UMODL1-AS1_1Mwindow.wgt.RDat	UMODL1-AS1	21	43022244	44028644	0.1762							823	0	lasso	0.12	2.4e-26		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.PWP2_1Mwindow.wgt.RDat	PWP2	21	45027280	46051063	0.0543							408	0	top1	0.045	6.3e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.C2CD2_1Mwindow.wgt.RDat	C2CD2	21	42805221	43874127	0.0511							808	0	blup	0.018	3.1e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GET1_1Mwindow.wgt.RDat	GET1	21	40252252	41300454	0.0281							671	0	top1	0.028	3.2e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MAP3K7CL_1Mwindow.wgt.RDat	MAP3K7CL	21	29949435	31048208	0.0801							473	0	lasso	0.087	8e-20		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SPATC1L_1Mwindow.wgt.RDat	SPATC1L	21	47081074	48104373	0.0526							467	0	blup	0.027	4.2e-07		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CCT8_1Mwindow.wgt.RDat	CCT8	21	29928647	30945969	0.0241							408	0	blup	0.0094	0.002		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.IGLL1_1Mwindow.wgt.RDat	IGLL1	22	23415312	24422477	0.0404							430	0	blup	0.0082	0.0038		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.GNAZ_1Mwindow.wgt.RDat	GNAZ	22	22912705	23967219	0.0562							331	0	blup	0.00023	0.27		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.UPK3A_1Mwindow.wgt.RDat	UPK3A	22	45180830	46191755	0.0358							586	0	top1	0.017	4.7e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.NUP50_1Mwindow.wgt.RDat	NUP50	22	45059806	46083898	0.0485							624	0	enet	0.0037	0.038		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SNAP29_1Mwindow.wgt.RDat	SNAP29	22	20713295	21745502	0.0261							0	0	lasso	0.016	8.3e-05		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DDTL_1Mwindow.wgt.RDat	DDTL	22	23809076	24814745	0.0327							368	0	blup	0.007	0.0067		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.LGALS2_1Mwindow.wgt.RDat	LGALS2	22	37466255	38476094	0.1525							0	0	lasso	0.12	9.1e-28		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DDT_1Mwindow.wgt.RDat	DDT	22	23813559	24822695	0.056							370	0	enet	0.031	5.8e-08		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TFIP11_1Mwindow.wgt.RDat	TFIP11	22	26387206	27408439	0.0395							764	0	blup	0.0012	0.15		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.DUSP18_1Mwindow.wgt.RDat	DUSP18	22	30548038	31563862	0.0417							445	0	blup	0.0055	0.015		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.FAM118A_1Mwindow.wgt.RDat	FAM118A	22	45204841	46237836	0.2287							586	0	top1	0.23	4.5e-54		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.CRYBB2_1Mwindow.wgt.RDat	CRYBB2	22	25115606	26127836	0.1708							375	0	enet	0.047	2.3e-11		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.SMDT1_1Mwindow.wgt.RDat	SMDT1	22	41975704	42980288	0.0399							0	0	lasso	0.039	1.1e-09		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.TYMP_1Mwindow.wgt.RDat	TYMP	22	50464181	51468514	0.0404							0	0	lasso	0.021	7.7e-06		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.BCR_1Mwindow.wgt.RDat	BCR	22	23022696	24160224	0.0326							417	0	top1	0.014	0.00019		
+CD16_Mono	RA_only/CD16_Mono_5pcs_all/CD16_Mono.MOV10L1_1Mwindow.wgt.RDat	MOV10L1	22	50028435	51100116	0.035							414	0	top1	0.0056	0.014		

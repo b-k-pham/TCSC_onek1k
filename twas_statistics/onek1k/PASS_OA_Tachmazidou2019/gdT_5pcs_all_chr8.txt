@@ -1,0 +1,17 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+gdT	RA_only/gdT_5pcs_all/gdT.FUT10_1Mwindow.wgt.RDat	FUT10	8	32728342	33830664	0.0313	NA	   NA	NA	       NA	   NA	    NA	254	  0	blup	0.014	0.00015	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.FDFT1_1Mwindow.wgt.RDat	FDFT1	8	11153091	12196818	0.0609	NA	   NA	NA	       NA	   NA	    NA	450	  0	enet	0.006	0.0096	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.SARAF_1Mwindow.wgt.RDat	SARAF	8	29420519	30440724	0.0462	rs11776937	 2.83	rs10099372	 0.001774	-4.44	 0.992	378	378	blup	0.013	3e-04	-1.2429	0.21389
+gdT	RA_only/gdT_5pcs_all/gdT.GPT_1Mwindow.wgt.RDat	GPT	8	145228451	146232555	0.0454	NA	   NA	NA	       NA	   NA	    NA	186	  0	lasso	0.056	1.2e-13	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.MYOM2_1Mwindow.wgt.RDat	MYOM2	8	1493161	2593380	0.2496	NA	   NA	NA	       NA	   NA	    NA	697	  0	enet	0.3	3e-76	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.NKX6-3_1Mwindow.wgt.RDat	NKX6-3	8	41002696	42008336	0.0159	rs2304879	 2.21	rs10504040	-0.000981	 4.50	-0.630	411	411	blup	-0.00091	0.71	 0.1777	0.85895
+gdT	RA_only/gdT_5pcs_all/gdT.PTP4A3_1Mwindow.wgt.RDat	PTP4A3	8	141902121	142942554	0.0410	NA	   NA	NA	       NA	   NA	    NA	  0	  0	lasso	0.017	3.6e-05	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.RPL8_1Mwindow.wgt.RDat	RPL8	8	145515154	146517775	0.0296	rs13257697	-2.30	rs2727229	 0.018497	 6.36	 0.138	190	190	blup	0.035	5.1e-09	-0.1281	0.89808
+gdT	RA_only/gdT_5pcs_all/gdT.LZTS1_1Mwindow.wgt.RDat	LZTS1	8	19603676	20661474	0.0739	rs11985951	 3.44	rs17604094	-0.001006	 4.30	-2.330	653	  1	lasso	0.00035	0.25	-1.0400	0.29834
+gdT	RA_only/gdT_5pcs_all/gdT.ARMC1_1Mwindow.wgt.RDat	ARMC1	8	66014693	67046412	0.0320	rs7841695	 3.92	rs6995242	-0.001057	 3.27	-1.252	362	362	blup	0.0056	0.012	-0.0791	0.93699
+gdT	RA_only/gdT_5pcs_all/gdT.DEPTOR_1Mwindow.wgt.RDat	DEPTOR	8	120385962	121563157	0.0494	NA	   NA	NA	       NA	   NA	    NA	498	  0	blup	0.0043	0.025	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.TPD52_1Mwindow.wgt.RDat	TPD52	8	80443317	81583799	0.0338	NA	   NA	NA	       NA	   NA	    NA	417	  0	top1	0.028	1.4e-07	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.LINC00681_1Mwindow.wgt.RDat	LINC00681	8	12151749	13175800	0.0424	NA	   NA	NA	       NA	   NA	    NA	393	  0	top1	-0.00099	0.8	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.TRIM35_1Mwindow.wgt.RDat	TRIM35	8	26642403	27668789	0.0487	NA	   NA	NA	       NA	   NA	    NA	633	  0	blup	0.016	5.6e-05	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.HMBOX1_1Mwindow.wgt.RDat	HMBOX1	8	28247912	29410787	0.0462	NA	   NA	NA	       NA	   NA	    NA	451	  0	top1	0.04	3.8e-10	     NA	     NA
+gdT	RA_only/gdT_5pcs_all/gdT.CSGALNACT1_1Mwindow.wgt.RDat	CSGALNACT1	8	18761672	20115419	0.0602	rs10113216	 3.38	rs4427190	 0.010364	 5.50	-2.908	919	  2	lasso	0.016	6.5e-05	-3.2125	0.00132

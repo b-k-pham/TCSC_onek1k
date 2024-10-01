@@ -1,0 +1,13 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.MIS18A-AS1_1Mwindow.wgt.RDat	MIS18A-AS1	21	33151516	34153310	0.0506	rs2833542	 2.62	rs9980733	 0.000798	  3.84	 0.312	466	  1	lasso	0.0029	0.05	 0.3122	0.7549
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.U2AF1_1Mwindow.wgt.RDat	U2AF1	21	44013066	45027688	0.1315	rs4148974	-3.32	rs4920039	 0.106437	-10.46	 2.174	484	  6	enet	0.11	2.7e-27	-2.0083	0.0446
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.LRRC3-DT_1Mwindow.wgt.RDat	LRRC3-DT	21	45370869	46375167	0.0416	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	-0.001	0.88	     NA	    NA
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.PWP2_1Mwindow.wgt.RDat	PWP2	21	45027280	46051063	0.0355	rs2238724	 3.38	rs2838509	 0.029498	  6.64	 0.975	408	  1	top1	0.029	4.9e-08	 0.9749	0.3296
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.CCT8_1Mwindow.wgt.RDat	CCT8	21	29928647	30945969	0.0508	rs1011668	-3.22	rs2070610	 0.059324	  7.94	 1.050	408	  1	top1	0.059	1.1e-14	 1.0500	0.2937
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.CXADR_1Mwindow.wgt.RDat	CXADR	21	18385361	19465928	0.0411	rs207011	 2.74	rs17210722	-0.000844	  5.47	-0.187	392	392	blup	0.0048	0.018	 0.0124	0.9901
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.LINC00334_1Mwindow.wgt.RDat	LINC00334	21	46154255	47178645	0.0356	rs2838969	 2.32	rs17004748	-0.000748	  5.36	 0.847	487	  1	lasso	0.0038	0.031	 1.5495	0.1213
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.YBEY_1Mwindow.wgt.RDat	YBEY	21	47206256	48217665	0.0372	rs2839108	 2.78	rs2254522	 0.041199	  5.94	-1.270	429	  1	top1	0.041	1.2e-10	-1.2705	0.2039
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.KRTAP12-3_1Mwindow.wgt.RDat	KRTAP12-3	21	45577849	46578258	0.0549	rs2238724	 3.38	rs2838600	-0.000901	  7.22	 1.398	495	495	blup	0.0017	0.11	 0.2492	0.8032
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.LINC01679_1Mwindow.wgt.RDat	LINC01679	21	44277935	45282229	0.0309	rs4148974	-3.32	rs503786	 0.003237	 -3.44	-1.130	439	  2	lasso	0.018	1.8e-05	 1.4142	0.1573
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.SIK1_1Mwindow.wgt.RDat	SIK1	21	44334363	45347011	0.0392	rs11702314	 2.35	rs2838305	 0.006043	  5.59	-0.883	428	  1	lasso	0.012	0.00049	-0.8827	0.3774
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.SLC5A3_1Mwindow.wgt.RDat	SLC5A3	21	34945878	35978559	0.0257	rs2834278	 2.71	rs4817614	 0.003487	 -4.60	-0.716	462	462	blup	0.0071	0.0051	 2.5227	0.0116

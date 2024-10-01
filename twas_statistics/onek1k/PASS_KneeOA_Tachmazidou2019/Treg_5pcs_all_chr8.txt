@@ -1,0 +1,12 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+Treg	RA_only/Treg_5pcs_all/Treg.C8orf58_1Mwindow.wgt.RDat	C8orf58	8	21957112	22961655	0.0508	NA	   NA	NA	      NA	   NA	    NA	497	  0	blup	0.0031	0.048	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.MAK16_1Mwindow.wgt.RDat	MAK16	8	32842700	33858780	0.0467	NA	   NA	NA	      NA	   NA	    NA	248	  0	blup	0.01	0.0012	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.C8orf34_1Mwindow.wgt.RDat	C8orf34	8	68742608	70231258	0.0380	rs2676635	-3.31	rs2217103	-0.00104	 3.92	 0.097	727	727	blup	-0.00032	0.4	-0.202	0.8398
+Treg	RA_only/Treg_5pcs_all/Treg.NEFL_1Mwindow.wgt.RDat	NEFL	8	24308468	25314126	0.0327	NA	   NA	NA	      NA	   NA	    NA	480	  0	blup	0.003	0.05	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.OPLAH_1Mwindow.wgt.RDat	OPLAH	8	144606167	145615595	0.9612	NA	   NA	NA	      NA	   NA	    NA	230	  0	top1	-0.001	0.81	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.KBTBD11-OT1_1Mwindow.wgt.RDat	KBTBD11-OT1	8	1419563	2424610	0.0411	NA	   NA	NA	      NA	   NA	    NA	661	  0	blup	-0.00068	0.55	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.AP3M2_1Mwindow.wgt.RDat	AP3M2	8	41510581	42528701	0.0272	rs3136748	 5.05	rs2356610	-0.00103	-3.49	-3.056	343	343	blup	0.0029	0.053	 1.817	0.0692
+Treg	RA_only/Treg_5pcs_all/Treg.YTHDF3-DT_1Mwindow.wgt.RDat	YTHDF3-DT	8	63580284	64581001	0.0268	NA	   NA	NA	      NA	   NA	    NA	383	  0	enet	0.0074	0.0046	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.HMBOX1_1Mwindow.wgt.RDat	HMBOX1	8	28247912	29410787	0.0343	NA	   NA	NA	      NA	   NA	    NA	451	  0	lasso	0.018	2.6e-05	    NA	    NA
+Treg	RA_only/Treg_5pcs_all/Treg.RPL8_1Mwindow.wgt.RDat	RPL8	8	145515154	146517775	0.0263	rs7016335	 2.47	rs11784860	 0.03828	 6.20	 0.092	190	  1	top1	0.038	7.7e-10	 0.092	0.9267
+Treg	RA_only/Treg_5pcs_all/Treg.NAPRT_1Mwindow.wgt.RDat	NAPRT	8	144156955	145160500	0.0565	rs11136317	-2.84	rs10282929	 0.03931	-6.91	 0.242	347	  2	lasso	0.04	3.2e-10	-0.242	0.8087

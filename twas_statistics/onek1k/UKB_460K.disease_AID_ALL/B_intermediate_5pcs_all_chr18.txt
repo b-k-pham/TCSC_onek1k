@@ -1,0 +1,9 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.CYB5A_1Mwindow.wgt.RDat	CYB5A	18	71418081	72459198	0.0317	NA	   NA	NA	       NA	   NA	    NA	  0	  0	lasso	0.03	4.8e-08	     NA	   NA
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.CNDP2_1Mwindow.wgt.RDat	CNDP2	18	71663598	72690689	0.0293	rs7238179	 3.34	rs8084058	 0.000263	-4.47	-2.334	512	512	blup	0.0039	0.029	 1.9034	0.057
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.ELOA2_1Mwindow.wgt.RDat	ELOA2	18	44058898	45061992	0.4609	rs1893784	 3.17	rs328133	-0.001037	 4.91	 0.391	529	 17	enet	-0.001	0.88	 1.2576	0.209
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.ENOSF1_1Mwindow.wgt.RDat	ENOSF1	18	170318	1212630	0.0468	rs12373400	-2.97	rs7228136	 0.026260	 5.74	-0.595	562	  1	top1	0.026	2.6e-07	-0.5949	0.552
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.HSBP1L1_1Mwindow.wgt.RDat	HSBP1L1	18	77224643	78230822	0.0194	rs9989509	-4.25	rs1835410	 0.022559	 4.51	-1.552	283	  1	top1	0.023	1.7e-06	-1.5515	0.121
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.ELP2_1Mwindow.wgt.RDat	ELP2	18	33209862	34260520	0.0476	rs3744988	-2.37	rs559289	 0.007727	 4.91	-0.479	513	513	blup	0.019	9.3e-06	 0.2471	0.805
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.HMSD_1Mwindow.wgt.RDat	HMSD	18	61116535	62129069	0.0211	rs7234924	-3.23	rs8091131	-0.000512	 4.40	 0.498	500	500	blup	0.0011	0.15	 0.1134	0.910
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.AKAIN1_1Mwindow.wgt.RDat	AKAIN1	18	4642910	5697690	0.9962	rs1587953	-4.17	rs8084820	-0.001024	 5.84	-0.907	471	 12	lasso	-0.00079	0.62	 0.0024	0.998

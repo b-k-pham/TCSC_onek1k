@@ -1,0 +1,12 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+Treg	RA_only/Treg_5pcs_all/Treg.FAM184B_1Mwindow.wgt.RDat	FAM184B	4	17130929	18283244	0.0353	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	0.057	6.6e-14	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.LINC02506_1Mwindow.wgt.RDat	LINC02506	4	31499001	32657028	0.0448	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	-0.00047	0.46	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.CNOT6L_1Mwindow.wgt.RDat	CNOT6L	4	78134541	79241423	0.0263	rs6835713	 2.71	rs2866688	-0.000704	  4.50	 0.706	524	524	blup	0.0032	0.045	 0.437	6.62e-01
+Treg	RA_only/Treg_5pcs_all/Treg.NEUROG2_1Mwindow.wgt.RDat	NEUROG2	4	112934672	113937336	0.0511	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	0.13	1.8e-31	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.RWDD4_1Mwindow.wgt.RDat	RWDD4	4	184060788	185080338	0.0322	rs4862234	-3.33	rs4624699	-0.000427	  3.74	-0.628	423	423	blup	0.003	0.049	 0.661	5.09e-01
+Treg	RA_only/Treg_5pcs_all/Treg.ARL9_1Mwindow.wgt.RDat	ARL9	4	56871375	57890619	0.2201	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	0.2	5.8e-47	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.TMEM156_1Mwindow.wgt.RDat	TMEM156	4	38468365	39534029	0.0320	rs2711981	 7.81	rs1036039	 0.014552	 -4.69	 5.150	501	  1	top1	0.015	0.00012	-5.150	2.60e-07
+Treg	RA_only/Treg_5pcs_all/Treg.RPS3A_1Mwindow.wgt.RDat	RPS3A	4	151520780	152525794	0.0816	rs11099779	-3.77	rs2280283	 0.114228	-10.82	-0.202	256	  1	top1	0.11	6.3e-27	 0.202	8.40e-01
+Treg	RA_only/Treg_5pcs_all/Treg.LINC02562_1Mwindow.wgt.RDat	LINC02562	4	75507135	76509918	0.0445	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	0.016	6e-05	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.GAK_1Mwindow.wgt.RDat	GAK	4	343065	1426104	0.0278	NA	   NA	NA	       NA	    NA	    NA	  0	  0	lasso	0.00087	0.18	    NA	      NA
+Treg	RA_only/Treg_5pcs_all/Treg.SNHG8_1Mwindow.wgt.RDat	SNHG8	4	118699917	119700978	0.0637	rs883686	-2.88	rs633398	 0.047080	  6.59	-2.197	277	  1	top1	0.047	9.2e-12	-2.197	2.80e-02

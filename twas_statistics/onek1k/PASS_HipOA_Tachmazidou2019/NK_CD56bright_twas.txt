@@ -1,0 +1,441 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS8_1Mwindow.wgt.RDat	RPS8	1	44741212	45744451	0.0449		   NA		       NA	   NA	     NA	328	0	blup	0.031	5.6e-08	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNAPIN_1Mwindow.wgt.RDat	SNAPIN	1	153131130	154134328	0.0249	rs2916193	-2.40	rs11548104	 0.001639	-4.42	-0.5180	382	4	lasso	0.0081	0.0038	 0.518	0.60446
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NT5C1A_1Mwindow.wgt.RDat	NT5C1A	1	39616901	40637779	0.0256	rs12061406	 3.51	rs16826104	-0.000868	 5.34	-0.7270	366	366	blup	-0.00018	0.36	 0.398	0.69084
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SERINC2_1Mwindow.wgt.RDat	SERINC2	1	31382624	32407525	0.0494		   NA		       NA	   NA	     NA	0	0	lasso	0.0071	0.0061	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GIPC2_1Mwindow.wgt.RDat	GIPC2	1	78010654	79104128	0.0627	rs1475736	-3.14	rs17101082	-0.000720	 5.61	 0.0790	347	1	top1	-0.00072	0.56	 0.079	0.93703
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.WNT4_1Mwindow.wgt.RDat	WNT4	1	21943806	22969590	0.0634		   NA		       NA	   NA	     NA	0	0	lasso	0.21	9.9e-50	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRDM16_1Mwindow.wgt.RDat	PRDM16	1	2485767	3855185	0.0329	rs2742673	 2.62	rs1563469	-0.000952	 3.89	-0.4440	475	475	blup	0.0015	0.12	 1.062	0.28845
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NHLH1_1Mwindow.wgt.RDat	NHLH1	1	159836861	160842636	0.0856		   NA		       NA	   NA	     NA	451	0	lasso	0.15	2.5e-33	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IGSF9_1Mwindow.wgt.RDat	IGSF9	1	159396831	160415403	0.0512		   NA		       NA	   NA	     NA	0	0	lasso	0.19	7.499999999999999e-43	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TOR3A_1Mwindow.wgt.RDat	TOR3A	1	178551205	179565131	0.0242		   NA		       NA	   NA	     NA	464	0	blup	0.011	0.0007	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FCRL3_1Mwindow.wgt.RDat	FCRL3	1	157146271	158170559	0.02		   NA		       NA	   NA	     NA	522	0	top1	0.012	0.00044	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ACBD3_1Mwindow.wgt.RDat	ACBD3	1	225832380	226874442	0.0363	rs7519835	-3.83	rs1151809	 0.010569	 4.57	-1.0287	424	1	top1	0.011	0.0011	-1.029	0.30364
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MASP2_1Mwindow.wgt.RDat	MASP2	1	10586580	11607296	0.9988	rs2273344	 2.48	rs7547302	-0.001026	 5.62	-0.0680	346	7	lasso	0.013	0.00036	 0.288	0.77297
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.XCL1_1Mwindow.wgt.RDat	XCL1	1	168045843	169051307	0.0431		   NA		       NA	   NA	     NA	529	0	blup	0.003	0.052	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.COA7_1Mwindow.wgt.RDat	COA7	1	52650121	53664019	0.0221	rs7531337	-2.61	rs1775540	-0.001022	-3.25	-0.0728	346	346	blup	0.008	0.0039	-0.261	0.79412
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.UTS2_1Mwindow.wgt.RDat	UTS2	1	7407672	8413551	0.1427		   NA		       NA	   NA	     NA	441	0	top1	0.14	7.1e-32	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HPCAL4_1Mwindow.wgt.RDat	HPCAL4	1	39644320	40657105	0.1233		   NA		       NA	   NA	     NA	0	0	lasso	0.18	1.3e-42	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.AIDA_1Mwindow.wgt.RDat	AIDA	1	222341355	223385833	0.0264		   NA		       NA	   NA	     NA	315	0	enet	0.0085	0.003	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC01359_1Mwindow.wgt.RDat	LINC01359	1	64945260	65968159	0.0316		   NA		       NA	   NA	     NA	441	0	top1	0.0063	0.0093	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02801_1Mwindow.wgt.RDat	LINC02801	1	87178352	88217014	0.0348	rs10493801	-4.16	rs10801868	-0.000929	 6.34	 0.9408	425	1	top1	-0.00093	0.7	 0.941	0.34679
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.S100A13_1Mwindow.wgt.RDat	S100A13	1	153091275	154106837	0.0819	rs2916193	-2.40	rs12564925	 0.070235	 8.31	 0.2338	385	1	top1	0.07	2.2e-16	 0.234	0.81517
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NEXN_1Mwindow.wgt.RDat	NEXN	1	77854309	78909580	0.0442	rs11162436	 2.98	rs2136682	 0.001078	 4.64	-1.3242	371	371	blup	0.0067	0.0075	-1.921	0.05478
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPA2_1Mwindow.wgt.RDat	RPA2	1	27718035	28741308	0.0224		   NA		       NA	   NA	     NA	229	0	top1	0.012	0.00063	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PGBD5_1Mwindow.wgt.RDat	PGBD5	1	229950236	231062078	0.0367	rs1028543	 3.93	rs16851315	 0.011068	 3.80	 1.2154	667	1	top1	0.011	0.00084	 1.215	0.22422
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KIAA2013_1Mwindow.wgt.RDat	KIAA2013	1	11479648	12486484	0.0275	rs7530509	 3.06	rs926269	 0.009625	-4.75	-0.2116	427	1	top1	0.0096	0.0017	 0.212	0.83242
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.METTL18_1Mwindow.wgt.RDat	METTL18	1	169261670	170264048	0.0216	rs6025	-2.68	rs12146094	-0.001095	-3.42	-0.1910	540	540	blup	0.013	0.00038	-0.966	0.33411
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SEMA6C_1Mwindow.wgt.RDat	SEMA6C	1	150604183	151619107	0.0184	rs4291502	 3.89	rs6694357	 0.001014	 3.45	 1.0571	302	302	blup	0.0037	0.035	-0.132	0.89502
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ERRFI1_1Mwindow.wgt.RDat	ERRFI1	1	7571787	8586369	0.4899		   NA		       NA	   NA	     NA	0	0	lasso	0.022	3.7e-06	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.UCHL5_1Mwindow.wgt.RDat	UCHL5	1	192481384	193529206	0.0391	rs6683479	 2.52	rs12123511	 0.000956	 3.75	-1.3263	337	337	blup	0.0098	0.0016	-2.695	0.00703
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLFNL1_1Mwindow.wgt.RDat	SLFNL1	1	40981269	41987397	0.0692		   NA		       NA	   NA	     NA	419	0	blup	0.00084	0.18	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FLVCR1-DT_1Mwindow.wgt.RDat	FLVCR1-DT	1	212529946	213531480	0.0271		   NA		       NA	   NA	     NA	408	0	blup	0.013	0.00027	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.OAZ3_1Mwindow.wgt.RDat	OAZ3	1	151235445	152243806	0.0359	rs4291502	 3.86	rs11204948	-0.000736	 4.41	 0.2490	330	330	blup	0.0017	0.11	 1.159	0.24662
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCDC18-AS1_1Mwindow.wgt.RDat	CCDC18-AS1	1	93275666	94311368	0.0328	rs10782945	 2.66	rs6701250	 0.016326	-5.12	 1.4950	310	310	blup	0.017	3.9e-05	-1.491	0.13606
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCDC163_1Mwindow.wgt.RDat	CCDC163	1	45459538	46465745	0.0473		   NA		       NA	   NA	     NA	0	0	lasso	0.025	9.8e-07	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NBPF14_1Mwindow.wgt.RDat	NBPF14	1	145895055	146967744	0.0226		   NA		       NA	   NA	     NA	260	0	top1	0.013	0.00038	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM87B_1Mwindow.wgt.RDat	FAM87B	1	252751	1255214	0.0791		   NA		       NA	   NA	     NA	0	0	enet	0.0036	0.038	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TAL1_1Mwindow.wgt.RDat	TAL1	1	47181962	48198007	0.2521		   NA		       NA	   NA	     NA	399	0	top1	-0.0011	0.87	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LRRIQ3_1Mwindow.wgt.RDat	LRRIQ3	1	73991699	75163860	0.052	rs12239912	 3.62	rs12061533	-0.001071	 4.09	 0.7685	397	397	blup	0.00022	0.27	 0.755	0.45000
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C1orf226_1Mwindow.wgt.RDat	C1orf226	1	161848631	162856602	0.1474		   NA		       NA	   NA	     NA	605	0	lasso	0.012	0.00042	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FCGR2A_1Mwindow.wgt.RDat	FCGR2A	1	160975247	161989619	0.0509		   NA		       NA	   NA	     NA	432	0	blup	0.0041	0.03	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NEGR1_1Mwindow.wgt.RDat	NEGR1	1	71361626	73248222	0.0423		   NA		       NA	   NA	     NA	567	0	lasso	-0.00028	0.39	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPL5_1Mwindow.wgt.RDat	RPL5	1	92797543	93807481	0.9036	rs10874763	-2.87	rs7535181	 0.001443	-3.64	 1.0060	268	1	top1	0.0014	0.13	-1.006	0.31442
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.AKIRIN1_1Mwindow.wgt.RDat	AKIRIN1	1	38956948	39971731	0.0303		   NA		       NA	   NA	     NA	0	0	lasso	0.0045	0.023	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.THEMIS2_1Mwindow.wgt.RDat	THEMIS2	1	27699055	28713186	0.0724		   NA		       NA	   NA	     NA	0	0	lasso	0.073	4.5e-17	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ACYP2_1Mwindow.wgt.RDat	ACYP2	2	53698250	55032437	0.03109		   NA		       NA	   NA	    NA	637	0	blup	0.018	3.5e-05	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GCC2_1Mwindow.wgt.RDat	GCC2	2	108565662	109625871	0.02129	rs10199880	 2.45	rs7581929	 0.015693	 4.77	-1.213	387	1	top1	0.016	8.6e-05	-1.213	0.22508
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IGKV1-9_1Mwindow.wgt.RDat	IGKV1-9	2	88809479	89809954	0.00745	rs6759503	-1.41	rs17037571	-0.001030	 3.63	-0.596	78	2	lasso	0.014	0.00019	-0.550	0.58220
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TYW5_1Mwindow.wgt.RDat	TYW5	2	200293636	201320214	0.01788	rs2577850	-3.06	rs159321	 0.002794	-3.93	-0.718	362	362	blup	0.0093	0.002	 0.316	0.75211
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ANKMY1_1Mwindow.wgt.RDat	ANKMY1	2	240908049	242000481	0.04669		   NA		       NA	   NA	    NA	531	0	top1	0.016	8.9e-05	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ARID5A_1Mwindow.wgt.RDat	ARID5A	2	96702489	97718375	0.02264		   NA		       NA	   NA	    NA	0	0	lasso	0.014	0.00019	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SOX11_1Mwindow.wgt.RDat	SOX11	2	5332516	6341517	0.05526		   NA		       NA	   NA	    NA	547	0	top1	-0.0011	0.89	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CAPG_1Mwindow.wgt.RDat	CAPG	2	85121876	86141139	0.06626		   NA		       NA	   NA	    NA	453	0	blup	0.031	4.1e-08	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RAMP1_1Mwindow.wgt.RDat	RAMP1	2	238268266	239320748	0.10179		   NA		       NA	   NA	    NA	454	0	top1	0.059	6e-14	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.VIT_1Mwindow.wgt.RDat	VIT	2	36423850	37541937	0.02453	rs14291	 3.14	rs12997487	 0.059182	 4.72	 2.897	623	1	top1	0.059	5.2e-14	 2.897	0.00377
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TMEM237_1Mwindow.wgt.RDat	TMEM237	2	201984909	203008226	0.03077	rs1468792	-2.35	rs16838316	-0.000542	 3.82	 1.439	436	436	blup	0.0043	0.026	-0.769	0.44196
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GNLY_1Mwindow.wgt.RDat	GNLY	2	85421481	86425975	0.13023	rs17713693	 3.45	rs1866140	 0.081828	-8.90	 0.087	476	1	top1	0.082	6.5e-19	-0.087	0.93069
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.COL5A2_1Mwindow.wgt.RDat	COL5A2	2	189396624	190544487	0.03505		   NA		       NA	   NA	    NA	340	0	blup	3.8e-06	0.32	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C2orf74_1Mwindow.wgt.RDat	C2orf74	2	60872251	61891963	0.02862		   NA		       NA	   NA	    NA	320	0	top1	0.0038	0.035	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02610_1Mwindow.wgt.RDat	LINC02610	2	238633754	239640318	0.02911		   NA		       NA	   NA	    NA	459	0	blup	0.0083	0.0034	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LYG2_1Mwindow.wgt.RDat	LYG2	2	99358709	100372129	0.01818	rs3087403	 2.73	rs737094	-0.001052	 4.00	 2.459	300	300	blup	0.0033	0.046	 2.232	0.02561
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RBM43_1Mwindow.wgt.RDat	RBM43	2	151604454	152618377	0.0294		   NA		       NA	   NA	    NA	457	0	top1	0.015	0.00014	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IAH1_1Mwindow.wgt.RDat	IAH1	2	9114680	10129871	0.04106		   NA		       NA	   NA	    NA	430	0	blup	0.011	0.0009	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CASP8_1Mwindow.wgt.RDat	CASP8	2	201598166	202652434	0.02365		   NA		       NA	   NA	    NA	372	0	blup	0.002	0.095	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNHG31_1Mwindow.wgt.RDat	SNHG31	2	215174953	216328329	0.05372	rs4673822	 3.40	rs16853202	-0.000990	 4.04	-0.558	525	2	lasso	-6.6e-05	0.33	-0.558	0.57701
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MZT2A_1Mwindow.wgt.RDat	MZT2A	2	131741533	132749970	0.01133	rs6743660	 2.11	rs7574466	 0.005824	 3.68	 0.571	135	1	top1	0.0058	0.012	 0.571	0.56800
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC01954_1Mwindow.wgt.RDat	LINC01954	2	10518393	11525244	0.12964		   NA		       NA	   NA	    NA	0	0	lasso	0.1	5.1e-23	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SPP2_1Mwindow.wgt.RDat	SPP2	2	234459346	235485778	0.05087		   NA		       NA	   NA	    NA	0	0	lasso	0.12	2.9e-28	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC01819_1Mwindow.wgt.RDat	LINC01819	2	42754992	43766682	0.03967	rs17334310	-4.42	rs11124899	-0.000949	 4.33	 0.305	460	460	blup	0.00094	0.17	 0.832	0.40520
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PAX8-AS1_1Mwindow.wgt.RDat	PAX8-AS1	2	113493104	114524600	0.0543		   NA		       NA	   NA	    NA	465	0	top1	0.049	8.2e-12	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DYSF_1Mwindow.wgt.RDat	DYSF	2	71180691	72413893	0.0327	rs2303596	-3.71	rs12987627	 0.007820	 5.10	-0.551	552	1	top1	0.0078	0.0043	-0.551	0.58163
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NMI_1Mwindow.wgt.RDat	NMI	2	151626984	152646182	0.03626		   NA		       NA	   NA	    NA	456	0	blup	0.022	3.4e-06	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.BOK_1Mwindow.wgt.RDat	BOK	2	241998160	243013546	0.03416		   NA		       NA	   NA	    NA	0	0	lasso	0.011	0.001	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PGM5P4-AS1_1Mwindow.wgt.RDat	PGM5P4-AS1	2	113786224	114800267	0.06331		   NA		       NA	   NA	    NA	408	0	top1	0.01	0.0013	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MAP3K19_1Mwindow.wgt.RDat	MAP3K19	2	135222061	136305017	0.03687		   NA		       NA	   NA	    NA	0	0	lasso	0.004	0.031	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.OSTN-AS1_1Mwindow.wgt.RDat	OSTN-AS1	3	190431080	191452394	0.0496		   NA		       NA	   NA	    NA	0	0	enet	-0.00099	0.76	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCR4_1Mwindow.wgt.RDat	CCR4	3	32493136	33497841	0.0403		   NA		       NA	   NA	    NA	0	0	lasso	-0.00078	0.59	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SENP7_1Mwindow.wgt.RDat	SENP7	3	100543049	101732056	0.0202		   NA		       NA	   NA	    NA	476	0	top1	0.011	0.00089	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TRH_1Mwindow.wgt.RDat	TRH	3	129193563	130196778	0.1023		   NA		       NA	   NA	    NA	0	0	lasso	0.08	1.6e-18	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ALDH1L1_1Mwindow.wgt.RDat	ALDH1L1	3	125322413	126400029	0.0515		   NA		       NA	   NA	    NA	470	0	lasso	-0.00099	0.76	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC51A_1Mwindow.wgt.RDat	SLC51A	3	195443405	196460298	0.0441	rs11929092	 2.68	rs7636495	 0.000909	 3.67	-1.592	349	349	blup	0.0067	0.0074	 0.404	0.686
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SPCS1_1Mwindow.wgt.RDat	SPCS1	3	52240122	53245164	0.0546		   NA		       NA	   NA	    NA	0	0	enet	0.023	2.5e-06	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCR3_1Mwindow.wgt.RDat	CCR3	3	45783872	46808197	0.0727		   NA		       NA	   NA	    NA	467	0	lasso	-0.00096	0.73	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CHST13_1Mwindow.wgt.RDat	CHST13	3	125742998	126762134	0.0364	rs6795344	 2.45	rs732737	-0.001092	 5.17	 0.121	520	1	lasso	0.05	4.7e-12	 0.121	0.904
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SACM1L_1Mwindow.wgt.RDat	SACM1L	3	45230888	46286901	0.0323		   NA		       NA	   NA	    NA	491	0	blup	0.0074	0.0052	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HGD_1Mwindow.wgt.RDat	HGD	3	119847019	120901086	0.0288		   NA		       NA	   NA	    NA	0	0	lasso	0.077	6.9e-18	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CD47_1Mwindow.wgt.RDat	CD47	3	107261938	108309878	0.033		   NA		       NA	   NA	    NA	440	0	blup	0.003	0.054	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MTMR14_1Mwindow.wgt.RDat	MTMR14	3	9191189	10244077	0.0299		   NA		       NA	   NA	    NA	451	0	blup	0.0087	0.0027	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NR1I2_1Mwindow.wgt.RDat	NR1I2	3	119000948	120037334	0.0254		   NA		       NA	   NA	    NA	0	0	lasso	0.011	0.00076	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC00960_1Mwindow.wgt.RDat	LINC00960	3	75221432	76228454	0.0405		   NA		       NA	   NA	    NA	144	0	lasso	-0.0007	0.55	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NBEAL2_1Mwindow.wgt.RDat	NBEAL2	3	46521156	47551191	0.0273		   NA		       NA	   NA	    NA	297	0	blup	0.016	6.2e-05	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM162A_1Mwindow.wgt.RDat	FAM162A	3	121603029	122631181	0.0321		   NA		       NA	   NA	    NA	480	0	blup	0.0049	0.019	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MB21D2_1Mwindow.wgt.RDat	MB21D2	3	192014604	193135645	0.0336		   NA		       NA	   NA	    NA	466	0	blup	0.01	0.0011	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ULK4_1Mwindow.wgt.RDat	ULK4	3	40788090	42503595	0.0179	rs421353	 2.91	rs7624654	 0.000280	-3.81	 0.795	629	629	blup	0.0059	0.011	-1.450	0.147
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CACNA2D2_1Mwindow.wgt.RDat	CACNA2D2	3	49900044	51041675	0.0458	rs2014830	-2.99	rs743755	-0.001021	 4.88	-1.193	317	1	lasso	0.01	0.0012	-1.193	0.233
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PEX5L_1Mwindow.wgt.RDat	PEX5L	3	179012746	180254725	0.0337		   NA		       NA	   NA	    NA	0	0	lasso	0.09	1.3e-20	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02273_1Mwindow.wgt.RDat	LINC02273	4	152521905	153525872	0.0393	rs6813195	 3.69	rs11726930	 0.001895	-4.21	-1.498	351	351	blup	0.0086	0.0029	 0.416	0.677
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CYTL1_1Mwindow.wgt.RDat	CYTL1	4	4516313	5521185	0.207		   NA		       NA	   NA	    NA	580	0	enet	0.15	7.5e-35	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ENPEP_1Mwindow.wgt.RDat	ENPEP	4	110897311	111986441	0.0578		   NA		       NA	   NA	    NA	428	0	blup	-0.0006	0.5	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02562_1Mwindow.wgt.RDat	LINC02562	4	75507135	76509918	0.0306		   NA		       NA	   NA	    NA	404	0	top1	0.027	2.9e-07	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SHISA3_1Mwindow.wgt.RDat	SHISA3	4	41899505	42904504	0.9918	rs16854026	 3.20	rs7680481	-0.000406	 5.93	-0.001	480	1	top1	-0.00041	0.43	-0.001	0.999
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNHG8_1Mwindow.wgt.RDat	SNHG8	4	118699917	119700978	0.0273	rs17593632	 2.04	rs633398	 0.008472	 4.48	 1.707	277	277	blup	0.015	0.00014	 1.362	0.173
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC10A4_1Mwindow.wgt.RDat	SLC10A4	4	47985360	48991543	0.0279		   NA		       NA	   NA	    NA	0	0	lasso	0.095	8.5e-22	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNCA_1Mwindow.wgt.RDat	SNCA	4	90145250	91259455	0.0542	rs1975488	 3.17	rs1899389	 0.007880	 4.31	 1.864	427	427	blup	0.01	0.0014	 0.734	0.463
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ANXA5_1Mwindow.wgt.RDat	ANXA5	4	122089101	123118135	0.0386	rs4833230	-2.84	rs6534309	 0.008910	 4.44	-1.156	455	1	top1	0.0089	0.0025	-1.156	0.248
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.THAP9-AS1_1Mwindow.wgt.RDat	THAP9-AS1	4	83314605	84322069	0.0437		   NA		       NA	   NA	    NA	388	0	enet	0.0057	0.013	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RRH_1Mwindow.wgt.RDat	RRH	4	110249128	111266098	0.0245		   NA		       NA	   NA	    NA	0	0	lasso	0.081	9.1e-19	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MMAA_1Mwindow.wgt.RDat	MMAA	4	146040537	147081185	0.0469	rs11100902	-2.85	rs7659884	 0.008906	 4.90	 0.580	338	4	enet	0.022	3.6e-06	-1.178	0.239
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM184B_1Mwindow.wgt.RDat	FAM184B	4	17130929	18283244	0.0539	rs2518652	 2.54	rs1003413	 0.075038	 9.23	 0.909	469	3	enet	0.085	1.1e-19	 0.911	0.362
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LYAR_1Mwindow.wgt.RDat	LYAR	4	3769428	4791881	0.0912		   NA		       NA	   NA	    NA	0	0	lasso	0.047	1.9e-11	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PARM1_1Mwindow.wgt.RDat	PARM1	4	75358326	76475323	0.0635		   NA		       NA	   NA	    NA	0	0	enet	0.0077	0.0045	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.UGT8_1Mwindow.wgt.RDat	UGT8	4	115019558	116099381	0.0226	rs766028	 2.34	rs2165543	-0.000956	 4.06	 0.150	358	1	top1	-0.00096	0.72	 0.150	0.880
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.BMP2K_1Mwindow.wgt.RDat	BMP2K	4	79197504	80337519	0.0338	rs17003169	-2.32	rs10028215	-0.000676	 3.27	 1.155	435	435	blup	0.0045	0.024	-0.242	0.808
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS3A_1Mwindow.wgt.RDat	RPS3A	4	151520780	152525794	0.0674	rs7665453	 2.44	rs6839157	 0.061589	-8.37	-1.600	256	4	enet	0.063	9.1e-15	 1.532	0.125
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02223_1Mwindow.wgt.RDat	LINC02223	5	17307383	18430598	0.0345	rs2459830	 2.35	rs7718648	 1.84e-02	 5.46	-1.988	351	1	top1	0.018	2.3e-05	-1.98830	0.0468
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZFP2_1Mwindow.wgt.RDat	ZFP2	5	177822914	178860213	0.0621	rs340121	-3.07	rs2645341	-9.43e-05	 3.39	 0.636	566	1	top1	-9.4e-05	0.34	 0.63600	0.5248
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PDLIM4_1Mwindow.wgt.RDat	PDLIM4	5	131093389	132109147	0.0313		   NA		       NA	   NA	    NA	405	0	blup	0.0073	0.0055	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZDHHC11_1Mwindow.wgt.RDat	ZDHHC11	5	295720	1351101	0.051	rs10067227	-2.86	rs16900955	-1.03e-03	 4.20	-0.196	367	1	top1	-0.001	0.81	-0.19600	0.8446
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02241_1Mwindow.wgt.RDat	LINC02241	5	20111949	21437802	0.6803	rs10055072	 3.51	rs6874837	-9.16e-04	 4.06	 0.130	329	329	blup	0.00012	0.29	-0.61153	0.5408
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CDHR2_1Mwindow.wgt.RDat	CDHR2	5	175469512	176522975	0.0751		   NA		       NA	   NA	    NA	377	0	blup	-0.0011	0.85	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PDGFRB_1Mwindow.wgt.RDat	PDGFRB	5	148993402	150035408	0.0642	rs11167509	-3.59	rs1549187	-1.05e-03	 4.48	-1.757	580	580	blup	0.00031	0.26	-1.29290	0.1960
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PHAX_1Mwindow.wgt.RDat	PHAX	5	125436639	126462944	0.025		   NA		       NA	   NA	    NA	414	0	blup	0.0079	0.0041	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SMIM33_1Mwindow.wgt.RDat	SMIM33	5	138350589	139353285	0.0538	rs2336880	 3.20	rs11951618	-1.04e-03	 3.23	-0.470	245	245	blup	-0.00083	0.62	-0.44408	0.6570
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TMEM167A_1Mwindow.wgt.RDat	TMEM167A	5	81848665	82873213	0.0374	rs160186	-3.69	rs188703	-9.56e-04	-3.29	-1.257	411	411	blup	0.015	9.5e-05	 2.02926	0.0424
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ERAP2_1Mwindow.wgt.RDat	ERAP2	5	95711643	96755420	0.0648		   NA		       NA	   NA	    NA	501	0	top1	0.079	3.2e-18	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MAN2A1_1Mwindow.wgt.RDat	MAN2A1	5	108525628	109705326	0.0387		   NA		       NA	   NA	    NA	471	0	blup	0.0073	0.0056	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FBXW11_1Mwindow.wgt.RDat	FBXW11	5	170788553	171933642	0.0448		   NA		       NA	   NA	    NA	579	0	blup	0.0079	0.0041	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GTF2H2_1Mwindow.wgt.RDat	GTF2H2	5	69831174	70863503	0.051		   NA		       NA	   NA	    NA	48	0	top1	0.023	2e-06	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PCDHGA8_1Mwindow.wgt.RDat	PCDHGA8	5	140272200	141392542	0.0482		   NA		       NA	   NA	    NA	0	0	lasso	0.012	0.0006	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PITX1_1Mwindow.wgt.RDat	PITX1	5	133863424	134869918	0.0449		   NA		       NA	   NA	    NA	0	0	enet	0.0069	0.0067	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SAP30L_1Mwindow.wgt.RDat	SAP30L	5	153325557	154340613	0.0592		   NA		       NA	   NA	    NA	466	0	lasso	0.017	4.1e-05	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC36A1_1Mwindow.wgt.RDat	SLC36A1	5	150316607	151371940	0.035	rs448503	 3.03	rs41494545	 2.00e-03	 3.95	-0.069	642	642	blup	0.008	0.004	-0.76272	0.4456
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SMAD5-AS1_1Mwindow.wgt.RDat	SMAD5-AS1	5	134965202	135970579	0.0677		   NA		       NA	   NA	    NA	441	0	lasso	-0.00055	0.48	      NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRR7-AS1_1Mwindow.wgt.RDat	PRR7-AS1	5	176364890	177374945	0.0893	rs13175367	-2.61	rs466256	 3.58e-02	-6.55	-0.105	237	4	enet	0.051	2.3e-12	-0.00853	0.9932
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GLP1R_1Mwindow.wgt.RDat	GLP1R	6	38516557	39559079	0.0337	rs2815095	-2.53	rs16891904	-0.001051	 4.99	-2.326	640	640	blup	2.8e-05	0.31	 0.195	0.845763
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SCIRT_1Mwindow.wgt.RDat	SCIRT	6	43463460	44542389	0.0422		   NA		       NA	   NA	    NA	520	0	lasso	0.13	2.4000000000000002e-30	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MDGA1_1Mwindow.wgt.RDat	MDGA1	6	37098455	38165659	0.0503	rs742538	 3.41	rs6458011	-0.000648	 4.07	-0.138	463	463	blup	0.0074	0.0053	-0.321	0.747959
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS10_1Mwindow.wgt.RDat	RPS10	6	33885231	34893846	0.047		   NA		       NA	   NA	    NA	348	0	top1	0.054	5.4e-13	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CD164_1Mwindow.wgt.RDat	CD164	6	109187717	110203670	0.0217	rs13195517	 3.99	rs9487069	 0.011024	 4.79	 3.655	372	1	top1	0.011	0.00086	 3.655	0.000257
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HLA-DRB5_1Mwindow.wgt.RDat	HLA-DRB5	6	31985130	32998064	0.2421							0	0	enet	0.23	3.5e-54		
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GRM1_1Mwindow.wgt.RDat	GRM1	6	145848843	147258737	0.211		   NA		       NA	   NA	    NA	0	0	enet	-0.00092	0.69	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LNCDAT_1Mwindow.wgt.RDat	LNCDAT	6	166081585	167084660	0.0467		   NA		       NA	   NA	    NA	675	0	blup	0.011	0.00073	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PHIP_1Mwindow.wgt.RDat	PHIP	6	79144136	80287971	0.0232	rs9341740	 2.44	rs1938551	 0.000956	-3.49	 1.827	453	453	blup	0.014	0.00023	-1.692	0.090637
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HSF2_1Mwindow.wgt.RDat	HSF2	6	122220696	123254264	0.0467		   NA		       NA	   NA	    NA	439	0	top1	0.025	7.6e-07	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.BTN3A2_1Mwindow.wgt.RDat	BTN3A2	6	25865426	26878548	0.0558		   NA		       NA	   NA	    NA	541	0	enet	0.012	0.00062	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.H4C4_1Mwindow.wgt.RDat	H4C4	6	25688938	26689340	0.0424		   NA		       NA	   NA	    NA	642	0	top1	0.0011	0.16	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ANKRD6_1Mwindow.wgt.RDat	ANKRD6	6	89642871	90843553	0.0305	rs855569	 3.36	rs13215160	-0.000306	 3.77	 1.453	563	563	blup	0.012	0.00066	 0.424	0.671353
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CALHM6_1Mwindow.wgt.RDat	CALHM6	6	116282538	117284934	0.026		   NA		       NA	   NA	    NA	0	0	lasso	0.014	0.00017	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.BEND6_1Mwindow.wgt.RDat	BEND6	6	56319905	57392144	0.0293	rs11970410	 2.56	rs13215865	-0.000961	 4.17	 0.789	266	266	blup	0.0049	0.019	 0.750	0.452968
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ETV7_1Mwindow.wgt.RDat	ETV7	6	35821865	36855446	0.0178	rs2071809	-2.99	rs11757823	 0.007915	-4.80	 1.313	488	488	blup	0.0087	0.0027	-1.759	0.078569
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KIF25-AS1_1Mwindow.wgt.RDat	KIF25-AS1	6	167894867	168897757	0.0611		   NA		       NA	   NA	    NA	0	0	lasso	0.14	4.8e-32	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNHG5_1Mwindow.wgt.RDat	SNHG5	6	85886725	86888451	0.1212		   NA		       NA	   NA	    NA	329	0	top1	0.18	2.3999999999999997e-41	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.AHI1_1Mwindow.wgt.RDat	AHI1	6	135104670	136318878	0.0184		   NA		       NA	   NA	    NA	432	0	top1	0.0088	0.0027	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ENPP5_1Mwindow.wgt.RDat	ENPP5	6	45626922	46638717	0.0363	rs4714874	-5.20	rs4714863	-0.000863	 3.60	-0.504	488	1	enet	-0.00049	0.46	 1.653	0.098331
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.OARD1_1Mwindow.wgt.RDat	OARD1	6	40532511	41565526	0.044		   NA		       NA	   NA	    NA	565	0	blup	0.0053	0.016	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FILIP1_1Mwindow.wgt.RDat	FILIP1	6	75501575	76703516	0.7533	rs12209223	 8.14	rs1414594	-0.001059	 5.33	 2.147	334	334	blup	-0.00019	0.36	 0.748	0.454330
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZSCAN23_1Mwindow.wgt.RDat	ZSCAN23	6	27900432	28911268	0.0293							0	0	enet	0.0096	0.0018		
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.H4C9_1Mwindow.wgt.RDat	H4C9	6	26607061	27607457	0.9536							323	0	top1	-0.00087	0.65		
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NOS3_1Mwindow.wgt.RDat	NOS3	7	150188105	151211676	0.1064		   NA		       NA	   NA	     NA	0	0	lasso	0.00039	0.25	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TRIM56_1Mwindow.wgt.RDat	TRIM56	7	100228762	101241248	0.0293	rs11772022	 2.79	rs10279545	 0.009885	-4.33	-1.4817	370	1	top1	0.0099	0.0015	 1.4817	0.1384
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LAMTOR4_1Mwindow.wgt.RDat	LAMTOR4	7	99246541	100251826	0.0186	rs4729598	-2.49	rs1617502	 0.000974	-3.66	-0.5210	277	277	blup	0.0062	0.0097	 0.9035	0.3662
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.EMSLR_1Mwindow.wgt.RDat	EMSLR	7	100451588	101454620	0.039		   NA		       NA	   NA	     NA	0	0	lasso	-0.00086	0.64	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PILRB_1Mwindow.wgt.RDat	PILRB	7	99455740	100465454	0.0286	rs34048349	-2.47	rs11761253	 0.033029	 6.22	 0.7617	300	1	top1	0.033	1.8e-08	 0.7617	0.4463
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CT66_1Mwindow.wgt.RDat	CT66	7	68559790	69562610	0.1018	rs6460519	 3.64	rs2938485	-0.001074	 5.46	 1.1336	275	1	lasso	-0.0011	0.89	 1.0827	0.2789
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FKBP6_1Mwindow.wgt.RDat	FKBP6	7	72242164	73272634	0.072		   NA		       NA	   NA	     NA	0	0	lasso	0.0048	0.021	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CLDN12_1Mwindow.wgt.RDat	CLDN12	7	89532775	90545268	0.1689		   NA		       NA	   NA	     NA	0	0	lasso	-0.00067	0.54	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCDC146_1Mwindow.wgt.RDat	CCDC146	7	76251932	77424521	0.031		   NA		       NA	   NA	     NA	326	0	blup	0.01	0.0013	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SAMD9_1Mwindow.wgt.RDat	SAMD9	7	92228831	93247292	0.0212		   NA		       NA	   NA	     NA	342	0	top1	0.0032	0.048	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TOMM7_1Mwindow.wgt.RDat	TOMM7	7	22352593	23362468	0.0406	rs6949149	 2.95	rs2240727	 0.030079	-5.61	-0.4325	500	1	top1	0.03	7.8e-08	 0.4325	0.6653
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IFT22_1Mwindow.wgt.RDat	IFT22	7	100454195	101465104	0.0373		   NA		       NA	   NA	     NA	360	0	blup	0.011	0.0009	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CALCR_1Mwindow.wgt.RDat	CALCR	7	92553798	93704036	0.0329	rs17727433	-3.07	rs4264	-0.001064	 5.40	 0.9533	418	1	top1	-0.0011	0.87	 0.9533	0.3405
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SEMA3C_1Mwindow.wgt.RDat	SEMA3C	7	79871854	81051705	0.0354	rs10954412	-3.14	rs7783668	-0.001036	 5.12	 0.3360	488	488	blup	-0.001	0.8	 0.6802	0.4964
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCZ1B_1Mwindow.wgt.RDat	CCZ1B	7	6338568	7365906	0.0487		   NA		       NA	   NA	     NA	370	0	top1	0.031	4.6e-08	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PSPH_1Mwindow.wgt.RDat	PSPH	7	55578757	56619137	0.0307		   NA		       NA	   NA	     NA	293	0	blup	0.0048	0.02	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PSMG3-AS1_1Mwindow.wgt.RDat	PSMG3-AS1	7	1109709	2129262	0.0335		   NA		       NA	   NA	     NA	0	0	lasso	0.0017	0.11	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02604_1Mwindow.wgt.RDat	LINC02604	7	65869107	66871284	0.0605	rs6972813	 1.99	rs12537474	 0.009505	-2.21	-0.0776	192	192	blup	0.013	0.00033	-0.0876	0.9302
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NUP42_1Mwindow.wgt.RDat	NUP42	7	22721667	23740625	0.0386	rs6949149	 2.87	rs7341483	 0.001756	-3.86	-1.8760	428	428	blup	0.016	6.5e-05	 1.6348	0.1021
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ANKRD61_1Mwindow.wgt.RDat	ANKRD61	7	5571007	6576183	0.1637		   NA		       NA	   NA	     NA	0	0	lasso	-0.001	0.79	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.POT1-AS1_1Mwindow.wgt.RDat	POT1-AS1	7	124069927	125285288	0.0262		   NA		       NA	   NA	     NA	391	0	blup	0.0055	0.014	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.VPS37D_1Mwindow.wgt.RDat	VPS37D	7	72582161	73586440	0.0411		   NA		       NA	   NA	     NA	0	0	enet	0.0022	0.081	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.XRCC2_1Mwindow.wgt.RDat	XRCC2	7	151841861	152873226	0.0302		   NA		       NA	   NA	     NA	296	0	top1	0.0032	0.048	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ACHE_1Mwindow.wgt.RDat	ACHE	7	99987615	100994614	0.083	rs10255195	 2.70	rs7808669	-0.001061	 4.46	 2.5870	324	1	lasso	0.0013	0.14	-2.4730	0.0134
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LRRC61_1Mwindow.wgt.RDat	LRRC61	7	149506588	150535245	0.027		   NA		       NA	   NA	     NA	338	0	blup	0.0094	0.0019	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KCTD7_1Mwindow.wgt.RDat	KCTD7	7	65593868	66608216	0.028	rs6972813	 2.63	rs10479729	 0.000332	 3.59	-0.0733	146	146	blup	0.0089	0.0025	 1.0460	0.2956
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPL8_1Mwindow.wgt.RDat	RPL8	8	145515154	146517775	0.0818	rs7004029	-2.44	rs2730059	 0.081325	 8.97	-0.733	190	1	top1	0.081	8.4e-19	-0.733	0.463558
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HMBOX1_1Mwindow.wgt.RDat	HMBOX1	8	28247912	29410787	0.029		   NA		       NA	   NA	    NA	451	0	blup	0.008	0.004	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ENPP2_1Mwindow.wgt.RDat	ENPP2	8	120069326	121185630	0.0469		   NA		       NA	   NA	    NA	494	0	lasso	-0.00073	0.56	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FUT10_1Mwindow.wgt.RDat	FUT10	8	32728342	33830664	0.0361		   NA		       NA	   NA	    NA	254	0	blup	0.0058	0.012	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ERLIN2_1Mwindow.wgt.RDat	ERLIN2	8	37094152	38115940	0.051	rs17334651	-2.60	rs6468442	-0.001095	 3.38	-0.937	212	212	blup	0.019	2.1e-05	 0.566	0.571485
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PTP4A3_1Mwindow.wgt.RDat	PTP4A3	8	141902121	142942554	0.0322		   NA		       NA	   NA	    NA	464	0	top1	0.026	6e-07	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM167A_1Mwindow.wgt.RDat	FAM167A	8	10778985	11824262	0.0814		   NA		       NA	   NA	    NA	637	0	lasso	-0.00038	0.42	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GRINA_1Mwindow.wgt.RDat	GRINA	8	144564224	145567583	0.0286		   NA		       NA	   NA	    NA	0	0	lasso	0.012	0.00059	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KIF13B_1Mwindow.wgt.RDat	KIF13B	8	28424795	29620587	0.055		   NA		       NA	   NA	    NA	499	0	blup	0.0031	0.05	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ADAM9_1Mwindow.wgt.RDat	ADAM9	8	38354492	39462780	0.0252		   NA		       NA	   NA	    NA	326	0	blup	0.0043	0.026	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PVT1_1Mwindow.wgt.RDat	PVT1	8	128306779	129613499	0.0802		   NA		       NA	   NA	    NA	754	0	blup	0.022	3.9e-06	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CSGALNACT1_1Mwindow.wgt.RDat	CSGALNACT1	8	18761672	20115419	0.035	rs4921623	 2.67	rs4486225	-0.000925	-3.60	-0.733	919	919	blup	0.0039	0.032	 0.354	0.723369
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NBN_1Mwindow.wgt.RDat	NBN	8	90445559	91496895	0.0167		   NA		       NA	   NA	    NA	383	0	blup	0.0039	0.032	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PLEC_1Mwindow.wgt.RDat	PLEC	8	144489321	145550913	0.0178	rs6558408	-3.88	rs6993938	-0.000438	 3.80	 3.330	253	253	blup	0.0054	0.015	 3.308	0.000939
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC25A37_1Mwindow.wgt.RDat	SLC25A37	8	22886469	23932976	0.0437	rs7836161	 3.01	rs7829005	-0.000657	 4.33	 2.885	573	573	blup	0.0096	0.0017	 0.330	0.741073
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MAF1_1Mwindow.wgt.RDat	MAF1	8	144659364	145662514	0.0328		   NA		       NA	   NA	    NA	222	0	blup	0.014	0.00021	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MYOM2_1Mwindow.wgt.RDat	MYOM2	8	1493161	2593380	0.1789		   NA		       NA	   NA	    NA	697	0	enet	0.14	6.6e-31	    NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM221B_1Mwindow.wgt.RDat	FAM221B	9	35316388	36328729	0.0405		   NA		       NA	   NA	     NA	0	0	lasso	0.1	2.4e-23	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GRHPR_1Mwindow.wgt.RDat	GRHPR	9	36922693	37936987	0.0814		   NA		       NA	   NA	     NA	451	0	top1	0.024	1.5e-06	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.XPA_1Mwindow.wgt.RDat	XPA	9	99937191	100959622	0.0271		   NA		       NA	   NA	     NA	436	0	blup	0.01	0.0014	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LCN8_1Mwindow.wgt.RDat	LCN8	9	139148838	140152995	0.0248		   NA		       NA	   NA	     NA	326	0	top1	0.02	1.3e-05	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GLE1_1Mwindow.wgt.RDat	GLE1	9	130766971	131804567	0.0257		   NA		       NA	   NA	     NA	259	0	blup	0.006	0.011	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PIP5KL1_1Mwindow.wgt.RDat	PIP5KL1	9	130183160	131193056	0.0314	rs2900262	 4.02	rs10819315	-0.001004	 3.51	-0.1080	317	1	top1	-0.001	0.77	-0.108	0.91400
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CLIC3_1Mwindow.wgt.RDat	CLIC3	9	139389060	140391020	0.0216		   NA		       NA	   NA	     NA	0	0	lasso	0.011	0.00074	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NCS1_1Mwindow.wgt.RDat	NCS1	9	132434683	133499582	0.1557		   NA		       NA	   NA	     NA	0	0	lasso	0.067	1.3e-15	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PPP1R26_1Mwindow.wgt.RDat	PPP1R26	9	137871628	138880738	0.0412	rs1891996	 2.53	rs7866690	-0.001023	 3.64	 0.4622	528	528	blup	0.011	0.00077	 0.561	0.57457
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NUDT2_1Mwindow.wgt.RDat	NUDT2	9	33829567	34843697	0.0398		   NA		       NA	   NA	     NA	345	0	top1	0.024	1.6e-06	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FBP1_1Mwindow.wgt.RDat	FBP1	9	96865415	97902545	0.0189	rs7872931	-2.50	rs10993269	 0.010985	-4.66	-0.1065	370	4	enet	0.014	0.00025	 0.251	0.80214
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CARD9_1Mwindow.wgt.RDat	CARD9	9	138758408	139768121	0.0374		   NA		       NA	   NA	     NA	298	0	blup	0.01	0.0014	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TEX10_1Mwindow.wgt.RDat	TEX10	9	102564366	103615224	0.0415	rs953381	-3.74	rs10989147	-0.000636	 3.82	-0.0892	379	379	blup	0.00067	0.2	-0.200	0.84158
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GNG10_1Mwindow.wgt.RDat	GNG10	9	113923885	114932506	0.0342	rs7859231	-3.41	rs7852440	 0.007971	-4.06	-0.6056	497	1	top1	0.008	0.004	 0.606	0.54477
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GALT_1Mwindow.wgt.RDat	GALT	9	34146672	35151032	0.0457		   NA		       NA	   NA	     NA	360	0	blup	0.0026	0.067	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PTENP1-AS_1Mwindow.wgt.RDat	PTENP1-AS	9	33177266	34188009	0.0298	rs1543604	 3.53	rs10971938	-0.000881	 5.71	-2.6340	327	1	lasso	0.0044	0.025	-2.634	0.00844
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZFP37_1Mwindow.wgt.RDat	ZFP37	9	115300657	116319004	0.0718	rs8177804	 2.61	rs12115536	-0.001044	 5.22	-1.0719	501	501	blup	0.00079	0.19	-0.316	0.75210
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02247_1Mwindow.wgt.RDat	LINC02247	9	136685777	137687243	0.0732	rs10785879	-2.92	rs4842165	-0.001033	 3.46	-0.0870	477	477	blup	-0.00055	0.48	-0.749	0.45386
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPL12_1Mwindow.wgt.RDat	RPL12	9	129709953	130713685	0.0399	rs4837127	 5.23	rs2253669	 0.036254	-6.17	 1.4720	348	1	top1	0.036	3.9e-09	-1.472	0.14102
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PPA1_1Mwindow.wgt.RDat	PPA1	10	71462591	72493185	0.0645		   NA		      NA	   NA	    NA	702	0	blup	0.023	2.8e-06	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM149B1_1Mwindow.wgt.RDat	FAM149B1	10	74427877	75504262	0.0255		   NA		      NA	   NA	    NA	184	0	blup	0.0038	0.035	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MGMT_1Mwindow.wgt.RDat	MGMT	10	130765505	132069247	0.0358		   NA		      NA	   NA	    NA	711	0	enet	0.0089	0.0024	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PFKFB3_1Mwindow.wgt.RDat	PFKFB3	10	5686884	6796611	0.0637	rs2104286	-3.41	rs10905856	-0.00104	 4.03	 1.359	736	736	blup	0.01	0.0012	-0.308	0.758
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.WAC-AS1_1Mwindow.wgt.RDat	WAC-AS1	10	28308846	29321283	0.0366	rs628590	-3.33	rs11597103	 0.00517	-3.86	 0.107	586	1	top1	0.0052	0.017	-0.107	0.915
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.YME1L1_1Mwindow.wgt.RDat	YME1L1	10	26899040	27943313	0.0198		   NA		      NA	   NA	    NA	461	0	enet	0.013	0.00028	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ANXA11_1Mwindow.wgt.RDat	ANXA11	10	81410645	82465564	0.0332	rs11816639	-2.85	rs6585454	 0.00217	 4.65	-0.271	439	439	blup	0.015	0.00014	-0.569	0.569
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SYNPO2L_1Mwindow.wgt.RDat	SYNPO2L	10	74904644	75915787	0.0462		   NA		      NA	   NA	    NA	0	0	lasso	0.0009	0.18	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC01515_1Mwindow.wgt.RDat	LINC01515	10	66831183	68026299	0.0304		   NA		      NA	   NA	    NA	0	0	lasso	0.11	7.999999999999999e-25	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CDK1_1Mwindow.wgt.RDat	CDK1	10	62038089	63054610	0.0289	rs1906455	-2.00	rs1002075	-0.00105	 4.12	 0.203	407	407	blup	0.00097	0.17	 1.237	0.216
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF503-AS1_1Mwindow.wgt.RDat	ZNF503-AS1	10	76556141	77621436	0.2757		   NA		      NA	   NA	    NA	312	0	top1	-0.0011	0.89	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CH25H_1Mwindow.wgt.RDat	CH25H	10	90465386	91467074	0.0419		   NA		      NA	   NA	    NA	567	0	top1	-0.0011	0.87	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.AKR1C1_1Mwindow.wgt.RDat	AKR1C1	10	4505607	5525475	0.072		   NA		      NA	   NA	    NA	0	0	enet	0.0013	0.14	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PARG_1Mwindow.wgt.RDat	PARG	10	50526325	51871371	0.036	rs1917820	-2.17	rs17177717	-0.00107	 3.61	-1.460	281	281	blup	0.0046	0.023	 0.759	0.448
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.BNIP3_1Mwindow.wgt.RDat	BNIP3	10	133281188	134295427	0.0398	rs4387283	 2.86	rs7914962	-0.00109	 3.47	 0.365	494	494	blup	0.01	0.0014	 1.106	0.269
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC00707_1Mwindow.wgt.RDat	LINC00707	10	6321560	7384868	0.0573		   NA		      NA	   NA	    NA	0	0	enet	-0.00092	0.69	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PCAT5_1Mwindow.wgt.RDat	PCAT5	10	35567230	36589848	0.0738		   NA		      NA	   NA	    NA	369	0	lasso	-0.001	0.82	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.EMX2OS_1Mwindow.wgt.RDat	EMX2OS	10	118743804	119804579	0.0341		   NA		      NA	   NA	    NA	0	0	enet	0.0051	0.018	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NUTM2B_1Mwindow.wgt.RDat	NUTM2B	10	80962983	81972514	0.0817		   NA		      NA	   NA	    NA	306	0	top1	-0.0011	0.92	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS6KB2_1Mwindow.wgt.RDat	RPS6KB2	11	66695965	67702872	0.0383		   NA		       NA	   NA	    NA	219	0	enet	0.0068	0.0072	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MCAM_1Mwindow.wgt.RDat	MCAM	11	118679239	119687840	0.0328		   NA		       NA	   NA	    NA	0	0	lasso	0.018	2.8e-05	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SIAE_1Mwindow.wgt.RDat	SIAE	11	124003009	125046199	0.0379		   NA		       NA	   NA	    NA	0	0	lasso	3.2e-05	0.31	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FADS2_1Mwindow.wgt.RDat	FADS2	11	61083675	62134826	0.0329		   NA		       NA	   NA	    NA	411	0	top1	0.043	1.2e-10	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CTSW_1Mwindow.wgt.RDat	CTSW	11	65147308	66151212	0.0765		   NA		       NA	   NA	    NA	349	0	blup	0.009	0.0024	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC01219_1Mwindow.wgt.RDat	LINC01219	11	1512326	2514699	0.0782		   NA		       NA	   NA	    NA	0	0	lasso	0.18	2.6e-40	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRDM11_1Mwindow.wgt.RDat	PRDM11	11	44615710	45756660	0.0862		   NA		       NA	   NA	    NA	618	0	blup	0.01	0.0014	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PGGHG_1Mwindow.wgt.RDat	PGGHG	11	0	796107	0.0352		   NA		       NA	   NA	    NA	298	0	blup	0.013	0.00033	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRRG4_1Mwindow.wgt.RDat	PRRG4	11	32351473	33379666	0.0747		   NA		       NA	   NA	    NA	0	0	lasso	0.019	1.4e-05	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CD3E_1Mwindow.wgt.RDat	CD3E	11	117675445	118686888	0.1675	rs4579962	 3.25	rs2231440	 0.172117	12.69	-3.114	516	4	enet	0.17	6.9999999999999995e-40	-3.127	0.00176
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MPZL3_1Mwindow.wgt.RDat	MPZL3	11	117597405	118623080	0.0285	rs4579962	 3.25	rs1056562	 0.001758	 3.30	 0.358	541	541	blup	0.01	0.0014	 1.589	0.11199
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCDC15_1Mwindow.wgt.RDat	CCDC15	11	124324098	125411385	0.0387	rs10893385	 3.27	rs12792040	-0.000367	 3.83	 0.833	518	518	blup	0.0057	0.013	 0.180	0.85719
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.COLCA1_1Mwindow.wgt.RDat	COLCA1	11	110664114	111675773	0.0595		   NA		       NA	   NA	    NA	0	0	lasso	-0.00083	0.63	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ESRRA_1Mwindow.wgt.RDat	ESRRA	11	63572996	64584215	0.0406	rs503735	-2.51	rs643634	 0.003958	-3.47	 1.344	347	4	enet	0.016	9.1e-05	-0.511	0.60921
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.OR52A1_1Mwindow.wgt.RDat	OR52A1	11	4668054	5675987	0.9961		   NA		       NA	   NA	    NA	930	0	lasso	-0.00057	0.49	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NDUFC2_1Mwindow.wgt.RDat	NDUFC2	11	77279343	78290908	0.0251	rs7106080	-2.43	rs2034501	 0.010430	-4.74	 0.710	356	3	enet	0.02	8.9e-06	-1.768	0.07701
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.F2_1Mwindow.wgt.RDat	F2	11	46240763	47261056	0.0623		   NA		       NA	   NA	    NA	0	0	lasso	0.12	2.5e-28	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.STT3A_1Mwindow.wgt.RDat	STT3A	11	124962747	125992986	0.0222		   NA		       NA	   NA	    NA	0	0	enet	0.00035	0.25	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TMEM80_1Mwindow.wgt.RDat	TMEM80	11	195639	1205028	0.0252	rs11246379	-2.96	rs10902194	 0.030556	 4.34	-1.677	454	1	top1	0.031	6.1e-08	-1.677	0.09354
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.H2AX_1Mwindow.wgt.RDat	H2AX	11	118464584	119466175	0.0298	rs680465	-3.12	rs592525	-0.000602	 3.38	 0.158	361	361	blup	0.0095	0.0018	-0.338	0.73534
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRR33_1Mwindow.wgt.RDat	PRR33	11	1409308	2413125	0.0611		   NA		       NA	   NA	    NA	0	0	lasso	0.0061	0.01	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.XRRA1_1Mwindow.wgt.RDat	XRRA1	11	74051955	75160136	0.0431		   NA		       NA	   NA	    NA	494	0	top1	0.045	5.6e-11	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TIMM10_1Mwindow.wgt.RDat	TIMM10	11	56795937	57798227	0.0422		   NA		       NA	   NA	    NA	0	0	enet	0.046	3.2e-11	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C11orf98_1Mwindow.wgt.RDat	C11orf98	11	61930289	62932688	0.033		   NA		       NA	   NA	    NA	357	0	blup	0.0063	0.0094	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HBB_1Mwindow.wgt.RDat	HBB	11	4746694	5748301	0.0496		   NA		       NA	   NA	    NA	915	0	blup	0.013	0.00028	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IFITM3_1Mwindow.wgt.RDat	IFITM3	11	0	820860	0.0364		   NA		       NA	   NA	    NA	308	0	top1	0.026	5.7e-07	    NA	     NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HIPK3_1Mwindow.wgt.RDat	HIPK3	11	32778218	33878569	0.0236	rs4635051	-1.98	rs4447153	 0.000163	 3.34	-1.400	371	371	blup	0.0054	0.015	-1.095	0.27370
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HCAR1_1Mwindow.wgt.RDat	HCAR1	12	122710623	123715391	0.0712	rs10847446	-3.34	rs2656815	-0.001054	 7.01	 0.996	283	1	top1	-0.0011	0.85	 0.996	0.3194
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS26_1Mwindow.wgt.RDat	RPS26	12	55935702	56938481	0.3912	rs941022	-2.65	rs10876864	 0.477269	20.65	-0.105	257	1	top1	0.48	5.7e-131	-0.105	0.9162
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KRT8_1Mwindow.wgt.RDat	KRT8	12	52790975	53843644	0.0451		   NA		       NA	   NA	    NA	630	0	blup	0.00048	0.23	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NFE2_1Mwindow.wgt.RDat	NFE2	12	54185895	55194799	0.0827	rs1145009	-2.71	rs11170960	-0.001038	 5.58	-1.284	409	5	lasso	-0.00075	0.57	-2.272	0.0231
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NINJ2-AS1_1Mwindow.wgt.RDat	NINJ2-AS1	12	240057	1255044	0.041		   NA		       NA	   NA	    NA	435	0	blup	0.0099	0.0015	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C12orf50_1Mwindow.wgt.RDat	C12orf50	12	87873812	88923178	0.0474		   NA		       NA	   NA	    NA	  0	0	enet	0.046	3.4e-11	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SSPN_1Mwindow.wgt.RDat	SSPN	12	25848269	26887710	0.0502		   NA		       NA	   NA	    NA	  0	0	lasso	0.14	8.900000000000001e-32	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZCRB1_1Mwindow.wgt.RDat	ZCRB1	12	42205888	43219896	0.0272		   NA		       NA	   NA	    NA	423	0	blup	0.0096	0.0017	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KLRC3_1Mwindow.wgt.RDat	KLRC3	12	10064914	11073194	0.1037	rs10845217	 2.54	rs11053802	 0.128978	10.91	-0.335	503	1	top1	0.13	1.9e-29	-0.335	0.7376
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C12orf40_1Mwindow.wgt.RDat	C12orf40	12	39519985	40802102	0.0745	rs10783934	 3.19	rs11174115	-0.001084	 4.45	-1.319	502	502	blup	-0.0011	0.91	 0.650	0.5159
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KLRC2_1Mwindow.wgt.RDat	KLRC2	12	10083198	11088609	0.112	rs10845217	 2.54	rs4764430	 0.073519	-9.13	-0.444	497	5	enet	0.14	1.7999999999999998e-31	-0.575	0.5655
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CLEC12B_1Mwindow.wgt.RDat	CLEC12B	12	9663226	10671399	0.0512	rs4764341	-2.27	rs11539	-0.000954	 4.49	-1.400	347	1	lasso	8.3e-05	0.3	-0.376	0.7069
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02384_1Mwindow.wgt.RDat	LINC02384	12	68325622	69345264	0.0507		   NA		       NA	   NA	    NA	540	0	top1	0.041	3.4e-10	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPH3A_1Mwindow.wgt.RDat	RPH3A	12	112513040	113836686	0.0182		   NA		       NA	   NA	    NA	422	0	top1	-0.001	0.82	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.AGAP2_1Mwindow.wgt.RDat	AGAP2	12	57617544	58635944	0.0171		   NA		       NA	   NA	    NA	  0	0	lasso	0.0099	0.0015	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02446_1Mwindow.wgt.RDat	LINC02446	12	10205978	11228287	0.1071	rs10845217	 2.54	rs11053802	 0.058231	 7.40	-0.335	479	4	enet	0.076	1.4e-17	-0.442	0.6587
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KLRG1_1Mwindow.wgt.RDat	KLRG1	12	8602640	9663347	0.0294		   NA		       NA	   NA	    NA	 NA	0	top1	0.028	1.8e-07	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.EPSTI1_1Mwindow.wgt.RDat	EPSTI1	13	42960524	44066377	0.0335	rs17538591	 3.28	rs4142312	-1.08e-03	4.43	-0.00274	626	626	blup	0.0088	0.0026	 1.208	0.227
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NDFIP2_1Mwindow.wgt.RDat	NDFIP2	13	79555290	80630212	0.0451	rs7981942	-4.01	rs9574355	 3.19e-05	3.85	-1.34834	386	386	blup	0.0044	0.026	 0.598	0.550
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TEX26-AS1_1Mwindow.wgt.RDat	TEX26-AS1	13	30956972	32006745	0.0367		   NA		       NA	  NA	      NA	0	0	enet	-0.0011	0.84	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DNAJC15_1Mwindow.wgt.RDat	DNAJC15	13	43097722	44188349	0.0497		   NA		       NA	  NA	      NA	624	0	blup	0.02	1.2e-05	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC00551_1Mwindow.wgt.RDat	LINC00551	13	106770158	107784006	0.9977	rs1927763	-2.87	rs16968409	-1.04e-03	6.47	-1.14100	463	9	lasso	0.027	3.8e-07	-0.664	0.507
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC25A30_1Mwindow.wgt.RDat	SLC25A30	13	45467451	46492508	0.0409	rs9316154	-2.66	rs6561271	 3.70e-04	3.84	-0.91220	466	13	enet	0.0094	0.0019	-1.401	0.161
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SERP2_1Mwindow.wgt.RDat	SERP2	13	44447783	45471850	0.0254		   NA		       NA	  NA	      NA	443	0	blup	0.011	0.00081	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SEL1L_1Mwindow.wgt.RDat	SEL1L	14	81437891	82500197	0.0264		   NA		       NA	  NA	    NA	441	0	blup	0.0026	0.067	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC00239_1Mwindow.wgt.RDat	LINC00239	14	101696774	102698862	0.0334	rs10484080	-2.61	rs11624822	-0.000622	4.13	 0.371	358	358	blup	0.0038	0.035	 1.62	0.1059
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PTGDR_1Mwindow.wgt.RDat	PTGDR	14	52234416	53243442	0.0268		   NA		       NA	  NA	    NA	548	0	top1	0.026	5.1e-07	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IGHV3-30_1Mwindow.wgt.RDat	IGHV3-30	14	106291003	107291456	0.1966		   NA		       NA	  NA	    NA	0	0	enet	-0.00084	0.63	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TRAV12-3_1Mwindow.wgt.RDat	TRAV12-3	14	21933736	22934290	0.0811		   NA		       NA	  NA	    NA	644	0	top1	-0.00096	0.73	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRORP_1Mwindow.wgt.RDat	PRORP	14	35091758	36246828	0.0225		   NA		       NA	  NA	    NA	408	0	top1	0.018	3.2e-05	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TPPP2_1Mwindow.wgt.RDat	TPPP2	14	20998376	22000974	0.1396		   NA		       NA	  NA	    NA	0	0	enet	-0.00024	0.38	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GALNT16_1Mwindow.wgt.RDat	GALNT16	14	69226875	70323759	0.2087		   NA		       NA	  NA	    NA	488	0	top1	-0.001	0.83	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC25A29_1Mwindow.wgt.RDat	SLC25A29	14	100257453	101272781	0.0579		   NA		       NA	  NA	    NA	405	0	top1	0.056	2.8e-13	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ASB2_1Mwindow.wgt.RDat	ASB2	14	93900512	94942916	0.0645		   NA		       NA	  NA	    NA	610	0	blup	0.00093	0.17	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TRAV24_1Mwindow.wgt.RDat	TRAV24	14	22073620	23074123	0.0478		   NA		       NA	  NA	    NA	0	0	enet	0.0043	0.026	   NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PLEK2_1Mwindow.wgt.RDat	PLEK2	14	67353701	68378882	0.028	rs1315728	 2.89	rs9788517	-0.001035	5.09	-2.549	342	1	lasso	-0.00098	0.75	-2.55	0.0108
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C15orf48_1Mwindow.wgt.RDat	C15orf48	15	45222808	46225538	0.1081		   NA		       NA	   NA	   NA	346	0	blup	0.00086	0.18	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS17_1Mwindow.wgt.RDat	RPS17	15	82705501	83709208	0.0343	rs12443081	-2.53	rs783528	 0.027643	-4.66	 1.20	183	1	top1	0.028	2.5e-07	-1.1960	0.2317
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TMC3-AS1_1Mwindow.wgt.RDat	TMC3-AS1	15	81116674	82235417	0.0867	rs6495592	 2.74	rs8036471	 0.024554	 4.29	-1.78	392	1	top1	0.025	1.1e-06	-1.7850	0.0743
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GOLGA6L4_1Mwindow.wgt.RDat	GOLGA6L4	15	84404525	85414110	0.0214		   NA		       NA	   NA	   NA	258	0	blup	0.016	6.9e-05	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZSCAN2_1Mwindow.wgt.RDat	ZSCAN2	15	84644240	85666947	0.0322		   NA		       NA	   NA	   NA	376	0	blup	0.0091	0.0022	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PATL2_1Mwindow.wgt.RDat	PATL2	15	44457930	45503588	0.062		   NA		       NA	   NA	   NA	220	0	enet	0.036	4.9e-09	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CAPN3_1Mwindow.wgt.RDat	CAPN3	15	42151699	43204515	0.0178	rs16957020	 2.72	rs28364447	-0.000572	 3.53	-1.49	378	378	blup	0.003	0.054	 0.0753	0.9400
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GABPB1-AS1_1Mwindow.wgt.RDat	GABPB1-AS1	15	50146371	51150509	0.0577		   NA		       NA	   NA	   NA	422	0	top1	0.043	1.1e-10	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC02256_1Mwindow.wgt.RDat	LINC02256	15	32328960	33372810	0.0342		   NA		       NA	   NA	   NA	379	0	blup	0.0093	0.0021	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ARHGAP11A_1Mwindow.wgt.RDat	ARHGAP11A	15	32407345	33432142	0.0412		   NA		       NA	   NA	   NA	398	0	top1	-0.00066	0.53	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SERINC4_1Mwindow.wgt.RDat	SERINC4	15	43586360	44592418	0.0263		   NA		       NA	   NA	   NA	0	0	lasso	-0.00092	0.69	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SAXO2_1Mwindow.wgt.RDat	SAXO2	15	82055159	83077268	0.0386		   NA		       NA	   NA	   NA	242	0	top1	0.013	0.00037	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LUNAR1_1Mwindow.wgt.RDat	LUNAR1	15	99057933	100074279	0.0709		   NA		       NA	   NA	   NA	557	0	top1	-0.00089	0.67	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FES_1Mwindow.wgt.RDat	FES	15	90927734	91939006	0.068		   NA		       NA	   NA	   NA	467	0	top1	0.023	2.8e-06	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DAPK2_1Mwindow.wgt.RDat	DAPK2	15	63699235	64838684	0.0661		   NA		       NA	   NA	   NA	352	0	lasso	0.018	3.5e-05	     NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NME4_1Mwindow.wgt.RDat	NME4	16	0	950754	0.0569	rs11864684	-1.98	rs7200589	-0.000135	-3.28	 0.632	330	330	blup	0.005	0.018	-0.879	0.379
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRSS30P_1Mwindow.wgt.RDat	PRSS30P	16	2389574	3392752	0.2056		   NA		       NA	   NA	    NA	268	0	lasso	0.15	1.9e-33	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IL32_1Mwindow.wgt.RDat	IL32	16	2615404	3619531	0.0396		   NA		       NA	   NA	    NA	330	0	blup	0.0062	0.0097	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FANCA_1Mwindow.wgt.RDat	FANCA	16	89303957	90383055	0.0259	rs3803689	-3.62	rs1045814	 0.002106	 3.67	-0.640	380	380	blup	0.0066	0.0082	-0.382	0.703
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ACSM1_1Mwindow.wgt.RDat	ACSM1	16	20134557	21209002	0.027	rs11647727	 2.77	rs4392054	-0.001090	 3.96	 0.512	392	392	blup	0.0065	0.0082	 0.415	0.678
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ADAD2_1Mwindow.wgt.RDat	ADAD2	16	83724763	84730772	0.0557	rs2966305	-4.01	rs11864540	-0.000468	 5.33	-0.903	919	919	blup	-0.00031	0.4	 1.585	0.113
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TPPP3_1Mwindow.wgt.RDat	TPPP3	16	66923712	67927401	0.3891		   NA		       NA	   NA	    NA	205	0	top1	0.00028	0.26	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C16orf54_1Mwindow.wgt.RDat	C16orf54	16	29253784	30257311	0.0235		   NA		       NA	   NA	    NA	0	0	enet	0.017	4.3e-05	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ARHGAP17_1Mwindow.wgt.RDat	ARHGAP17	16	24430710	25526690	0.0363	rs11643365	 3.53	rs13380789	 0.016501	 5.17	-0.032	407	1	top1	0.017	5.8e-05	-0.032	0.974
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ABCC1_1Mwindow.wgt.RDat	ABCC1	16	15543473	16736910	0.0296	rs881803	 3.01	rs3213476	-0.000698	 3.55	-1.662	415	415	blup	0.0087	0.0028	-0.429	0.668
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ITPRIPL2_1Mwindow.wgt.RDat	ITPRIPL2	16	18625286	19632951	0.04	rs9933588	-2.53	rs4432257	-0.000959	 3.08	-0.769	333	333	blup	0.0032	0.048	 0.293	0.770
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MTSS2_1Mwindow.wgt.RDat	MTSS2	16	70195107	71219956	0.0431		   NA		       NA	   NA	    NA	135	0	blup	0.0026	0.064	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MAF_1Mwindow.wgt.RDat	MAF	16	79127735	80134634	0.0361		   NA		       NA	   NA	    NA	799	0	enet	0.017	4.5e-05	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PARN_1Mwindow.wgt.RDat	PARN	16	14029558	15224117	0.0329	rs246174	 4.13	rs8047493	 0.005973	-3.65	-0.502	224	224	blup	0.0089	0.0025	 0.746	0.455
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZCCHC14_1Mwindow.wgt.RDat	ZCCHC14	16	86939854	88026630	0.0373	rs8044338	 5.17	rs8050237	 0.008479	 5.15	 0.706	604	1	top1	0.0085	0.0031	 0.706	0.480
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TUBB3_1Mwindow.wgt.RDat	TUBB3	16	89488333	90502505	0.123		   NA		       NA	   NA	    NA	0	0	enet	0.037	2.3e-09	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SOCS1_1Mwindow.wgt.RDat	SOCS1	16	10848274	11850061	0.0455		   NA		       NA	   NA	    NA	480	0	blup	0.015	0.00013	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NME2_1Mwindow.wgt.RDat	NME2	17	48742897	49749105	0.0168		   NA		       NA	   NA	    NA	420	0	top1	0.0036	0.039	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C17orf97_1Mwindow.wgt.RDat	C17orf97	17	0	764457	0.0482		   NA		       NA	   NA	    NA	285	0	top1	0.04	5.1e-10	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LGALS9B_1Mwindow.wgt.RDat	LGALS9B	17	19852708	20870852	0.0316		   NA		       NA	   NA	    NA	161	0	top1	0.029	1.1e-07	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KCNJ2_1Mwindow.wgt.RDat	KCNJ2	17	67665673	68676185	0.04	rs4584866	 3.44	rs16974265	-0.000437	 4.92	 1.490	397	1	top1	-0.00044	0.44	 1.4900	1.36e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PLXDC1_1Mwindow.wgt.RDat	PLXDC1	17	36719566	37807890	0.0274	rs1873050	-2.74	rs4795348	-0.000483	 4.07	-0.207	311	1	enet	0.0019	0.1	-0.2070	8.36e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GEMIN4_1Mwindow.wgt.RDat	GEMIN4	17	147661	1155504	0.056	rs1062923	-3.06	rs2257540	 0.006701	 3.84	-0.003	340	1	top1	0.0067	0.0076	-0.0030	9.98e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RFLNB_1Mwindow.wgt.RDat	RFLNB	17	0	795731	0.031		   NA		       NA	   NA	    NA	303	0	top1	0.03	7.5e-08	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SP2-DT_1Mwindow.wgt.RDat	SP2-DT	17	45468595	46473182	0.0262	rs6503985	-3.12	rs4794225	 0.011820	-4.50	-0.970	382	4	enet	0.014	0.00016	 1.0490	2.94e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NT5C3B_1Mwindow.wgt.RDat	NT5C3B	17	39481309	40492484	0.0321	rs1544368	 1.78	rs4796729	 0.017485	 5.09	 1.023	365	365	blup	0.018	2.9e-05	 1.0945	2.74e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HSD17B1-AS1_1Mwindow.wgt.RDat	HSD17B1-AS1	17	40204454	41206820	0.0743		   NA		       NA	   NA	    NA	239	0	top1	0.037	2.2e-09	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.XAF1_1Mwindow.wgt.RDat	XAF1	17	6158766	7178966	0.0339	rs425694	 3.20	rs1983177	 0.015208	 5.26	-0.105	513	1	top1	0.015	0.00011	-0.1050	9.16e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TCAP_1Mwindow.wgt.RDat	TCAP	17	37321602	38322807	0.0613		   NA		       NA	   NA	    NA	260	0	top1	0.0064	0.0088	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ELP5_1Mwindow.wgt.RDat	ELP5	17	6655043	7663259	0.0529	rs1799941	 4.58	rs2654186	 0.032640	 5.96	 0.049	447	1	top1	0.033	2.2e-08	 0.0490	9.61e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LINC01976_1Mwindow.wgt.RDat	LINC01976	17	41515629	42516330	0.0358		   NA		       NA	   NA	    NA	361	0	top1	-0.001	0.79	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.JMJD6_1Mwindow.wgt.RDat	JMJD6	17	74208918	75222688	0.0416		   NA		       NA	   NA	    NA	462	0	blup	0.012	0.0006	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CDK5RAP3_1Mwindow.wgt.RDat	CDK5RAP3	17	45547894	46559147	0.0231	rs6503985	-3.15	rs11654627	 0.001508	-3.89	-0.799	390	3	enet	0.0088	0.0026	 1.6182	1.06e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF624_1Mwindow.wgt.RDat	ZNF624	17	16024048	17057164	0.0452	rs11658826	 3.40	rs17716132	-0.000346	 3.65	-0.044	268	268	blup	0.00053	0.22	-0.0103	9.92e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SOCS3-DT_1Mwindow.wgt.RDat	SOCS3-DT	17	75856529	76869990	0.0385	rs16971010	 3.36	rs35330511	-0.000878	 4.42	-0.326	456	456	blup	0.00014	0.29	-0.7626	4.46e-01
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.INTS2_1Mwindow.wgt.RDat	INTS2	17	59442728	60505343	0.0411		   NA		       NA	   NA	    NA	320	0	top1	0.0049	0.019	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ORMDL3_1Mwindow.wgt.RDat	ORMDL3	17	37577294	38583854	0.0252		   NA		       NA	   NA	    NA	261	0	top1	0.015	0.0001	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ADAM11_1Mwindow.wgt.RDat	ADAM11	17	42336356	43359214	0.0488		   NA		       NA	   NA	    NA	395	0	lasso	-0.00083	0.63	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RNF112_1Mwindow.wgt.RDat	RNF112	17	18814545	19820589	0.099		   NA		       NA	   NA	    NA	184	0	blup	0.00037	0.25	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCL3_1Mwindow.wgt.RDat	CCL3	17	33915602	34917489	0.0237		   NA		       NA	   NA	    NA	240	0	blup	0.0087	0.0027	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.HID1_1Mwindow.wgt.RDat	HID1	17	72446837	73468854	0.054		   NA		       NA	   NA	    NA	393	0	top1	0.0053	0.016	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ARL17B_1Mwindow.wgt.RDat	ARL17B	17	43851550	44939153	0.0178	rs17762769	 6.61	rs199498	 0.003556	 3.48	 4.526	81	1	top1	0.0036	0.039	 4.5260	6.01e-06
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ANKRD13B_1Mwindow.wgt.RDat	ANKRD13B	17	27420150	28441779	0.0359	rs1517623	-2.25	rs1517623	 0.017083	 4.38	-2.253	312	1	top1	0.017	4.3e-05	-2.2529	2.43e-02
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.QRICH2_1Mwindow.wgt.RDat	QRICH2	17	73770130	74804357	0.052		   NA		       NA	   NA	    NA	0	0	lasso	-0.00085	0.64	     NA	      NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.EIF5A_1Mwindow.wgt.RDat	EIF5A	17	6710318	7715782	0.1268	rs1799941	 4.58	rs4796398	 0.099330	10.03	 1.597	427	3	lasso	0.1	3.9e-23	 2.1156	3.44e-02
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KANSL1-AS1_1Mwindow.wgt.RDat	KANSL1-AS1	17	43770939	44774089	0.0482	rs17762769	 6.61	rs17689471	 0.003943	 4.25	 6.604	28	28	blup	0.013	0.00034	 4.0023	6.27e-05
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCDC102B_1Mwindow.wgt.RDat	CCDC102B	18	65882453	67222426	0.0208		   NA		      NA	 NA	    NA	691	0	top1	0.0078	0.0044	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TCF4_1Mwindow.wgt.RDat	TCF4	18	52389416	53803188	0.0327		   NA		      NA	 NA	    NA	558	0	blup	0.011	0.00073	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MIR1539_1Mwindow.wgt.RDat	MIR1539	18	46513743	47513792	0.0245	rs11082795	-2.63	rs9959048	-0.00105	5.6	-0.897	525	1	lasso	-0.00096	0.72	-0.897	0.370
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DSG3_1Mwindow.wgt.RDat	DSG3	18	28527704	29558665	0.0705		   NA		      NA	 NA	    NA	0	0	enet	0.00026	0.27	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DLGAP1-AS2_1Mwindow.wgt.RDat	DLGAP1-AS2	18	3103735	4110087	0.0373	rs4798131	-2.99	rs6506104	 0.01950	5.6	 0.574	471	1	top1	0.02	1.3e-05	 0.574	0.566
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SERPINB2_1Mwindow.wgt.RDat	SERPINB2	18	61054939	62071122	0.0608		   NA		      NA	 NA	    NA	0	0	lasso	0.27	7.6e-65	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MOCOS_1Mwindow.wgt.RDat	MOCOS	18	33267460	34352120	0.0281		   NA		      NA	 NA	    NA	540	0	top1	-0.00092	0.69	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SYNE4_1Mwindow.wgt.RDat	SYNE4	19	35994209	36999715	0.0274		   NA		       NA	   NA	    NA	298	0	blup	0.0042	0.028	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GNA11_1Mwindow.wgt.RDat	GNA11	19	2594360	3623997	0.0799	rs7257848	-3.12	rs10402738	-0.001068	 6.12	-1.334	309	1	top1	-0.0011	0.87	-1.334	0.1822
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF85_1Mwindow.wgt.RDat	ZNF85	19	20606057	21633503	0.022		   NA		       NA	   NA	    NA	0	0	enet	0.019	1.7e-05	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IGFLR1_1Mwindow.wgt.RDat	IGFLR1	19	35729702	36733353	0.0644		   NA		       NA	   NA	    NA	406	0	blup	0.035	7e-09	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ACER1_1Mwindow.wgt.RDat	ACER1	19	5806153	6833623	0.0379		   NA		       NA	   NA	    NA	368	0	blup	0.0054	0.015	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SCGB1B2P_1Mwindow.wgt.RDat	SCGB1B2P	19	34567634	35668064	0.0764	rs4805080	 2.80	rs2545992	 0.022241	 6.43	-0.538	362	1	top1	0.022	3.5e-06	-0.538	0.5906
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRR22_1Mwindow.wgt.RDat	PRR22	19	5282971	6284757	0.0339		   NA		       NA	   NA	    NA	357	0	blup	0.014	0.00016	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KLC3_1Mwindow.wgt.RDat	KLC3	19	45344008	46354777	0.0622		   NA		       NA	   NA	    NA	0	0	lasso	0.14	3.7e-32	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SAMD1_1Mwindow.wgt.RDat	SAMD1	19	13698663	14701563	0.0543	rs3810255	 3.41	rs8113679	 0.004312	 3.60	-1.169	202	1	top1	0.0043	0.026	-1.169	0.2424
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF763_1Mwindow.wgt.RDat	ZNF763	19	11575855	12591432	0.0272	rs279205	-2.80	rs8105452	-0.000903	 3.65	 0.698	268	268	blup	0.00073	0.2	 1.626	0.1040
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.APOC2_1Mwindow.wgt.RDat	APOC2	19	44949308	45952822	0.0379		   NA		       NA	   NA	    NA	389	0	top1	0.018	2.3e-05	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.POLRMT_1Mwindow.wgt.RDat	POLRMT	19	117221	1133537	0.0749		   NA		       NA	   NA	    NA	374	0	blup	0.02	1.2e-05	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.EIF3G_1Mwindow.wgt.RDat	EIF3G	19	9725690	10730575	0.0679	rs2303100	 3.11	rs12460842	 0.027587	-5.70	 0.009	344	1	top1	0.028	2.6e-07	-0.009	0.9928
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS11_1Mwindow.wgt.RDat	RPS11	19	49499691	50502965	0.0375	rs11083979	-2.91	rs739349	-0.001078	-4.03	-0.501	342	342	blup	0.011	0.00069	 0.227	0.8203
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IL12RB1_1Mwindow.wgt.RDat	IL12RB1	19	17669805	18709626	0.0432		   NA		       NA	   NA	    NA	371	0	blup	0.0088	0.0026	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF784_1Mwindow.wgt.RDat	ZNF784	19	55632107	56635932	0.0441	rs4252548	 4.06	rs10410886	 0.013760	 3.39	 0.400	518	1	top1	0.014	0.00022	 0.400	0.6894
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TMEM86B_1Mwindow.wgt.RDat	TMEM86B	19	55238006	56240131	0.044	rs4252548	 4.72	rs588373	 0.016676	 5.27	-0.913	398	1	lasso	0.017	4e-05	-0.913	0.3612
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC1A5_1Mwindow.wgt.RDat	SLC1A5	19	46778140	47791851	0.0347	rs8112461	-3.29	rs8105903	 0.001788	-4.21	 1.541	300	300	blup	0.0068	0.0071	 0.232	0.8169
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.APOE_1Mwindow.wgt.RDat	APOE	19	44909053	45912650	0.1141		   NA		       NA	   NA	    NA	404	0	blup	-0.0011	0.88	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPL28_1Mwindow.wgt.RDat	RPL28	19	55397300	56414710	0.0955		   NA		       NA	   NA	    NA	504	0	top1	0.11	7e-26	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CAPN12_1Mwindow.wgt.RDat	CAPN12	19	38720832	39735114	0.038	rs12609418	-3.24	rs12978914	 0.002945	-4.97	-1.133	401	401	blup	0.0086	0.0028	 1.185	0.2359
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.NPHS1_1Mwindow.wgt.RDat	NPHS1	19	35816274	36843406	0.0429	rs10406069	 2.17	rs7255180	-0.001086	 5.96	 0.320	369	1	top1	-0.0011	0.93	 0.320	0.7489
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KRI1_1Mwindow.wgt.RDat	KRI1	19	10163761	11176686	0.0289	rs3093032	-2.59	rs10409243	 0.013117	 4.05	 0.849	360	1	top1	0.013	0.0003	 0.849	0.3959
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RGL3_1Mwindow.wgt.RDat	RGL3	19	11004736	12029990	0.0913		   NA		       NA	   NA	    NA	363	0	lasso	0.12	5e-28	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.IRF3_1Mwindow.wgt.RDat	IRF3	19	49662829	50669114	0.0307	rs11083979	-2.91	rs12609634	 0.003557	-4.06	 0.827	303	303	blup	0.0063	0.0091	-1.855	0.0636
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.UBXN6_1Mwindow.wgt.RDat	UBXN6	19	3945003	4957791	0.0564		   NA		       NA	   NA	    NA	325	0	blup	0.0062	0.0096	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FPR1_1Mwindow.wgt.RDat	FPR1	19	51748425	52755131	0.2307	rs11670215	 3.20	rs1710386	 0.013018	 8.53	-0.602	589	3	lasso	0.016	8.9e-05	-0.899	0.3685
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPL13A_1Mwindow.wgt.RDat	RPL13A	19	49490865	50495565	0.0183		   NA		       NA	   NA	    NA	0	0	lasso	0.0071	0.0063	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CASP14_1Mwindow.wgt.RDat	CASP14	19	14660291	15669104	0.0376		   NA		       NA	   NA	    NA	431	0	top1	-0.00099	0.76	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ABCA7_1Mwindow.wgt.RDat	ABCA7	19	540106	1565571	0.0662		   NA		       NA	   NA	    NA	385	0	blup	0.0066	0.0078	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF628_1Mwindow.wgt.RDat	ZNF628	19	55487984	56495854	0.0603	rs4252548	 5.03	rs10423927	 0.000889	 4.28	-0.828	535	1	top1	0.00089	0.18	-0.828	0.4074
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.THOP1_1Mwindow.wgt.RDat	THOP1	19	2285501	3315805	0.0381		   NA		       NA	   NA	    NA	345	0	blup	0.011	0.00073	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KIRREL2_1Mwindow.wgt.RDat	KIRREL2	19	35847813	36858038	0.0297		   NA		       NA	   NA	    NA	0	0	enet	-0.00069	0.54	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF600_1Mwindow.wgt.RDat	ZNF600	19	52767417	53790044	0.0384	rs17697222	 2.18	rs10404486	 0.010461	-4.55	 1.789	419	1	enet	0.021	5.4e-06	-0.776	0.4379
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS5_1Mwindow.wgt.RDat	RPS5	19	58398636	59406171	0.0296		   NA		       NA	   NA	    NA	290	0	enet	0.018	2.6e-05	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RPS9_1Mwindow.wgt.RDat	RPS9	19	54204726	55211515	0.1205		   NA		       NA	   NA	    NA	384	0	enet	0.067	1.3e-15	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ZNF667-AS1_1Mwindow.wgt.RDat	ZNF667-AS1	19	56489243	57506806	0.0627		   NA		       NA	   NA	    NA	447	0	lasso	0.017	4e-05	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SPINT2_1Mwindow.wgt.RDat	SPINT2	19	38255213	39283255	0.0489		   NA		       NA	   NA	    NA	370	0	top1	0.041	3e-10	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C20orf144_1Mwindow.wgt.RDat	C20orf144	20	31750133	32751714	0.0597		   NA		       NA	   NA	    NA	254	0	blup	0.0013	0.14	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PIGT_1Mwindow.wgt.RDat	PIGT	20	43544781	44554881	0.0309	rs6032008	-2.50	rs6130759	-0.000997	-3.68	-2.000	486	486	blup	0.0078	0.0044	 1.103	0.270
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DNMT3B_1Mwindow.wgt.RDat	DNMT3B	20	30850191	31897162	0.0432		   NA		       NA	   NA	    NA	412	0	lasso	0.0059	0.011	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SLC12A5_1Mwindow.wgt.RDat	SLC12A5	20	44150325	45188789	0.04	rs847087	 3.14	rs6073819	-0.000980	 4.15	-0.198	509	509	blup	0.0055	0.014	-1.186	0.236
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LIME1_1Mwindow.wgt.RDat	LIME1	20	61867053	62870456	0.0229	rs311497	-3.66	rs16983844	 0.017145	 4.62	-1.995	387	1	top1	0.017	4.2e-05	-1.995	0.046
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SULF2_1Mwindow.wgt.RDat	SULF2	20	45786150	46915371	0.0881	rs11906231	 2.57	rs13043637	 0.051080	-6.78	 0.234	557	1	top1	0.051	2.8e-12	-0.234	0.815
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNHG11_1Mwindow.wgt.RDat	SNHG11	20	36575297	37579564	0.0262		   NA		       NA	   NA	    NA	457	0	blup	0.0052	0.017	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.KIZ-AS1_1Mwindow.wgt.RDat	KIZ-AS1	20	20675044	21698927	0.0366		   NA		       NA	   NA	    NA	398	0	blup	0.011	0.00086	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.C20orf203_1Mwindow.wgt.RDat	C20orf203	20	30719427	31761743	0.0367		   NA		       NA	   NA	    NA	395	0	blup	0.0014	0.13	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RIN2_1Mwindow.wgt.RDat	RIN2	20	19238902	20483100	0.0229		   NA		       NA	   NA	    NA	800	0	blup	-0.00021	0.37	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CCT8_1Mwindow.wgt.RDat	CCT8	21	29928647	30945969	0.0154		   NA		     NA	   NA	    NA	408	0	top1	0.014	0.00023	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.RIPPLY3_1Mwindow.wgt.RDat	RIPPLY3	21	37878450	38891962	0.0206		   NA		     NA	   NA	    NA	0	0	enet	0.0017	0.11	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.DIP2A_1Mwindow.wgt.RDat	DIP2A	21	47378804	48491139	0.0978	rs12483676	-3.75	rs2070435	0.10992	10.08	-0.102	339	1	top1	0.11	3.9e-25	-0.102	0.919
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PRMT2_1Mwindow.wgt.RDat	PRMT2	21	47555586	48585036	0.0234	rs4464358	-2.47	rs2070435	0.02266	 4.90	-0.102	254	1	top1	0.023	2.9e-06	-0.102	0.919
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.S100B_1Mwindow.wgt.RDat	S100B	21	47518517	48524995	0.1173		   NA		     NA	   NA	    NA	282	0	top1	0.072	8.3e-17	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.PCBP3_1Mwindow.wgt.RDat	PCBP3	21	46563639	47862364	0.0365		   NA		     NA	   NA	    NA	607	0	blup	0.018	2.5e-05	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SPATC1L_1Mwindow.wgt.RDat	SPATC1L	21	47081074	48104373	0.0385	rs12483676	-3.75	rs2839160	0.00791	 4.41	-1.086	467	467	blup	0.016	8.3e-05	 0.301	0.764
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CSTB_1Mwindow.wgt.RDat	CSTB	21	44693831	45696189	0.0373		   NA		     NA	   NA	    NA	422	0	top1	0.018	2.2e-05	    NA	   NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.YPEL1_1Mwindow.wgt.RDat	YPEL1	22	21551825	22590083	0.0272		   NA		       NA	   NA	    NA	320	0	blup	0.012	0.00045	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.FAM118A_1Mwindow.wgt.RDat	FAM118A	22	45204841	46237836	0.1139		   NA		       NA	   NA	    NA	586	0	top1	0.1	6.499999999999999e-24	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SYNGR1_1Mwindow.wgt.RDat	SYNGR1	22	39245996	40281580	0.1297		   NA		       NA	   NA	    NA	371	0	enet	0.079	2.3e-18	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CRYBB2_1Mwindow.wgt.RDat	CRYBB2	22	25115606	26127836	0.1365		   NA		       NA	   NA	    NA	375	0	top1	0.14	1.9999999999999998e-32	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.CASTOR1_1Mwindow.wgt.RDat	CASTOR1	22	30181106	31185494	0.0323		   NA		       NA	   NA	    NA	408	0	blup	0.0088	0.0026	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.LIF-AS2_1Mwindow.wgt.RDat	LIF-AS2	22	30142199	31142982	0.0262		   NA		       NA	   NA	    NA	411	0	blup	0.0062	0.0099	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.MAFF_1Mwindow.wgt.RDat	MAFF	22	38098001	39112518	0.0276	rs1569492	-3.92	rs3827356	 0.020787	-4.54	-2.936	286	286	blup	0.021	6.7e-06	 1.901	0.0574
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.A4GALT_1Mwindow.wgt.RDat	A4GALT	22	42588127	43617307	0.0642		   NA		       NA	   NA	    NA	453	0	lasso	0.049	6.8e-12	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SNAP29_1Mwindow.wgt.RDat	SNAP29	22	20713295	21745502	0.0321	rs741193	 2.82	rs165912	 0.003678	 4.50	-0.606	365	6	enet	0.021	6.2e-06	 0.319	0.7499
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SMDT1_1Mwindow.wgt.RDat	SMDT1	22	41975704	42980288	0.0458	rs11090087	-3.49	rs133382	 0.057145	-7.71	-2.127	308	1	top1	0.057	1.4e-13	 2.127	0.0334
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.SEC14L4_1Mwindow.wgt.RDat	SEC14L4	22	30384889	31401682	0.0519		   NA		       NA	   NA	    NA	0	0	enet	0.021	6.5e-06	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.ACR_1Mwindow.wgt.RDat	ACR	22	50676632	51683767	0.9944	rs8142033	 3.03	rs2066770	-0.000974	 6.01	-1.463	187	13	lasso	-3.2e-05	0.32	 0.218	0.8274
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.GSTT4_1Mwindow.wgt.RDat	GSTT4	22	23840595	24847350	0.1384		   NA		       NA	   NA	    NA	361	0	top1	-0.00043	0.44	    NA	    NA
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.TEF_1Mwindow.wgt.RDat	TEF	22	41263459	42295330	0.0192	rs7364180	-2.85	rs139515	-0.000863	-2.89	 0.399	251	251	blup	0.0064	0.0088	-0.206	0.8371
+NK_CD56bright	RA_only/NK_CD56bright_5pcs_all/NK_CD56bright.APOBEC3H_1Mwindow.wgt.RDat	APOBEC3H	22	38993249	40000072	0.0327		   NA		       NA	   NA	    NA	390	0	blup	0.0027	0.064	    NA	    NA

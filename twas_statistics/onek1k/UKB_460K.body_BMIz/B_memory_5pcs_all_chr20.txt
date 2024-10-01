@@ -1,0 +1,16 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_memory	RA_only/B_memory_5pcs_all/B_memory.LAMA5-AS1_1Mwindow.wgt.RDat	LAMA5-AS1	20	60428066	61431536	0.0531	rs6121850	-3.52	rs1056885	-0.000761	 5.84	-0.285	430	430	blup	0.0061	0.0085	-1.168	2.43e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.RAD21L1_1Mwindow.wgt.RDat	RAD21L1	20	706688	1736520	0.0618	NA	   NA	NA	       NA	   NA	    NA	  0	  0	enet	0.025	4.7e-07	    NA	      NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.CPNE1_1Mwindow.wgt.RDat	CPNE1	20	33713966	34752822	0.0187	rs2425025	-4.83	rs1970357	 0.002121	-3.96	 2.665	312	312	blup	0.004	0.028	-2.689	7.17e-03
+B_memory	RA_only/B_memory_5pcs_all/B_memory.OTOR_1Mwindow.wgt.RDat	OTOR	20	16229003	17232809	0.1285	rs1578408	-5.75	rs17745751	-0.000910	 6.25	-0.572	697	  1	top1	-0.00091	0.73	-0.572	5.68e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.PKIG_1Mwindow.wgt.RDat	PKIG	20	42660516	43747678	0.0271	rs6031855	 5.73	rs244078	 0.012125	-4.91	-0.225	485	  1	lasso	0.016	5.2e-05	 0.225	8.22e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.PPP1R16B_1Mwindow.wgt.RDat	PPP1R16B	20	36934340	38051667	0.0597	rs16987738	 3.81	rs6124112	 0.000865	-3.44	-2.078	476	476	blup	0.011	0.00058	 1.461	1.44e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.ZFAS1_1Mwindow.wgt.RDat	ZFAS1	20	47394715	48405797	0.0262	rs6019480	-7.51	rs6648	-0.000505	 4.43	-5.935	421	421	blup	0.014	0.00011	-4.766	1.88e-06
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SULF2_1Mwindow.wgt.RDat	SULF2	20	45786150	46915371	0.3983	rs910187	 5.05	rs6066361	 0.321162	17.63	 1.065	557	 11	enet	0.43	1.7e-121	 0.562	5.74e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SLC2A10_1Mwindow.wgt.RDat	SLC2A10	20	44838288	45864986	0.0401	NA	   NA	NA	       NA	   NA	    NA	  0	  0	lasso	-0.00098	0.81	    NA	      NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.STMN3_1Mwindow.wgt.RDat	STMN3	20	61771065	62784777	0.0380	rs28638160	-5.39	rs454132	 0.009914	-5.21	-1.734	385	385	blup	0.012	0.00038	 3.303	9.58e-04
+B_memory	RA_only/B_memory_5pcs_all/B_memory.PLTP_1Mwindow.wgt.RDat	PLTP	20	44027259	45040794	0.0246	rs2425847	 6.68	rs394643	 0.001095	 4.36	-2.508	500	500	blup	0.0046	0.02	-0.377	7.06e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.MYBL2_1Mwindow.wgt.RDat	MYBL2	20	41795754	42845122	0.0896	rs2143253	-6.81	rs285165	 0.086890	 9.69	 0.811	460	  1	top1	0.087	4.9e-21	 0.811	4.17e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.GDF5-AS1_1Mwindow.wgt.RDat	GDF5-AS1	20	33520827	34522449	0.0318	NA	   NA	NA	       NA	   NA	    NA	  0	  0	enet	0.0054	0.013	    NA	      NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SNHG17_1Mwindow.wgt.RDat	SNHG17	20	36549235	37564020	0.0283	rs6013474	-4.32	rs6099675	 0.012407	 4.96	 0.609	462	  1	lasso	0.014	0.00017	 0.609	5.42e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SDCBP2_1Mwindow.wgt.RDat	SDCBP2	20	790553	1809783	0.0538	rs1884389	-5.53	rs6055109	-0.000845	 3.98	-0.598	657	  1	enet	0.0056	0.011	 1.363	1.73e-01

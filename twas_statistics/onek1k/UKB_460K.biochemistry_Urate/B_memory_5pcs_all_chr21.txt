@@ -1,0 +1,14 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SIK1_1Mwindow.wgt.RDat	SIK1	21	44334363	45347011	0.0670	rs2839633	 3.78	rs643853	 1.90e-02	 5.29	0.438	428	428	blup	0.019	8.4e-06	 1.452	1.47e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.YBEY_1Mwindow.wgt.RDat	YBEY	21	47206256	48217665	0.0541	NA	   NA	NA	       NA	   NA	   NA	  0	  0	lasso	0.042	8.4e-11	    NA	      NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.PCBP3_1Mwindow.wgt.RDat	PCBP3	21	46563639	47862364	0.0393	rs12483377	 4.49	rs9637167	-3.70e-05	 3.41	1.700	607	607	blup	0.0069	0.0057	 1.143	2.53e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.LINC00205_1Mwindow.wgt.RDat	LINC00205	21	46207967	47217269	0.0320	rs12483377	 4.49	rs2838751	-3.54e-04	 3.21	0.760	477	477	blup	0.003	0.048	-0.823	4.10e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.COL6A1_1Mwindow.wgt.RDat	COL6A1	21	46901684	47924962	0.0835	rs12483377	 4.49	rs7275336	 2.60e-02	 9.02	0.176	467	  1	top1	0.026	2.8e-07	 0.176	8.61e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.SLC5A3_1Mwindow.wgt.RDat	SLC5A3	21	34945878	35978559	0.0492	rs2834322	 7.39	rs16997893	 3.32e-02	-6.18	3.081	462	  1	top1	0.033	7e-09	-3.081	2.06e-03
+B_memory	RA_only/B_memory_5pcs_all/B_memory.CSTB_1Mwindow.wgt.RDat	CSTB	21	44693831	45696189	0.0537	rs1058694	-3.01	rs2838367	 4.09e-02	-6.78	0.538	422	  1	lasso	0.051	8.4e-13	-0.538	5.90e-01
+B_memory	RA_only/B_memory_5pcs_all/B_memory.MRPS6_1Mwindow.wgt.RDat	MRPS6	21	34945878	36015330	0.0474	rs2834322	 7.39	rs9305540	 2.91e-02	-5.70	3.040	478	  1	top1	0.029	5.8e-08	-3.040	2.37e-03
+B_memory	RA_only/B_memory_5pcs_all/B_memory.U2AF1_1Mwindow.wgt.RDat	U2AF1	21	44013066	45027688	0.1086	rs1515756	 4.59	rs4920040	 7.86e-02	-8.96	3.648	484	  6	enet	0.083	4.9e-20	-3.651	2.61e-04
+B_memory	RA_only/B_memory_5pcs_all/B_memory.TSPEAR-AS2_1Mwindow.wgt.RDat	TSPEAR-AS2	21	45437098	46438860	0.0556	NA	   NA	NA	       NA	   NA	   NA	  0	  0	lasso	0.15	5.8e-35	    NA	      NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.CCT8_1Mwindow.wgt.RDat	CCT8	21	29928647	30945969	0.0552	NA	   NA	NA	       NA	   NA	   NA	  0	  0	lasso	0.046	7.9e-12	    NA	      NA
+B_memory	RA_only/B_memory_5pcs_all/B_memory.LINC00649_1Mwindow.wgt.RDat	LINC00649	21	34803426	35843487	0.0292	rs2834322	 7.39	rs2834315	 8.01e-05	-3.56	3.050	429	429	blup	0.012	0.00043	-4.642	3.46e-06
+B_memory	RA_only/B_memory_5pcs_all/B_memory.LINC00334_1Mwindow.wgt.RDat	LINC00334	21	46154255	47178645	0.0773	NA	   NA	NA	       NA	   NA	   NA	  0	  0	lasso	0.0081	0.003	    NA	      NA

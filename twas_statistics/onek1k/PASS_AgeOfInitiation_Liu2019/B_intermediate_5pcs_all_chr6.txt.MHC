@@ -1,0 +1,4 @@
+PANEL	FILE	ID	CHR	P0	P1	HSQ	BEST.GWAS.ID	BEST.GWAS.Z	EQTL.ID	EQTL.R2	EQTL.Z	EQTL.GWAS.Z	NSNP	NWGT	MODEL	MODELCV.R2	MODELCV.PV	TWAS.Z	TWAS.P
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.RGL2_1Mwindow.wgt.RDat	RGL2	6	32759431	33766719	0.0257	NA	NA	NA	NA	NA	NA	0	0	enet	0.0057	0.011	NA	NA
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.PRSS16_1Mwindow.wgt.RDat	PRSS16	6	26715480	27724399	0.0236	NA	NA	NA	NA	NA	NA	0	0	enet	0.018	1.6e-05	NA	NA
+B_intermediate	RA_only/B_intermediate_5pcs_all/B_intermediate.HLA-DRB5_1Mwindow.wgt.RDat	HLA-DRB5	6	31985130	32998064	0.5914	NA	NA	NA	NA	NA	NA	0	0	lasso	0.58	4.4e-182	NA	NA
