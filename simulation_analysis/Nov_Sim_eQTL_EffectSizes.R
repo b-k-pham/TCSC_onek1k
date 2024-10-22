@@ -11,8 +11,8 @@ library(MASS)
 nsims <- 1000
 set.seed(12345)
 
-y <- fread("TCSC/simulation_analysis/1000genes_Nov.txt", header = T)
-snps <- fread("TCSC/simulation_analysis/1KG_HM3_chr1.bim", header = T)
+y <- fread("1000genes_Nov.txt", header = T)
+snps <- fread("1KG_HM3_chr1.bim", header = F)
 #FIND NEIGHBOR GENES WITH OVERLAPPING CIS WINDOW WITH > 5 SNPS
 res <- matrix(0,nrow(y)-1,5)
 for (i in c(1:(nrow(y)-1))){
@@ -42,7 +42,7 @@ j <- j + 1
 #remove rows with NAs, because later we will search for gene index in this matrix. 
 w <- which(is.na(res2[,3]))
 res2 <- res2[-w,]
-write.table(res2[,c(1:2)], file = "TCSC/simulation_analysis/Nov_coreg_genepairs.txt", row.names=F, col.names = F, sep = "\t", quote = F)
+write.table(res2[,c(1:2)], file = "Nov_coreg_genepairs.txt", row.names=F, col.names = F, sep = "\t", quote = F)
 
 #ASSIGN NEIGHBOR CO-REG GENES THE SAME H2 SO THEY HAVE A CHANCE AT BEING DETECTED AS CISH2
 #if don't do this intentionally, cish2 genes in sims are never in pairs so no co-reg. 
@@ -52,6 +52,7 @@ cish2_exp <- rexp(n = nrow(res2), rate = 1/0.15)
 cish2_exp[cish2_exp < mihh2] <- mihh2
 cish2_exp[cish2_exp > maxh2] <- maxh2 #makes gcta faster (slower when h2 closer to 1)
 h2mat <- cbind(res2[,c(1:2)],cish2_exp)
+ngenes = nrow(y)
 h2_pergene <- rep(0,ngenes)
 m <- sapply(1:ngenes, function(x) which(h2mat[,c(1,2)] == x, arr.ind = T)[1])
 w <- which(!is.na(m))
@@ -62,7 +63,7 @@ cish2_exp <- rexp(n = length(w), rate = 1/0.15)
 cish2_exp[cish2_exp < mihh2] <- mihh2
 cish2_exp[cish2_exp > maxh2] <- maxh2 #mean = 0.15
 h2_pergene[w] <- cish2_exp
-write.table(h2_pergene, file = "TCSC/simulation_analysis/Nov_cish2_pergene_toachievebettercoreg.txt", row.names=F, col.names = F, sep = "\t", quote = F)
+write.table(h2_pergene, file = "Nov_cish2_pergene_toachievebettercoreg.txt", row.names=F, col.names = F, sep = "\t", quote = F)
 
 #SET UP COVARIANCE OF EQTLS ACROSS TISSUES
 ntiss <- 10
@@ -92,6 +93,7 @@ not_modules <- unique(not_modules) #now 33
 #for every gene pick a unique 2 snps within 1 Mb of gene start to be differnet for gene i across all tissues, note position. 
 #if gene is 2nd in a pair, just use those eqtl effect sizes for all 5 variants. (3 will have pos, 2 will not) need co-reg btwn genes to be explicit, position only doesn't work.
 summary_mat <- matrix(0,nsims,5)
+dir.create('eQTLs_1000sims_Nov/',recursive = T,showWarnings = F)
 for (sim in 1:nsims){
   print(sim)
   rg_mod <- c()
@@ -99,7 +101,7 @@ for (sim in 1:nsims){
  
   #CHOOSE WHICH GENES ARE AND ARE NOT CISH2 IN THIS SIM
   #select 1/2 pairs of genes to be not cish2 to better match % of detected cish2 from total in gtex. 
-  immune_genes <- as.matrix(fread("TCSC/simulation_analysis/Nov_Y1_alpha_nCausalGenes100.txt.gz", header = F))
+  immune_genes <- as.matrix(fread("Nov_Y1_alpha_nCausalGenes100.txt.gz", header = F))
   immune_genes <- which(immune_genes[,sim]!=0) #use for causal tissue and tissues in module. Otherwise instead of a random half of genes not being cis h2, 
   gene_cish2_pertissue_matrix <- matrix(0,ngenes,ntiss)
   gene_cish2_pertissue_matrix_key <- matrix(1,ngenes,ntiss)
@@ -185,8 +187,8 @@ for (sim in 1:nsims){
 
   for (i in 1:ntiss){
     beta_matrix <- cbind(position_matrix[,i],betas[,i],snp_border_up,snp_border_down)
-    write.table(beta_matrix, file = paste0("TCSC/simulation_analysis/eQTLs_1000sims_Nov/Nov_sims_eQTLeffectsizes_0.75rg_SNPpolygen",nvar,"_tissue",i,"_sim",sim,".txt"), quote=F, sep = "\t", row.names = F, col.names = F)
-    system(paste0("gzip -f TCSC/simulation_analysis/eQTLs_1000sims_Nov/Nov_sims_eQTLeffectsizes_0.75rg_SNPpolygen",nvar,"_tissue",i,"_sim",sim,".txt"))
+    write.table(beta_matrix, file = paste0("eQTLs_1000sims_Nov/Nov_sims_eQTLeffectsizes_0.75rg_SNPpolygen",nvar,"_tissue",i,"_sim",sim,".txt"), quote=F, sep = "\t", row.names = F, col.names = F)
+    system(paste0("gzip -f eQTLs_1000sims_Nov/Nov_sims_eQTLeffectsizes_0.75rg_SNPpolygen",nvar,"_tissue",i,"_sim",sim,".txt"))
   }
 }
 

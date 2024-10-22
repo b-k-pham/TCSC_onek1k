@@ -230,7 +230,7 @@ def write_grm(grm, nsnp, out):
 
 # Create simulated 1Kg cohort for imputation 
 
-bim, fam, G = read_plink("TCSC/simulation_analysis/1KG_HM3_chr1", verbose=False)
+bim, fam, G = read_plink("1KG_HM3_chr1", verbose=False)
 G = G.T
 bim = np.array(bim)
 
@@ -245,8 +245,9 @@ G /= np.std(G, axis=0)
 LD = np.dot(G.T, G) / n + np.eye(p_int) * 0.1 #this is the LD matrix.
 # compute cholesky decomp for faster sampling/simulation
 L = linalg.cholesky(LD, lower=True)
-Z_qtl = pd.DataFrame(sim_geno(L,1500))
-filename = "TCSC/simulation_analysis/Simulated_eQTL_Cohort_for_ImputedExpression.txt.gz" 
+#Z_qtl = pd.DataFrame(sim_geno(L,1500))
+Z_qtl = pd.DataFrame(sim_geno(L,100))
+filename = "Simulated_eQTL_Cohort_for_ImputedExpression.txt.gz" 
 Z_qtl.round(4).to_csv(filename, sep="\t", index=False,mode = "a", header = False)
 
 

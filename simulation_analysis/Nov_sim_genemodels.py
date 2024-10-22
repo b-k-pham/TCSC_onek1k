@@ -22,6 +22,8 @@ import os.path  #new
 from os import path  #new
 from statsmodels.regression.linear_model import OLS
 
+from pathlib import Path
+
 mvn = stats.multivariate_normal
 
 def sim_geno(L, n): 
@@ -161,6 +163,7 @@ def sim_eqtl(g, ti, sim, Z_qtl, nqtl, b_qtls, eqtl_h2):
     n, p = [float(x) for x in Z_qtl.shape] #LD_qtl = np.dot(Z_qtl.T, Z_qtl) / n
 
     tempdir = "twas_sim/Sims_biascorrec_minhsqthresh/temps_ggcoreg/temp_gene"+str(g)+"/temp_gene"+str(g)+"_tissue"+str(ti)+"_sim"+str(sim)+"_nqtl"+str(nqtl)
+    Path(tempdir).mkdir(parents = True,exist_ok = True)
     b = b_qtls[:,0]
     nonzeroindex = np.where(b != 0)[0]
     gexpr = sim_trait(np.dot(Z_qtl,b), eqtl_h2)[0]
@@ -237,13 +240,16 @@ print(ti)
 
 nGenesTot = 1000
 nvar = 5 
-samplesizes = [100,200,300,500,1000,1500]
-filename = "TCSC/simulation_analysis/eQTLs_1000sims_Nov/Nov_sims_eQTLeffectsizes_0.75rg_SNPpolygen5_tissue%s_sim%s.txt.gz" % (ti+1,sim) 
+#samplesizes = [100,200,300,500,1000,1500]
+# Change samplesizes to just 100.
+samplesizes = [100]
+Path("eQTLs_1000sims_Nov/").mkdir(parents = True,exist_ok = True)
+filename = "eQTLs_1000sims_Nov/Nov_sims_eQTLeffectsizes_0.75rg_SNPpolygen5_tissue%s_sim%s.txt.gz" % (ti+1,sim) 
 b_qtls_df = pd.read_csv(filename, sep = "\t", header = None) #flag
 b_qtls = np.array(b_qtls_df) #flag
 nCausalGenes = 100
 
-filename = "TCSC/simulation_analysis/Nov_cish2_pergene_toachievebettercoreg.txt"
+filename = "Nov_cish2_pergene_toachievebettercoreg.txt"
 gene_cish2 = pd.read_csv(filename, sep = "\t", header = None)
 gene_cish2 = np.array(gene_cish2)
 
@@ -256,7 +262,7 @@ bim, fam, G_all = read_plink("1KG_HM3_chr1", verbose=False)
 G_all = G_all.T
 bim = np.array(bim)
 
-filename = "TCSC/simulation_analysis/Simulated_eQTL_Cohort_for_ImputedExpression.txt.gz"
+filename = "Simulated_eQTL_Cohort_for_ImputedExpression.txt.gz"
 z_eqtl = np.array(pd.read_csv(filename, sep = "\t", header = None))
 
 #import code
@@ -302,12 +308,14 @@ for gene in range(1,nGenesTot+1):
         totalGE[0,:] = gexpr    
         xxx = [nqtl, gene, h2g, hsq_p, r2all, r2train]
         xxx = np.transpose(pd.DataFrame(xxx))
-        filename = "TCSC/simulation_analysis/weights/Nov_0.75_ggcoreg/h2_r2_Nov_Group1_Tissue%s_sim%s.txt.gz" % (ti,sim) #every gene x sample size 
+        Path("weights/Nov_0.75_ggcoreg/").mkdir(parents = True,exist_ok = True)
+        filename = "weights/Nov_0.75_ggcoreg/h2_r2_Nov_Group1_Tissue%s_sim%s.txt.gz" % (ti,sim) #every gene x sample size 
         if ((gene==1) & (nqtl == 100)): #only for very first time, not for each sample size 
             pd.DataFrame(xxx).to_csv(filename, sep="\t", index=False, header = False)
         else: 
             pd.DataFrame(xxx).to_csv(filename, sep="\t", index=False, mode="a", header = False)
-        filename = "TCSC/simulation_analysis/totalexpression/Nov_0.75_ggcoreg/%s/TotExp_Nov_Group1_Tissue%s_sim%s.txt.gz" % (nqtl,ti,sim) #every gene
+        Path("totalexpression/Nov_0.75_ggcoreg/%s/" % (nqtl)).mkdir(parents = True,exist_ok = True)
+        filename = "totalexpression/Nov_0.75_ggcoreg/%s/TotExp_Nov_Group1_Tissue%s_sim%s.txt.gz" % (nqtl,ti,sim) #every gene
         totalGE = pd.DataFrame(totalGE)
         if gene == 1: #because totalexpression file per sample size. 
             totalGE.round(4).to_csv(filename, sep="\t", index=False, header = False)
@@ -316,14 +324,16 @@ for gene in range(1,nGenesTot+1):
         if h2g > 0 and hsq_p < 0.01:  
             count_g = count_g + 1
             count_g_n[samplesizes.index(nqtl)] = count_g_n[samplesizes.index(nqtl)] + 1 
-            xxx = np.transpose(pd.DataFrame(np.append(nqtl,coef))) #since each gene has a different number of cis SNPs, this will not be a matrix. different number of columns each time. 
-            filename = "TCSC/simulation_analysis/weights/Nov_0.75_ggcoreg_coef/coef_Nov_Group1_Tissue%s_sim%s.txt.gz" % (ti,sim)
+            xxx = np.transpose(pd.DataFrame(np.append(nqtl,coef))) #since each gene has a different number of cis SNPs, this will not be a matrix. different number of columns each time.
+            Path("weights/Nov_0.75_ggcoreg_coef/").mkdir(parents = True, exist_ok = True)
+            filename = "weights/Nov_0.75_ggcoreg_coef/coef_Nov_Group1_Tissue%s_sim%s.txt.gz" % (ti,sim)
             if count_g == 1: #first cis-h2 gene found.
                 xxx.round(6).to_csv(filename, sep="\t", index=False, header = False)
             else:
                 xxx.round(6).to_csv(filename, sep="\t", index=False, mode = "a", header = False)
-            predexp = np.transpose(pd.DataFrame(np.dot(z_eqtl[range(500),(min_snp-1):(max_snp)],coef))) #t(people on rows), want people on columns and genes on rows. 
-            filename = "TCSC/simulation_analysis/predExp/Nov_0.75_ggcoreg/%s/predExp_Nov_Group1_sim%s_Tissue%s.txt.gz" % (nqtl,sim,ti)
+            predexp = np.transpose(pd.DataFrame(np.dot(z_eqtl[range(nqtl),(min_snp-1):(max_snp)],coef))) #t(people on rows), want people on columns and genes on rows.
+            Path("predExp/Nov_0.75_ggcoreg/%s/" % (nqtl)).mkdir(parents = True, exist_ok = True)
+            filename = "predExp/Nov_0.75_ggcoreg/%s/predExp_Nov_Group1_sim%s_Tissue%s.txt.gz" % (nqtl,sim,ti)
             if count_g_n[samplesizes.index(nqtl)] == 1: #first cis-h2 gene found per nqtl
                 predexp.round(6).to_csv(filename, sep="\t", index=False, header = False)
             else:
