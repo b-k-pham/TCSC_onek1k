@@ -5,6 +5,8 @@ How large should the sample size be? Is 100 enough? It takes much longer when n 
 Which version of the code is newer - April or November? For now, I've been using the november sims since those are released on GitHub.
 
 # Processing Steps I Did:
+
+```
 0. Make sure 1KG_HM3_chr1 bed/bim/fam files are in directory. This is from Tiffany's cluster.
 1. Rscript Nov_Sim_eQTL_EffectSizes.R
 Changed paths from TCSC/Simulation_Analyis to ./
@@ -59,3 +61,4 @@ Rscript TCSC_Nov_Sims_Group1_varynQTL_ggcoreg.R ${sim}_${ve_gene}_${ve_snp}_${ng
 
 Variance results are in Group1res_Nov/. However, how do I parse it?
 
+```
