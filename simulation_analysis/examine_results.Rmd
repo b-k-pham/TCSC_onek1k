@@ -1,0 +1,354 @@
+---
+title: "Untitled"
+output: html_document
+date: "2024-10-28"
+---
+
+
+```{r}
+library(data.table)
+library(scales)
+library(ggplot2)
+library(data.table)
+library(gridExtra)
+ntiss <- 3
+tissues <- 0:(ntiss-1)
+```
+
+
+```{r}
+
+ve[1]
+fread(paste0("Group1res_Nov_ngwas10000/TCSC_Group1_variance_T10_sim",sim,"_010323_vgene",ve[i],"_10000.txt"), header = F)
+```
+
+
+```{r}
+data.frame(y)
+```
+
+```{r setup, include=FALSE}
+sims <- c(1:100)
+#ve <- c("0.01","0.025","0.05","0.1","0.25","0.5","0.75","1.0")
+ve <- c("0.1") 
+covariances <- as.numeric(ve)*0.5
+for (i in 1:length(ve)){
+  sim_res_h2 <- NULL
+  sim_res_cov <- NULL
+  for (sim in sims){
+    tryCatch({
+      sim_res_h2 <- rbind(sim_res_h2, as.matrix(fread(paste0("Group1res_Nov_ngwas10000/TCSC_Group1_variance_T10_sim",sim,"_010323_vgene",ve[i],"_10000.txt"), header = F)))
+    },error=function(cond){message(paste("RerunJob: h2", sim,"_",ve[i]))})
+    
+    tryCatch({
+      sim_res_cov <- rbind(sim_res_cov, as.matrix(fread(paste0("Group1res_Nov_ngwas10000/TCSC_Group1_covariance_T10_sim",sim,"_010323_vgene",ve[i],"_10000.txt"), header = F)))
+    },error=function(cond){message(paste("RerunJob: covar", sim,"_",ve[i]))})
+  }
+  assign(paste0("sim_res_h2_",ve[i]),sim_res_h2)
+  assign(paste0("sim_res_cov_",ve[i]),sim_res_cov)
+}
+
+tr <- 1 
+hjust_specific <- 0.5
+#myvar <- c(100, 200, 300, 500, 1000, 1500)
+myvar <- c(100)
+xlabphrase <- "eQTL Sample Size"
+
+for (mode in c("h2","cov")){
+  for (i in 1:length(ve)){ #make all of the results matrices and keep VEs separate. 
+    
+    mats <- paste0("sim_res_",mode,"_",ve[i])
+    
+    #run this: 
+    y <- get(mats)
+    df_causal_power <- data.frame()
+    df_causal_power_FDR <- data.frame()
+    df_causal_bias <- data.frame()
+    df_total_bias <- data.frame()
+    df_null_bias <- data.frame()
+    df_null_calib <- data.frame()
+    df_null_calib_FDR <- data.frame()
+    #df_totalnull_bias <- data.frame()
+    #df_jackknifeSE <- data.frame()
+    calibstats_dev <- data.frame()
+    calibstats_err <- data.frame()
+    causaltissues_gp <- 0
+    which_sig <- list()
+    
+    for (gp in 1:length(myvar)){
+      
+      #for nqtl
+      if(mode == "h2"){yy <- which(y[,3] == paste0("nQTL",myvar[gp]) & y[,1] == "Trait1")}else{yy <- which(y[,1] == paste0("VariedParam",gp))}
+      if(mode == "h2"){thisVE <- as.numeric(y[yy,4])}else{thisVE <- as.numeric(y[yy,2])} 
+      #if(mode == "h2"){thisVEse <- as.numeric(y[yy,14])}else{thisVEse <- as.numeric(y[yy,12])}
+      if(mode == "h2"){thisVEse <- as.numeric(y[yy,7])}else{thisVEse <- as.numeric(y[yy,5])}
+      
+      #sum_t h2ge(t)
+      # if(mode == "h2"){sum <- sapply(1:length(yy), function(x) sum(as.numeric(y[yy[x],4:13])))}else{
+      #   sum <- sapply(1:length(yy), function(x) sum(as.numeric(y[yy[x],2:11])))
+      # }
+      # total_bias <- mean(sum)
+      # sd_sum <- sd(sum, na.rm = T)/sqrt(length(sum))
+      # sum_hi <- total_bias + 1.96*sd_sum
+      # sum_lo <- total_bias - 1.96*sd_sum
+      # causal_dump <- c(myvar[gp],total_bias,sd_sum,sum_hi,sum_lo)
+      # df_total_bias <- rbind(df_total_bias, causal_dump)
+      
+      #POWER 
+      p <- pnorm(q = 0, mean = thisVE, sd = thisVEse)
+      p_causal <- p
+      which_sig[[gp]] <- which(p < 0.05)
+      power <- length(which(p < 0.05))/length(p)*100
+      
+      sd_power <- 100*sqrt((power/100)*(1-power/100)/length(yy))
+      power_hi <- power + 1.96*sd_power
+      power_lo <- power - 1.96*sd_power
+      causal_dump <- c(myvar[gp],power,sd_power,power_hi,power_lo)
+      df_causal_power <- rbind(df_causal_power, causal_dump)
+      
+      #BIAS
+      mean_bias <- mean(thisVE) 
+      sd_bias <- sd(thisVE)/sqrt(length(thisVE))
+      bias_hi <- mean_bias + 1.96*sd_bias
+      bias_lo <- mean_bias - 1.96*sd_bias
+      causal_dump <- c(myvar[gp],mean_bias,sd_bias,bias_hi,bias_lo)
+      df_causal_bias <- rbind(df_causal_bias, causal_dump)
+      
+      #BIAS UNDER NULL
+      noncausal <- c(1:3) 
+      noncausal <- noncausal[-c(causaltissues_gp+1)]
+      if(mode == "h2"){
+        noncausalVE <- noncausal+4-1 
+        noncausalseVE <- noncausal+7-1}else{
+          noncausalVE <- noncausal+1 #ve
+          noncausalseVE <- noncausal+4
+        }
+      
+      #6:14, goes by the rows, so rep won't work 
+      ##keep mean per simulation so we can get an error on the estimate? 
+      mean_bias_persim <- sapply(1:length(yy), function(x) mean(as.numeric(y[yy[x],noncausalVE])))
+      deviations_persim <- sapply(1:length(yy), function(x) sum((as.numeric(y[yy[x],noncausalVE])-mean_bias_persim[x])^2))
+      #calibstats[gp,1] <- sum((thisVE-mean_bias)^2)
+      mean_dev <- mean(deviations_persim)
+      sd_dev <- sd(deviations_persim)/sqrt(length(deviations_persim))
+      dev_hi <- mean_dev + 1.96*sd_dev
+      dev_lo <- mean_dev - 1.96*sd_dev
+      causal_dump <- c(myvar[gp],mean_dev,sd_dev,dev_hi,dev_lo)
+      calibstats_dev <- rbind(calibstats_dev,causal_dump)
+      
+      #BIAS
+      thisVE <- as.numeric(y[yy,noncausalVE])
+      mean_bias <- mean(thisVE) 
+      sd_bias <- sd(thisVE)/sqrt(length(thisVE))
+      bias_hi <- mean_bias + 1.96*sd_bias
+      bias_lo <- mean_bias - 1.96*sd_bias
+      causal_dump <- c(myvar[gp],mean_bias,sd_bias,bias_hi,bias_lo)
+      df_null_bias <- rbind(df_null_bias, causal_dump)
+      
+      #Total null bias
+      #thisVE <- sapply(1:length(yy), function(x) sum(as.numeric(y[yy[x],noncausalVE])))
+      #mean_bias <- mean(thisVE) 
+      #sd_bias <- sd(thisVE)/sqrt(length(thisVE))
+      #bias_hi <- mean_bias + 1.96*sd_bias
+      #bias_lo <- mean_bias - 1.96*sd_bias
+      #causal_dump <- c(myvar[gp],mean_bias,sd_bias,bias_hi,bias_lo)
+      #df_totalnull_bias <- rbind(df_totalnull_bias, causal_dump)
+      
+      #TYPE 1 ERROR
+      thisVE <- as.numeric(y[yy,noncausalVE])
+      thisVEse_jk <- as.numeric(y[yy,noncausalseVE]) #jackknife
+      
+      #mean jackknife SE
+      #mean_bias <- mean(thisVEse_jk) 
+      #sd_bias <- sd(thisVEse_jk)/sqrt(length(thisVEse_jk))
+      #bias_hi <- mean_bias + 1.96*sd_bias
+      #bias_lo <- mean_bias - 1.96*sd_bias
+      #causal_dump <- c(myvar[gp],mean_bias,sd_bias,bias_hi,bias_lo)
+      #df_jackknifeSE <- rbind(df_jackknifeSE, causal_dump)
+      
+      
+      #calibstats[gp,2] <- sum(thisVEse_jk^2) #sum of squared SE, it's slightly conservative. 31.8; type 1 error is < 1%
+      p <- pnorm(q = 0, mean = thisVE, sd = thisVEse_jk) #only non causal
+      type1error <- length(which(p < 0.05))/length(p)*100
+      sd_t1e <- 100*sqrt((type1error/100)*(1-type1error/100)/length(p))
+      type1error_hi <- type1error + 1.96*sd_t1e
+      type1error_lo <- type1error - 1.96*sd_t1e
+      causal_dump <- c(myvar[gp],type1error,sd_t1e,type1error_hi,type1error_lo)
+      df_null_calib <- rbind(df_null_calib, causal_dump)
+      
+      errors_persim <- sapply(1:length(yy), function(x) sum((as.numeric(y[yy[x],noncausalseVE]))^2))
+      mean_err <- mean(errors_persim)
+      sd_err <- sd(errors_persim)/sqrt(length(errors_persim))
+      err_hi <- mean_err + 1.96*sd_err
+      err_lo <- mean_err - 1.96*sd_err
+      causal_dump <- c(myvar[gp],mean_err,sd_err,err_hi,err_lo)
+      calibstats_err <- rbind(calibstats_err,causal_dump)
+      
+      #POWER, FDR over 10 tissues 
+      thisVE <- matrix(thisVE,ncol=9) 
+      thisVEse_jk <- matrix(thisVEse_jk,ncol=9)
+      p_null <- pnorm(q = 0, mean = thisVE, sd = thisVEse_jk)
+      p <- cbind(p_causal, p_null)
+      p_fdr <- t(sapply(1:nrow(p), function(x) p.adjust(p[x,])))
+      
+      power <- length(which(p_fdr[,1] < 0.05))/nrow(p)*100
+      sd_power <- 100*sqrt((power/100)*(1-power/100)/nrow(p))
+      power_hi <- power + 1.96*sd_power
+      power_lo <- power - 1.96*sd_power
+      causal_dump <- c(myvar[gp],power,sd_power,power_hi,power_lo)
+      print(max(p_causal[which(p_fdr[,1] < 0.05)])) #nominal threshold corresponding to FDR 5%
+      df_causal_power_FDR <- rbind(df_causal_power_FDR, causal_dump)
+      
+      type1error <- length(which(p_fdr[,-1] < 0.1))/length(p_fdr[,-1])*100
+      sd_t1e <- 100*sqrt((type1error/100)*(1-type1error/100)/length(p))
+      type1error_hi <- type1error + 1.96*sd_t1e
+      type1error_lo <- type1error - 1.96*sd_t1e
+      causal_dump <- c(myvar[gp],type1error,sd_t1e,type1error_hi,type1error_lo)
+      df_null_calib_FDR <- rbind(df_null_calib_FDR, causal_dump)
+      
+    }
+    
+    #colnames(calibstats) <- c("Deviations","Errors")
+    #assign(paste0("calibstats_",mats),calibstats)
+    
+    colnames(df_causal_bias) <- c("nqtl","Bias","Bias_sd","Bias_hi","Bias_lo")
+    colnames(df_causal_power) <- c("nqtl","Power","Power_sd","Power_hi","Power_lo")
+    colnames(df_causal_power_FDR) <- c("nqtl","Power","Power_sd","Power_hi","Power_lo")
+    colnames(df_null_bias) <- c("nqtl","Bias","Bias_sd","Bias_hi","Bias_lo")
+    colnames(df_null_calib) <- c("nqtl","Power","Power_sd","Power_hi","Power_lo")
+    colnames(df_null_calib_FDR) <- c("nqtl","Power","Power_sd","Power_hi","Power_lo")
+    colnames(calibstats_dev) <- c("nqtl","Bias","Bias_sd","Bias_hi","Bias_lo")
+    colnames(calibstats_err) <- c("nqtl","Bias","Bias_sd","Bias_hi","Bias_lo")
+    #colnames(df_totalnull_bias) <- c("nqtl","Bias","Bias_sd","Bias_hi","Bias_lo")
+    #colnames(df_jackknifeSE) <- c("nqtl","Bias","Bias_sd","Bias_hi","Bias_lo")
+    
+    assign(paste0("df_causal_bias_",mats),df_causal_bias)
+    assign(paste0("df_causal_power_",mats),df_causal_power)
+    assign(paste0("df_causal_power_FDR_",mats),df_causal_power_FDR)
+    assign(paste0("df_null_bias_",mats),df_null_bias)
+    #assign(paste0("df_totalnull_bias_",mats),df_totalnull_bias)
+    assign(paste0("df_null_calib_",mats),df_null_calib)
+    assign(paste0("df_null_calib_FDR_",mats),df_null_calib_FDR)
+    assign(paste0("calibstats_dev_",mats),calibstats_dev)
+    assign(paste0("calibstats_err_",mats),calibstats_err)
+    #assign(paste0("df_jackknifeSE_",mats),df_jackknifeSE)
+    assign(paste0("which_sig_",mats),which_sig)
+  }
+  
+}
+
+for (mode in c("h2","cov")){
+  if(mode == "h2"){myt <- "Single-trait TCSC (heritability)"}else{myt <- "Cross-trait TCSC (covariance)"}
+  for (typee in c("causal_power","null_calib")){
+    if(typee == "causal_power"){yint <- 0}else{yint <- 5}
+    if(typee == "causal_power"){ylab <- "Power (%)"}else{ylab <- "Type 1 Error (%)"}
+    if(typee == "causal_power"){my_ymax <- 80}else{my_ymax <- 10}
+    if(typee == "causal_power"){my_ymax_breaks <- c(0,20,40,60,80)}else{my_ymax_breaks <- c(0,2.5,5,7.5,10)}
+    df <- data.frame()
+    for (i in 1:length(ve)){
+      df_causal <- get(paste0("df_",typee,"_sim_res_",mode,"_",ve[i]))[,c(1,2,4,5)]
+      if(mode == "h2"){df <- rbind(df, cbind(df_causal,ve[i]))}
+      else{df <- rbind(df, cbind(df_causal,as.numeric(ve[i])*0.5))}
+    }
+    colnames(df)[5] <- "Estimand"
+    if(mode == "h2"){df$Estimand <- factor(df$Estimand,levels=ve)}else{
+      df$Estimand <- factor(df$Estimand,levels=as.numeric(ve)*0.5)
+    }
+    df$nqtl <- factor(df$nqtl,levels=unique(as.character(df$nqtl)))
+    write.table(df, file = paste0("Source_6_",mode,"_",typee,".txt"), row.names = F, col.names = F, sep = "\t", quote = F)
+    p <- ggplot( df, aes( x = nqtl, y= Power, group = Estimand, fill = Estimand)) + #, fill = Simulations
+      geom_col(position = "dodge") +# fill = c(rep("darksalmon", length(myvar)), rep("cadetblue2", length(myvar)),rep("blueviolet",length(myvar)),rep("aquamarine3",length(myvar)),rep("chocolate2",length(myvar)),rep("dodgerblue", length(myvar)),rep("deeppink3", length(myvar)),rep("goldenrod1", length(myvar)))) +
+      geom_errorbar(aes(ymin=Power_lo, ymax=Power_hi), width=0.3,
+                    position = position_dodge(0.9), color = "black") +
+      theme_bw() +
+      theme_classic(base_size = 15) +
+      geom_hline(yintercept=0, linetype="solid", color="black") +
+      geom_hline(yintercept=yint, linetype="dashed", color="black") +
+      theme(axis.text.y=element_text(color="black", size = 14)) +
+      theme(axis.text.x=element_text(angle=0,hjust=0.5,vjust=1,color="black", size = 14)) +
+      labs(x="eQTL sample size", y=ylab, title=myt) +
+      theme(plot.title = element_text(hjust = hjust_specific))
+    p
+    pdf(paste0("changeVE_",mode,"_",typee,".pdf"), height = 4, width = 8.5)
+    plot(p)
+    dev.off()
+  }
+  for (typee in c("causal_bias","null_bias")){
+    if(mode == "h2" & typee == "causal_bias"){
+      thresh <- as.numeric(ve)
+      colo <- c("darksalmon","cadetblue2","blueviolet","aquamarine3","chocolate2","dodgerblue","deeppink3","goldenrod1")
+      xlab <- expression("True "*h[ge]^2*"(t causal)")
+      ylab <- expression("Estimated "*h[ge]^2*"(t causal)")
+    }
+    if(mode == "cov" & typee == "causal_bias"){
+      thresh <- covariances
+      colo <- c("darksalmon","cadetblue2","blueviolet","aquamarine3","chocolate2","dodgerblue","deeppink3","goldenrod1")
+      xlab <- expression("True "*cov[ge]*"(t causal)")
+      ylab <- expression("Estimated "*cov[ge]*"(t causal)")
+    }
+    if(mode == "h2" & typee == "null_bias"){
+      thresh <- 0
+      colo <- "black"
+      xlab <- expression("True "*h[ge]^2*"(t causal)")
+      ylab <- expression("Estimated "*h[ge]^2*"(t tagging)")
+    }
+    if(mode == "cov" & typee == "null_bias"){
+      thresh <- 0
+      colo <- "black"
+      xlab <- expression("True "*cov[ge]*"(t causal)")
+      ylab <- expression("Estimated "*cov[ge]*"(t tagging)")
+    }
+    df <- data.frame()
+    for (i in 1:length(ve)){
+      df_causal <- get(paste0("df_",typee,"_sim_res_",mode,"_",ve[i]))[,c(1,2,4,5)]
+      if(mode == "h2"){df <- rbind(df, cbind(df_causal,ve[i]))}
+      else{df <- rbind(df, cbind(df_causal,as.numeric(ve[i])*0.5))}
+    }
+    colnames(df)[5] <- "Covariance"
+    df$Covariance <- factor(df$Covariance,levels=unique(as.character(df$Covariance)))
+    write.table(df, file = paste0("Source_6_",mode,"_",typee,".txt"), row.names = F, col.names = F, sep = "\t", quote = F)
+    # p <- ggplot( df, aes( x = Covariance, y= Bias, group = nqtl, fill = nqtl)) + 
+    #   geom_col(position = "dodge", col = "black", fill = c(alpha("darksalmon", seq(0.2,1.2,0.2)), alpha("cadetblue2", seq(0.2,1.2,0.2)),alpha("blueviolet",seq(0.2,1.2,0.2)),alpha("aquamarine3", seq(0.2,1.2,0.2)),alpha("chocolate2", seq(0.2,1.2,0.2)),alpha("dodgerblue", seq(0.2,1.2,0.2)),alpha("deeppink3", seq(0.2,1.2,0.2)),alpha("goldenrod1", seq(0.2,1.2,0.2)))) + 
+    #   geom_errorbar(aes(ymin=Bias_lo, ymax=Bias_hi), width=0.3,
+    #                 position = position_dodge(0.9), color = "black") +
+    #   theme_bw() +
+    #   theme_classic(base_size = 15) + 
+    #   geom_hline(yintercept=thresh, linetype="dashed", color=colo) +
+    #   geom_hline(yintercept=0, linetype="solid", color="black") +
+    #   theme(axis.text.y=element_text(color="black", size = 14)) +
+    #   theme(axis.text.x=element_text(angle=0,hjust=0.5,vjust=1,color="black", size = 14)) +
+    #   labs(x=xlab, y=ylab, title=myt) +
+    #   theme(plot.title = element_text(hjust = hjust_specific)) 
+    # p
+    # pdf(paste0("changeVE_",mode,"_",typee,".pdf"), height = 4, width = 8.5)
+    # plot(p)
+    # dev.off()
+  }
+}
+
+y
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+temp = data.frame(sim_res_h2)
+library(tidyverse)
+q = temp %>% filter(V1 == 'Trait1')
+
+mean(as.numeric(q$V4))
+sd(as.numeric(q$V4))
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
